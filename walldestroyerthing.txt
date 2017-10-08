@@ -122,8 +122,10 @@ Resources :
         -named Black obliterator damage
         *begginingDamage
         -named Singularity damage
-		*edgeBeingDamage
-		-named Edge being damage
+	*edgeBeingDamage
+	-named Edge being damage
+	*glitchDamage
+	-named Glitch damage
  
         *damageDivider2
         -displayed as ────────────────────
@@ -141,9 +143,9 @@ Resources :
         -named random bonus magic point|random bonus magic points
         *timeUpgradeResource18
         -named random bonus brick point|random bonus brick points
-		*timeUpgradeResource21
+	*timeUpgradeResource21
         -named random bonus dream point|random bonus dream points
-		*timeUpgradeResource22
+	*timeUpgradeResource22
         -named random bonus purifier point|random bonus purifier points
  
         *divider3
@@ -152,8 +154,8 @@ Resources :
 
         *wallsDestroyed
         -named wall destroyed|walls destroyed
-		*totalWalls
-		-named total walls destroyed
+	*totalWalls
+	-named total walls destroyed
  
         *building
         -displayed as Buildings: %a
@@ -173,8 +175,8 @@ Resources :
         -classed importantresource
         -visible
  
-		*prePrestige
-		-named cosmic knowledge
+	*prePrestige
+	-named cosmic knowledge
         *goldBricks
         -named boss brick|boss bricks
  
@@ -1707,6 +1709,16 @@ Buildings :
 	-gives 1.2e21 totalMoney
 	-gives 1.2e21 edgeBeingDamage
 	-named Edge Being|Edge Beings
+	-represents 1 building
+	
+	*anotherbuilding
+	-"Weird building<br>Deals <b>50 septillion</b> base damage.<br><i>This is illegal, you know!</i>"
+	-costs 1e30 money
+	-gives 5e24 money
+	-gives 5e24 totalMoney
+	-gives 5e24 glitchDamage
+	-named glitch|glitch
+	-unlocks at 300 wallsDestroyed
 	-represents 1 building
 
 	*brickFactory
