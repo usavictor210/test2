@@ -1714,9 +1714,9 @@ Buildings :
 	*anotherbuilding
 	-"Weird building<br>Deals <b>50 septillion</b> base damage.<br><i>This is illegal, you know!</i>"
 	-costs 1e30 money
-	-gives 5e24 money
-	-gives 5e24 totalMoney
-	-gives 5e24 glitchDamage
+	-gives 5e25 money
+	-gives 5e25 totalMoney
+	-gives 5e25 glitchDamage
 	-named glitch|glitch
 	-unlocks at 300 totalWalls
 	-represents 1 building
