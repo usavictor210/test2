@@ -1497,15 +1497,15 @@ Buildings :
     -gives 2500 artspacebricks when bought
     -gives 300 arttimebricks when bought
     -gives 3.2e37 bricks when bought
-	-represents 40 alphaBricks, 7 fifthBricks, 450000 prePrestige
-	-represents 1 wallsDestroyed
-	-classed bonuswallboss
-	-named Destroy a High Rank Infinity Wall
+    -represents 40 alphaBricks, 7 fifthBricks, 450000 prePrestige
+    -represents 1 wallsDestroyed
+    -classed bonuswallboss
+    -named Destroy a High Rank Infinity Wall
     -locks destroyinfinitything03
     -unlocks destroyinfinitything04
     *destroyinfinitything04
     -"You're hitting the authorities? Must be a serious job.<br>Gives <b>60</b> Alpha bricks, <b>12</b> Fifth Dimension bricks, <b>10,000</b> artifical space bricks, <b>2,000</b> artifical time bricks and <b>400 duodecillion</b> bricks.<br>Worth <b>550,000</b> cosmic knowledge."
-    -costs 1e50 tesseractDamage, 5e50 totalmoney
+    -costs 1e50 tesseractDamage, 3.333e50 totalmoney
     -gives 10000 artspacebricks when bought
     -gives 2000 arttimebricks when bought
     -gives 4e38 bricks when bought
@@ -1513,6 +1513,8 @@ Buildings :
     -represents 1 wallsDestroyed
     -classed bonuswallboss
     -named Destroy a Elite Infinity Wall
+    -locks destroyinfinitything04
+    -unlocks destroyinfinitything05
 
 	*timeUpgradeProducer
 	-abstract
