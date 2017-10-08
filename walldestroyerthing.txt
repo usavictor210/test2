@@ -43,12 +43,12 @@ Resources :
         -named fourth wall bricks
         -classed veryimportantresource
  
-		*artSpaceBricks
-		-named artificial space bricks
+	*artSpaceBricks
+	-named artificial space bricks
         -classed veryimportantresource
 
-		*artTimeBricks
-		-named artificial time bricks
+	*artTimeBricks
+	-named artificial time bricks
         -classed veryimportantresource
 
         *spaceBricks
@@ -63,18 +63,18 @@ Resources :
         *finalityBricks
         -named Finality Bricks
         -classed importantresource
-		*winSpendable
-		-named pure bricks
+	*winSpendable
+	-named pure bricks
         -classed importantresource
-		*meshSpendable
-		-named Mesh Bricks
+	*meshSpendable
+	-named Mesh Bricks
         -classed importantresource
-		*fifthBricks
-		-named fifth dimension bricks
-		-classed importantresource
-		*alphaBricks
-		-named alpha bricks
-		-classed importantresource
+	*fifthBricks
+	-named fifth dimension bricks
+	-classed importantresource
+	*alphaBricks
+	-named alpha bricks
+	-classed importantresource
 
         *menuItem2
         -displayed as ─────────────Stats─────────────
@@ -1718,7 +1718,7 @@ Buildings :
 	-gives 5e24 totalMoney
 	-gives 5e24 glitchDamage
 	-named glitch|glitch
-	-unlocks at 300 wallsDestroyed
+	-unlocks at 300 totalWalls
 	-represents 1 building
 	-picture : https://cdn.bulbagarden.net/upload/9/98/Missingno_RB.png
 
