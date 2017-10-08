@@ -486,7 +486,11 @@ Clickables :
 	-converts destroyFantasyWall08 to nothing
 	-converts destroyFantasyWall09 to nothing
 	-converts destroyFantasyWall10 to nothing
-    -converts destroyinfinitything01 to nothing
+	-converts destroyinfinitything01 to nothing
+	-converts destroyinfinitything02 to nothing
+	-converts destroyinfinitything03 to nothing
+	-converts destroyinfinitything04 to nothing
+	-converts destroyinfinitything05 to nothing
 	-converts timeUpgradeProducer to nothing
 	-converts timeUpgradeProducer2 to nothing
 	-converts timeUpgradeProducer3 to nothing
@@ -1515,6 +1519,18 @@ Buildings :
     -named Destroy a Elite Infinity Wall
     -locks destroyinfinitything04
     -unlocks destroyinfinitything05
+    *destroyinfinitything05
+    -"HOI! (this is a placeholder) <br>Gives <b>80</b> Alpha bricks, <b>16</b> Fifth Dimension bricks, <b>80,000</b> artifical space bricks, <b>20,000</b> artifical time bricks and <b>10 tredecillion</b> bricks.<br>Worth <b>650,000</b> cosmic knowledge."
+    -costs 1e50 tesseractDamage, 3.333e50 totalmoney
+    -gives 80000 artspacebricks when bought
+    -gives 20000 arttimebricks when bought
+    -gives 1e40 bricks when bought
+    -represents 80 alphaBricks, 16 fifthBricks, 650000 prePrestige
+    -represents 1 wallsDestroyed
+    -classed bonuswallboss
+    -named Destroy a Temmie Infinity Wall
+    -locks destroyinfinitything05
+    -picture : https://t4.rbxcdn.com/4c9034c1e962ff088ae9fa9b32676a8f
 
 	*timeUpgradeProducer
 	-abstract
