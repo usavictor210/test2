@@ -1475,7 +1475,7 @@ Buildings :
     -unlocks destroyinfinitything01
     -unlocks notasimpleupgrade
     *destroyinfinitything01
-	-"Destroy one of the walls of the infinite walls in this tier. Doesn't look like a wall due to laziness.<br>Gives <b>15</b> Alpha bricks, <b>2</b> Fifth Dimension bricks and <b>1 duodecillion</b> bricks.<br>Worth <b>250,000</b> cosmic knowledge. A player: "We're finally getting bricks again?" "
+	-"Destroy one of the walls of the infinite walls in this tier. Doesn't look like a wall due to laziness.<br>Gives <b>15</b> Alpha bricks, <b>2</b> Fifth Dimension bricks and <b>1 un =decillion</b> bricks.<br>Worth <b>250,000</b> cosmic knowledge. A player: "We're finally getting bricks again?" "
 	-costs 1e48 tesseractDamage, 1e48 totalmoney
     -gives 1e36 bricks when bought
 	-represents 15 alphaBricks, 2 fifthBricks, 250000 prePrestige
@@ -1485,7 +1485,7 @@ Buildings :
     -locks destroyinfinitything01
     -unlocks destroyinfinitything02
 *destroyinfinitything02
-	-"This is the same type of infinite wall, only in a greater army position.<br>Gives <b>25</b> Alpha bricks, <b>4</b> Fifth Dimension bricks, <b>1,000</b> artifical space bricks and <b>8 duodecillion</b> bricks.<br>Worth <b>350,000</b> cosmic knowledge."
+	-"This is the same type of infinite wall, only in a greater army position.<br>Gives <b>25</b> Alpha bricks, <b>4</b> Fifth Dimension bricks, <b>1,000</b> artifical space bricks and <b>8 undecillion</b> bricks.<br>Worth <b>350,000</b> cosmic knowledge."
 	-costs 4.8484848e48 tesseractDamage, 1e49 totalmoney
     -gives 8e36 bricks when bought
     -gives 1000 artspacebricks when bought
@@ -1496,7 +1496,7 @@ Buildings :
     -locks destroyinfinitything02
     -unlocks destroyinfinitything03
 *destroyinfinitything03
-	-"This is a "royal" wall.<br>Gives <b>40</b> Alpha bricks, <b>7</b> Fifth Dimension bricks, <b>2,500</b> artifical space bricks, <b>300</b> artifical time bricks and <b>32 duodecillion</b> bricks.<br>Worth <b>450,000</b> cosmic knowledge."
+	-"This is a "royal" wall.<br>Gives <b>40</b> Alpha bricks, <b>7</b> Fifth Dimension bricks, <b>2,500</b> artifical space bricks, <b>300</b> artifical time bricks and <b>32 undecillion</b> bricks.<br>Worth <b>450,000</b> cosmic knowledge."
 	-costs 3.030303e49 tesseractDamage, 9.090909e49 totalmoney
     -gives 2500 artspacebricks when bought
     -gives 300 arttimebricks when bought
@@ -1508,7 +1508,7 @@ Buildings :
     -locks destroyinfinitything03
     -unlocks destroyinfinitything04
     *destroyinfinitything04
-    -"You're hitting the authorities? Must be a serious job.<br>Gives <b>60</b> Alpha bricks, <b>12</b> Fifth Dimension bricks, <b>10,000</b> artifical space bricks, <b>2,000</b> artifical time bricks and <b>400 duodecillion</b> bricks.<br>Worth <b>550,000</b> cosmic knowledge."
+    -"You're hitting the authorities? Must be a serious job.<br>Gives <b>60</b> Alpha bricks, <b>12</b> Fifth Dimension bricks, <b>10,000</b> artifical space bricks, <b>2,000</b> artifical time bricks and <b>400 undecillion</b> bricks.<br>Worth <b>550,000</b> cosmic knowledge."
     -costs 1e50 tesseractDamage, 3.333e50 totalmoney
     -gives 10000 artspacebricks when bought
     -gives 2000 arttimebricks when bought
@@ -1520,7 +1520,7 @@ Buildings :
     -locks destroyinfinitything04
     -unlocks destroyinfinitything05
     *destroyinfinitything05
-    -"HOI! (this is a placeholder) <br>Gives <b>80</b> Alpha bricks, <b>16</b> Fifth Dimension bricks, <b>80,000</b> artifical space bricks, <b>20,000</b> artifical time bricks and <b>10 tredecillion</b> bricks.<br>Worth <b>650,000</b> cosmic knowledge."
+    -"HOI! (this is a placeholder) <br>Gives <b>80</b> Alpha bricks, <b>16</b> Fifth Dimension bricks, <b>80,000</b> artifical space bricks, <b>20,000</b> artifical time bricks and <b>10 duodecillion</b> bricks.<br>Worth <b>650,000</b> cosmic knowledge."
     -costs 1e50 tesseractDamage, 3.333e50 totalmoney
     -gives 80000 artspacebricks when bought
     -gives 20000 arttimebricks when bought
