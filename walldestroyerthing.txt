@@ -1503,7 +1503,7 @@ Buildings :
 	-named Destroy a High Rank Infinity Wall
     -locks destroyinfinitything03
     -unlocks destroyinfinitything04
-    *destroyinfinitything03
+    *destroyinfinitything04
     -"You're hitting the authorities? Must be a serious job.<br>Gives <b>60</b> Alpha bricks, <b>12</b> Fifth Dimension bricks, <b>10,000</b> artifical space bricks, <b>2,000</b> artifical time bricks and <b>400 duodecillion</b> bricks.<br>Worth <b>550,000</b> cosmic knowledge."
     -costs 1e50 tesseractDamage, 5e50 totalmoney
     -gives 10000 artspacebricks when bought
@@ -2620,7 +2620,7 @@ Upgrades :
 
 *specialBrickBonus
         -"Everything is <b>0.001%</b> more efficient per <b>space brick</b> and <b>0.007%</b> per <b>time brick</b>.<br><i>"I can barely contain my excitement." ~Agent Johnson<br>"There's something about the massive concentration of sarcasm in your voice that makes me think otherwise." ~Agent Lawrence<br>"Look, I just want more interesting upgrades, okay?" ~Agent Johnson</i>"
-        -costs 1.2e25 bricks, 1e25 cash
+        -costs 1.2e25 bricks, 1e25 money
         -unlocks at 1 timesActuallyWon, 1 winBricks
         -multiplies efficiency of hitWall by 0.001% per spaceBricks
         -multiplies efficiency of puncher by 0.001% per spaceBricks
@@ -2659,7 +2659,7 @@ Upgrades :
 
    *specialBrickBonus2
         -"Everything is <b>0.1%</b> more efficient per <b>End brick</b> and <b>1%</b> per <b>Finality Brick</b>.<br><i>If you're not extracting everything of value from everything, you clearly do not have enough extractors.</i>"
-        -costs 1e26 bricks, 1.4141e27 cash
+        -costs 1e26 bricks, 1.4141e27 money
         -unlocks at 5 timesActuallyWon, 1 winBricks
         -multiplies efficiency of hitWall by 0.1% per endBricks
         -multiplies efficiency of puncher by 0.1% per endBricks
