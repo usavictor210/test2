@@ -1417,7 +1417,7 @@ Buildings :
 	*destroyFantasyWall04
 	-"Destroy an insignificant wall of a fantasy world and move to a bigger one.<br>Gives <b>4</b> Alpha bricks and <b>1</b> Fifth Dimension brick<br>Worth <b>100,000</b> cosmic knowledge."
 	-costs 8e43 tesseractDamage
-	-represents 4 alphaBricks, 1 fifthBricks, 100000 prePrestige
+	-represents 4 alphaBricks, 1 fifthBricks, 80000 prePrestige
 	-represents 1 wallsDestroyed
 	-classed bonuswallboss
 	-named Destroy Fantasy Wall #6
@@ -1426,16 +1426,16 @@ Buildings :
 	*destroyFantasyWall05
 	-"Destroy an indifferent wall of a fantasy world and move to a bigger one.<br>Gives <b>5</b> Alpha bricks and <b>1</b> Fifth Dimension brick<br>Worth <b>150,000</b> cosmic knowledge."
 	-costs 3e44 tesseractDamage
-	-represents 5 alphaBricks, 1 fifthBricks, 150000 prePrestige
+	-represents 5 alphaBricks, 1 fifthBricks, 90000 prePrestige
 	-represents 1 wallsDestroyed
 	-classed bonuswallboss
 	-named Destroy Fantasy Wall #5
 	-locks destroyFantasyWall05
 	-unlocks destroyFantasyWall06
 	*destroyFantasyWall06
-	-"Destroy the exactly same wall of a fantasy world (NOT) and move to a bigger one.<br>Gives <b>6</b> Alpha bricks and <b>1</b> Fifth Dimension brick<br>Worth <b>200,000</b> cosmic knowledge."
+	-"Destroy the exactly same wall of a fantasy world (NOT) and move to a bigger one.<br>Gives <b>6</b> Alpha bricks and <b>1</b> Fifth Dimension brick<br>Worth <b>100,000</b> cosmic knowledge."
 	-costs 9e44 tesseractDamage
-	-represents 6 alphaBricks, 1 fifthBricks, 200000 prePrestige
+	-represents 6 alphaBricks, 1 fifthBricks, 100000 prePrestige
 	-represents 1 wallsDestroyed
 	-classed bonuswallboss
 	-named Destroy Fantasy Wall #4
@@ -1462,7 +1462,7 @@ Buildings :
 	*destroyFantasyWall09
 	-"Destroy a "revived" wall of a fantasy world and move to a bigger one.<br>Gives <b>9</b> Alpha bricks and <b>3</b> Fifth Dimension brick<br>Worth <b>130,000</b> cosmic knowledge."
 	-costs 2.5e46 tesseractDamage
-	-represents 9 alphaBricks, 3 fifthBricks, 50000 prePrestige
+	-represents 9 alphaBricks, 3 fifthBricks, 130000 prePrestige
 	-represents 1 wallsDestroyed
 	-classed bonuswallboss
 	-named Destroy Fantasy Wall #1
@@ -3519,7 +3519,7 @@ Upgrades :
     -multiplies efficiency of begginingBuilding by 1% per finalityBricks
     -named Dense Finals
     -Picture : http://i.imgur.com/bkEkr5p.png
- 
+    
     *timeBearWard1
     -"Everything is <b>5%</b> more efficient.<br><i>The wizards report feeling the power of the Time Bear upon their magic, and tell us not to manipulate time further. They can create wards that may steer the Time Bear in a different direction, making our guys less scared, therefore raising their productivity.</i>"
     -costs 9876543 fourthWallMatter, 987654321 bricks
@@ -3923,6 +3923,81 @@ Upgrades :
     -unlocks actualtimebeardefeat
     -named Finality Time Bear Ward
     -picture : http://i.imgur.com/eayVgaW.png
+    
+    *victoryPointUpgrade1
+    -"Almost every single wall gives <b>twice</b> as many rewards when destroyed. Walls that aren't affected: Boss Finality Wall<br><i>To turn the wall into pure gold so we get more money when we break it.</i><br>"
+    -costs 1e42 money, 1e33 fourthwallmatter, 1e9 artspacebricks, 1e8 arttimebricks
+    -requires 50 begginingBuilding, 50 edgeBeing, 25 anotherbuilding
+    -unlocks at 1 timesActuallyWon
+    -multiplies efficiency of destroyWall by 200%
+    -multiplies efficiency of destroyBigWall by 200%
+    -multiplies efficiency of destroyHugeWall by 200%
+    -multiplies efficiency of destroyMassiveWall by 200%
+    -multiplies efficiency of destroyFinalWall by 200%
+    -multiplies efficiency of destroyBonusWall by 200%
+    -multiplies efficiency of destroyBonusWall2 by 200%
+    -multiplies efficiency of destroyBonusWall3 by 200%
+    -multiplies efficiency of destroyBonusWall4 by 200%
+    -multiplies efficiency of destroyBonusWall5 by 200%
+    -multiplies efficiency of destroyBonusWall6 by 200%
+    -multiplies efficiency of destroyBonusWall7 by 200%
+    -multiplies efficiency of destroyBonusWall8 by 200%
+    -multiplies efficiency of destroyBonusWall9 by 200%
+    -multiplies efficiency of destroyBonusWall10 by 200%
+    -multiplies efficiency of destroyBonusWall11 by 200%
+    -multiplies efficiency of destroyBonusWall12 by 200%
+    -multiplies efficiency of destroyBonusWall13 by 200%
+    -multiplies efficiency of destroyBonusWall14 by 200%
+    -multiplies efficiency of destroyBonusWall15 by 200%
+    -multiplies efficiency of destroyBonusWall16 by 200%
+    -multiplies efficiency of destroyBonusWall17 by 200%
+    -multiplies efficiency of destroyBonusWall18 by 200%
+    -multiplies efficiency of destroyBonusWall19 by 200%
+    -multiplies efficiency of destroyBonusWall20 by 200%
+    -multiplies efficiency of destroyBonusWall21 by 200%
+    -multiplies efficiency of destroyBonusWall22 by 200%
+    -multiplies efficiency of destroyBonusWall23 by 200%
+    -multiplies efficiency of destroyBonusWall24 by 200%
+    -multiplies efficiency of destroyBonusWall25 by 200%
+    -multiplies efficiency of destroyBonusWall26 by 200%
+    -multiplies efficiency of destroyBonusWall27 by 200%
+    -multiplies efficiency of destroyBonusWall28 by 200%
+    -multiplies efficiency of destroyBonusWall29 by 200%
+    -multiplies efficiency of destroyBonusWall30 by 200%
+    -multiplies efficiency of destroyBonusWall31 by 200%
+    -multiplies efficiency of destroyBonusWall32 by 200%
+    -multiplies efficiency of destroyBonusWall33 by 200%
+    -multiplies efficiency of destroyBonusWall34 by 200%
+    -multiplies efficiency of destroyBonusWall35 by 200%
+    -multiplies efficiency of destroyBonusWall36 by 200%
+    -multiplies efficiency of destroyBonusWall37 by 200%
+    -multiplies efficiency of destroyBonusWall38 by 200%
+    -multiplies efficiency of destroyBonusWall39 by 200%
+    -multiplies efficiency of destroyBonusWall40 by 200%
+    -multiplies efficiency of destroyBonusWall41 by 200%
+    -multiplies efficiency of destroyBonusWall42 by 200%
+    -multiplies efficiency of destroyBonusWall43 by 200%
+    -multiplies efficiency of destroyBonusWall44 by 200%
+    -multiplies efficiency of destroyBonusWall46 by 200%
+    -multiplies efficiency of destroyBonusWall47 by 200%
+    -multiplies efficiency of destroyBonusWall48 by 200%
+    -multiplies efficiency of destroyFantasyWall01 by 200%
+    -multiplies efficiency of destroyFantasyWall02 by 200%
+    -multiplies efficiency of destroyFantasyWall03 by 200%
+    -multiplies efficiency of destroyFantasyWall04 by 200%
+    -multiplies efficiency of destroyFantasyWall05 by 200%
+    -multiplies efficiency of destroyFantasyWall06 by 200%
+    -multiplies efficiency of destroyFantasyWall07 by 200%
+    -multiplies efficiency of destroyFantasyWall08 by 200%
+    -multiplies efficiency of destroyFantasyWall09 by 200%
+    -multiplies efficiency of destroyFantasyWall10 by 200%
+    -multiplies efficiency of destroyinfinitything01 by 200%
+    -multiplies efficiency of destroyinfinitything02 by 200%
+    -multiplies efficiency of destroyinfinitything03 by 200%
+    -multiplies efficiency of destroyinfinitything04 by 200%
+    -multiplies efficiency of destroyinfinitything05 by 200%
+    -named Wall Transmutation
+    -picture : http://i.imgur.com/PKwvYiL.png
  
     *wallMultiplier
     -"Everything is <b>5%</b> more efficient for each wall you've destroyed.<br><i>Let's compile our knowledge of wall destroying in a book so we can learn from our past mistakes.<br>CEO EDIT: the RUC does not make mistakes.</i>"
