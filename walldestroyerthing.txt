@@ -8718,7 +8718,7 @@ Achievements :
 	-named Congratulations
 	-picture : http://i.imgur.com/ySJTkaS.png 
 	*thropyAchieve7
-	-"Earn "<b>every trophy</b>".<br><i>EDIT: You're never done.</i>"
+	-"Earn "<b>every trophy</b>".<br><i>EDIT: You're never done. I'm looking at you 2 unoriginal trophies!</i>"
 	-named You're Done
 	-picture : http://i.imgur.com/hfmclY6.png
 
@@ -8816,6 +8816,11 @@ Achievements :
 	-"Deal <b>10 duodecillion</b> damage by hand.<br><i>You will never do it.</i>"
 	-unlocks at 10000000000000000000000000000000000000000 handDamage
 	-named Punch.
+	-picture : http://i.imgur.com/Gtg8P7F.png
+	*handDamage19
+	-"Deal <b>10 tredecillion</b> damage by hand.<br><i>Not enough!!!</i>"
+	-unlocks at 10000000000000000000000000000000000000000000 handDamage
+	-named Bleh
 	-picture : http://i.imgur.com/Gtg8P7F.png
 
         *HandBrickAchieve1
@@ -10162,22 +10167,22 @@ Achievements :
 	*begginingDamageAchieve
 	-"Deal <b>100 octillion</b> damage to the wall with your Singularities."
 	-named Nothingness, Null Void
-	-unlocks at 100e27 begginingDamage
+	-unlocks at 1e29 begginingDamage
 	-picture : http://i.imgur.com/c6wbTjb.png
 	*begginingDamageAchieve2
 	-"Deal <b>100 nonillion</b> damage to the wall with your Singularities."
 	-named Crash The Multiverse Web
-	-unlocks at 100e30 begginingDamage
+	-unlocks at 1e31 begginingDamage
 	-picture : http://i.imgur.com/VIJqgVJ.png
 	*begginingDamageAchieve3
 	-"Deal <b>100 decillion</b> damage to the wall with your Singularities."
 	-named Quantum Suicide Debunked
-	-unlocks at 100e33 begginingDamage
+	-unlocks at 1e35 begginingDamage
 	-picture : http://i.imgur.com/ezUitR5.png
 	*begginingDamageAchieve4
 	-"Deal <b>100 tredecillion</b> damage to the wall with your Singularities."
 	-named Pure Flatlands of Alpha
-	-unlocks at 100e42 begginingDamage
+	-unlocks at 1e44 begginingDamage
 	-picture : http://i.imgur.com/mXRDfR5.png
 
 	*edgeBeingAchieve1
@@ -10228,23 +10233,33 @@ Achievements :
 	*edgeBeingDamageAchieve1
 	-"Deal <b>500 nonillion</b> damage to the wall with your Edge Beings."
 	-named Nihilist
-	-unlocks at 500e30 edgeBeingDamage
+	-unlocks at 5e32 edgeBeingDamage
 	-picture : http://i.imgur.com/vigT0yI.png
 	*edgeBeingDamageAchieve2
 	-"Deal <b>500 decillion</b> damage to the wall with your Edge Beings."
 	-named Obsessed
-	-unlocks at 500e33 edgeBeingDamage
+	-unlocks at 5e35 edgeBeingDamage
 	-picture : http://i.imgur.com/5fqSkOk.png
 	*edgeBeingDamageAchieve3
 	-"Deal <b>500 duodecillion</b> damage to the wall with your Edge Beings."
 	-named X1276uW
-	-unlocks at 500e39 edgeBeingDamage
+	-unlocks at 5e41 edgeBeingDamage
 	-picture : http://i.imgur.com/30AnX00.png
 	*edgeBeingDamageAchieve4
 	-"Deal <b>500 tredecillion</b> damage to the wall with your Edge Beings."
 	-named ziKtmX1 - f617iwl (//Tredetennial)
-	-unlocks at 500e42 edgeBeingDamage
+	-unlocks at 5e44 edgeBeingDamage
 	-picture : http://i.imgur.com/g3jFU02.png
+	*glitchAchieve1
+	-"Hire <b>1</b> glitch. Ok, that sounds wrong, how'd you hire a glitch? Where'd it come from?"
+	-named Not Many Glitches
+	-unlocks at 1 anotherbuilding
+	-picture : http://i.imgur.com/Gtg8P7F.png
+	*glitchAchieve2
+	-"Hire <b>10</b> glitches. Not really enough. The achievement picture is still a question mark because the glitch corrupted it."
+	-named Kind of Defective
+	-unlocks at 10 anotherbuilding
+	-picture : http://i.imgur.com/Gtg8P7F.png
 
 	*buildingAchieve1
 	-"Have <b>100</b> buildings."
@@ -10392,6 +10407,11 @@ Achievements :
 	-"Destroy <b>10,000</b> Total walls from previous sessions."
 	-named Please Pass The Life Please
 	-unlocks at 10000 totalWalls
+	-picture : http://i.imgur.com/Gtg8P7F.png
+	*totalWallsAchieve12
+	-"Destroy <b>12,500</b> Total walls from previous sessions. <br><i>I'm sure this is already outrageous.</i>"
+	-named Addiction Level = Infinity
+	-unlocks at 12500 totalWalls
 	-picture : http://i.imgur.com/Gtg8P7F.png
 
 	*dummy
