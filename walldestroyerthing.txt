@@ -7386,7 +7386,7 @@ Upgrades :
 	-named [REDACTED] Scroll VI
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll7
-	-"Glitches are <b>2.5 times</b> as efficient. <br><i>01000101011011100110001101110010011110010111000001110100011001010110010000100000011010010110111000100000010000100110100101101110011000010111001001111001 (hint: it's binary)</i>"
+	-"Glitches are <b>2.5 times</b> as efficient. <br><i>Infused with malicious lines of binary.</i>"
 	-costs 9.87654545e36 money, 77777 prePrestige, 8000 spacebricks
 	-unlocks at 150 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 250%
