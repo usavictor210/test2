@@ -3927,7 +3927,7 @@ Upgrades :
     *victoryPointUpgrade1
     -"Almost every single wall gives <b>twice</b> as many rewards when destroyed. Walls that aren't affected: Boss Finality Wall<br><i>To turn the wall into pure gold so we get more money when we break it.</i><br>"
     -costs 1e42 money, 1e33 fourthwallmatter, 1e9 artspacebricks, 1e8 arttimebricks
-    -requires 50 begginingBuilding, 50 edgeBeing, 25 anotherbuilding
+    -requires 300 begginingBuilding, 300 edgeBeing, 250 anotherbuilding
     -unlocks at 1 timesActuallyWon
     -multiplies efficiency of destroyWall by 200%
     -multiplies efficiency of destroyBigWall by 200%
