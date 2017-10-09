@@ -1727,8 +1727,8 @@ Buildings :
 	-represents 1 building
 
 Upgrades :
-	*notasimpleupgrade
-	-"Rest in peace, pastebin link. Everything is 50% more efficient, as well as unlock a thing. "you need to get a better name for this upgrade" ~ logical person"
+    *notasimpleupgrade
+    -"Rest in peace, pastebin link. Everything is 50% more efficient, as well as unlock a thing. "you need to get a better name for this upgrade" ~ logical person"
     -costs 1e45 money
     -multiplies efficiency of brickFactory by 150%
     -multiplies efficiency of makeBricks by 150%
@@ -1748,11 +1748,12 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 150%
     -multiplies efficiency of begginingBuilding by 150%
     -multiplies efficiency of edgeBeing by 150%
+    -multiplies efficiency of anotherbuilding by 150%
     -named 500 KB Limit
     -picture : https://i.imgur.com/2SxInHx.png
     *fantasyUnlock
     -"Everything is <b>50%</b> more efficient. <br><i>Gives access to the fantasy zone.</i> "Nobody told you about this, eh?" "
-    -requires 1000 puncher, 950 clubber, 900 swordsman, 850 gunner, 800 grenade, 750 wreckingBall, 700 bulldozer, 700 airstrike, 700 necromancer, 650 giant, 650 demon, 650 compromiser, 500 lastBuilding, 400 begginingBuilding, 300 edgeBeing, 650 brickFactory
+    -requires 1000 puncher, 950 clubber, 900 swordsman, 850 gunner, 800 grenade, 750 wreckingBall, 700 bulldozer, 700 airstrike, 700 necromancer, 650 giant, 650 demon, 650 compromiser, 500 lastBuilding, 350 begginingBuilding, 250 edgeBeing, 150 anotherbuilding, 650 brickFactory
     -requires 1e+42 handDamage, 25000000 prestige
     -costs 2400000 prePrestige, 2e45 money
     -unlocks at 9 meshBossPoint, 1 meshBricks
@@ -1774,6 +1775,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 150%
     -multiplies efficiency of begginingBuilding by 150%
     -multiplies efficiency of edgeBeing by 150%
+    -multiplies efficiency of anotherbuilding by 150%
     -unlocks fantasyUpgrade1
     -named The Fantasy Zone
     -picture : http://i.imgur.com/nLIn2uJ.png
@@ -1796,6 +1798,7 @@ Upgrades :
     -multiplies efficiency of compromiser by 110%
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of begginingBuilding by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of brickFactory by 110%
     -multiplies efficiency of makeBricks by 110%
@@ -1822,6 +1825,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 0.1% per begginingBuilding
     -multiplies efficiency of brickFactory by 0.1% per begginingBuilding
     -multiplies efficiency of makeBricks by 0.1% per begginingBuilding
+    -multiplies efficiency of anotherbuilding by 0.1% per begginingBuilding
     -multiplies efficiency of hitWall by 0.1% per edgeBeing
     -multiplies efficiency of puncher by 0.1% per edgeBeing
     -multiplies efficiency of clubber by 0.1% per edgeBeing
@@ -1838,6 +1842,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 0.1% per edgeBeing
     -multiplies efficiency of brickFactory by 0.1% per edgeBeing
     -multiplies efficiency of makeBricks by 0.1% per edgeBeing
+    -multiplies efficiency of anotherbuilding by 0.1% per edgeBeing
     -unlocks fantasyUpgrade3
     -named Think
     -picture : http://i.imgur.com/sTHIUtK.png
@@ -1878,6 +1883,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 105%
     -multiplies efficiency of begginingBuilding by 105%
     -multiplies efficiency of edgeBeing by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -named Upper Body of The Fantasy
     -picture : http://i.imgur.com/sTHIUtK.png
     *fantasyRanged
@@ -1904,6 +1910,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 105%
     -multiplies efficiency of begginingBuilding by 105%
     -multiplies efficiency of edgeBeing by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -named Lower Body of The Fantasy
     -picture : http://i.imgur.com/sTHIUtK.png
     *fantasyHeavyDuty
@@ -1931,6 +1938,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 105%
     -multiplies efficiency of begginingBuilding by 105%
     -multiplies efficiency of edgeBeing by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -named Upper Tail of The Fantasy
     -picture : http://i.imgur.com/sTHIUtK.png
     *fantasyMagic
@@ -1959,6 +1967,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 105%
     -multiplies efficiency of begginingBuilding by 105%
     -multiplies efficiency of edgeBeing by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -named Lower Tail of The Fantasy
     -picture : http://i.imgur.com/sTHIUtK.png
     *fantasyDream
@@ -1985,6 +1994,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 105%
     -multiplies efficiency of begginingBuilding by 105%
     -multiplies efficiency of edgeBeing by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -named Head of The Fantasy
     -picture : http://i.imgur.com/sTHIUtK.png
     *fantasyPurifier
@@ -2011,6 +2021,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 105%
     -multiplies efficiency of begginingBuilding by 105%
     -multiplies efficiency of edgeBeing by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -named Face of The Fantasy
     -picture : http://i.imgur.com/sTHIUtK.png
 	*shapeUnlock
@@ -2056,6 +2067,7 @@ Upgrades :
 	-multiplies efficiency of lastBuilding by 120%
 	-multiplies efficiency of begginingBuilding by 120%
 	-multiplies efficiency of edgeBeing by 120%
+	-multiplies efficiency of anotherbuilding by 120%
 	-named Z Axis Beam Polytope
 	-picture : http://i.imgur.com/qDqKLB9.png
 	*shape4
@@ -2079,6 +2091,7 @@ Upgrades :
 	-multiplies efficiency of edgeBeing by 0.002% per timeSinceReset
 	-multiplies efficiency of brickFactory by 0.002% per timeSinceReset
 	-multiplies efficiency of makeBricks by 0.002% per timeSinceReset
+	-multiplies efficiency of anotherbuilding by 0.002% per timeSinceReset
 	-named W Axis Beam Polytope
 	-picture : http://i.imgur.com/VJEVXH7.png
 	*timeTree
@@ -2102,6 +2115,7 @@ Upgrades :
 	-multiplies efficiency of edgeBeing by 0.003% per timeSinceReset
 	-multiplies efficiency of brickFactory by 0.003% per timeSinceReset
 	-multiplies efficiency of makeBricks by 0.003% per timeSinceReset
+	-multiplies efficiency of anotherbuilding by 0.003% per timeSinceReset
 	-named Time Tree
 	-picture : http://i.imgur.com/jsCyq5a.png
 	*magicUnlock
@@ -2183,7 +2197,7 @@ Upgrades :
 
 	*edgeBeingUnlock
 	-"Summon infinite-dimensional beings that use energy from extinguished universes.<br><i>GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}</i>"
-	-costs 5 endBricks, 500e27 money
+	-costs 4 endBricks, 4e29 money
 	-named リサフランクXXYYXX //現代のコンピュー
 	-picture : http://i.imgur.com/oV8GJqX.png
 	-unlocks edgeBeing
@@ -2259,6 +2273,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 108%
     -multiplies efficiency of brickFactory by 108%
     -multiplies efficiency of makeBricks by 108%
+    -multiplies efficiency of anotherbuilding by 108%
     -named Spacial Improvements
     -picture : http://i.imgur.com/sLWYgGF.png
     *spaceUpgrade7
@@ -2303,6 +2318,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 0.005% per building
     -multiplies efficiency of brickFactory by 0.005% per building
     -multiplies efficiency of makeBricks by 0.005% per building
+    -multiplies efficiency of anotherbuilding by 0.005% per building
     -named Weight Relocation
     -picture : http://i.imgur.com/frFPqZn.png
  
@@ -2396,6 +2412,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 0.004% per building
     -multiplies efficiency of begginingBuilding by 0.004% per building
     -multiplies efficiency of edgeBeing by 0.004% per building
+    -multiplies efficiency of anotherbuilding by 0.004% per building
     -multiplies efficiency of brickFactory by 0.004% per building
     -multiplies efficiency of makeBricks by 0.004% per building
     -named Alternate Reality Forcestacking
@@ -2423,6 +2440,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of brickFactory by 110%
     -multiplies efficiency of makeBricks by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -picture : http://i.imgur.com/U84N3WY.png
     *timeUpgrade2
     -"Hand punches do <b>45%</b> more damage.<br>Punchers do <b>50%</b> more damage.<br><i>Punching, more than other things, takes well to ridiculous speeds.</i>"
@@ -2465,9 +2483,9 @@ Upgrades :
     -"Heavy buildings do <b>0.1%</b> more damage <b>per 10 minutes since reset</b>.<br><i>There is much wisdom to be found in the art of smashing things.</i>"
     -costs 5 timeBricks
     -unlocks at 1 timeUpgradeResource6
-    -multiplies efficiency of wreckingBall by 0.01 per timeSinceReset
-    -multiplies efficiency of bulldozer by 0.01 per timeSinceReset
-    -multiplies efficiency of airstrike by 0.01 per timeSinceReset
+    -multiplies efficiency of wreckingBall by 0.01% per timeSinceReset
+    -multiplies efficiency of bulldozer by 0.01% per timeSinceReset
+    -multiplies efficiency of airstrike by 0.01% per timeSinceReset
     -named Wisdom From Age
     -picture : http://i.imgur.com/bnJorFQ.png
     *timeUpgrade7
@@ -2529,6 +2547,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 0.002% per timeSinceReset
     -multiplies efficiency of brickFactory by 0.002% per timeSinceReset
     -multiplies efficiency of makeBricks by 0.002% per timeSinceReset
+    -multiplies efficiency of anotherbuilding by 0.002% per timeSinceReset
     -named Ghosting
     -picture : http://i.imgur.com/M4T5Aol.png
  
@@ -2623,6 +2642,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 0.002% per timeSinceReset
     -multiplies efficiency of brickFactory by 0.002% per timeSinceReset
     -multiplies efficiency of makeBricks by 0.002% per timeSinceReset
+    -multiplies efficiency of anotherbuilding by 0.002% per timeSinceReset
     -named Density Timestacking
     -picture : http://i.imgur.com/Q6oG66i.png
     *timeUpgrade21
@@ -2664,6 +2684,7 @@ Upgrades :
         -multiplies efficiency of brickFactory by 0.001% per spaceBricks
         -multiplies efficiency of lastBuilding by 0.001% per spaceBricks
         -multiplies efficiency of makeBricks by 0.001% per spaceBricks
+	-multiplies efficiency of anotherbuilding by 0.001% per spaceBricks
         -multiplies efficiency of hitWall by 0.007% per timeBricks
         -multiplies efficiency of puncher by 0.007% per timeBricks
         -multiplies efficiency of clubber by 0.007% per timeBricks
@@ -2680,6 +2701,7 @@ Upgrades :
         -multiplies efficiency of brickFactory by 0.007% per timeBricks
         -multiplies efficiency of lastBuilding by 0.007% per timeBricks
         -multiplies efficiency of makeBricks by 0.007% per timeBricks
+	-multiplies efficiency of anotherbuilding by 0.007% per timeBricks
         -named Spacetime Extractors
         -picture : http://i.imgur.com/6HcIknB.png
 
@@ -2705,6 +2727,7 @@ Upgrades :
         -multiplies efficiency of begginingBuilding by 0.1% per endBricks
         -multiplies efficiency of edgeBeing by 0.1% per endBricks
         -multiplies efficiency of makeBricks by 0.1% per endBricks
+	-multiplies efficiency of anotherbuilding by 0.1% per endBricks
         -multiplies efficiency of hitWall by 1% per finalityBricks
         -multiplies efficiency of puncher by 1% per finalityBricks
         -multiplies efficiency of clubber by 1% per finalityBricks
@@ -2723,6 +2746,7 @@ Upgrades :
         -multiplies efficiency of begginingBuilding by 1% per finalityBricks
         -multiplies efficiency of edgeBeing by 1% per finalityBricks
         -multiplies efficiency of makeBricks by 1% per finalityBricks
+	-multiplies efficiency of anotherbuilding by 1% per finalityBricks
         -named Extreme Extractors
         -picture : http://i.imgur.com/5aqM5G5.png
 
@@ -2747,6 +2771,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks endStory2
     -named Scrolls of The End
     -picture : http://i.imgur.com/oH8QPgZ.png
@@ -2772,6 +2797,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks endStory3
     -named Scroll B-8
     -picture : http://i.imgur.com/q3LakAy.png
@@ -2797,6 +2823,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks endStory4
     -named Scroll B-9
     -picture : http://i.imgur.com/q3LakAy.png
@@ -2822,6 +2849,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks endStory5
     -named Scroll A-3
     -picture : http://i.imgur.com/q3LakAy.png
@@ -2847,6 +2875,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks endStory6
     -named Scroll A-4
     -picture : http://i.imgur.com/q3LakAy.png
@@ -2872,6 +2901,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks endStory7
     -named Scroll A-8
     -picture : http://i.imgur.com/q3LakAy.png
@@ -2897,6 +2927,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks endStory8
     -named Scroll C-4
     -picture : http://i.imgur.com/q3LakAy.png
@@ -2922,6 +2953,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -named Scroll C-8
     -unlocks endStory9
     -picture : http://i.imgur.com/q3LakAy.png
@@ -2947,6 +2979,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks endStory10
     -named Scroll C-37
     -picture : http://i.imgur.com/q3LakAy.png
@@ -2972,6 +3005,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks endStory11
     -named Scroll B-20
     -picture : http://i.imgur.com/q3LakAy.png
@@ -2997,6 +3031,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -named Scroll A-2
     -picture : http://i.imgur.com/q3LakAy.png
     *finalityUnlock
@@ -3020,6 +3055,7 @@ Upgrades :
     -multiplies efficiency of begginingBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of makeBricks by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -unlocks endStory12
     -named Scrolls of The Finality
     -picture : http://i.imgur.com/ZDjMvWn.png
@@ -3045,6 +3081,7 @@ Upgrades :
     -multiplies efficiency of begginingBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of makeBricks by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -unlocks endStory13
     -named Scroll A-10
     -picture : http://i.imgur.com/OG0I0gs.png
@@ -3070,6 +3107,7 @@ Upgrades :
     -multiplies efficiency of begginingBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of makeBricks by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -unlocks endStory14
     -named Scroll A-11
     -picture : http://i.imgur.com/OG0I0gs.png
@@ -3095,6 +3133,7 @@ Upgrades :
     -multiplies efficiency of begginingBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of makeBricks by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -unlocks endStory15
     -named Scroll A-1
     -picture : http://i.imgur.com/OG0I0gs.png
@@ -3120,6 +3159,7 @@ Upgrades :
     -multiplies efficiency of begginingBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of makeBricks by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -unlocks endStory16
     -named Scroll A-50
     -picture : http://i.imgur.com/OG0I0gs.png
@@ -3144,6 +3184,7 @@ Upgrades :
     -multiplies efficiency of begginingBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of makeBricks by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -named Scroll C-32
     -picture : http://i.imgur.com/OG0I0gs.png
     *endStory17
@@ -3168,6 +3209,7 @@ Upgrades :
     -multiplies efficiency of begginingBuilding by 116%
     -multiplies efficiency of edgeBeing by 116%
     -multiplies efficiency of makeBricks by 116%
+    -multiplies efficiency of anotherbuilding by 116%
     -named Scroll D-10
     -picture : http://i.imgur.com/skLNAG0.png
     *endStory18
@@ -3192,6 +3234,7 @@ Upgrades :
     -multiplies efficiency of begginingBuilding by 116%
     -multiplies efficiency of edgeBeing by 116%
     -multiplies efficiency of makeBricks by 116%
+    -multiplies efficiency of anotherbuilding by 116%
     -named Scroll A-33
     -picture : http://i.imgur.com/skLNAG0.png
     *endStory19
@@ -3216,6 +3259,7 @@ Upgrades :
     -multiplies efficiency of begginingBuilding by 116%
     -multiplies efficiency of edgeBeing by 116%
     -multiplies efficiency of makeBricks by 116%
+    -multiplies efficiency of anotherbuilding by 116%
     -named Scroll D-4
     -picture : http://i.imgur.com/skLNAG0.png
     *endStory20
@@ -3240,6 +3284,7 @@ Upgrades :
     -multiplies efficiency of begginingBuilding by 116%
     -multiplies efficiency of edgeBeing by 116%
     -multiplies efficiency of makeBricks by 116%
+    -multiplies efficiency of anotherbuilding by 116%
     -named Scroll C-2
     -picture : http://i.imgur.com/skLNAG0.png
    
@@ -3265,6 +3310,7 @@ Upgrades :
     -multiplies efficiency of begginingBuilding by 5% per winSpendable
     -multiplies efficiency of edgeBeing by 5% per winSpendable
     -multiplies efficiency of makeBricks by 5% per winSpendable
+    -multiplies efficiency of anotherbuilding by 5% per winSpendable
     -multiplies efficiency of hitWall by 5% per winBricks
     -multiplies efficiency of puncher by 5% per winBricks
     -multiplies efficiency of clubber by 5% per winBricks
@@ -3283,11 +3329,12 @@ Upgrades :
     -multiplies efficiency of begginingBuilding by 5% per winBricks
     -multiplies efficiency of edgeBeing by 5% per winBricks
     -multiplies efficiency of makeBricks by 5% per winBricks
+    -multiplies efficiency of anotherbuilding by 5% per winBricks
     -named NG-Z11 Artifact Scroll
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
     *meshScroll2
-    -"Damage and Brick production is <b>+10%</b> more efficient<br><i>"Our civilization is in danger, send help! Albert! Tell my wife i love he- *the text is missing*"</i>"
+    -"Everything is <b>+10%</b> more efficient.<br><i>"Our civilization is in danger, send help! Albert! Tell my wife I love he- *the text is missing*"</i>"
     -costs 1.22e42 money, 2000000000000 artSpaceBricks, 1 meshSpendable, 8 winSpendable, 1053 endBricks
     -unlocks at 5 meshBossPoint, 1 meshBricks
     -multiplies efficiency of brickFactory by 110%
@@ -3308,11 +3355,12 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of begginingBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -named IC 1101 Artifact Scroll
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
     *meshScroll3
-    -"Damage and Brick production is <b>+10%</b> more efficient<br><i>*Its a blueprint of a refrigerator*</i>"
+    -"Everything is <b>+10%</b> more efficient.<br><i>*It's a blueprint of a refrigerator.*</i>"
     -costs 9.66e42 money, 500e12 artSpaceBricks, 1 meshSpendable, 8 winSpendable, 1053 endBricks
     -unlocks at 6 meshBossPoint, 1 meshBricks
     -multiplies efficiency of brickFactory by 110%
@@ -3333,11 +3381,12 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of begginingBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -named M31 Central Supermassive Black Hole Artifact Scroll
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
     *meshScroll4
-    -"Damage and Brick production is <b>+10%</b> more efficient<br><i>*It marks where are a lot of extraterrestial paintings hidden*</i>"
+    -"Everything is <b>+10%</b> more efficient.<br><i>*It marks where a lot of extraterrestial paintings are hidden..*</i>"
     -costs 14.557e42 money, 1.5e15 artSpaceBricks, 1 meshSpendable, 8 winSpendable, 1053 endBricks
     -unlocks at 7 meshBossPoint, 1 meshBricks
     -multiplies efficiency of brickFactory by 110%
@@ -3358,11 +3407,12 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of begginingBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -named 1SWASP J1407B Ring System Artifact Scroll
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
     *meshScroll5
-    -"Damage and Brick production is <b>+10%</b> more efficient<br><i>"The black hole is stretching our planet apart, few minutes remain till our last second. Thus nobody can save us."</i>"
+    -"Everything is <b>+10%</b> more efficient.<br><i>"The black hole is stretching our planet apart, few minutes remain till our last second. Thus nobody can save us."</i>"
     -costs 22.778e42 money, 2e15 artSpaceBricks, 1 meshSpendable, 8 winSpendable, 1053 endBricks
     -unlocks at 8 meshBossPoint, 1 meshBricks
     -multiplies efficiency of brickFactory by 110%
@@ -3383,11 +3433,12 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of begginingBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -named Large Quasar Group Gravity Scroll
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
     *meshScroll6
-    -"Damage and Brick production is <b>+10%</b> more efficient<br><i>"Its really hard to create a comfortable home in this near-perfect vacuum area. Our family is starving, Yet all we have is Adamantium which is impossible melt or eat. We are sending this message hoping that we will receive anything. Kindest regards - Humanity 151441 AD"</i>"
+    -"Everything is <b>+10%</b> more efficient.<br><i>"It's really hard to create a comfortable home in this near-perfect vacuum area. Our family is starving, yet all we have is Adamantium which is impossible to melt or eat. We are sending this message hoping that we will receive anything. Kindest regards - Humanity 151441 AD"</i>"
     -costs 35.010e42 money, 2.5e15 artSpaceBricks, 1 meshSpendable, 8 winSpendable, 1053 endBricks
     -unlocks at 8 meshBossPoint, 1 meshBricks
     -multiplies efficiency of brickFactory by 110%
@@ -3408,11 +3459,12 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of begginingBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -named Eridanus Supervoid Artifact Scroll
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
     *meshScroll7
-    -"Damage and Brick production is <b>+10%</b> more efficient<br><i>*its an empty piece of paper with a marker attached to it*</i>"
+    -"Damage and Brick production is <b>+10%</b> more efficient<br><i>*It's an empty piece of paper with a marker attached to it. What significance is this?*</i>"
     -costs 51.997e42 money, 3e15 artSpaceBricks, 1 meshSpendable, 8 winSpendable, 1053 endBricks
     -unlocks at 8 meshBossPoint, 1 meshBricks
     -multiplies efficiency of brickFactory by 110%
@@ -3433,6 +3485,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of begginingBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -named 55 Cancri e Artifact Scroll
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
@@ -3488,6 +3541,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -named Bronze Time Bear Ward
     -picture : http://i.imgur.com/DSMRgWX.png
     *timeBearWard2
@@ -3512,6 +3566,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -named Silver Time Bear Ward
     -picture : http://i.imgur.com/J1ef1UX.png
     *timeBearWard3
@@ -3536,6 +3591,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -named Gold Time Bear Ward
     -picture : http://i.imgur.com/9gTyt89.png
     *timeBearWard4
@@ -3560,6 +3616,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -named Platinum Time Bear Ward
     -picture : http://i.imgur.com/jmVBmsm.png
     *timeBearWard5
@@ -3584,6 +3641,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -named Ruby Time Bear Ward
     -picture : http://i.imgur.com/GArKzmU.png
     *timeBearWard6
@@ -3608,6 +3666,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 106%
     -multiplies efficiency of brickFactory by 106%
     -multiplies efficiency of makeBricks by 106%
+    -multiplies efficiency of anotherbuilding by 106%
     -named Emerald Time Bear Ward
     -picture : http://i.imgur.com/wY0iwY4.png
     *timeBearWard7
@@ -3632,6 +3691,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 106%
     -multiplies efficiency of brickFactory by 106%
     -multiplies efficiency of makeBricks by 106%
+    -multiplies efficiency of anotherbuilding by 106%
     -named Sapphire Time Bear Ward
     -picture : http://i.imgur.com/k4IRYqQ.png
     *timeBearWard8
@@ -3656,6 +3716,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 106%
     -multiplies efficiency of brickFactory by 106%
     -multiplies efficiency of makeBricks by 106%
+    -multiplies efficiency of anotherbuilding by 106%
     -named Unobtainium Time Bear Ward
     -picture : http://i.imgur.com/81XatRf.png
     *timeBearWard9
@@ -3680,6 +3741,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 106%
     -multiplies efficiency of brickFactory by 106%
     -multiplies efficiency of makeBricks by 106%
+    -multiplies efficiency of anotherbuilding by 106%
     -named Dark Matter Time Bear Ward
     -picture : http://i.imgur.com/DyspkwM.png
     *timeBearWard10
@@ -3704,6 +3766,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 106%
     -multiplies efficiency of brickFactory by 106%
     -multiplies efficiency of makeBricks by 106%
+    -multiplies efficiency of anotherbuilding by 106%
     -named Antimatter Time Bear Ward
     -picture : http://i.imgur.com/VjKnTjf.png
     *timeBearWard11
@@ -3728,6 +3791,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 106%
     -multiplies efficiency of brickFactory by 106%
     -multiplies efficiency of makeBricks by 106%
+    -multiplies efficiency of anotherbuilding by 106%
     -named Rainbow Time Bear Ward
     -picture : http://i.imgur.com/yZXIZw9.png
     *timeBearWard12
@@ -3753,6 +3817,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 107%
     -multiplies efficiency of brickFactory by 107%
     -multiplies efficiency of makeBricks by 107%
+    -multiplies efficiency of anotherbuilding by 107%
     -named Final Time Bear Ward
     -picture : http://i.imgur.com/pBrcGq5.png
     *timeBearWard13
@@ -3777,6 +3842,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 108%
     -multiplies efficiency of brickFactory by 108%
     -multiplies efficiency of makeBricks by 108%
+    -multiplies efficiency of anotherbuilding by 108%
     -named Black Time Bear Ward
     -picture : http://i.imgur.com/NXncdYY.png
     *timeBearWard14
@@ -3801,6 +3867,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 111%
     -multiplies efficiency of brickFactory by 111%
     -multiplies efficiency of makeBricks by 111%
+    -multiplies efficiency of anotherbuilding by 111%
     -named Army Time Bear Ward
     -picture : http://i.imgur.com/zZ9wpYI.png
     *timeBearWard15
@@ -3825,6 +3892,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 112%
     -multiplies efficiency of brickFactory by 112%
     -multiplies efficiency of makeBricks by 112%
+    -multiplies efficiency of anotherbuilding by 112%
     -named End Time Bear Ward
     -picture : http://i.imgur.com/iUzNWak.png
     *timeBearWard16
@@ -3849,6 +3917,8 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 112%
     -multiplies efficiency of brickFactory by 112%
     -multiplies efficiency of makeBricks by 112%
+    -multiplies efficiency of anotherbuilding by 112%
+    -unlocks actualtimebeardefeat
     -named Finality Time Bear Ward
     -picture : http://i.imgur.com/eayVgaW.png
  
@@ -3873,6 +3943,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 5% per wallsDestroyed
     -multiplies efficiency of makeBricks by 5% per wallsDestroyed
     -multiplies efficiency of brickFactory by 5% per wallsDestroyed
+    -multiplies efficiency of anotherbuilding by 5% per wallsDestroyed
     -named The Chronicle
     -picture : http://i.imgur.com/zqNeRti.png
    
@@ -3898,6 +3969,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 1% per wallsDestroyed
     -multiplies efficiency of makeBricks by 1% per wallsDestroyed
     -multiplies efficiency of brickFactory by 1% per wallsDestroyed
+    -multiplies efficiency of anotherbuilding by 1% per wallsDestroyed
     -named No Tears, Only Dreams
     -picture : http://i.imgur.com/RvFPTiX.png
  
@@ -3920,6 +3992,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 105%
     -multiplies efficiency of begginingBuilding by 105%
     -multiplies efficiency of edgeBeing by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -named Training
     -picture : http://i.imgur.com/93tCmIj.png
     *productionMultiplier2
@@ -3962,6 +4035,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of begginingBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -named Intense Training
     -picture : http://i.imgur.com/tHUohS4.png
     *productionMultiplier4
@@ -3983,6 +4057,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of begginingBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -named Plot Armor
     -picture : http://i.imgur.com/CSzNF0J.png
     *productionMultiplier5
@@ -4007,6 +4082,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 125%
     -multiplies efficiency of begginingBuilding by 125%
     -multiplies efficiency of edgeBeing by 125%
+    -multiplies efficiency of anotherbuilding by 125%
     -named Victory Dance
     -picture : http://i.imgur.com/piFqUdL.png
     *productionMultiplierMagic
@@ -4030,6 +4106,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 120%
     -multiplies efficiency of begginingBuilding by 120%
     -multiplies efficiency of edgeBeing by 120%
+    -multiplies efficiency of anotherbuilding by 120%
     -named Magically Enhanced Everything
     -picture : http://i.imgur.com/aaFiNNp.png
     *productionMultiplierMagic2
@@ -4053,6 +4130,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 120%
     -multiplies efficiency of begginingBuilding by 120%
     -multiplies efficiency of edgeBeing by 120%
+    -multiplies efficiency of anotherbuilding by 120%
     -named Utility Spells
     -picture : http://i.imgur.com/xGhYI9W.png
     *productionMultiplierMagic3
@@ -4076,6 +4154,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 120%
     -multiplies efficiency of begginingBuilding by 120%
     -multiplies efficiency of edgeBeing by 120%
+    -multiplies efficiency of anotherbuilding by 120%
     -named Access to The Great Wizard Library
     -picture : http://i.imgur.com/WL4ZfF1.png
     *productionMultiplier6
@@ -4099,6 +4178,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 125%
     -multiplies efficiency of begginingBuilding by 125%
     -multiplies efficiency of edgeBeing by 125%
+    -multiplies efficiency of anotherbuilding by 125%
     -named World Domination
     -picture : http://i.imgur.com/fGDPekC.png
     *productionMultiplierHell
@@ -4122,6 +4202,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 120%
     -multiplies efficiency of begginingBuilding by 120%
     -multiplies efficiency of edgeBeing by 120%
+    -multiplies efficiency of anotherbuilding by 120%
     -named Demon Advice
     -picture : http://i.imgur.com/2Dd5II9.png
     *productionMultiplierHell2
@@ -4145,6 +4226,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 120%
     -multiplies efficiency of begginingBuilding by 120%
     -multiplies efficiency of edgeBeing by 120%
+    -multiplies efficiency of anotherbuilding by 120%
     -named Library of Hell Membership
     -picture : http://i.imgur.com/iSfb0Ls.png
     *productionMultiplierHell3
@@ -4168,6 +4250,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 120%
     -multiplies efficiency of begginingBuilding by 120%
     -multiplies efficiency of edgeBeing by 120%
+    -multiplies efficiency of anotherbuilding by 120%
     -named Deal With The Devil
     -picture : http://i.imgur.com/a6zYL1I.png
     *productionMultiplier7
@@ -4191,6 +4274,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 125%
     -multiplies efficiency of begginingBuilding by 125%
     -multiplies efficiency of edgeBeing by 125%
+    -multiplies efficiency of anotherbuilding by 125%
     -named Optuqui's Scrolls of Knowledge
     -picture : http://i.imgur.com/gszdkb6.png
     *productionMultiplierBlack
@@ -4238,6 +4322,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 130%
     -multiplies efficiency of begginingBuilding by 130%
     -multiplies efficiency of edgeBeing by 130%
+    -multiplies efficiency of anotherbuilding by 130%
     -named Lord Reaefsek's Guide To Destruction
     -picture : http://i.imgur.com/M4nj67A.png
     *productionMultiplierArmy
@@ -4262,6 +4347,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 135%
     -multiplies efficiency of begginingBuilding by 135%
     -multiplies efficiency of edgeBeing by 135%
+    -multiplies efficiency of anotherbuilding by 135%
     -named The Guide To Furthering Progress
     -picture : http://i.imgur.com/WBts5e6.png
     *productionMultiplierEnd
@@ -4286,6 +4372,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 135%
     -multiplies efficiency of begginingBuilding by 135%
     -multiplies efficiency of edgeBeing by 135%
+    -multiplies efficiency of anotherbuilding by 135%
     -named Last Of Its Kind
     -picture : http://i.imgur.com/lyIXkLq.png
     *productionMultiplier9
@@ -4310,6 +4397,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 140%
     -multiplies efficiency of begginingBuilding by 140%
     -multiplies efficiency of edgeBeing by 140%
+    -multiplies efficiency of anotherbuilding by 140%
     -named Finality Tree Extract
     -picture : http://i.imgur.com/xvVrdJg.png
     *productionMultiplier10
@@ -4334,6 +4422,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 150%
     -multiplies efficiency of begginingBuilding by 150%
     -multiplies efficiency of edgeBeing by 150%
+    -multiplies efficiency of anotherbuilding by 150%
     -named God's Blessing
     -picture : http://i.imgur.com/AXc3JzP.png
     *productionMultiplier11
@@ -4358,6 +4447,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 150%
     -multiplies efficiency of begginingBuilding by 150%
     -multiplies efficiency of edgeBeing by 150%
+    -multiplies efficiency of anotherbuilding by 150%
     -named The King's Army
     -picture : http://i.imgur.com/AXc3JzP.png
  
@@ -4384,6 +4474,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks fourthWallLegend2
     -picture : http://i.imgur.com/04PTUqi.png
     *fourthWallLegend2
@@ -4408,6 +4499,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks fourthWallLegend3
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend3
@@ -4432,6 +4524,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks fourthWallLegend4
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend4
@@ -4456,6 +4549,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks fourthWallLegend5
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend5
@@ -4480,6 +4574,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks fourthWallLegend6
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend6
@@ -4504,6 +4599,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks fourthWallLegend7
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend7
@@ -4528,6 +4624,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks fourthWallLegend8
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend8
@@ -4552,6 +4649,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks fourthWallLegend9
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend9
@@ -4576,6 +4674,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks fourthWallLegend10
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend10
@@ -4600,6 +4699,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks fourthWallLegend11
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend11
@@ -4624,6 +4724,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks fourthWallLegend12
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend12
@@ -4648,6 +4749,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
+    -multiplies efficiency of anotherbuilding by 105%
     -unlocks fourthWallLegend13
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend13
@@ -4672,6 +4774,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 110%
     -multiplies efficiency of brickFactory by 110%
+    -multiplies efficiency of anotherbuilding by 110%
     -unlocks bookworm
     -picture : http://i.imgur.com/5NmG1EU.png
 
