@@ -7336,14 +7336,55 @@ Upgrades :
 	-named Nihilator
 	-picture : http://i.imgur.com/JsBmeSj.png
 	*edgeBeingAndSingularityUpgrade5
-	-"Singularities do <b>0.4%</b> more damage per Edge Being.<br>Edge beings do <b>0.3%</b> more damage per Singularity.<br><i>Singularities already make nothing out of the walls, lets make edge beings do the same</i>"
+	-"Singularities do <b>0.4%</b> more damage per Edge Being.<br>Edge beings do <b>0.3%</b> more damage per Singularity.<br><i>Singularities already make nothing out of the walls, let's make edge beings do the same</i>"
 	-costs 508.019e42 money, 8 winSpendable, 1000000 prePrestige
 	-unlocks at 400 edgeBeing, 400 begginingBuilding
 	-multiplies efficiency of begginingBuilding by 0.4% per edgeBeing
 	-multiplies efficiency of edgeBeing by 0.3% per begginingBuilding
 	-named Sharing of The Secrets
 	-picture : http://i.imgur.com/YPQ4CLG.png
-
+	*glitchscroll
+	-"Glitches are <b>50%</b> more efficient. <br><i>It displays a rip-off version of those end scrolls, but it has some unused bytes. They should use them.</i>"
+	-costs 3.333e31 money, 10000 prePrestige
+	-unlocks at 5 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 150%
+	-named Glitch Scroll I
+	-picture : http://i.imgur.com/oH8QPgZ.png
+	*glitchscroll2
+	-"Glitches are <b>50%</b> more efficient. <br><i>Another scroll. That's great, isn't it?</i>"
+	-costs 2e32 money, 20000 prePrestige, 1000 spacebricks
+	-unlocks at 10 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 150%
+	-named Glitch Scroll II
+	-picture : http://i.imgur.com/oH8QPgZ.png
+	*glitchscroll3
+	-"Glitches are <b>twice</b> as efficient. <br><i>THIS ISN'T ENOUGH</i>"
+	-costs 7e32 money, 25000 prePrestige, 2000 spacebricks
+	-unlocks at 25 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 200%
+	-named Glitch Scroll III
+	-picture : http://i.imgur.com/oH8QPgZ.png
+	*glitchscroll4
+	-"Glitches are <b>twice</b> as efficient. <br><i>[B]</i>"
+	-costs 4.4444e33 money, 30000 prePrestige, 3500 spacebricks
+	-unlocks at 50 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 200%
+	-named Glitch Scroll IV
+	-picture : http://i.imgur.com/oH8QPgZ.png
+	*glitchscroll5
+	-"Glitches are <b>twice</b> as efficient. <br><i>Oh boy! I can't wait to abuse more glitches!</i>"
+	-costs 8.7878787e33 money, 40000 prePrestige, 5000 spacebricks
+	-unlocks at 75 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 200%
+	-named Glitch Scroll V
+        -picture : http://i.imgur.com/OG0I0gs.png
+	*glitchscroll6
+	-"Glitches are <b>2.5 times</b> as efficient. <br><i>"insert [REDACTED] description here, although the [REDACTED] description is blocked by the government"</i>"
+	-costs 1.234567890e34 money, 66666 prePrestige, 6666 spacebricks
+	-unlocks at 100 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 250%
+	-named [REDACTED] Scroll VI
+        -picture : http://i.imgur.com/OG0I0gs.png
 	*brickFactoryUpgrade
 	-"Brick factories produce <b>50%</b> more bricks.<br><i>The dark magic tablets we're using can talk, so we need to learn more about them to use them better. They sound really creepy, and talk about really disturbing stuff.</i>"
 	-costs 66666666666666 money
