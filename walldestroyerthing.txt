@@ -7356,21 +7356,21 @@ Upgrades :
 	-unlocks at 10 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 150%
 	-named Glitch Scroll II
-	-picture : http://i.imgur.com/oH8QPgZ.png
+	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll3
 	-"Glitches are <b>twice</b> as efficient. <br><i>THIS ISN'T ENOUGH</i>"
 	-costs 7e32 money, 25000 prePrestige, 2000 spacebricks
 	-unlocks at 25 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 200%
 	-named Glitch Scroll III
-	-picture : http://i.imgur.com/oH8QPgZ.png
+	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll4
 	-"Glitches are <b>twice</b> as efficient. <br><i>[B]</i>"
 	-costs 4.4444e33 money, 30000 prePrestige, 3500 spacebricks
 	-unlocks at 50 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 200%
 	-named Glitch Scroll IV
-	-picture : http://i.imgur.com/oH8QPgZ.png
+	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll5
 	-"Glitches are <b>twice</b> as efficient. <br><i>Oh boy! I can't wait to abuse more glitches!</i>"
 	-costs 8.7878787e33 money, 40000 prePrestige, 5000 spacebricks
@@ -7385,6 +7385,20 @@ Upgrades :
 	-multiplies efficiency of anotherbuilding by 250%
 	-named [REDACTED] Scroll VI
         -picture : http://i.imgur.com/OG0I0gs.png
+	*glitchscroll7
+	-"Glitches are <b>2.5 times</b> as efficient. <br><i>01000101011011100110001101110010011110010111000001110100011001010110010000100000011010010110111000100000010000100110100101101110011000010111001001111001 (hint: it's binary)</i>"
+	-costs 9.87654545e34 money, 77777 prePrestige, 8000 spacebricks
+	-unlocks at 150 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 250%
+	-named Glitch Scroll VII
+        -picture : http://i.imgur.com/OG0I0gs.png
+	*glitchscroll8
+	-"Glitches are <b>2.5 times</b> as efficient. <br><i>Serving the world, since 1981</i>"
+	-costs 1e35 money, 100000 prePrestige, 10000 spacebricks, 500 timebricks
+	-unlocks at 200 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 250%
+	-named MS-DOS
+        -picture : http://i.imgur.com/Gtg8P7F.png
 	*brickFactoryUpgrade
 	-"Brick factories produce <b>50%</b> more bricks.<br><i>The dark magic tablets we're using can talk, so we need to learn more about them to use them better. They sound really creepy, and talk about really disturbing stuff.</i>"
 	-costs 66666666666666 money
