@@ -7427,6 +7427,13 @@ Upgrades :
 	-multiplies efficiency of anotherbuilding by 400%
 	-named Glitch Node I
 	-picture : http://i.imgur.com/nLIn2uJ.png
+	*glitchscroll13
+	-"Glitches are <b>4 times</b> as efficient. <br><i>New destruction power was made!</i>"
+	-costs 9e42 money, 300000 prePrestige, 200000 artspacebricks, 200000 arttimebricks
+	-unlocks at 450 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 400%
+	-named Astonishing Variables
+	-picture : http://i.imgur.com/nLIn2uJ.png
 	*brickFactoryUpgrade
 	-"Brick factories produce <b>50%</b> more bricks.<br><i>The dark magic tablets we're using can talk, so we need to learn more about them to use them better. They sound really creepy, and talk about really disturbing stuff.</i>"
 	-costs 66666666666666 money
