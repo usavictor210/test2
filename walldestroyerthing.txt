@@ -7345,60 +7345,88 @@ Upgrades :
 	-picture : http://i.imgur.com/YPQ4CLG.png
 	*glitchscroll
 	-"Glitches are <b>50%</b> more efficient. <br><i>It displays a rip-off version of those end scrolls, but it has some unused bytes. They should use them.</i>"
-	-costs 3.333e31 money, 10000 prePrestige
+	-costs 5e31 money, 10000 prePrestige
 	-unlocks at 5 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 150%
 	-named Glitch Scroll I
 	-picture : http://i.imgur.com/oH8QPgZ.png
 	*glitchscroll2
 	-"Glitches are <b>50%</b> more efficient. <br><i>Another scroll. That's great, isn't it?</i>"
-	-costs 2e32 money, 20000 prePrestige, 1000 spacebricks
+	-costs 6.6e32 money, 20000 prePrestige, 1000 spacebricks
 	-unlocks at 10 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 150%
 	-named Glitch Scroll II
 	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll3
 	-"Glitches are <b>twice</b> as efficient. <br><i>THIS ISN'T ENOUGH</i>"
-	-costs 7e32 money, 25000 prePrestige, 2000 spacebricks
+	-costs 7e33 money, 25000 prePrestige, 2000 spacebricks
 	-unlocks at 25 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 200%
 	-named Glitch Scroll III
 	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll4
 	-"Glitches are <b>twice</b> as efficient. <br><i>[B]</i>"
-	-costs 4.4444e33 money, 30000 prePrestige, 3500 spacebricks
+	-costs 4.4444e34 money, 30000 prePrestige, 3500 spacebricks
 	-unlocks at 50 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 200%
 	-named Glitch Scroll IV
 	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll5
 	-"Glitches are <b>twice</b> as efficient. <br><i>Oh boy! I can't wait to abuse more glitches!</i>"
-	-costs 8.7878787e33 money, 40000 prePrestige, 5000 spacebricks
+	-costs 2.7878787e35 money, 40000 prePrestige, 5000 spacebricks
 	-unlocks at 75 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 200%
 	-named Glitch Scroll V
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll6
 	-"Glitches are <b>2.5 times</b> as efficient. <br><i>"insert [REDACTED] description here, although the [REDACTED] description is blocked by the government"</i>"
-	-costs 1.234567890e34 money, 66666 prePrestige, 6666 spacebricks
+	-costs 1.234567890e36 money, 66666 prePrestige, 6666 spacebricks
 	-unlocks at 100 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 250%
 	-named [REDACTED] Scroll VI
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll7
 	-"Glitches are <b>2.5 times</b> as efficient. <br><i>01000101011011100110001101110010011110010111000001110100011001010110010000100000011010010110111000100000010000100110100101101110011000010111001001111001 (hint: it's binary)</i>"
-	-costs 9.87654545e34 money, 77777 prePrestige, 8000 spacebricks
+	-costs 9.87654545e36 money, 77777 prePrestige, 8000 spacebricks
 	-unlocks at 150 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 250%
 	-named Glitch Scroll VII
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll8
 	-"Glitches are <b>2.5 times</b> as efficient. <br><i>Serving the world, since 1981</i>"
-	-costs 1e35 money, 100000 prePrestige, 10000 spacebricks, 500 timebricks
+	-costs 1e38 money, 100000 prePrestige, 10000 spacebricks, 500 timebricks
 	-unlocks at 200 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 250%
 	-named MS-DOS
         -picture : http://i.imgur.com/Gtg8P7F.png
+	*glitchscroll9
+	-"Glitches are <b>3 times</b> as efficient. <br><i>These scrolls contain only 1 ounce of evil power. When stacked, it does... something awkward.</i>"
+	-costs 2.432e38 money, 125000 prePrestige, 17500 spacebricks, 1000 timebricks
+	-unlocks at 250 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 300%
+	-named Danger!
+        -picture : http://i.imgur.com/skLNAG0.png
+	*glitchscroll10
+	-"Glitches are <b>3 times</b> as efficient. <br><i>Who kept track of these numbers, anyway?</i>"
+	-costs 8.55555e38 money, 150000 prePrestige, 20000 spacebricks, 1000 timebricks
+	-unlocks at 300 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 300%
+	-named Glitch Scroll VIII
+        -picture : http://i.imgur.com/skLNAG0.png
+	*glitchscroll11
+	-"Glitches are <b>4 times</b> as efficient. <br><i>How would you like a broken unlock pattern? (300 then 333)</i>"
+	-costs 1e40 money, 200000 prePrestige, 30000 spacebricks, 1337 timebricks
+	-unlocks at 333 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 400%
+	-named Glitch Scroll IX
+        -picture : http://i.imgur.com/skLNAG0.png
+	*glitchscroll12
+	-"Glitches are <b>4 times</b> as efficient. <br><i>These don't consume the other space bricks and time bricks, we found out we'll just use the artifically made ones instead, since they have the same power.</i>"
+	-costs 3.14159265e41 money, 250000 prePrestige, 50000 artspacebricks, 100000 arttimebricks
+	-unlocks at 400 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 400%
+	-named Glitch Node I
+	-picture : http://i.imgur.com/nLIn2uJ.png
 	*brickFactoryUpgrade
 	-"Brick factories produce <b>50%</b> more bricks.<br><i>The dark magic tablets we're using can talk, so we need to learn more about them to use them better. They sound really creepy, and talk about really disturbing stuff.</i>"
 	-costs 66666666666666 money
