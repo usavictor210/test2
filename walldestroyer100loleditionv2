@@ -2,7 +2,7 @@ Let's make a game!
 	-Wall Destroyer
 	-by Tellurium
 	-created on 04/21/2014
-	-last updated on 10/7/2017
+	-last updated on 10/9/2017
 	-version 2.4
 
 Settings :
@@ -14,7 +14,7 @@ Settings :
 	-upgrades are hidden by default
 	-achievements are hidden by default
 	-show log
-	-custom stylesheet : http://pastebin.com/raw.php?i=BJ7Lgqvy
+	-custom stylesheet : https://pastebin.com/raw/jMGmv0J5
 	-text color : black
 	-fonts : Kavoon
 	-boxes : main (resources, clickables); stats (achievements); store (upgrades, buildings)
@@ -43,12 +43,12 @@ Resources :
         -named fourth wall bricks
         -classed veryimportantresource
  
-		*artSpaceBricks
-		-named artificial space bricks
+	*artSpaceBricks
+	-named artificial space bricks
         -classed veryimportantresource
 
-		*artTimeBricks
-		-named artificial time bricks
+	*artTimeBricks
+	-named artificial time bricks
         -classed veryimportantresource
 
         *spaceBricks
@@ -63,18 +63,18 @@ Resources :
         *finalityBricks
         -named Finality Bricks
         -classed importantresource
-		*winSpendable
-		-named pure bricks
+	*winSpendable
+	-named pure bricks
         -classed importantresource
-		*meshSpendable
-		-named Mesh Bricks
+	*meshSpendable
+	-named Mesh Bricks
         -classed importantresource
-		*fifthBricks
-		-named fifth dimension bricks
-		-classed importantresource
-		*alphaBricks
-		-named alpha bricks
-		-classed importantresource
+	*fifthBricks
+	-named fifth dimension bricks
+	-classed importantresource
+	*alphaBricks
+	-named alpha bricks
+	-classed importantresource
 
         *menuItem2
         -displayed as ─────────────Stats─────────────
@@ -122,8 +122,10 @@ Resources :
         -named Black obliterator damage
         *begginingDamage
         -named Singularity damage
-		*edgeBeingDamage
-		-named Edge being damage
+	*edgeBeingDamage
+	-named Edge being damage
+	*glitchDamage
+	-named Glitch damage
  
         *damageDivider2
         -displayed as ────────────────────
@@ -141,9 +143,9 @@ Resources :
         -named random bonus magic point|random bonus magic points
         *timeUpgradeResource18
         -named random bonus brick point|random bonus brick points
-		*timeUpgradeResource21
+	*timeUpgradeResource21
         -named random bonus dream point|random bonus dream points
-		*timeUpgradeResource22
+	*timeUpgradeResource22
         -named random bonus purifier point|random bonus purifier points
  
         *divider3
@@ -152,8 +154,8 @@ Resources :
 
         *wallsDestroyed
         -named wall destroyed|walls destroyed
-		*totalWalls
-		-named total walls destroyed
+	*totalWalls
+	-named total walls destroyed
  
         *building
         -displayed as Buildings: %a
@@ -173,8 +175,8 @@ Resources :
         -classed importantresource
         -visible
  
-		*prePrestige
-		-named cosmic knowledge
+	*prePrestige
+	-named cosmic knowledge
         *goldBricks
         -named boss brick|boss bricks
  
@@ -486,7 +488,11 @@ Clickables :
 	-converts destroyFantasyWall08 to nothing
 	-converts destroyFantasyWall09 to nothing
 	-converts destroyFantasyWall10 to nothing
-    -converts destroyinfinitything01 to nothing
+	-converts destroyinfinitything01 to nothing
+	-converts destroyinfinitything02 to nothing
+	-converts destroyinfinitything03 to nothing
+	-converts destroyinfinitything04 to nothing
+	-converts destroyinfinitything05 to nothing
 	-converts timeUpgradeProducer to nothing
 	-converts timeUpgradeProducer2 to nothing
 	-converts timeUpgradeProducer3 to nothing
@@ -1468,51 +1474,61 @@ Buildings :
 	-classed bonuswallboss
 	-named Destroy Boss Fantasy Wall
 	-locks destroyFantasyWall10
-    -unlocks destroyinfinitything01
-    -unlocks notasimpleupgrade
-    *destroyinfinitything01
-	-"Destroy one of the walls of the infinite walls in this tier. Doesn't look like a wall due to laziness.<br>Gives <b>15</b> Alpha bricks, <b>2</b> Fifth Dimension bricks and <b>1 duodecillion</b> bricks.<br>Worth <b>250,000</b> cosmic knowledge. A player: "We're finally getting bricks again?" "
+        -unlocks destroyinfinitything01
+         -unlocks notasimpleupgrade
+        *destroyinfinitything01
+	-"Destroy one of the walls of the infinite walls in this tier. Doesn't look like a wall due to laziness.<br>Gives <b>15</b> Alpha bricks, <b>2</b> Fifth Dimension bricks and <b>1 un =decillion</b> bricks.<br>Worth <b>250,000</b> cosmic knowledge. A player: "We're finally getting bricks again?" "
 	-costs 1e48 tesseractDamage, 1e48 totalmoney
-    -gives 1e36 bricks when bought
+        -gives 1e36 bricks when bought
 	-represents 15 alphaBricks, 2 fifthBricks, 250000 prePrestige
 	-represents 1 wallsDestroyed
 	-classed bonuswallboss
 	-named Destroy a Infinity Wall
     -locks destroyinfinitything01
     -unlocks destroyinfinitything02
-*destroyinfinitything02
-	-"This is the same type of infinite wall, only in a greater army position.<br>Gives <b>25</b> Alpha bricks, <b>4</b> Fifth Dimension bricks, <b>1,000</b> artifical space bricks and <b>8 duodecillion</b> bricks.<br>Worth <b>350,000</b> cosmic knowledge."
+        *destroyinfinitything02
+	-"This is the same type of infinite wall, only in a greater army position.<br>Gives <b>25</b> Alpha bricks, <b>4</b> Fifth Dimension bricks, <b>1,000</b> artifical space bricks and <b>8 undecillion</b> bricks.<br>Worth <b>350,000</b> cosmic knowledge."
 	-costs 4.8484848e48 tesseractDamage, 1e49 totalmoney
-    -gives 8e36 bricks when bought
-    -gives 1000 artspacebricks when bought
-	-represents 25 alphaBricks, 4 fifthBricks, 350000 prePrestige
+        -gives 8e36 bricks when bought
+	-represents 25 alphaBricks, 4 fifthBricks, 350000 prePrestige, 1000 artspacebricks
 	-represents 1 wallsDestroyed
 	-classed bonuswallboss
 	-named Destroy a Greater Infinity Wall
-    -locks destroyinfinitything02
-    -unlocks destroyinfinitything03
-*destroyinfinitything03
-	-"This is a "royal" wall.<br>Gives <b>40</b> Alpha bricks, <b>7</b> Fifth Dimension bricks, <b>2,500</b> artifical space bricks, <b>300</b> artifical time bricks and <b>32 duodecillion</b> bricks.<br>Worth <b>450,000</b> cosmic knowledge."
-	-costs 3.030303e49 tesseractDamage, 9.090909e49 totalmoney
-    -gives 2500 artspacebricks when bought
-    -gives 300 arttimebricks when bought
+        -locks destroyinfinitything02
+        -unlocks destroyinfinitything03
+        *destroyinfinitything03
+	-"This is a "royal" wall.<br>Gives <b>40</b> Alpha bricks, <b>7</b> Fifth Dimension bricks, <b>2,500</b> artifical space bricks, <b>300</b> artifical time bricks and <b>32 undecillion</b> bricks.<br>Worth <b>450,000</b> cosmic knowledge."
+    -costs 3.030303e49 tesseractDamage, 9.090909e49 totalmoney
     -gives 3.2e37 bricks when bought
-	-represents 40 alphaBricks, 7 fifthBricks, 450000 prePrestige
-	-represents 1 wallsDestroyed
-	-classed bonuswallboss
-	-named Destroy a High Rank Infinity Wall
+    -represents 40 alphaBricks, 7 fifthBricks, 450000 prePrestige
+    -represents 2500 artspacebricks, 300 arttimebricks
+    -represents 1 wallsDestroyed
+    -classed bonuswallboss
+    -named Destroy a High Rank Infinity Wall
     -locks destroyinfinitything03
     -unlocks destroyinfinitything04
     *destroyinfinitything04
-    -"You're hitting the authorities? Must be a serious job.<br>Gives <b>60</b> Alpha bricks, <b>12</b> Fifth Dimension bricks, <b>10,000</b> artifical space bricks, <b>2,000</b> artifical time bricks and <b>400 duodecillion</b> bricks.<br>Worth <b>550,000</b> cosmic knowledge."
-    -costs 1e50 tesseractDamage, 5e50 totalmoney
-    -gives 10000 artspacebricks when bought
-    -gives 2000 arttimebricks when bought
+    -"You're hitting the authorities? Must be a serious job.<br>Gives <b>60</b> Alpha bricks, <b>12</b> Fifth Dimension bricks, <b>10,000</b> artifical space bricks, <b>2,000</b> artifical time bricks and <b>400 undecillion</b> bricks.<br>Worth <b>550,000</b> cosmic knowledge."
+    -costs 1e50 tesseractDamage, 3.333e50 totalmoney
     -gives 4e38 bricks when bought
     -represents 60 alphaBricks, 12 fifthBricks, 550000 prePrestige
+    -represents 10000 artspacebricks, 2000 arttimebricks
     -represents 1 wallsDestroyed
     -classed bonuswallboss
     -named Destroy a Elite Infinity Wall
+    -locks destroyinfinitything04
+    -unlocks destroyinfinitything05
+    *destroyinfinitything05
+    -"HOI! (this is a placeholder) <br>Gives <b>80</b> Alpha bricks, <b>16</b> Fifth Dimension bricks, <b>80,000</b> artifical space bricks, <b>20,000</b> artifical time bricks and <b>10 duodecillion</b> bricks.<br>Worth <b>650,000</b> cosmic knowledge."
+    -costs 1e50 tesseractDamage, 3.333e50 totalmoney
+    -gives 1e40 bricks when bought
+    -represents 80 alphaBricks, 16 fifthBricks, 650000 prePrestige
+    -represents 80000 artspacebricks, 20000 arttimebricks
+    -represents 1 wallsDestroyed
+    -classed bonuswallboss
+    -named Destroy a Temmie Infinity Wall
+    -locks destroyinfinitything05
+    -picture : https://t4.rbxcdn.com/4c9034c1e962ff088ae9fa9b32676a8f
 
 	*timeUpgradeProducer
 	-abstract
@@ -1689,6 +1705,16 @@ Buildings :
 	-gives 1.2e21 totalMoney
 	-gives 1.2e21 edgeBeingDamage
 	-named Edge Being|Edge Beings
+	-represents 1 building
+	
+	*anotherbuilding
+	-"Weird building<br>Deals <b>50 septillion</b> base damage.<br><i>This is illegal, you know!</i>"
+	-costs 1e30 money
+	-gives 5e25 money
+	-gives 5e25 totalMoney
+	-gives 5e25 glitchDamage
+	-named glitch|glitch
+	-unlocks at 300 totalWalls
 	-represents 1 building
 
 	*brickFactory
@@ -2620,7 +2646,7 @@ Upgrades :
 
 *specialBrickBonus
         -"Everything is <b>0.001%</b> more efficient per <b>space brick</b> and <b>0.007%</b> per <b>time brick</b>.<br><i>"I can barely contain my excitement." ~Agent Johnson<br>"There's something about the massive concentration of sarcasm in your voice that makes me think otherwise." ~Agent Lawrence<br>"Look, I just want more interesting upgrades, okay?" ~Agent Johnson</i>"
-        -costs 1.2e25 bricks, 1e25 cash
+        -costs 1.2e25 bricks, 1e25 money
         -unlocks at 1 timesActuallyWon, 1 winBricks
         -multiplies efficiency of hitWall by 0.001% per spaceBricks
         -multiplies efficiency of puncher by 0.001% per spaceBricks
@@ -2659,7 +2685,7 @@ Upgrades :
 
    *specialBrickBonus2
         -"Everything is <b>0.1%</b> more efficient per <b>End brick</b> and <b>1%</b> per <b>Finality Brick</b>.<br><i>If you're not extracting everything of value from everything, you clearly do not have enough extractors.</i>"
-        -costs 1e26 bricks, 1.4141e27 cash
+        -costs 1e26 bricks, 1.4141e27 money
         -unlocks at 5 timesActuallyWon, 1 winBricks
         -multiplies efficiency of hitWall by 0.1% per endBricks
         -multiplies efficiency of puncher by 0.1% per endBricks
