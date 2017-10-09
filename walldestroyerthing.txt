@@ -7393,7 +7393,7 @@ Upgrades :
 	-named Glitch Scroll VII
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll8
-	-"Glitches are <b>2.5 times</b> as efficient. <br><i>Serving the world, since 1981</i>"
+	-"Glitches are <b>2.5 times</b> as efficient. <br><i>Serving the world's computers, since 1981</i>"
 	-costs 1e38 money, 100000 prePrestige, 10000 spacebricks, 500 timebricks
 	-unlocks at 200 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 250%
@@ -8510,6 +8510,22 @@ Achievements :
 	-named Computer Death
 	-unlocks at 69 meshBossPoint, 1 meshBricks
 	-picture : http://i.imgur.com/jsCyq5a.png
+	*wallTellurium11
+	-"Destroy all the walls <b>80</b> times."
+	-named Nonsense
+	-unlocks at 79 meshBossPoint, 1 meshBricks
+	-picture : http://i.imgur.com/jsCyq5a.png
+	*wallTellurium12
+	-"Destroy all the walls <b>90</b> times."
+	-named Questioning
+	-unlocks at 89 meshBossPoint, 1 meshBricks
+	-picture : http://i.imgur.com/Gtg8P7F.png
+	*wallTellurium13
+	-"Destroy all the walls <b>100</b> times. <br>Congratulations! Here's some weird cheat upgrade.</br>"
+	-named Centennial
+	-unlocks at 99 meshBossPoint, 1 meshBricks
+	-unlocks iamcheese
+	-picture : https://i.imgur.com/aCU88Ro.png
 
 	*moneySpecific01
 	-"Have all money that exists on earth.<br><i>May the bad title games begin!</i>"
