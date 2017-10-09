@@ -1731,7 +1731,7 @@ Buildings :
 
 Upgrades :
     *notasimpleupgrade
-    -"Rest in peace, pastebin link. Everything is 50% more efficient, as well as unlock a thing. "you need to get a better name for this upgrade" ~ logical person"
+    -"Rest in peace, pastebin link. Everything is 50% more efficient, as well is supposed to unlock a thing. "you need to get a better name for this upgrade" ~ logical person"
     -costs 1e45 money
     -multiplies efficiency of brickFactory by 150%
     -multiplies efficiency of makeBricks by 150%
