@@ -392,6 +392,7 @@ Clickables :
 	-converts lastBuilding to nothing
 	-converts begginingBuilding to nothing
 	-converts edgeBeing to nothing
+	-converts anotherbuilding to nothing
 	-converts money to nothing
 	-converts totalMoney to tesseractDamage
 	-converts handDamage to nothing
@@ -410,6 +411,7 @@ Clickables :
 	-converts lastDamage to nothing
 	-converts begginingDamage to nothing
 	-converts edgeBeingDamage to nothing
+	-converts glitchDamage to nothing
 	-converts bricks to nothing
 	-converts totalBricks to nothing
 	-converts handBricks to nothing
