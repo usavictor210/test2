@@ -366,6 +366,7 @@ Clickables :
 	-locks destroyinfinitything02
 	-locks destroyinfinitything03
 	-locks destroyinfinitything04
+	-locks destroyinfinitything05
 	-unlocks destroyWall
 	-locks resetUnlock
 	-locks reset
