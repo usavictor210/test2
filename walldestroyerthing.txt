@@ -1479,7 +1479,7 @@ Buildings :
         -unlocks destroyinfinitything01
          -unlocks notasimpleupgrade
         *destroyinfinitything01
-	-"Destroy one of the walls of the infinite walls in this tier. Doesn't look like a wall due to laziness.<br>Gives <b>15</b> Alpha bricks, <b>2</b> Fifth Dimension bricks and <b>1 un =decillion</b> bricks.<br>Worth <b>250,000</b> cosmic knowledge. A player: "We're finally getting bricks again?" "
+	-"Destroy one of the walls of the infinite walls in this tier. Doesn't look like a wall due to laziness.<br>Gives <b>15</b> Alpha bricks, <b>2</b> Fifth Dimension bricks and <b>1 undecillion</b> bricks.<br>Worth <b>250,000</b> cosmic knowledge. A player: "We're finally getting bricks again?" "
 	-costs 1e48 tesseractDamage, 1e48 totalmoney
         -gives 1e36 bricks when bought
 	-represents 15 alphaBricks, 2 fifthBricks, 250000 prePrestige
