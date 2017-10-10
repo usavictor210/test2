@@ -7543,7 +7543,8 @@ Upgrades :
 	-multiplies efficiency of anotherbuilding by 500%
 	-named DARKEST NIGHT
 	-picture : https://i.imgur.com/onMV7rU.png
-	*GLITCHPOCALYPSE1														-"Glitches are <b>4 times</b> as efficient, at the cost of every other building losing 2.5% efficiency.<br><i>I thought we knew everything, but based on some leaked information, I guess we don't have enough of it.</i>"
+	*GLITCHPOCALYPSE1
+	-"Glitches are <b>4 times</b> as efficient, at the cost of every other building losing 2.5% efficiency. Continues the glitchpocalypse. <br><i>I thought we knew everything, but based on some leaked information, I guess we don't have enough of it.</i>"
 	-costs 5e44 money, 25000 artspacebricks
 	-unlocks at 1 glitchpocalypseprogress
 	-gives 1 glitchpocalypseprogress when bought
@@ -7565,7 +7566,8 @@ Upgrades :
     	-multiplies efficiency of edgeBeing by 97.5%
     	-multiplies efficiency of brickFactory by 97.5%
 	-named Everything We Forgot About Them
-	*GLITCHPOCALYPSE2														-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching losing 4% efficiency.<br><i>It's affecting everything at the moment, we've got to stop it! ~ No One Said Ever (except you)</i>"
+	*GLITCHPOCALYPSE2
+	-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching losing 4% efficiency. Continues the glitchpocalypse. <br><i>It's affecting almost everything at the moment, we've got to stop it! ~ No One Said Ever (except you)</i>"
 	-costs 9e44 money, 36363 artspacebricks
 	-unlocks at 2 glitchpocalypseprogress
 	-gives 1 glitchpocalypseprogress when bought
