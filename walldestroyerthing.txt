@@ -7295,7 +7295,7 @@ Upgrades :
 	-picture : http://i.imgur.com/mXRDfR5.png
 
 	*edgeBeingUpgrade1
-	-"Edge beings deal <b>50%</b> more damage and generate <b>50%</b> more bricks.<br><i>Because living on the edge is lonely obviously ~RUC CEO</i>"
+	-"Edge beings deal <b>50%</b> more damage and generate <b>50%</b> more bricks.<br><i>"Because living on the edge is lonely, obviously." ~RUC CEO</i>"
 	-costs 1.234e30 money, 4 endBricks
 	-unlocks at 1 edgeBeing
 	-multiplies efficiency of edgeBeing by 150%
@@ -7309,7 +7309,7 @@ Upgrades :
 	-named Edgy Katanas
 	-picture : http://i.imgur.com/XKK3FKS.png
 	*edgeBeingUpgrade3
-	-"Edge beings deal <b>twice</b> as much damage and generate <b>twice</b> as much bricks.<br><i>Give edge beings a wall costume, so they are invisible near other walls. totally not dangerous! ~RUC CEO</i>"
+	-"Edge beings deal <b>twice</b> as much damage and generate <b>twice</b> as much bricks.<br><i>"We gave edge beings a wall costume, so they are invisible near other walls. Totally not dangerous!" ~RUC CEO</i>"
 	-costs 789.011e30 money, 7 endBricks
 	-unlocks at 25 edgeBeing
 	-multiplies efficiency of edgeBeing by 200%
@@ -7323,7 +7323,7 @@ Upgrades :
 	-named SCP-169
 	-picture : http://i.imgur.com/UiYgx6i.png
 	*edgeBeingUpgrade5
-	-"Edge beings deal <b>twice</b> as much damage and generate <b>twice</b> as much bricks.<br><i>Extinguish wise universe for exchange of the ultimate power</i>"
+	-"Edge beings deal <b>twice</b> as much damage and generate <b>twice</b> as much bricks.<br><i>"Extinguish the wise universe for exchange of the ultimate power."</i>"
 	-costs 38.0909e33 money, 15 endBricks
 	-unlocks at 75 edgeBeing
 	-multiplies efficiency of edgeBeing by 200%
@@ -7358,7 +7358,7 @@ Upgrades :
 	-named Born in The 2814 Generation
 	-picture : http://i.imgur.com/qfscrvY.png
 	*edgeBeingUpgrade11
-	-"Edge beings deal <b>four</b> as much damage and generate <b>four</b> as much bricks.<br><i>"We took several experiments with the Edge beings. It turned out very well until they grew size up to the Sagittarius A*." ~Scientist #206</i>"
+	-"Edge beings deal <b>four</b> as much damage and generate <b>four</b> as much bricks.<br><i>"We took several experiments with the Edge Beings. It turned out very well until they grew to a size up to the Sagittarius A*." ~Scientist #206</i>"
 	-costs 254.003e42 money, 1000 endBricks
 	-unlocks at 400 edgeBeing
 	-multiplies efficiency of edgeBeing by 400%
@@ -7506,33 +7506,39 @@ Upgrades :
         -picture : http://i.imgur.com/skLNAG0.png
 	*glitchscroll12
 	-"Glitches are <b>4 times</b> as efficient. <br><i>These don't consume the other space bricks and time bricks, we found out we'll just use the artifically made ones instead, since they have the same power, when eventually stacked together.</i>"
-	-costs 3.14159265e41 money, 250000 prePrestige, 50000 artspacebricks, 100000 arttimebricks
+	-costs 3.14159265e41 money, 250000 prePrestige, 50000 artspacebricks, 30000 arttimebricks
 	-unlocks at 400 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 400%
 	-named Glitch Node I
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*glitchscroll13
 	-"Glitches are <b>4 times</b> as efficient. <br><i>New destruction power was made!</i>"
-	-costs 9e42 money, 300000 prePrestige, 200000 artspacebricks, 200000 arttimebricks
+	-costs 9e42 money, 300000 prePrestige, 200000 artspacebricks, 50000 arttimebricks
 	-unlocks at 450 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 400%
 	-named Astonishing Variables
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*glitchscroll14
 	-"Glitches are <b>4.5 times</b> as efficient. <br><i>It's kind of breaking physics.</i>"
-	-costs 9e42 money, 400000 prePrestige, 300000 artspacebricks, 300000 arttimebricks
+	-costs 2.5732135e43 money, 400000 prePrestige, 300000 artspacebricks, 70000 arttimebricks
 	-unlocks at 500 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 450%
 	-named Random Particles and Sprites
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*glitchscroll15
-	-"Glitches are <b>4.8 times</b> as efficient, Edge Beings are <b>3 times</b> as efficient. <br><i>It's kind of breaking physics.</i>"
-	-costs 9e42 money, 400000 prePrestige, 300000 artspacebricks, 300000 arttimebricks
-	-unlocks at 500 anotherbuilding
-	-multiplies efficiency of anotherbuilding by 450%
-	-multiplies efficiency of edgeBeing by 300%
-	-named Random Particles and Sprites
+	-"Glitches are <b>4.8 times</b> as efficient. <br><i>Zero day loopholes in walls are now being used to our advantage... if we controlled them. Don't ask why walls have zero day bugs, it sounds weird.</i>"
+	-costs 9.090090009e43 money, 500000 prePrestige, 400000 artspacebricks, 100000 arttimebricks
+	-unlocks at 550 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 480%
+	-named More Glitchiness
 	-picture : http://i.imgur.com/nLIn2uJ.png
+	*glitchscroll15
+	-"Glitches are <b>5 times</b> as efficient. <br><i>the gli̵̘̰͔̿̄͘t̵̟͚̓̌̕̚͝c̴̩̆͐ĥ̴̖̩͒̊p̵̞̳̟̽o̸̢̖͚̝͈͒͛ć̶̳̜͑alyps̴̤̝̣̍̈́̈́̽ĕ̴̱̦̟̫̳̰̉͑̐ is <b>COMING</b>. . ./i>"
+	-costs 1e44 money, 1 edgeBeing, 4 begginingBuilding
+	-unlocks at 600 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 500%
+	-named DARKEST NIGHT
+	-picture : https://i.imgur.com/onMV7rU.png
 	*brickFactoryUpgrade
 	-"Brick factories produce <b>50%</b> more bricks.<br><i>The dark magic tablets we're using can talk, so we need to learn more about them to use them better. They sound really creepy, and talk about really disturbing stuff.</i>"
 	-costs 66666666666666 money
