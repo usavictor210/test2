@@ -7532,7 +7532,7 @@ Upgrades :
 	-multiplies efficiency of anotherbuilding by 480%
 	-named More Glitchiness
 	-picture : http://i.imgur.com/nLIn2uJ.png
-	*glitchscroll15
+	*glitchscroll16
 	-"Glitches are <b>5 times</b> as efficient. <br><i>the gli̵̘̰͔̿̄͘t̵̟͚̓̌̕̚͝c̴̩̆͐ĥ̴̖̩͒̊p̵̞̳̟̽o̸̢̖͚̝͈͒͛ć̶̳̜͑alyps̴̤̝̣̍̈́̈́̽ĕ̴̱̦̟̫̳̰̉͑̐ is <b>COMING</b>. . ./i>"
 	-costs 1e44 money, 1 edgeBeing, 4 begginingBuilding
 	-unlocks at 600 anotherbuilding
