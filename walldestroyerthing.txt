@@ -7533,13 +7533,42 @@ Upgrades :
 	-named More Glitchiness
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*glitchscroll16
-	-"Glitches are <b>5 times</b> as efficient. <br><i>the gli̵̘̰͔̿̄͘t̵̟͚̓̌̕̚͝c̴̩̆͐ĥ̴̖̩͒̊p̵̞̳̟̽o̸̢̖͚̝͈͒͛ć̶̳̜͑alyps̴̤̝̣̍̈́̈́̽ĕ̴̱̦̟̫̳̰̉͑̐ is <b>COMING</b>...</i>"
+	-"Glitches are <b>5 times</b> as efficient. Unlocks the glitchpocalypse. A uncalled for warning. <br><i>the gli̵̘̰͔̿̄͘t̵̟͚̓̌̕̚͝c̴̩̆͐ĥ̴̖̩͒̊p̵̞̳̟̽o̸̢̖͚̝͈͒͛ć̶̳̜͑alyps̴̤̝̣̍̈́̈́̽ĕ̴̱̦̟̫̳̰̉͑̐ is <b>COMING</b>...</i>"
 	-costs 1e44 money, 10 edgeBeing, 30 begginingBuilding, 50 lastBuilding
 	-unlocks at 600 anotherbuilding
+	-gives 1 glitchpocalypseprogress when bought
 	-multiplies efficiency of anotherbuilding by 500%
 	-named DARKEST NIGHT
-	-unlocks GLITCHPOCALYPSE
 	-picture : https://i.imgur.com/onMV7rU.png
+	*GLITCHPOCALYPSE1														-"Glitches are <b>4 times</b> as efficient, at the cost of every other building losing 2.5% efficiency.<br><i>I thought we knew everything, but based on some leaked information, I guess we don't have enough of it.</i>"
+	-costs 5e44 money, 25000 artspacebricks
+	-unlocks at 1 glitchpocalypseprogress
+	-gives 1 glitchpocalypseprogress when bought
+	-multiplies efficiency of anotherbuilding by 400%
+	-multiplies efficiency of puncher by 97.5%
+    	-multiplies efficiency of clubber by 97.5%
+    	-multiplies efficiency of swordsman by 97.5%
+    	-multiplies efficiency of gunner by 97.5%
+    	-multiplies efficiency of grenade by 97.5%
+    	-multiplies efficiency of wreckingBall by 97.5%
+    	-multiplies efficiency of bulldozer by 97.5%
+    	-multiplies efficiency of airstrike by 97.5%
+    	-multiplies efficiency of necromancer by 97.5%
+    	-multiplies efficiency of giant by 97.5%
+   	-multiplies efficiency of demon by 97.5%
+    	-multiplies efficiency of compromiser by 97.5%
+   	-multiplies efficiency of lastBuilding by 97.5%
+    	-multiplies efficiency of begginingBuilding by 97.5%
+    	-multiplies efficiency of edgeBeing by 97.5%
+    	-multiplies efficiency of brickFactory by 97.5%
+	-named Everything We Forgot About Them
+	*GLITCHPOCALYPSE2														-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching losing 4% efficiency.<br><i>It's affecting everything at the moment, we've got to stop it! ~ No One Said Ever (except you)</i>"
+	-costs 9e44 money, 25000 artspacebricks
+	-unlocks at 2 glitchpocalypseprogress
+	-gives 1 glitchpocalypseprogress when bought
+	-multiplies efficiency of anotherbuilding by 400%
+	-multiplies efficiency of hitWall by 96%
+	-named Pwned
 	*brickFactoryUpgrade
 	-"Brick factories produce <b>50%</b> more bricks.<br><i>The dark magic tablets we're using can talk, so we need to learn more about them to use them better. They sound really creepy, and talk about really disturbing stuff.</i>"
 	-costs 66666666666666 money
