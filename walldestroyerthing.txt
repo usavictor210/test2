@@ -10472,6 +10472,16 @@ Achievements :
 	-named Kind of Defective
 	-unlocks at 10 anotherbuilding
 	-picture : http://i.imgur.com/Gtg8P7F.png
+	*glitchAchieve3
+	-"Hire <b>25</b> glitches. (had no idea what to write)"
+	-named Another Glitch
+	-unlocks at 25 anotherbuilding
+	-picture : http://i.imgur.com/Gtg8P7F.png
+	*glitchAchieve4
+	-"Hire <b>50</b> glitches."
+	-named Glitch to the 2nd Power
+	-unlocks at 50 anotherbuilding
+	-picture : http://i.imgur.com/Gtg8P7F.png
 
 	*buildingAchieve1
 	-"Have <b>100</b> buildings."
