@@ -266,6 +266,9 @@ Resources :
  
         *nothing
         -abstract
+	
+	*glitchpocalypseprogress
+	-abstract
  
         *never
         -abstract
@@ -7563,7 +7566,7 @@ Upgrades :
     	-multiplies efficiency of brickFactory by 97.5%
 	-named Everything We Forgot About Them
 	*GLITCHPOCALYPSE2														-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching losing 4% efficiency.<br><i>It's affecting everything at the moment, we've got to stop it! ~ No One Said Ever (except you)</i>"
-	-costs 9e44 money, 25000 artspacebricks
+	-costs 9e44 money, 36363 artspacebricks
 	-unlocks at 2 glitchpocalypseprogress
 	-gives 1 glitchpocalypseprogress when bought
 	-multiplies efficiency of anotherbuilding by 400%
