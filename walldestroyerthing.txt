@@ -5028,10 +5028,10 @@ Upgrades :
 	-picture : http://i.imgur.com/YREu98L.png
 	
 	*handGlitchUpgrade
-	-"<b>Illegal Mesh Scroll:</b> Hand punches do <b>0.166%</b> more damage per glitch.<br><i>Hopefully not the W.D. Gaster hands, whoever "he" is..</i>"
+	-"<b>Illegal Mesh Scroll:</b> Hand punches deal <b>0.19%</b> more damage per glitch.<br><i>Hopefully not the W.D. Gaster hands, whoever "he" is..</i>"
 	-costs 2.62144e40 money, 131072 artSpaceBricks, 16384 artTimeBricks
 	-unlocks at 50 anotherbuilding
-	-multiplies efficiency of hitWall by 0.166% per anotherbuilding
+	-multiplies efficiency of hitWall by 0.19% per anotherbuilding
 	-named Glitched Hands
 	-picture : http://i.imgur.com/ZmJ8hqf.png
 
@@ -7431,140 +7431,140 @@ Upgrades :
 	-named Sharing of The Secrets
 	-picture : http://i.imgur.com/YPQ4CLG.png
 	*glitchscroll
-	-"Glitches are <b>50%</b> more efficient. <br><i>It displays a rip-off version of those end scrolls, but it has some unused bytes. They should use them.</i>"
+	-"Glitches are <b>50%</b> more efficient.<br><i>It displays a rip-off version of those end scrolls, but it has some unused bytes. They should use them.</i>"
 	-costs 5e31 money, 10000 prePrestige
 	-unlocks at 5 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 150%
 	-named Glitch Scroll I
 	-picture : http://i.imgur.com/oH8QPgZ.png
 	*glitchscroll2
-	-"Glitches are <b>50%</b> more efficient. <br><i>Another scroll. That's great, isn't it?</i>"
+	-"Glitches are <b>50%</b> more efficient.<br><i>Another scroll. That's great, isn't it?</i>"
 	-costs 6.6e32 money, 20000 prePrestige, 1000 spacebricks
 	-unlocks at 10 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 150%
 	-named Glitch Scroll II
 	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll3
-	-"Glitches are <b>twice</b> as efficient. <br><i>THIS ISN'T ENOUGH</i>"
+	-"Glitches are <b>twice</b> as efficient.<br><i>THIS ISN'T ENOUGH</i>"
 	-costs 7e33 money, 25000 prePrestige, 2000 spacebricks
 	-unlocks at 25 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 200%
 	-named Glitch Scroll III
 	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll4
-	-"Glitches are <b>twice</b> as efficient. <br><i>[B]</i>"
+	-"Glitches are <b>twice</b> as efficient.<br><i>[B]</i>"
 	-costs 4.4444e34 money, 30000 prePrestige, 3500 spacebricks
 	-unlocks at 50 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 200%
 	-named Glitch Scroll IV
 	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll5
-	-"Glitches are <b>twice</b> as efficient. <br><i>Oh boy! I can't wait to abuse more glitches!</i>"
+	-"Glitches are <b>twice</b> as efficient.<br><i>Oh boy! I can't wait to abuse more glitches!</i>"
 	-costs 2.7878787e35 money, 40000 prePrestige, 5000 spacebricks
 	-unlocks at 75 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 200%
 	-named Glitch Scroll V
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll6
-	-"Glitches are <b>2.5 times</b> as efficient. <br><i>"insert [REDACTED] description here, although the [REDACTED] description is blocked by the government"</i>"
+	-"Glitches are <b>2.5 times</b> as efficient.<br><i>"insert [REDACTED] description here, although the [REDACTED] description is blocked by the government"</i>"
 	-costs 1.234567890e36 money, 66666 prePrestige, 6666 spacebricks
 	-unlocks at 100 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 250%
 	-named [REDACTED] Scroll VI
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll7
-	-"Glitches are <b>2.5 times</b> as efficient. <br><i>Infused with malicious lines of binary.</i>"
+	-"Glitches are <b>2.5 times</b> as efficient.<br><i>Infused with malicious lines of binary.</i>"
 	-costs 9.87654545e36 money, 77777 prePrestige, 8000 spacebricks
 	-unlocks at 150 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 250%
 	-named Glitch Scroll VII
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll8
-	-"Glitches are <b>2.5 times</b> as efficient. <br><i>Serving the world's computers, since 1981</i>"
+	-"Glitches are <b>2.5 times</b> as efficient.<br><i>Serving the world's computers, since 1981</i>"
 	-costs 1e38 money, 100000 prePrestige, 10000 spacebricks, 500 timebricks
 	-unlocks at 200 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 250%
 	-named MS-DOS
         -picture : http://i.imgur.com/Gtg8P7F.png
 	*glitchscroll9
-	-"Glitches are <b>3 times</b> as efficient. <br><i>These scrolls contain only 1 ounce of evil power. When stacked, it does... something awkward. (EDIT: They're still dangerous)</i>"
+	-"Glitches are <b>3 times</b> as efficient.<br><i>These scrolls contain only 1 ounce of evil power. When stacked, it does... something awkward. (EDIT: They're still dangerous)</i>"
 	-costs 2.432e38 money, 125000 prePrestige, 17500 spacebricks, 1000 timebricks
 	-unlocks at 250 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 300%
 	-named Danger!
         -picture : http://i.imgur.com/skLNAG0.png
 	*glitchscroll10
-	-"Glitches are <b>3 times</b> as efficient. <br><i>Who kept track of these numbers, anyway?</i>"
+	-"Glitches are <b>3 times</b> as efficient.<br><i>Who kept track of these numbers, anyway?</i>"
 	-costs 8.55555e38 money, 150000 prePrestige, 20000 spacebricks, 1000 timebricks
 	-unlocks at 300 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 300%
 	-named Glitch Scroll VIII
         -picture : http://i.imgur.com/skLNAG0.png
 	*glitchscroll11
-	-"Glitches are <b>4 times</b> as efficient. <br><i>That's a weird unlocking pattern, right there.</i>"
+	-"Glitches are <b>4 times</b> as efficient.<br><i>That's a weird unlocking pattern, right there.</i>"
 	-costs 1e40 money, 200000 prePrestige, 30000 spacebricks, 1337 timebricks
 	-unlocks at 333 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 400%
 	-named Glitch Scroll IX
         -picture : http://i.imgur.com/skLNAG0.png
 	*glitchscroll12
-	-"Glitches are <b>4 times</b> as efficient. <br><i>These don't consume the other space bricks and time bricks, we found out we'll just use the artifically made ones instead, since they have the same power, when eventually stacked together.</i>"
+	-"Glitches are <b>4 times</b> as efficient.<br><i>These don't consume the other space bricks and time bricks, we found out we'll just use the artifically made ones instead, since they have the same power, when eventually stacked together.</i>"
 	-costs 3.14159265e41 money, 250000 prePrestige, 50000 artspacebricks, 30000 arttimebricks
 	-unlocks at 400 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 400%
 	-named Glitch Node I
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*glitchscroll13
-	-"Glitches are <b>4 times</b> as efficient. <br><i>New destruction power was made!</i>"
+	-"Glitches are <b>4 times</b> as efficient. (Glitch Node II)<br><i>New destruction power was made!</i>"
 	-costs 9e42 money, 300000 prePrestige, 200000 artspacebricks, 50000 arttimebricks
 	-unlocks at 450 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 400%
 	-named Astonishing Variables
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*glitchscroll14
-	-"Glitches are <b>4.5 times</b> as efficient. <br><i>It's kind of breaking physics.</i>"
+	-"Glitches are <b>4.5 times</b> as efficient. (Glitch Node III)<br><i>It's kind of breaking physics.</i>"
 	-costs 2.5732135e43 money, 400000 prePrestige, 300000 artspacebricks, 70000 arttimebricks
 	-unlocks at 500 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 450%
 	-named Random Particles and Sprites
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*glitchscroll15
-	-"Glitches are <b>4.8 times</b> as efficient. <br><i>Zero day loopholes in walls are now being used to our advantage... if we controlled them. Don't ask why walls have zero day bugs, it sounds weird.</i>"
+	-"Glitches are <b>4.8 times</b> as efficient. (Glitch Node IV)<br><i>Zero day loopholes in walls are now being used to our advantage... if we controlled them. Don't ask why walls have zero day bugs, it sounds weird.</i>"
 	-costs 9.090090009e43 money, 500000 prePrestige, 400000 artspacebricks, 100000 arttimebricks
 	-unlocks at 550 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 480%
-	-named More Glitchiness
+	-named More Glitchiness (loopholes galore!)
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*glitchscroll16
 	-"// WARNING // DON'T BUY THIS YET, IT'S STILL BUGGED // Glitches are <b>5 times</b> as efficient. Unlocks the glitchpocalypse. A uncalled for warning. <br><i>the gli̵̘̰͔̿̄͘t̵̟͚̓̌̕̚͝c̴̩̆͐ĥ̴̖̩͒̊p̵̞̳̟̽o̸̢̖͚̝͈͒͛ć̶̳̜͑alyps̴̤̝̣̍̈́̈́̽ĕ̴̱̦̟̫̳̰̉͑̐ is <b>COMING</b>...</i>"
-	-costs 1e308 money, 10 edgeBeing, 30 begginingBuilding, 50 lastBuilding
+	-costs 1.66766566e44 money, 10 edgeBeing, 30 begginingBuilding, 50 lastBuilding
 	-unlocks at 600 anotherbuilding
 	-gives 1 glitchpocalypseprogress when bought
 	-multiplies efficiency of anotherbuilding by 500%
 	-named DARKEST NIGHT
 	-picture : https://i.imgur.com/onMV7rU.png
 	*GLITCHPOCALYPSE1
-	-"Glitches are <b>4 times</b> as efficient, at the cost of every other building losing 2.5% efficiency. Continues the glitchpocalypse. <br><i>I thought we knew everything, but based on some leaked information, I guess we don't have enough of it.</i>"
+	-"Glitches are <b>4 times</b> as efficient, at the cost of every other building only being 98% as efficient. Continues the glitchpocalypse. <br><i>I thought we knew everything, but based on some leaked information, I guess we don't have enough of it.</i>"
 	-costs 5e44 money, 25000 artspacebricks
 	-unlocks at 1 glitchpocalypseprogress
 	-gives 1 glitchpocalypseprogress when bought
 	-multiplies efficiency of anotherbuilding by 400%
-	-multiplies efficiency of puncher by 97.5%
-    	-multiplies efficiency of clubber by 97.5%
-    	-multiplies efficiency of swordsman by 97.5%
-    	-multiplies efficiency of gunner by 97.5%
-    	-multiplies efficiency of grenade by 97.5%
-    	-multiplies efficiency of wreckingBall by 97.5%
-    	-multiplies efficiency of bulldozer by 97.5%
-    	-multiplies efficiency of airstrike by 97.5%
-    	-multiplies efficiency of necromancer by 97.5%
-    	-multiplies efficiency of giant by 97.5%
-   	-multiplies efficiency of demon by 97.5%
-    	-multiplies efficiency of compromiser by 97.5%
-   	-multiplies efficiency of lastBuilding by 97.5%
-    	-multiplies efficiency of begginingBuilding by 97.5%
-    	-multiplies efficiency of edgeBeing by 97.5%
-    	-multiplies efficiency of brickFactory by 97.5%
+	-multiplies efficiency of puncher by 98%
+    	-multiplies efficiency of clubber by 98%
+    	-multiplies efficiency of swordsman by 98%
+    	-multiplies efficiency of gunner by 98%
+    	-multiplies efficiency of grenade by 98%
+    	-multiplies efficiency of wreckingBall by 98%
+    	-multiplies efficiency of bulldozer by 98%
+    	-multiplies efficiency of airstrike by 98%
+    	-multiplies efficiency of necromancer by 98%
+    	-multiplies efficiency of giant by 98%
+   	-multiplies efficiency of demon by 98%
+    	-multiplies efficiency of compromiser by 98%
+   	-multiplies efficiency of lastBuilding by 98%
+    	-multiplies efficiency of begginingBuilding by 98%
+    	-multiplies efficiency of edgeBeing by 98%
+    	-multiplies efficiency of brickFactory by 98%
 	-named Everything We Forgot About Them
 	*GLITCHPOCALYPSE2
 	-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching losing 4% efficiency. Continues the glitchpocalypse. <br><i>It's affecting almost everything at the moment, we've got to stop it! ~ No One Said Ever (except you)</i>"
