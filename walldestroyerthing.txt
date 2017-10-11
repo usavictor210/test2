@@ -4008,6 +4008,12 @@ Upgrades :
     -costs 1e300 money, 1e33 fourthwallmatter, 1e8 artspacebricks, 1e8 arttimebricks
     -unlocks at 2 timesActuallyWon
     -named "Dreamy" Heaven
+    
+    *victoryPointUpgrade3
+    -"a"
+    -costs 1e300 money, 1e33 fourthwallmatter, 1e8 artspacebricks, 1e8 arttimebricks
+    -unlocks at 2 timesActuallyWon
+    -named Hell and Heaven
  
     *wallMultiplier
     -"Everything is <b>5%</b> more efficient for each wall you've destroyed.<br><i>Let's compile our knowledge of wall destroying in a book so we can learn from our past mistakes.<br>CEO EDIT: the RUC does not make mistakes.</i>"
