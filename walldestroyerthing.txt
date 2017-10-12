@@ -421,6 +421,7 @@ Clickables :
 	-converts begginingDamage to nothing
 	-converts edgeBeingDamage to nothing
 	-converts glitchDamage to nothing
+	-converts dreamMachineDamage to nothing
 	-converts bricks to nothing
 	-converts totalBricks to nothing
 	-converts handBricks to nothing
@@ -434,6 +435,7 @@ Clickables :
 	-converts finalityBricks to nothing
 	-converts meshSpendable to nothing
 	-converts winSpendable to nothing
+	-converts dreamycoins to nothing
 	-converts wallsDestroyed to totalWalls
 	-converts timeSinceReset to nothing
 	-converts destroyWall to nothing
@@ -529,8 +531,9 @@ Clickables :
 	-converts timeUpgradeResource20 to nothing
 	-converts timeUpgradeResource21 to nothing
 	-converts timeUpgradeResource22 to nothing
-	-named Rewind time (Removes all buildings & resources, converts cosmic knowledge into prestige)
-	-says Time Rewound: Your cosmic knowledge has been converted into future knowledge capsules.
+	-multiplies nothing 0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001%
+	-named Rewind time (Removes all buildings & resources, converts cosmic knowledge into prestige, will soon turn building damage into coins)
+	-says Time Rewound: Your cosmic knowledge has been converted into future knowledge capsules. Damages that buildings have dealt have been exchanged for their respective coin.
 	-says The Time Bear is coming.
 
     *damageConverter
@@ -3919,6 +3922,7 @@ Upgrades :
     -"Everything is <b>12%</b> more efficient.<br><i>We beat the time bear. We are unstoppable. We are one. We are many.</i>"
     -costs 987654321012345678900000000 fourthWallMatter, 98765432101234567890000000000 bricks
     -unlocks at 18000000 prestige, 15 resetTimes
+    -unlocks timeBearAchieve3
     -multiplies efficiency of hitWall by 112%
     -multiplies efficiency of puncher by 112%
     -multiplies efficiency of clubber by 112%
@@ -3938,7 +3942,6 @@ Upgrades :
     -multiplies efficiency of brickFactory by 112%
     -multiplies efficiency of makeBricks by 112%
     -multiplies efficiency of anotherbuilding by 112%
-    -unlocks actualtimebeardefeat
     -named Finality Time Bear Ward
     -picture : http://i.imgur.com/eayVgaW.png
     
@@ -8804,7 +8807,7 @@ Achievements :
 	-named Hurtt
 	-picture : http://i.imgur.com/jLrZJ3N.png
 	*fourthDamageAchieve04
-	-"Have <b>100 Octillion</b> Fourth dimensional damage.<br><i>We're talking about punchers. Those which cant even fourth dimension.</i>"
+	-"Have <b>100 Octillion</b> Fourth dimensional damage.<br><i>We're talking about punchers. Those which can't even fourth dimension.</i>"
 	-unlocks at 100e27 tesseractDamage
 	-named Underestimated
 	-picture : http://i.imgur.com/nm7ACjC.png
