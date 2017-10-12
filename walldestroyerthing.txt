@@ -5076,7 +5076,7 @@ Upgrades :
 	-unlocks at 50 anotherbuilding
 	-multiplies efficiency of hitWall by 0.19% per anotherbuilding
 	-named Glitched Hands
-	-picture : http://i.imgur.com/ZmJ8hqf.png
+	-picture : https://i.imgur.com/TAJQNCr.png
 
 	*handBrickFactoryUpgrade
 	-"Hand punches do <b>0.5%</b> more damage per brick factory.<br>Manual brick creation creates <b>4%</b> more bricks per brick factory.<br><i>Fight fire with fire!</i>"
@@ -7585,7 +7585,7 @@ Upgrades :
 	-gives 1 glitchpocalypseprogress when bought
 	-multiplies efficiency of anotherbuilding by 500%
 	-named DARKEST NIGHT
-	-picture : https://imgur.com/fK6RsL6
+	-picture : https://i.imgur.com/fK6RsL6.png
 	*GLITCHPOCALYPSE1
 	-"Glitches are <b>4 times</b> as efficient, at the cost of every other building only being 98% as efficient. Continues the glitchpocalypse. <br><i>I thought we knew everything, but based on some leaked information, I guess we don't have enough of it.</i>"
 	-costs 5e44 money, 25000 artspacebricks
@@ -7609,6 +7609,7 @@ Upgrades :
     	-multiplies efficiency of edgeBeing by 98%
     	-multiplies efficiency of brickFactory by 98%
 	-named Everything We Forgot About Them
+	-picture : https://i.imgur.com/fK6RsL6.png
 	*GLITCHPOCALYPSE2
 	-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching losing 4% efficiency. Continues the glitchpocalypse. <br><i>It's affecting almost everything at the moment, we've got to stop it! ~ No One Said Ever (except you)</i>"
 	-costs 9e44 money, 36363 artspacebricks
@@ -7617,6 +7618,7 @@ Upgrades :
 	-multiplies efficiency of anotherbuilding by 400%
 	-multiplies efficiency of hitWall by 96%
 	-named Pwned
+	-picture : https://i.imgur.com/fK6RsL6.png
 	*brickFactoryUpgrade
 	-"Brick factories produce <b>50%</b> more bricks.<br><i>The dark magic tablets we're using can talk, so we need to learn more about them to use them better. They sound really creepy, and talk about really disturbing stuff.</i>"
 	-costs 66666666666666 money
