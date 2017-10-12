@@ -7585,7 +7585,7 @@ Upgrades :
 	-gives 1 glitchpocalypseprogress when bought
 	-multiplies efficiency of anotherbuilding by 500%
 	-named DARKEST NIGHT
-	-picture : https://i.imgur.com/onMV7rU.png
+	-picture : https://imgur.com/fK6RsL6
 	*GLITCHPOCALYPSE1
 	-"Glitches are <b>4 times</b> as efficient, at the cost of every other building only being 98% as efficient. Continues the glitchpocalypse. <br><i>I thought we knew everything, but based on some leaked information, I guess we don't have enough of it.</i>"
 	-costs 5e44 money, 25000 artspacebricks
