@@ -75,6 +75,9 @@ Resources :
 	*alphaBricks
 	-named alpha bricks
 	-classed importantresource
+	*dreamycoins
+	-named dreamy coins
+	-classed importantresource
 
         *menuItem2
         -displayed as ─────────────Stats─────────────
@@ -126,6 +129,8 @@ Resources :
 	-named Edge being damage
 	*glitchDamage
 	-named Glitch damage
+	*dreamMachineDamage
+	-named Dream Machine damage
  
         *damageDivider2
         -displayed as ────────────────────
@@ -1721,6 +1726,15 @@ Buildings :
 	-gives 5e25 glitchDamage
 	-named glitch|glitch
 	-unlocks at 300 totalWalls
+	-represents 1 building
+	
+	*dreammachine
+	-"Another Dream building<br>Deals <b>6.75 nonillion</b> base damage.<br>Mines 0.001 base dreamy coins.<br><i>Manipulates minds in dreams to mine dreamy coins.</i>"
+	-costs 1.83654729e36 money
+	-gives 6.75e30 money
+	-gives 6.75e30 totalMoney
+	-gives 6.75e30 dreamMachineDamage
+	-named Dream Machine|Dream Machines
 	-represents 1 building
 
 	*brickFactory
@@ -3930,7 +3944,7 @@ Upgrades :
     
     *victoryPointUpgrade1
     -"Almost every single wall gives <b>twice</b> as many rewards when destroyed. Walls that aren't affected: Boss Finality Wall<br><i>To turn the wall into pure gold so we get more money when we break it.</i><br>"
-    -costs 1e40 money, 1e33 fourthwallmatter, 1e7 artspacebricks, 1e6 arttimebricks
+    -costs 1e36 money, 1e33 fourthwallmatter, 1e7 artspacebricks, 1e6 arttimebricks
     -requires 300 begginingBuilding, 300 edgeBeing, 250 anotherbuilding
     -unlocks at 1 timesActuallyWon
     -multiplies efficiency of destroyWall by 200%
@@ -4004,17 +4018,31 @@ Upgrades :
     -picture : http://i.imgur.com/PKwvYiL.png
     
     *victoryPointUpgrade2
-    -"Does a thing (BETA EDITION)"
-    -costs 1e300 money, 1e33 fourthwallmatter, 1e8 artspacebricks, 1e8 arttimebricks
-    -unlocks at 2 timesActuallyWon
+    -"Everything is <b>50%</b> more efficient. <b>Unlocks... Dreamy Coins?</b><br><i>We accidentally were able to reach inside people's dreams. It looks like we could mine from them, a mysterious resource called Dreamy Coins. Sounds original, right? RIGHT??? </b>"
+    -costs 4.242424242e39 money, 4.2424242e36 fourthwallmatter, 6.4646464e8 artspacebricks, 5.2525252e8 arttimebricks
+    -unlocks at 4 timesActuallyWon
+    -multiplies efficiency of brickFactory by 150%
+    -multiplies efficiency of makeBricks by 150%
+    -multiplies efficiency of hitWall by 150%
+    -multiplies efficiency of puncher by 150%
+    -multiplies efficiency of clubber by 150%
+    -multiplies efficiency of swordsman by 150%
+    -multiplies efficiency of gunner by 150%
+    -multiplies efficiency of grenade by 150%
+    -multiplies efficiency of wreckingBall by 150%
+    -multiplies efficiency of bulldozer by 150%
+    -multiplies efficiency of airstrike by 150%
+    -multiplies efficiency of necromancer by 150%
+    -multiplies efficiency of giant by 150%
+    -multiplies efficiency of demon by 150%
+    -multiplies efficiency of compromiser by 150%
+    -multiplies efficiency of lastBuilding by 150%
+    -multiplies efficiency of begginingBuilding by 150%
+    -multiplies efficiency of edgeBeing by 150%
+    -multiplies efficiency of anotherbuilding by 150%
+    -unlocks dreammachine
     -named "Dreamy" Heaven
     
-    *victoryPointUpgrade3
-    -"a"
-    -costs 1e300 money, 1e33 fourthwallmatter, 1e8 artspacebricks, 1e8 arttimebricks
-    -unlocks at 2 timesActuallyWon
-    -named Hell and Heaven
- 
     *wallMultiplier
     -"Everything is <b>5%</b> more efficient for each wall you've destroyed.<br><i>Let's compile our knowledge of wall destroying in a book so we can learn from our past mistakes.<br>CEO EDIT: the RUC does not make mistakes.</i>"
     -costs 250000000000 money
