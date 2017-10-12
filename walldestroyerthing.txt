@@ -1489,7 +1489,7 @@ Buildings :
          -unlocks notasimpleupgrade
         *destroyinfinitything01
 	-"Destroy one of the walls of the infinite walls in this tier. Doesn't look like a wall due to laziness.<br>Gives <b>15</b> Alpha bricks, <b>2</b> Fifth Dimension bricks and <b>1 undecillion</b> bricks.<br>Worth <b>250,000</b> cosmic knowledge. A player: "We're finally getting bricks again?" "
-	-costs 1e48 tesseractDamage, 1e48 totalmoney
+	-costs 2.3465e47 tesseractDamage, 1e47 totalmoney
         -gives 1e36 bricks when bought
 	-represents 15 alphaBricks, 2 fifthBricks, 250000 prePrestige
 	-represents 1 wallsDestroyed
@@ -1498,48 +1498,48 @@ Buildings :
     -locks destroyinfinitything01
     -unlocks destroyinfinitything02
         *destroyinfinitything02
-	-"This is the same type of infinite wall, only in a greater army position.<br>Gives <b>25</b> Alpha bricks, <b>4</b> Fifth Dimension bricks, <b>1,000</b> artifical space bricks and <b>8 undecillion</b> bricks.<br>Worth <b>350,000</b> cosmic knowledge."
-	-costs 4.8484848e48 tesseractDamage, 1e49 totalmoney
+	-"This is the same type of infinite wall, only in a greater army position.<br>Gives <b>25</b> Alpha bricks, <b>4</b> Fifth Dimension bricks, <b>16,000</b> artifical space bricks and <b>8 undecillion</b> bricks.<br>Worth <b>350,000</b> cosmic knowledge."
+	-costs 4.8484848e48 tesseractDamage, 1.547531e48 totalmoney
         -gives 8e36 bricks when bought
-	-represents 25 alphaBricks, 4 fifthBricks, 350000 prePrestige, 1000 artspacebricks
+	-represents 25 alphaBricks, 4 fifthBricks, 350000 prePrestige, 16000 artspacebricks
 	-represents 1 wallsDestroyed
 	-classed bonuswallboss
 	-named Destroy a Greater Infinity Wall
         -locks destroyinfinitything02
         -unlocks destroyinfinitything03
         *destroyinfinitything03
-	-"This is a "royal" wall.<br>Gives <b>40</b> Alpha bricks, <b>7</b> Fifth Dimension bricks, <b>2,500</b> artifical space bricks, <b>300</b> artifical time bricks and <b>32 undecillion</b> bricks.<br>Worth <b>450,000</b> cosmic knowledge."
-    -costs 3.030303e49 tesseractDamage, 9.090909e49 totalmoney
+	-"This is a "royal" wall.<br>Gives <b>40</b> Alpha bricks, <b>7</b> Fifth Dimension bricks, <b>64,000</b> artifical space bricks, <b>25,400</b> artifical time bricks and <b>32 undecillion</b> bricks.<br>Worth <b>450,000</b> cosmic knowledge."
+    -costs 1.243658e49 tesseractDamage, 4.6464646e49 totalmoney
     -gives 3.2e37 bricks when bought
     -represents 40 alphaBricks, 7 fifthBricks, 450000 prePrestige
-    -represents 2500 artspacebricks, 300 arttimebricks
+    -represents 64000 artspacebricks, 25400 arttimebricks
     -represents 1 wallsDestroyed
     -classed bonuswallboss
     -named Destroy a High Rank Infinity Wall
     -locks destroyinfinitything03
     -unlocks destroyinfinitything04
     *destroyinfinitything04
-    -"You're hitting the authorities? Must be a serious job.<br>Gives <b>60</b> Alpha bricks, <b>12</b> Fifth Dimension bricks, <b>10,000</b> artifical space bricks, <b>2,000</b> artifical time bricks and <b>400 undecillion</b> bricks.<br>Worth <b>550,000</b> cosmic knowledge."
+    -"You're hitting the authorities? Must be a serious job.<br>Gives <b>60</b> Alpha bricks, <b>12</b> Fifth Dimension bricks, <b>128,000</b> artifical space bricks, <b>35,000</b> artifical time bricks and <b>400 undecillion</b> bricks.<br>Worth <b>550,000</b> cosmic knowledge."
     -costs 1e50 tesseractDamage, 3.333e50 totalmoney
     -gives 4e38 bricks when bought
     -represents 60 alphaBricks, 12 fifthBricks, 550000 prePrestige
-    -represents 10000 artspacebricks, 2000 arttimebricks
+    -represents 128000 artspacebricks, 35000 arttimebricks
     -represents 1 wallsDestroyed
     -classed bonuswallboss
     -named Destroy a Elite Infinity Wall
     -locks destroyinfinitything04
     -unlocks destroyinfinitything05
     *destroyinfinitything05
-    -"HOI! (this is a placeholder) <br>Gives <b>80</b> Alpha bricks, <b>16</b> Fifth Dimension bricks, <b>80,000</b> artifical space bricks, <b>20,000</b> artifical time bricks and <b>10 duodecillion</b> bricks.<br>Worth <b>650,000</b> cosmic knowledge."
-    -costs 1e50 tesseractDamage, 3.333e50 totalmoney
+    -"HOI! (this is a placeholder) <br>Gives <b>80</b> Alpha bricks, <b>16</b> Fifth Dimension bricks, <b>320,000</b> artifical space bricks, <b>80,000</b> artifical time bricks and <b>10 duodecillion</b> bricks.<br>Worth <b>650,000</b> cosmic knowledge."
+    -costs 4.500e50 tesseractDamage, 7.68543e50 totalmoney
     -gives 1e40 bricks when bought
     -represents 80 alphaBricks, 16 fifthBricks, 650000 prePrestige
-    -represents 80000 artspacebricks, 20000 arttimebricks
+    -represents 320000 artspacebricks, 80000 arttimebricks
     -represents 1 wallsDestroyed
     -classed bonuswallboss
     -named Destroy a Temmie Infinity Wall
     -locks destroyinfinitything05
-    -picture : https://t4.rbxcdn.com/4c9034c1e962ff088ae9fa9b32676a8f
+    -unlocks destroyinfinitything06
 
 	*timeUpgradeProducer
 	-abstract
