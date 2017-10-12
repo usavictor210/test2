@@ -75,6 +75,9 @@ Resources :
 	*alphaBricks
 	-named alpha bricks
 	-classed importantresource
+	*dreamycoins
+	-named dreamy coins
+	-classed importantresource
 
         *menuItem2
         -displayed as ─────────────Stats─────────────
@@ -126,6 +129,8 @@ Resources :
 	-named Edge being damage
 	*glitchDamage
 	-named Glitch damage
+	*dreamMachineDamage
+	-named Dream Machine damage
  
         *damageDivider2
         -displayed as ────────────────────
@@ -266,6 +271,9 @@ Resources :
  
         *nothing
         -abstract
+	
+	*glitchpocalypseprogress
+	-abstract
  
         *never
         -abstract
@@ -1481,7 +1489,7 @@ Buildings :
          -unlocks notasimpleupgrade
         *destroyinfinitything01
 	-"Destroy one of the walls of the infinite walls in this tier. Doesn't look like a wall due to laziness.<br>Gives <b>15</b> Alpha bricks, <b>2</b> Fifth Dimension bricks and <b>1 undecillion</b> bricks.<br>Worth <b>250,000</b> cosmic knowledge. A player: "We're finally getting bricks again?" "
-	-costs 1e48 tesseractDamage, 1e48 totalmoney
+	-costs 2.3465e47 tesseractDamage, 1e47 totalmoney
         -gives 1e36 bricks when bought
 	-represents 15 alphaBricks, 2 fifthBricks, 250000 prePrestige
 	-represents 1 wallsDestroyed
@@ -1490,48 +1498,48 @@ Buildings :
     -locks destroyinfinitything01
     -unlocks destroyinfinitything02
         *destroyinfinitything02
-	-"This is the same type of infinite wall, only in a greater army position.<br>Gives <b>25</b> Alpha bricks, <b>4</b> Fifth Dimension bricks, <b>1,000</b> artifical space bricks and <b>8 undecillion</b> bricks.<br>Worth <b>350,000</b> cosmic knowledge."
-	-costs 4.8484848e48 tesseractDamage, 1e49 totalmoney
+	-"This is the same type of infinite wall, only in a greater army position.<br>Gives <b>25</b> Alpha bricks, <b>4</b> Fifth Dimension bricks, <b>16,000</b> artifical space bricks and <b>8 undecillion</b> bricks.<br>Worth <b>350,000</b> cosmic knowledge."
+	-costs 4.8484848e48 tesseractDamage, 1.547531e48 totalmoney
         -gives 8e36 bricks when bought
-	-represents 25 alphaBricks, 4 fifthBricks, 350000 prePrestige, 1000 artspacebricks
+	-represents 25 alphaBricks, 4 fifthBricks, 350000 prePrestige, 16000 artspacebricks
 	-represents 1 wallsDestroyed
 	-classed bonuswallboss
 	-named Destroy a Greater Infinity Wall
         -locks destroyinfinitything02
         -unlocks destroyinfinitything03
         *destroyinfinitything03
-	-"This is a "royal" wall.<br>Gives <b>40</b> Alpha bricks, <b>7</b> Fifth Dimension bricks, <b>2,500</b> artifical space bricks, <b>300</b> artifical time bricks and <b>32 undecillion</b> bricks.<br>Worth <b>450,000</b> cosmic knowledge."
-    -costs 3.030303e49 tesseractDamage, 9.090909e49 totalmoney
+	-"This is a "royal" wall.<br>Gives <b>40</b> Alpha bricks, <b>7</b> Fifth Dimension bricks, <b>64,000</b> artifical space bricks, <b>25,400</b> artifical time bricks and <b>32 undecillion</b> bricks.<br>Worth <b>450,000</b> cosmic knowledge."
+    -costs 1.243658e49 tesseractDamage, 4.6464646e49 totalmoney
     -gives 3.2e37 bricks when bought
     -represents 40 alphaBricks, 7 fifthBricks, 450000 prePrestige
-    -represents 2500 artspacebricks, 300 arttimebricks
+    -represents 64000 artspacebricks, 25400 arttimebricks
     -represents 1 wallsDestroyed
     -classed bonuswallboss
     -named Destroy a High Rank Infinity Wall
     -locks destroyinfinitything03
     -unlocks destroyinfinitything04
     *destroyinfinitything04
-    -"You're hitting the authorities? Must be a serious job.<br>Gives <b>60</b> Alpha bricks, <b>12</b> Fifth Dimension bricks, <b>10,000</b> artifical space bricks, <b>2,000</b> artifical time bricks and <b>400 undecillion</b> bricks.<br>Worth <b>550,000</b> cosmic knowledge."
+    -"You're hitting the authorities? Must be a serious job.<br>Gives <b>60</b> Alpha bricks, <b>12</b> Fifth Dimension bricks, <b>128,000</b> artifical space bricks, <b>35,000</b> artifical time bricks and <b>400 undecillion</b> bricks.<br>Worth <b>550,000</b> cosmic knowledge."
     -costs 1e50 tesseractDamage, 3.333e50 totalmoney
     -gives 4e38 bricks when bought
     -represents 60 alphaBricks, 12 fifthBricks, 550000 prePrestige
-    -represents 10000 artspacebricks, 2000 arttimebricks
+    -represents 128000 artspacebricks, 35000 arttimebricks
     -represents 1 wallsDestroyed
     -classed bonuswallboss
     -named Destroy a Elite Infinity Wall
     -locks destroyinfinitything04
     -unlocks destroyinfinitything05
     *destroyinfinitything05
-    -"HOI! (this is a placeholder) <br>Gives <b>80</b> Alpha bricks, <b>16</b> Fifth Dimension bricks, <b>80,000</b> artifical space bricks, <b>20,000</b> artifical time bricks and <b>10 duodecillion</b> bricks.<br>Worth <b>650,000</b> cosmic knowledge."
-    -costs 1e50 tesseractDamage, 3.333e50 totalmoney
+    -"HOI! (this is a placeholder) <br>Gives <b>80</b> Alpha bricks, <b>16</b> Fifth Dimension bricks, <b>320,000</b> artifical space bricks, <b>80,000</b> artifical time bricks and <b>10 duodecillion</b> bricks.<br>Worth <b>650,000</b> cosmic knowledge."
+    -costs 4.500e50 tesseractDamage, 7.68543e50 totalmoney
     -gives 1e40 bricks when bought
     -represents 80 alphaBricks, 16 fifthBricks, 650000 prePrestige
-    -represents 80000 artspacebricks, 20000 arttimebricks
+    -represents 320000 artspacebricks, 80000 arttimebricks
     -represents 1 wallsDestroyed
     -classed bonuswallboss
     -named Destroy a Temmie Infinity Wall
     -locks destroyinfinitything05
-    -picture : https://t4.rbxcdn.com/4c9034c1e962ff088ae9fa9b32676a8f
+    -unlocks destroyinfinitything06
 
 	*timeUpgradeProducer
 	-abstract
@@ -1718,6 +1726,15 @@ Buildings :
 	-gives 5e25 glitchDamage
 	-named glitch|glitch
 	-unlocks at 300 totalWalls
+	-represents 1 building
+	
+	*dreammachine
+	-"Another Dream building<br>Deals <b>6.75 nonillion</b> base damage.<br>Mines 0.001 base dreamy coins.<br><i>Manipulates minds in dreams to mine dreamy coins.</i>"
+	-costs 1.83654729e36 money
+	-gives 6.75e30 money
+	-gives 6.75e30 totalMoney
+	-gives 6.75e30 dreamMachineDamage
+	-named Dream Machine|Dream Machines
 	-represents 1 building
 
 	*brickFactory
@@ -3927,7 +3944,7 @@ Upgrades :
     
     *victoryPointUpgrade1
     -"Almost every single wall gives <b>twice</b> as many rewards when destroyed. Walls that aren't affected: Boss Finality Wall<br><i>To turn the wall into pure gold so we get more money when we break it.</i><br>"
-    -costs 1e42 money, 1e33 fourthwallmatter, 1e9 artspacebricks, 1e8 arttimebricks
+    -costs 1e36 money, 1e33 fourthwallmatter, 1e7 artspacebricks, 1e6 arttimebricks
     -requires 300 begginingBuilding, 300 edgeBeing, 250 anotherbuilding
     -unlocks at 1 timesActuallyWon
     -multiplies efficiency of destroyWall by 200%
@@ -3999,7 +4016,33 @@ Upgrades :
     -multiplies efficiency of destroyinfinitything05 by 200%
     -named Wall Transmutation
     -picture : http://i.imgur.com/PKwvYiL.png
- 
+    
+    *victoryPointUpgrade2
+    -"Everything is <b>50%</b> more efficient. <b>Unlocks... Dreamy Coins?</b><br><i>We accidentally were able to reach inside people's dreams. It looks like we could mine from them, a mysterious resource called Dreamy Coins. Sounds original, right? RIGHT??? </b>"
+    -costs 4.242424242e39 money, 4.2424242e36 fourthwallmatter, 6.4646464e8 artspacebricks, 5.2525252e8 arttimebricks
+    -unlocks at 4 timesActuallyWon
+    -multiplies efficiency of brickFactory by 150%
+    -multiplies efficiency of makeBricks by 150%
+    -multiplies efficiency of hitWall by 150%
+    -multiplies efficiency of puncher by 150%
+    -multiplies efficiency of clubber by 150%
+    -multiplies efficiency of swordsman by 150%
+    -multiplies efficiency of gunner by 150%
+    -multiplies efficiency of grenade by 150%
+    -multiplies efficiency of wreckingBall by 150%
+    -multiplies efficiency of bulldozer by 150%
+    -multiplies efficiency of airstrike by 150%
+    -multiplies efficiency of necromancer by 150%
+    -multiplies efficiency of giant by 150%
+    -multiplies efficiency of demon by 150%
+    -multiplies efficiency of compromiser by 150%
+    -multiplies efficiency of lastBuilding by 150%
+    -multiplies efficiency of begginingBuilding by 150%
+    -multiplies efficiency of edgeBeing by 150%
+    -multiplies efficiency of anotherbuilding by 150%
+    -unlocks dreammachine
+    -named "Dreamy" Heaven
+    
     *wallMultiplier
     -"Everything is <b>5%</b> more efficient for each wall you've destroyed.<br><i>Let's compile our knowledge of wall destroying in a book so we can learn from our past mistakes.<br>CEO EDIT: the RUC does not make mistakes.</i>"
     -costs 250000000000 money
@@ -5023,6 +5066,14 @@ Upgrades :
 	-unlocks at 50 edgeBeing
 	-named Superspositioned Multidimensional Edgy Fists
 	-picture : http://i.imgur.com/YREu98L.png
+	
+	*handGlitchUpgrade
+	-"<b>Illegal Mesh Scroll:</b> Hand punches deal <b>0.19%</b> more damage per glitch.<br><i>Hopefully not the W.D. Gaster hands, whoever "he" is..</i>"
+	-costs 2.62144e40 money, 131072 artSpaceBricks, 16384 artTimeBricks
+	-unlocks at 50 anotherbuilding
+	-multiplies efficiency of hitWall by 0.19% per anotherbuilding
+	-named Glitched Hands
+	-picture : http://i.imgur.com/ZmJ8hqf.png
 
 	*handBrickFactoryUpgrade
 	-"Hand punches do <b>0.5%</b> more damage per brick factory.<br>Manual brick creation creates <b>4%</b> more bricks per brick factory.<br><i>Fight fire with fire!</i>"
@@ -7287,7 +7338,7 @@ Upgrades :
 	-picture : http://i.imgur.com/mXRDfR5.png
 
 	*edgeBeingUpgrade1
-	-"Edge beings deal <b>50%</b> more damage and generate <b>50%</b> more bricks.<br><i>Because living on the edge is lonely obviously ~RUC CEO</i>"
+	-"Edge beings deal <b>50%</b> more damage and generate <b>50%</b> more bricks.<br><i>"Because living on the edge is lonely, obviously." ~RUC CEO</i>"
 	-costs 1.234e30 money, 4 endBricks
 	-unlocks at 1 edgeBeing
 	-multiplies efficiency of edgeBeing by 150%
@@ -7301,7 +7352,7 @@ Upgrades :
 	-named Edgy Katanas
 	-picture : http://i.imgur.com/XKK3FKS.png
 	*edgeBeingUpgrade3
-	-"Edge beings deal <b>twice</b> as much damage and generate <b>twice</b> as much bricks.<br><i>Give edge beings a wall costume, so they are invisible near other walls. totally not dangerous! ~RUC CEO</i>"
+	-"Edge beings deal <b>twice</b> as much damage and generate <b>twice</b> as much bricks.<br><i>"We gave edge beings a wall costume, so they are invisible near other walls. Totally not dangerous!" ~RUC CEO</i>"
 	-costs 789.011e30 money, 7 endBricks
 	-unlocks at 25 edgeBeing
 	-multiplies efficiency of edgeBeing by 200%
@@ -7315,7 +7366,7 @@ Upgrades :
 	-named SCP-169
 	-picture : http://i.imgur.com/UiYgx6i.png
 	*edgeBeingUpgrade5
-	-"Edge beings deal <b>twice</b> as much damage and generate <b>twice</b> as much bricks.<br><i>Extinguish wise universe for exchange of the ultimate power</i>"
+	-"Edge beings deal <b>twice</b> as much damage and generate <b>twice</b> as much bricks.<br><i>"Extinguish the wise universe for exchange of the ultimate power."</i>"
 	-costs 38.0909e33 money, 15 endBricks
 	-unlocks at 75 edgeBeing
 	-multiplies efficiency of edgeBeing by 200%
@@ -7350,7 +7401,7 @@ Upgrades :
 	-named Born in The 2814 Generation
 	-picture : http://i.imgur.com/qfscrvY.png
 	*edgeBeingUpgrade11
-	-"Edge beings deal <b>four</b> as much damage and generate <b>four</b> as much bricks.<br><i>"We took several experiments with the Edge beings. It turned out very well until they grew size up to the Sagittarius A*." ~Scientist #206</i>"
+	-"Edge beings deal <b>four</b> as much damage and generate <b>four</b> as much bricks.<br><i>"We took several experiments with the Edge Beings. It turned out very well until they grew to a size up to the Sagittarius A*." ~Scientist #206</i>"
 	-costs 254.003e42 money, 1000 endBricks
 	-unlocks at 400 edgeBeing
 	-multiplies efficiency of edgeBeing by 400%
@@ -7420,96 +7471,149 @@ Upgrades :
 	-named Sharing of The Secrets
 	-picture : http://i.imgur.com/YPQ4CLG.png
 	*glitchscroll
-	-"Glitches are <b>50%</b> more efficient. <br><i>It displays a rip-off version of those end scrolls, but it has some unused bytes. They should use them.</i>"
+	-"Glitches are <b>50%</b> more efficient.<br><i>It displays a rip-off version of those end scrolls, but it has some unused bytes. They should use them.</i>"
 	-costs 5e31 money, 10000 prePrestige
 	-unlocks at 5 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 150%
 	-named Glitch Scroll I
 	-picture : http://i.imgur.com/oH8QPgZ.png
 	*glitchscroll2
-	-"Glitches are <b>50%</b> more efficient. <br><i>Another scroll. That's great, isn't it?</i>"
+	-"Glitches are <b>50%</b> more efficient.<br><i>Another scroll. That's great, isn't it?</i>"
 	-costs 6.6e32 money, 20000 prePrestige, 1000 spacebricks
 	-unlocks at 10 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 150%
 	-named Glitch Scroll II
 	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll3
-	-"Glitches are <b>twice</b> as efficient. <br><i>THIS ISN'T ENOUGH</i>"
+	-"Glitches are <b>twice</b> as efficient.<br><i>THIS ISN'T ENOUGH</i>"
 	-costs 7e33 money, 25000 prePrestige, 2000 spacebricks
 	-unlocks at 25 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 200%
 	-named Glitch Scroll III
 	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll4
-	-"Glitches are <b>twice</b> as efficient. <br><i>[B]</i>"
+	-"Glitches are <b>twice</b> as efficient.<br><i>[B]</i>"
 	-costs 4.4444e34 money, 30000 prePrestige, 3500 spacebricks
 	-unlocks at 50 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 200%
 	-named Glitch Scroll IV
 	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll5
-	-"Glitches are <b>twice</b> as efficient. <br><i>Oh boy! I can't wait to abuse more glitches!</i>"
+	-"Glitches are <b>twice</b> as efficient.<br><i>Oh boy! I can't wait to abuse more glitches!</i>"
 	-costs 2.7878787e35 money, 40000 prePrestige, 5000 spacebricks
 	-unlocks at 75 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 200%
 	-named Glitch Scroll V
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll6
-	-"Glitches are <b>2.5 times</b> as efficient. <br><i>"insert [REDACTED] description here, although the [REDACTED] description is blocked by the government"</i>"
+	-"Glitches are <b>2.5 times</b> as efficient.<br><i>"insert [REDACTED] description here, although the [REDACTED] description is blocked by the government"</i>"
 	-costs 1.234567890e36 money, 66666 prePrestige, 6666 spacebricks
 	-unlocks at 100 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 250%
 	-named [REDACTED] Scroll VI
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll7
-	-"Glitches are <b>2.5 times</b> as efficient. <br><i>Infused with malicious lines of binary.</i>"
+	-"Glitches are <b>2.5 times</b> as efficient.<br><i>Infused with malicious lines of binary.</i>"
 	-costs 9.87654545e36 money, 77777 prePrestige, 8000 spacebricks
 	-unlocks at 150 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 250%
 	-named Glitch Scroll VII
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll8
-	-"Glitches are <b>2.5 times</b> as efficient. <br><i>Serving the world's computers, since 1981</i>"
+	-"Glitches are <b>2.5 times</b> as efficient.<br><i>Serving the world's computers, since 1981</i>"
 	-costs 1e38 money, 100000 prePrestige, 10000 spacebricks, 500 timebricks
 	-unlocks at 200 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 250%
 	-named MS-DOS
         -picture : http://i.imgur.com/Gtg8P7F.png
 	*glitchscroll9
-	-"Glitches are <b>3 times</b> as efficient. <br><i>These scrolls contain only 1 ounce of evil power. When stacked, it does... something awkward.</i>"
+	-"Glitches are <b>3 times</b> as efficient.<br><i>These scrolls contain only 1 ounce of evil power. When stacked, it does... something awkward. (EDIT: They're still dangerous)</i>"
 	-costs 2.432e38 money, 125000 prePrestige, 17500 spacebricks, 1000 timebricks
 	-unlocks at 250 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 300%
 	-named Danger!
         -picture : http://i.imgur.com/skLNAG0.png
 	*glitchscroll10
-	-"Glitches are <b>3 times</b> as efficient. <br><i>Who kept track of these numbers, anyway?</i>"
+	-"Glitches are <b>3 times</b> as efficient.<br><i>Who kept track of these numbers, anyway?</i>"
 	-costs 8.55555e38 money, 150000 prePrestige, 20000 spacebricks, 1000 timebricks
 	-unlocks at 300 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 300%
 	-named Glitch Scroll VIII
         -picture : http://i.imgur.com/skLNAG0.png
 	*glitchscroll11
-	-"Glitches are <b>4 times</b> as efficient. <br><i>How would you like a broken unlock pattern? (300 then 333)</i>"
+	-"Glitches are <b>4 times</b> as efficient.<br><i>That's a weird unlocking pattern, right there.</i>"
 	-costs 1e40 money, 200000 prePrestige, 30000 spacebricks, 1337 timebricks
 	-unlocks at 333 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 400%
 	-named Glitch Scroll IX
         -picture : http://i.imgur.com/skLNAG0.png
 	*glitchscroll12
-	-"Glitches are <b>4 times</b> as efficient. <br><i>These don't consume the other space bricks and time bricks, we found out we'll just use the artifically made ones instead, since they have the same power.</i>"
-	-costs 3.14159265e41 money, 250000 prePrestige, 50000 artspacebricks, 100000 arttimebricks
+	-"Glitches are <b>4 times</b> as efficient.<br><i>These don't consume the other space bricks and time bricks, we found out we'll just use the artifically made ones instead, since they have the same power, when eventually stacked together.</i>"
+	-costs 3.14159265e41 money, 250000 prePrestige, 50000 artspacebricks, 30000 arttimebricks
 	-unlocks at 400 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 400%
 	-named Glitch Node I
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*glitchscroll13
-	-"Glitches are <b>4 times</b> as efficient. <br><i>New destruction power was made!</i>"
-	-costs 9e42 money, 300000 prePrestige, 200000 artspacebricks, 200000 arttimebricks
+	-"Glitches are <b>4 times</b> as efficient. (Glitch Node II)<br><i>New destruction power was made!</i>"
+	-costs 9e42 money, 300000 prePrestige, 200000 artspacebricks, 50000 arttimebricks
 	-unlocks at 450 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 400%
 	-named Astonishing Variables
 	-picture : http://i.imgur.com/nLIn2uJ.png
+	*glitchscroll14
+	-"Glitches are <b>4.5 times</b> as efficient. (Glitch Node III)<br><i>It's kind of breaking physics.</i>"
+	-costs 2.5732135e43 money, 400000 prePrestige, 300000 artspacebricks, 70000 arttimebricks
+	-unlocks at 500 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 450%
+	-named Random Particles and Sprites
+	-picture : http://i.imgur.com/nLIn2uJ.png
+	*glitchscroll15
+	-"Glitches are <b>4.8 times</b> as efficient. (Glitch Node IV)<br><i>Zero day loopholes in walls are now being used to our advantage... if we controlled them. Don't ask why walls have zero day bugs, it sounds weird.</i>"
+	-costs 9.090090009e43 money, 500000 prePrestige, 400000 artspacebricks, 100000 arttimebricks
+	-unlocks at 550 anotherbuilding
+	-multiplies efficiency of anotherbuilding by 480%
+	-named More Glitchiness (loopholes galore!)
+	-picture : http://i.imgur.com/nLIn2uJ.png
+	*glitchscroll16
+	-"// WARNING // DON'T BUY THIS YET, IT'S STILL BUGGED // Glitches are <b>5 times</b> as efficient. Unlocks the glitchpocalypse. A uncalled for warning. <br><i>the gli̵̘̰͔̿̄͘t̵̟͚̓̌̕̚͝c̴̩̆͐ĥ̴̖̩͒̊p̵̞̳̟̽o̸̢̖͚̝͈͒͛ć̶̳̜͑alyps̴̤̝̣̍̈́̈́̽ĕ̴̱̦̟̫̳̰̉͑̐ is <b>COMING</b>...</i>"
+	-costs 1.66766566e44 money, 10 edgeBeing, 30 begginingBuilding, 50 lastBuilding
+	-unlocks at 600 anotherbuilding
+	-gives 1 glitchpocalypseprogress when bought
+	-multiplies efficiency of anotherbuilding by 500%
+	-named DARKEST NIGHT
+	-picture : https://i.imgur.com/onMV7rU.png
+	*GLITCHPOCALYPSE1
+	-"Glitches are <b>4 times</b> as efficient, at the cost of every other building only being 98% as efficient. Continues the glitchpocalypse. <br><i>I thought we knew everything, but based on some leaked information, I guess we don't have enough of it.</i>"
+	-costs 5e44 money, 25000 artspacebricks
+	-unlocks at 1 glitchpocalypseprogress
+	-gives 1 glitchpocalypseprogress when bought
+	-multiplies efficiency of anotherbuilding by 400%
+	-multiplies efficiency of puncher by 98%
+    	-multiplies efficiency of clubber by 98%
+    	-multiplies efficiency of swordsman by 98%
+    	-multiplies efficiency of gunner by 98%
+    	-multiplies efficiency of grenade by 98%
+    	-multiplies efficiency of wreckingBall by 98%
+    	-multiplies efficiency of bulldozer by 98%
+    	-multiplies efficiency of airstrike by 98%
+    	-multiplies efficiency of necromancer by 98%
+    	-multiplies efficiency of giant by 98%
+   	-multiplies efficiency of demon by 98%
+    	-multiplies efficiency of compromiser by 98%
+   	-multiplies efficiency of lastBuilding by 98%
+    	-multiplies efficiency of begginingBuilding by 98%
+    	-multiplies efficiency of edgeBeing by 98%
+    	-multiplies efficiency of brickFactory by 98%
+	-named Everything We Forgot About Them
+	*GLITCHPOCALYPSE2
+	-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching losing 4% efficiency. Continues the glitchpocalypse. <br><i>It's affecting almost everything at the moment, we've got to stop it! ~ No One Said Ever (except you)</i>"
+	-costs 9e44 money, 36363 artspacebricks
+	-unlocks at 2 glitchpocalypseprogress
+	-gives 1 glitchpocalypseprogress when bought
+	-multiplies efficiency of anotherbuilding by 400%
+	-multiplies efficiency of hitWall by 96%
+	-named Pwned
 	*brickFactoryUpgrade
 	-"Brick factories produce <b>50%</b> more bricks.<br><i>The dark magic tablets we're using can talk, so we need to learn more about them to use them better. They sound really creepy, and talk about really disturbing stuff.</i>"
 	-costs 66666666666666 money
@@ -10441,6 +10545,16 @@ Achievements :
 	-"Hire <b>10</b> glitches. Not really enough. The achievement picture is still a question mark because the glitch corrupted it."
 	-named Kind of Defective
 	-unlocks at 10 anotherbuilding
+	-picture : http://i.imgur.com/Gtg8P7F.png
+	*glitchAchieve3
+	-"Hire <b>25</b> glitches. (had no idea what to write)"
+	-named Another Glitch
+	-unlocks at 25 anotherbuilding
+	-picture : http://i.imgur.com/Gtg8P7F.png
+	*glitchAchieve4
+	-"Hire <b>50</b> glitches."
+	-named Glitch to the 2nd Power
+	-unlocks at 50 anotherbuilding
 	-picture : http://i.imgur.com/Gtg8P7F.png
 
 	*buildingAchieve1
