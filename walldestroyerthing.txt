@@ -271,9 +271,6 @@ Resources :
  
         *nothing
         -abstract
-	
-	*glitchpocalypseprogress
-	-abstract
  
         *never
         -abstract
@@ -7582,15 +7579,14 @@ Upgrades :
 	-"// WARNING // DON'T BUY THIS YET, IT'S STILL BUGGED // Glitches are <b>5 times</b> as efficient. Unlocks the glitchpocalypse. A uncalled for warning. <br><i>the gli̵̘̰͔̿̄͘t̵̟͚̓̌̕̚͝c̴̩̆͐ĥ̴̖̩͒̊p̵̞̳̟̽o̸̢̖͚̝͈͒͛ć̶̳̜͑alyps̴̤̝̣̍̈́̈́̽ĕ̴̱̦̟̫̳̰̉͑̐ is <b>COMING</b>...</i>"
 	-costs 1.66766566e44 money, 10 edgeBeing, 30 begginingBuilding, 50 lastBuilding
 	-unlocks at 600 anotherbuilding
-	-gives 1 glitchpocalypseprogress when bought
+	-unlocks GLITCHPOCALYPSE1
 	-multiplies efficiency of anotherbuilding by 500%
 	-named DARKEST NIGHT
 	-picture : https://i.imgur.com/fK6RsL6.png
 	*GLITCHPOCALYPSE1
 	-"Glitches are <b>4 times</b> as efficient, at the cost of every other building only being 98% as efficient. Continues the glitchpocalypse. <br><i>I thought we knew everything, but based on some leaked information, I guess we don't have enough of it.</i>"
 	-costs 5e44 money, 25000 artspacebricks
-	-unlocks at 1 glitchpocalypseprogress
-	-gives 1 glitchpocalypseprogress when bought
+	-unlocks GLITCHPOCALYPSE2
 	-multiplies efficiency of anotherbuilding by 400%
 	-multiplies efficiency of puncher by 98%
     	-multiplies efficiency of clubber by 98%
@@ -7613,8 +7609,7 @@ Upgrades :
 	*GLITCHPOCALYPSE2
 	-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching losing 4% efficiency. Continues the glitchpocalypse. <br><i>It's affecting almost everything at the moment, we've got to stop it! ~ No One Said Ever (except you)</i>"
 	-costs 9e44 money, 36363 artspacebricks
-	-unlocks at 2 glitchpocalypseprogress
-	-gives 1 glitchpocalypseprogress when bought
+	-unlocks GLITCHPOCALYPSE3
 	-multiplies efficiency of anotherbuilding by 400%
 	-multiplies efficiency of hitWall by 96%
 	-named Pwned
