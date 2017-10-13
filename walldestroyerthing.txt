@@ -1540,6 +1540,16 @@ Buildings :
     -named Destroy a Temmie Infinity Wall
     -locks destroyinfinitything05
     -unlocks destroyinfinitything06
+    *destroyinfinitything06
+    -"Guess what? It was no placeholder.<br>Gives <b>125</b> Alpha bricks, <b>25</b> Fifth Dimension bricks, <b>320,000</b> artifical space bricks, <b>80,000</b> artifical time bricks and <b>60 duodecillion</b> bricks.<br>Worth <b>750,000</b> cosmic knowledge."
+    -costs 1.87654321234567890e50 tesseractDamage, 3.12742156444444444444e51 totalmoney
+    -gives 6e40 bricks when bought
+    -represents 125 alphaBricks, 25 fifthBricks, 750000 prePrestige
+    -represents 640000 artspacebricks, 100000 arttimebricks
+    -represents 1 wallsDestroyed
+    -classed bonuswallboss
+    -named Destroy a Important Infinity Wall
+    -locks destroyinfinitything06
 
 	*timeUpgradeProducer
 	-abstract
@@ -7616,7 +7626,7 @@ Upgrades :
 	-picture : https://i.imgur.com/fK6RsL6.png
 	*GLITCHPOCALYPSE3
 	-"Glitches are <b>5.2 times</b> as efficient, at the cost of manual punching being only 92% as efficient. Continues the glitchpocalypse. <br><i>What is the cost? Why does it matter?</i>"
-	-costs 9e44 money, 36363 artspacebricks
+	-costs 2.550550555e44 money, 72000 artspacebricks
 	-multiplies efficiency of anotherbuilding by 520%
 	-multiplies efficiency of hitWall by 92%
 	-named The Cost
