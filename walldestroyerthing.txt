@@ -7617,7 +7617,7 @@ Upgrades :
 	-named Everything We Forgot About Them
 	-picture : https://i.imgur.com/fK6RsL6.png
 	*GLITCHPOCALYPSE2
-	-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching being only 96% as efficient. Continues the glitchpocalypse. <br><i>It's affecting almost everything at the moment, we've got to stop it! ~ No One Said Ever (except you)</i>"
+	-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching being only 96% as efficient. Continues the glitchpocalypse. <br><i>"It's affecting almost everything at the moment, we've got to stop it!" ~ No One Said Ever (except you)</i>"
 	-costs 9e44 money, 36363 artspacebricks
 	-unlocks GLITCHPOCALYPSE3
 	-multiplies efficiency of anotherbuilding by 400%
@@ -7626,10 +7626,11 @@ Upgrades :
 	-picture : https://i.imgur.com/fK6RsL6.png
 	*GLITCHPOCALYPSE3
 	-"Glitches are <b>5.2 times</b> as efficient, at the cost of manual punching being only 92% as efficient. Continues the glitchpocalypse. <br><i>What is the cost? Why does it matter?</i>"
-	-costs 2.550550555e44 money, 72000 artspacebricks
+	-costs 2.550550555e45 money, 72000 artspacebricks
 	-multiplies efficiency of anotherbuilding by 520%
 	-multiplies efficiency of hitWall by 92%
 	-named The Cost
+	-unlocks GLITCHPOCALYPSE4
 	-picture : https://i.imgur.com/fK6RsL6.png
 	*brickFactoryUpgrade
 	-"Brick factories produce <b>50%</b> more bricks.<br><i>The dark magic tablets we're using can talk, so we need to learn more about them to use them better. They sound really creepy, and talk about really disturbing stuff.</i>"
