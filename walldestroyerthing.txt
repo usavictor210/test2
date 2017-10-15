@@ -1541,7 +1541,7 @@ Buildings :
     -locks destroyinfinitything05
     -unlocks destroyinfinitything06
     *destroyinfinitything06
-    -"Guess what? It was no placeholder.<br>Gives <b>125</b> Alpha bricks, <b>25</b> Fifth Dimension bricks, <b>320,000</b> artifical space bricks, <b>80,000</b> artifical time bricks and <b>60 duodecillion</b> bricks.<br>Worth <b>750,000</b> cosmic knowledge."
+    -"Guess what? It was no placeholder.<br>Gives <b>125</b> Alpha bricks, <b>25</b> Fifth Dimension bricks, <b>640,000</b> artifical space bricks, <b>100,000</b> artifical time bricks and <b>60 duodecillion</b> bricks.<br>Worth <b>750,000</b> cosmic knowledge."
     -costs 1.87654321234567890e50 tesseractDamage, 3.12742156444444444444e51 totalmoney
     -gives 6e40 bricks when bought
     -represents 125 alphaBricks, 25 fifthBricks, 750000 prePrestige
@@ -1550,6 +1550,17 @@ Buildings :
     -classed bonuswallboss
     -named Destroy a Important Infinity Wall
     -locks destroyinfinitything06
+    -unlocks destroyinfinitything07
+    *destroyinfinitything07
+    -"Destroy the Advanced Elite Infinity Wall.<br>Gives <b>150</b> Alpha bricks, <b>35</b> Fifth Dimension bricks, <b>750,000</b> artifical space bricks, <b>80,000</b> artifical time bricks and <b>450 duodecillion</b> bricks.<br>Worth <b>1,000,000</b> cosmic knowledge."
+    -costs 3.81174327890e51 tesseractDamage, 9.99999999999999e51 totalmoney
+    -gives 4.5e41 bricks when bought
+    -represents 150 alphaBricks, 35 fifthBricks, 1000000 prePrestige
+    -represents 750000 artspacebricks, 100000 arttimebricks
+    -represents 1 wallsDestroyed
+    -classed bonuswallboss
+    -named Destroy an Advanced Elite Infinity Wall
+    -locks destroyinfinitything07
 
 	*timeUpgradeProducer
 	-abstract
@@ -1582,7 +1593,7 @@ Buildings :
 	-gives 1 timeUpgradeResource22 0.005% of the time
 
 	*puncher
-    -"Melee building<br>Does <b>0.1</b> base damage.<br><i>Punches the wall for you.</i> 
+    	-"Melee building<br>Does <b>0.1</b> base damage.<br><i>Punches the wall for you.</i> 
 	-costs 20 money
 	-gives 0.1 money
 	-gives 0.1 totalMoney
