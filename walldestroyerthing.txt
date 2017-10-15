@@ -530,7 +530,7 @@ Clickables :
 	-converts timeUpgradeResource22 to nothing
 	-multiplies nothing 0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001%
 	-named Rewind time (Removes all buildings & resources, converts cosmic knowledge into prestige, will soon turn building damage into coins)
-	-says Time Rewound: Your cosmic knowledge has been converted into future knowledge capsules. Damages that buildings have dealt have been exchanged for their respective coin.
+	-says Time Rewound: Your cosmic knowledge has been converted into future knowledge capsules. Damages that buildings have dealt have been exchanged for their respective type of coin, if there is any.
 	-says The Time Bear is coming.
 
     *damageConverter
@@ -1729,7 +1729,7 @@ Buildings :
 	-represents 1 building
 	
 	*anotherbuilding
-	-"Weird building<br>Deals <b>50 septillion</b> base damage.<br><i>This is illegal, you know!</i>"
+	-"Weird building<br>Deals <b>50 septillion</b> base damage.<br><i>This is illegal, you know! Edit: No</i>"
 	-costs 1e30 money
 	-gives 5e25 money
 	-gives 5e25 totalMoney
