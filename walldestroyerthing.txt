@@ -2,7 +2,7 @@ Let's make a game!
 	-Wall Destroyer
 	-by Tellurium
 	-created on 04/21/2014
-	-last updated on 10/9/2017
+	-last updated on 10/15/2017
 	-version 2.4
 
 Settings :
@@ -78,8 +78,6 @@ Resources :
 	*dreamycoins
 	-named dreamy coins
 	-classed importantresource
-	*unstability
-	-named unstability
 
         *menuItem2
         -displayed as ─────────────Stats─────────────
@@ -133,8 +131,6 @@ Resources :
 	-named Glitch damage
 	*dreamMachineDamage
 	-named Dream Machine damage
-	*condensedDamage
-	-named unstable antimatter condenser damage
  
         *damageDivider2
         -displayed as ────────────────────
@@ -198,7 +194,7 @@ Resources :
         *timesWon
         -named boss point|boss points
         *timesActuallyWon
-		-abstract
+	-abstract
  
         *resetTimes
         -named times reset
@@ -219,7 +215,7 @@ Resources :
 	-abstract
 	-starts at 1
 
-    *winBricks
+    	*winBricks
 	-abstract
 	*meshBricks
 	-abstract
@@ -1750,17 +1746,6 @@ Buildings :
 	-gives 6.75e30 dreamMachineDamage
 	-named Dream Machine|Dream Machines
 	-represents 1 building
-	
-	*condense
-        -" "well fuck" <br>Deals <b>2.42 decillion</b> base damage<br>is unstable of course"
-        -costs 7.64832e39 money
-        -gives 2.42424e33 money
-	-gives 2.42424e33 totalMoney
-	-gives 2.42424e33 condensedDamage
-	-gives 0.0001 unstability
-        -named unstable antimatter condenser|unstable antimatter condensers
-        -visible
-        -picture : http://vignette3.wikia.nocookie.net/cookieclicker/images/0/01/Antim.png/revision/latest?cb=20130915041437
 
 	*brickFactory
 	-"Special building<br>Creates <b>0.05</b> base bricks.<br><i>Creates artificial bricks with dark magic. The wizards will never know.</i>"
