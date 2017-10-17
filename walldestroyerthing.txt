@@ -1561,6 +1561,7 @@ Buildings :
     -classed bonuswallboss
     -named Destroy an Advanced Elite Infinity Wall
     -locks destroyinfinitything07
+    // past walls soon
 
 	*timeUpgradeProducer
 	-abstract
