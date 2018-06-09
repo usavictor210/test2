@@ -2194,7 +2194,7 @@ Upgrades :
 	-picture : http://i.imgur.com/T2QFa2N.png
 
         *damageConverterUnlock
-        -"Unlocks the ability to convert damage to cosmic knowledge, at the rate of 2 decillion to 1. This was brought back by a new creator.<br><i>The hackers decided there was an easier way to go about this.<br> <br>"hacking??? lol overnab" ~1337 sn1p3r #4</i>"
+        -"Unlocks the ability to convert damage to cosmic knowledge, at the rate of 2 decillion to 1. This was brought back by a mad hacker.<br><i>The hackers decided there was an easier way to go about this.<br> <br>"hacking??? lol overnab" ~1337 sn1p3r #4</i>"
         -costs 1e37 money
         -unlocks at 1 winBricks
         -unlocks damageConverter
@@ -2209,14 +2209,14 @@ Upgrades :
 	-picture : http://i.imgur.com/Pewjyq5.png
 
 	*begginingUpgrade
-	-"Unlocks the ultimate power.<br><i>Not the ordinary chess we will be playing tonight.</i>"
+	-"Unlocks the ultimate power, the force of the <b>Singularity</b>.<br><i>Not the ordinary chess we will be playing tonight.</i>"
 	-costs 10 timeBricks, 500e24 money
 	-named Play Chess
 	-picture : http://i.imgur.com/JJCV9QM.png
 	-unlocks begginingBuilding
 
 	*edgeBeingUnlock
-	-"Summon infinite-dimensional beings that use energy from extinguished universes.<br><i>GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}</i>"
+	-"Summon infinite-dimensional beings that use energy from extinguished universes, unlocking <b>Edge Beings</b>.<br><i>GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}</i>"
 	-costs 4 endBricks, 4e29 money
 	-named リサフランクXXYYXX //現代のコンピュー
 	-picture : http://i.imgur.com/oV8GJqX.png
@@ -4018,7 +4018,7 @@ Upgrades :
     -picture : http://i.imgur.com/PKwvYiL.png
     
     *victoryPointUpgrade2
-    -"Everything is <b>50%</b> more efficient. <b>Unlocks... Dreamy Coins?</b><br><i>We accidentally were able to reach inside people's dreams. It looks like we could mine from them, a mysterious resource called Dreamy Coins. Sounds original, right? RIGHT??? </b>"
+    -"Everything is <b>50%</b> more efficient, but <b>unlocks... Dreamy Coins?</b><br><i>We accidentally were able to reach inside people's dreams. It looks like we could mine from them, a mysterious resource called Dreamy Coins. Sounds original, right? RIGHT???</b>"
     -costs 4.242424242e39 money, 4.2424242e36 fourthwallmatter, 6.4646464e8 artspacebricks, 5.2525252e8 arttimebricks
     -unlocks at 4 timesActuallyWon
     -multiplies efficiency of brickFactory by 150%
@@ -5402,7 +5402,7 @@ Upgrades :
 	-named Finality Rock Knuckles
 	-picture : http://i.imgur.com/TRuR1pM.png
 	*puncherUpgrade15
-	-"Punchers do <b>four times</b> as much damage.<br>Hand punches do <b>thrice</b> as much damage.<br><i>After searching for something to mess up the walls even more we came across a really big floating island, after thousands of unsuccessful tries trying to climb it we found a tiny hut and inside of time two chests and a note: "There's a snake in a one chest and a treasure in another, pick wisely!" we picked first one hoping it wasn't a snake, although there was a snake but treasure inside too, we took a peek at another chest, it was empty.</i>"
+	-"Punchers do <b>four times</b> as much damage.<br>Hand punches do <b>3 times</b> as much damage.<br><i>After searching for something to mess up the walls even more we came across a really big floating island, after thousands of unsuccessful tries trying to climb it we found a tiny hut and inside of time two chests and a note: "There's a snake in a one chest and a treasure in another, pick wisely!" we picked first one hoping it wasn't a snake, although there was a snake but treasure inside too, we took a peek at another chest, it was empty.</i>"
 	-costs 50e45 money
 	-unlocks at 1100 puncher
 	-multiplies efficiency of puncher by 400%
@@ -8528,7 +8528,7 @@ Upgrades :
     -multiplies efficiency of puncher by 155%
     -multiplies efficiency of clubber by 155%
     -multiplies efficiency of swordsman by 155%
-	-multiplies efficiency of gunner by 155%
+    -multiplies efficiency of gunner by 155%
     -multiplies efficiency of grenade by 155%
     -multiplies efficiency of wreckingBall by 155%
     -multiplies efficiency of bulldozer by 155%
@@ -8632,7 +8632,7 @@ Achievements :
 	-named Actual Winner
 	-picture : http://i.imgur.com/V5T9rJ7.png
 	*wallDestroyer12
-	-"Destroy <b>All The Walls</b>.<br><i>*majestic nutshack remix*</i>"
+	-"REALLY destroy <b>all the walls</b>.<br><i>*majestic nutshack remix*</i>"
 	-named Fluoroantimonic acid
 	-picture : http://i.imgur.com/O6Pmv2A.png
 	*wallTellurium
@@ -8718,7 +8718,7 @@ Achievements :
 	-unlocks at 5e15 money
 	-picture : http://i.imgur.com/lJ8A4Wn.png
 	*moneySpecific03
-	-"Have as much money as much as PSR J1719-1438 B is worth."
+	-"Have as much money as much as PSR J1719-1438 B is worth. <br><i>"PSR- what..?" ~ Normal Person</i>"
 	-named Full Diamond Armor
 	-unlocks at 26.9e30 money
 	-picture : http://i.imgur.com/ynoLa6v.png
@@ -8743,7 +8743,7 @@ Achievements :
 	-unlocks at 1e24 money
 	-picture : http://i.imgur.com/lZaWfwJ.png
 	*moneyAchieve05
-	-"Gain <b>1 Octillion</b> dollars from wall damaging."
+	-"Gain <b>1 Octillion</b> dollars from wall damaging. <br><i>"I should sell out with my jokes! Oh wait.. they probably have more than that.." ~ Agent Johnson</i>"
 	-named Market value of Agent Johnson's bad jokes
 	-unlocks at 1e27 money
 	-picture : http://i.imgur.com/lZaWfwJ.png
@@ -8975,7 +8975,7 @@ Achievements :
 	-named This Is Our End
 	-picture : http://i.imgur.com/J1ef1UX.png
 	*timeBearAchieve3
-	-"Secretly continue warding and kill the time bear.<br><i>"He is out of our naughty list." ~Chief Of Puns</i>"
+	-"Secretly continue warding and kill the time bear.<br><i>"He is out of our naughty list." ~Chief Of Puns</i> The time bear will still "come", but he will not survive for a second."
 	-named Flesh Repeller
 	-picture : http://i.imgur.com/9gTyt89.png
 
@@ -9104,13 +9104,13 @@ Achievements :
 	-named Punch.
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*handDamage19
-	-"Deal <b>10 tredecillion</b> damage by hand.<br><i>Not enough!!!</i>"
+	-"Deal <b>10 tredecillion</b> damage by hand.<br><i>Not enough to satisfy your greed.</i>"
 	-unlocks at 10000000000000000000000000000000000000000000 handDamage
 	-named Bleh
 	-picture : http://i.imgur.com/Gtg8P7F.png
 
         *HandBrickAchieve1
-        -"Make <b>100</b> bricks by hand."
+        -"Make <b>100</b> bricks by hand. <br><i>Where did all the possibility of manipulation of bricks came from, anyway?</i>"
         -unlocks at 100 handBricks
         -named Dark Magician
         -picture : http://i.imgur.com/LeHD80E.png
@@ -9126,12 +9126,12 @@ Achievements :
         -picture : http://i.imgur.com/vZmmM5e.png
         *HandBrickAchieve4
         -"Make <b>100,000,000</b> bricks by hand."
-        -unlocks at 100e6 handBricks
+        -unlocks at 1e8 handBricks
         -named Corruption
         -picture : http://i.imgur.com/WohZpox.png
         *HandBrickAchieve5
-        -"Make <b>10,000,000,000</b> bricks by hand."
-        -unlocks at 10e9 handBricks
+        -"Make <b>10,000,000,000</b> bricks by hand. <br><i>BRICKS BRICKS BRICKS BRICKS, and more BRICKS...</i>"
+        -unlocks at 1e10 handBricks
         -named Brainwashing
         -picture : http://i.imgur.com/1n3yBA4.png
         *HandBrickAchieve6
@@ -9140,13 +9140,13 @@ Achievements :
         -named Puppet of Darkness
         -picture : http://i.imgur.com/mLO2JCX.png
         *HandBrickAchieve7
-        -"Make <b>100,000,000,000,000</b> bricks by hand."
-        -unlocks at 100e12 handBricks
+	-"Make <b>100,000,000,000,000</b> bricks by hand. <br><i>More like a Shadow of Bricks! ~ Dumb Person</i>"
+        -unlocks at 1e14 handBricks
         -named Shadow of the Night
         -picture : http://i.imgur.com/m5peORa.png
         *HandBrickAchieve8
         -"Make <b>10,000,000,000,000,000</b> bricks by hand."
-        -unlocks at 10e15 handBricks
+        -unlocks at 1e16 handBricks
         -named Dissolving Emptiness
         -picture : http://i.imgur.com/3vgirnY.png
         *HandBrickAchieve9
@@ -9165,12 +9165,10 @@ Achievements :
         -named Dark Tablet Phychiatry
         -picture : http://i.imgur.com/KCdcX5m.png
         *HandBrickAchieve12
-        -"Make <b>1 octillion</b> bricks by hand."
+        -"Make <b>1 octillion</b> bricks by hand. <br><i>We have found some abnormalities on your hand, and it seems there are unidentified objects.</i>"
         -unlocks at 1e27 handBricks
         -named Mesh Clicker
         -picture : http://i.imgur.com/NswH8VP.png
-
-
 	*puncherAchieve1
 	-"Hire <b>1</b> puncher."
 	-named Hired Help
@@ -9222,7 +9220,7 @@ Achievements :
 	-unlocks at 600 puncher
 	-picture : http://i.imgur.com/hIw2jGW.png
 	*puncherAchieve11
-	-"Hire <b>700</b> punchers.<br><i>Yeah, you need to punch something that much times to kill it.</i>"
+	-"Hire <b>700</b> punchers.<br><i>Yeah, you need to punch something that much times to kill it. Then again, 700 isn't 800.</i>"
 	-named Eight Hundred Punch Man
 	-unlocks at 700 puncher
 	-picture : http://i.imgur.com/PhxmHqr.png
@@ -9237,7 +9235,7 @@ Achievements :
 	-unlocks at 900 puncher
 	-picture : http://i.imgur.com/41dXhwN.png
 	*puncherAchieve14
-	-"Hire <b>1,000</b> punchers.<br><i>Obviously its a quintillion. ~Agent Johnson</i>"
+	-"Hire <b>1,000</b> punchers.<br><i>Obviously it's a quintillion. ~Agent Johnson</i>"
 	-named Punchillion
 	-unlocks at 1000 puncher
 	-picture : http://i.imgur.com/TRuR1pM.png
@@ -9267,7 +9265,7 @@ Achievements :
 	-unlocks at 1000000000000000000000000000 puncherDamage
 	-picture : http://i.imgur.com/5bqbpYi.png
 	*puncherDamageAchieve5
-	-"Deal <b>1 decillion</b> damage to the wall with your punchers."
+	-"Deal <b>1 decillion</b> damage to the wall with your punchers. <br><i>I don't think this is a good idea.</i>"
 	-named Handjob
 	-unlocks at 1000000000000000000000000000000000 puncherDamage
 	-picture : http://i.imgur.com/hIw2jGW.png
@@ -9278,7 +9276,7 @@ Achievements :
 	-picture : http://i.imgur.com/wy0NkCV.png
 
 	*clubberAchieve1
-	-"Hire <b>1</b> clubber."
+	-"Hire <b>1</b> clubber. <br><i>Party all night, folks!</i>"
 	-named Clubstep
 	-unlocks at 1 clubber
 	-picture : http://i.imgur.com/k6W8MW9.png
@@ -9313,12 +9311,12 @@ Achievements :
 	-unlocks at 300 clubber
 	-picture : http://i.imgur.com/4wh5BY0.png
 	*clubberAchieve8
-	-"Hire <b>400</b> clubbers."
+	-"Hire <b>400</b> clubbers. <br><i>"BUT ISN'T INFINITY 1.8e308!?!?!?!?!" ~ Infinity Person"
 	-named Club to Infinity
 	-unlocks at 400 clubber
 	-picture : http://i.imgur.com/JruQMzO.png
 	*clubberAchieve9
-	-"Hire <b>500</b> clubbers."
+	-"Hire <b>500</b> clubbers. <br><i>The club of a demonic entity.</i>"
 	-named Beelzeclub
 	-unlocks at 500 clubber
 	-picture : http://i.imgur.com/eecKJ8i.png
@@ -9343,7 +9341,7 @@ Achievements :
 	-unlocks at 900 clubber
 	-picture : http://i.imgur.com/B9RKy58.png
 	*clubberAchieve14
-	-"Hire <b>1,000</b> clubbers."
+	-"Hire <b>1,000</b> clubbers. <br><i>Do we even know what we're getting into?</i>"
 	-named Plularity Clubbers
 	-unlocks at 1000 clubber
 	-picture : http://i.imgur.com/tujIoWM.png
@@ -9479,8 +9477,8 @@ Achievements :
 	-unlocks at 100000000000000000000000000000000000 swordsmanDamage
 	-picture : http://i.imgur.com/nYJudXF.png
 	*swordDamageAchieve6
-	-"Deal <b>100 duodecillion</b> damage to the wall with your swordsmen.<br><i>This is children game, I suppose. Don't actually fuck with Genji or fuck Genji.</i>"
-	-named Fuck The Genji
+	-"Deal <b>100 duodecillion</b> damage to the wall with your swordsmen.<br><i>This is children game, I suppose. Don't actually do this. The fact that this is censored means you are also children. Shame on you.</i>"
+	-named [REDACTED] The Genji
 	-unlocks at 100000000000000000000000000000000000000000 swordsmanDamage
 	-picture : http://i.imgur.com/ZiK08m9.png
 
@@ -9570,12 +9568,12 @@ Achievements :
 	-unlocks at 1000000000000000000000 gunnerDamage
 	-picture : http://i.imgur.com/4Lzho0L.png
 	*gunnerDamageAchieve4
-	-"Deal <b>1 nonillion</b> damage to the wall with your gunshooters.<br><i>This should be for Swordsman, not for Gunshooter!</i>"
+	-"Deal <b>1 nonillion</b> damage to the wall with your gunshooters.<br><i>This should be for Swordsman, not for Gunshooter- Sword guns are cool anyway.</i>"
 	-named No Sword - No Life
 	-unlocks at 1000000000000000000000000000000 gunnerDamage
 	-picture : http://i.imgur.com/pTa1WAu.png
 	*gunnerDamageAchieve5
-	-"Deal <b>1 undecillion</b> damage to the wall with your gunshooters."
+	-"Deal <b>1 undecillion</b> damage to the wall with your gunshooters. Don't actually do this. Why would you."
 	-named FurryCon Shooter
 	-unlocks at 1000000000000000000000000000000000000 gunnerDamage
 	-picture : http://i.imgur.com/GQyW8ni.png
@@ -9651,7 +9649,7 @@ Achievements :
 	-unlocks at 900 grenade
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*grenadeAchieve14
-	-"Hire <b>1,000</b> grenademen."
+	-"Hire <b>1,000</b> grenademen. [World War II Flashbacks]"
 	-named Forced Hiroshima
 	-unlocks at 1000 grenade
 	-picture : http://i.imgur.com/Gtg8P7F.png
@@ -9682,7 +9680,7 @@ Achievements :
 	-picture : http://i.imgur.com/J7oP3HO.png
 	*grenadeDamageAchieve6
 	-"Deal <b>10 tredecillion</b> damage to the wall with your grenademen."
-	-named Send Nud- Bombs
+	-named Out of Grenade Ideas?
 	-unlocks at 10000000000000000000000000000000000000000000 grenadeDamage
 	-picture : http://i.imgur.com/VcNgtva.png
 
@@ -9757,12 +9755,12 @@ Achievements :
 	-unlocks at 100000000000000 wreckingBallDamage
 	-picture : http://i.imgur.com/yM8TEHL.png
 	*wreckingballDamageAchieve2
-	-"Deal <b>100,000,000,000,000,000</b> damage to the wall with your wrecking balls.<br><i>Which balls? ~Agent Johnson</i>"
+	-"Deal <b>100,000,000,000,000,000</b> damage to the wall with your wrecking balls.<br><i>"Which balls?" ~Agent Johnson</i>"
 	-named The Balls
 	-unlocks at 100000000000000000 wreckingBallDamage
 	-picture : http://i.imgur.com/0b76QvZ.png
 	*wreckingballDamageAchieve3
-	-"Deal <b>100 sextillion</b> damage to the wall with your wrecking balls."
+	-"Deal <b>100 sextillion</b> damage to the wall with your wrecking balls.<br><i>"Oh god no." ~Agent Johnson</i>"
 	-named Agent Johnson's Big Balls
 	-unlocks at 100000000000000000000000 wreckingBallDamage
 	-picture : http://i.imgur.com/WgKfsDM.png
@@ -9844,7 +9842,7 @@ Achievements :
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*bulldozerDamageAchieve
 	-"Deal <b>200,000,000,000,000</b> damage to the wall with your bulldozers."
-	-named Crack n Smash
+	-named Crack n' Smash
 	-unlocks at 200000000000000 bulldozerDamage
 	-picture : http://i.imgur.com/q1QrnCW.png
 	*bulldozerDamageAchieve2
@@ -9959,7 +9957,7 @@ Achievements :
 	-unlocks at 2000000000000000000000000000000000000 airstrikeDamage
 	-picture : http://i.imgur.com/YqEx6Xx.png
 	*airstrikeDamageAchieve6
-	-"Deal <b>2 quattuordecillion</b> damage to the wall with your airstrike callers.<br><i>"Chief of puns was here"</i>"
+	-"Deal <b>2 quattuordecillion</b> damage to the wall with your airstrike callers.<br><i>"Chief of Puns was here."</i>"
 	-named aVast
 	-unlocks at 2000000000000000000000000000000000000000000 airstrikeDamage
 	-picture : http://i.imgur.com/XSae4F0.png
@@ -10035,7 +10033,7 @@ Achievements :
 	-unlocks at 100000000000000000000000000000000000 necromancerDamage
 	-picture : http://i.imgur.com/vr82R1d.png
 	*necromancerDamageAchieve5
-	-"Deal <b>100 duodecillion</b> damage to the wall with your necromancers."
+	-"Deal <b>100 duodecillion</b> damage to the wall with your necromancers. <br><i>The dead have crazy feet.</i>"
 	-named 202 Billion Feet
 	-unlocks at 100000000000000000000000000000000000000000 necromancerDamage
 	-picture : http://i.imgur.com/VIgd45X.png
@@ -10117,7 +10115,7 @@ Achievements :
 	-picture : http://i.imgur.com/MK8RnHM.png
 
 	*brickFactoryAchieve1
-	-"Build <b>1</b> brick factory."
+	-"Build <b>1</b> brick factory. <br><i>MUAHAHAHAHA</i>"
 	-named They'll Never Find Out
 	-unlocks at 1 brickFactory
 	-picture : http://i.imgur.com/aCU88Ro.png
@@ -10165,6 +10163,11 @@ Achievements :
 	-"Build <b>600</b> brick fatories."
 	-named Factories In Mexico
 	-unlocks at 600 brickFactory
+	-picture : http://i.imgur.com/ufqnZaV.png
+	*brickFactoryAchieve11
+	-"Build <b>700</b> brick fatories."
+	-named Never Gonna Brick Your House
+	-unlocks at 700 brickFactory
 	-picture : http://i.imgur.com/ufqnZaV.png
 
 	*DemonAchieve1
@@ -10244,7 +10247,7 @@ Achievements :
 	-picture : http://i.imgur.com/oCJsVZq.png
 	*demonDamageAchieve5
 	-"Deal <b>600 duodecillion</b> damage to the wall with your demons."
-	-named I Suck At Doing Titles, Enjoy This Agent Johnson
+	-named I Suck At Doing 6
 	-unlocks at 600000000000000000000000000000000000000000 demonDamage
 	-picture : http://i.imgur.com/lqdvoH6.png
 
@@ -10274,7 +10277,7 @@ Achievements :
  	-unlocks at 150 compromiser
 	-picture : http://i.imgur.com/3QMurit.png
 	*compromiserAchieve6
-	-"Build <b>200</b> reality compromisers."
+	-"Build <b>200</b> reality compromisers. <br><i>Reality can only be accessed at a price.</i>"
 	-named The Grand Compromise 
 	-unlocks at 200 compromiser
 	-picture : http://i.imgur.com/qxa1Na2.png
@@ -10395,7 +10398,7 @@ Achievements :
 	-unlocks at 1000000000000000000000000000000000000000000 lastDamage
 	-picture : http://i.imgur.com/jvDmXhB.png
 	*lastDamageAchieve5
-	-"Deal <b>100 tredecillion</b> damage to the wall with your obliterators."
+	-"Deal <b>100 tredecillion</b> damage to the wall with your obliterators.<br><i>This math doesn't make sense! It's flying off the charts!</i>"
 	-named + + + = -; - + - = +.
 	-unlocks at 100000000000000000000000000000000000000000000 lastDamage
 	-picture : http://i.imgur.com/pEpISIJ.png
@@ -10456,7 +10459,7 @@ Achievements :
 	-unlocks at 1e29 begginingDamage
 	-picture : http://i.imgur.com/c6wbTjb.png
 	*begginingDamageAchieve2
-	-"Deal <b>100 nonillion</b> damage to the wall with your Singularities."
+	-"Deal <b>100 nonillion</b> damage to the wall with your Singularities.<br><i>Error Infinity: Your Multinet cannot connect to the Web, because of some particularly clumsy Agents. Check again later...heh.</i>"
 	-named Crash The Multiverse Web
 	-unlocks at 1e31 begginingDamage
 	-picture : http://i.imgur.com/VIJqgVJ.png
@@ -10470,49 +10473,48 @@ Achievements :
 	-named Pure Flatlands of Alpha
 	-unlocks at 1e44 begginingDamage
 	-picture : http://i.imgur.com/mXRDfR5.png
-
 	*edgeBeingAchieve1
-	-"Hire <b>1</b> Edge Being"
+	-"Hire <b>1</b> Edge Being.<br><i>How edgy are you?</i>"
 	-named Saint Pepsi
 	-unlocks at 1 edgeBeing
 	-picture : http://i.imgur.com/vigT0yI.png
 	*edgeBeingAchieve2
-	-"Hire <b>10</b> Edge Beings"
+	-"Hire <b>10</b> Edge Beings.<br><i>Edgy enough to be the opposite of you!</i>"
 	-named The Edge of The Reality
 	-unlocks at 10 edgeBeing
 	-picture : http://i.imgur.com/XKK3FKS.png
 	*edgeBeingAchieve3
-	-"Hire <b>50</b> Edge Beings"
+	-"Hire <b>50</b> Edge Beings."
 	-named Master of The Greek Alphabet
 	-unlocks at 50 edgeBeing
 	-picture : http://i.imgur.com/Ew206fE.png
 	*edgeBeingAchieve4
-	-"Hire <b>100</b> Edge Beings"
+	-"Hire <b>100</b> Edge Beings."
 	-named Weirdoverse Is Awful At Making Up Names
 	-unlocks at 100 edgeBeing
 	-picture : http://i.imgur.com/UiYgx6i.png
 	*edgeBeingAchieve5
-	-"Hire <b>150</b> Edge Beings"
+	-"Hire <b>150</b> Edge Beings."
 	-named Finality Being
 	-unlocks at 150 edgeBeing
 	-picture : http://i.imgur.com/odk7zpu.png
 	*edgeBeingAchieve6
-	-"Hire <b>200</b> Edge Beings"
+	-"Hire <b>200</b> Edge Beings."
 	-named Mesh Being
 	-unlocks at 200 edgeBeing
 	-picture : http://i.imgur.com/b2shzj6.png
 	*edgeBeingAchieve7
-	-"Hire <b>300</b> Edge Beings"
+	-"Hire <b>300</b> Edge Beings.<br><i>More complicated than a dodecahedron to the power of a googol, maybe.</i>"
 	-named More Edges Than It Has On Itself
 	-unlocks at 300 edgeBeing
 	-picture : http://i.imgur.com/qfscrvY.png
 	*edgeBeingAchieve8
-	-"Hire <b>400</b> Edge Beings"
+	-"Hire <b>400</b> Edge Beings."
 	-named Edge Cell
 	-unlocks at 400 edgeBeing
 	-picture : http://i.imgur.com/R60jUAD.png
 	*edgeBeingAchieve9
-	-"Hire <b>500</b> Edge Beings"
+	-"Hire <b>500</b> Edge Beings.<br><i>The 500th Edge</i>"
 	-named Quincentennial
 	-unlocks at 500 edgeBeing
 	-picture : http://i.imgur.com/S1uaASg.png
@@ -10532,27 +10534,27 @@ Achievements :
 	-unlocks at 5e41 edgeBeingDamage
 	-picture : http://i.imgur.com/30AnX00.png
 	*edgeBeingDamageAchieve4
-	-"Deal <b>500 tredecillion</b> damage to the wall with your Edge Beings."
+	-"Deal <b>500 tredecillion</b> damage to the wall with your Edge Beings.<br><i>Somebody once told me it's going to go down to the edge of glory.</i>"
 	-named ziKtmX1 - f617iwl (//Tredetennial)
 	-unlocks at 5e44 edgeBeingDamage
 	-picture : http://i.imgur.com/g3jFU02.png
 	*glitchAchieve1
-	-"Hire <b>1</b> glitch. Ok, that sounds wrong, how'd you hire a glitch? Where'd it come from?"
+	-"Hire <b>1</b> glitch. <br><i>Ok, that sounds wrong, how'd you hire a glitch? Where'd it come from?</i>"
 	-named Not Many Glitches
 	-unlocks at 1 anotherbuilding
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*glitchAchieve2
-	-"Hire <b>10</b> glitches. Not really enough. The achievement picture is still a question mark because the glitch corrupted it."
+	-"Hire <b>10</b> glitches. <br><i>Not really enough. The achievement picture is corrupted.</i>"
 	-named Kind of Defective
 	-unlocks at 10 anotherbuilding
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*glitchAchieve3
-	-"Hire <b>25</b> glitches. (had no idea what to write)"
+	-"Hire <b>25</b> glitches. <br><i>Untitled</i>"
 	-named Another Glitch
 	-unlocks at 25 anotherbuilding
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*glitchAchieve4
-	-"Hire <b>50</b> glitches."
+	-"Hire <b>50</b> glitches. <br><i>You can't understand this feeling.</i>"
 	-named Glitch to the 2nd Power
 	-unlocks at 50 anotherbuilding
 	-picture : http://i.imgur.com/Gtg8P7F.png
