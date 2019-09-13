@@ -533,11 +533,6 @@ Clickables :
 	-says Time Rewound: Your cosmic knowledge has been converted into future knowledge capsules.
 	-says The Time Bear is coming.
 
-    *damageConverter
-    -multiplies totalMoney 0.00000000000000000000000000000005%
-    -converts totalMoney to prePrestige
-    -named Convert all damage to cosmic knowledge
-
 Buildings :
 
 	*timeCounter
@@ -601,7 +596,7 @@ Buildings :
 	-gives 250000 bricks when bought
 	-gives 250000 totalBricks when bought
 	-represents 1 wallsDestroyed
-	-represents 2 prePrestige
+	-represents 2 f
 	-named Destroy 4th wall
 	-locks destroyMassiveWall
 	-costs 1 wallRequirement
@@ -2192,15 +2187,7 @@ Upgrades :
 	-unlocks reset
 	-named Time Rewinders
 	-picture : http://i.imgur.com/T2QFa2N.png
-
-        *damageConverterUnlock
-        -"Unlocks the ability to convert damage to cosmic knowledge, at the rate of 2 decillion to 1. This was brought back by a mad hacker.<br><i>The hackers decided there was an easier way to go about this.<br> <br>"hacking??? lol overnab" ~1337 sn1p3r #4</i>"
-        -costs 1e37 money
-        -unlocks at 1 winBricks
-        -unlocks damageConverter
-        -named Prestige Hacker
-        -picture : http://i.imgur.com/bkEkr5p.png
-
+	
 	*finalWallUnlock
 	-"Unlocks <b>Black Obliterators</b>.<br><i>We have discovered a substance in [REDACTED] that holds more power than anything we have ever encountered. We call it The Black because it is pitch black.</i>"
 	-costs 42000000000000000000 money
