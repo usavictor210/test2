@@ -2,8 +2,8 @@ Let's make a game!
 	-Wall Destroyer
 	-by Tellurium
 	-created on 04/21/2014
-	-last updated on 10/9/2017
-	-version 2.4
+	-last updated on 09/21/2019
+	-version 2.5
 
 Settings :
 	-prices increase by 110%
