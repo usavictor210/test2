@@ -4044,7 +4044,7 @@ Upgrades :
     -named "Dreamy" Heaven
     
     *wallMultiplier
-    -"Everything is <b>5%</b> more efficient for each wall you've destroyed.<br><i>Let's compile our knowledge of wall destroying in a book so we can learn from our past mistakes.<br>CEO EDIT: the RUC does not make mistakes.</i>"
+    -"Everything is <b>5%</b> more efficient for each wall you've destroyed.<br><i>Let's compile our knowledge of wall destroying in a book so we can learn from our past mistakes.<br>CEO EDIT: The RUC does not make mistakes.</i>"
     -costs 250000000000 money
     -multiplies efficiency of hitWall by 5% per wallsDestroyed
     -multiplies efficiency of puncher by 5% per wallsDestroyed
@@ -4069,7 +4069,7 @@ Upgrades :
     -picture : http://i.imgur.com/zqNeRti.png
    
     *wallMultiplier2
-    -"Everything is <b>1%</b> more efficient for each wall you've destroyed.<br><i>We lose memory each time we reset. With this new advanced technology we can upload our brains into the web.</i>"
+    -"Everything is <b>1%</b> more efficient for each wall you've destroyed.<br><i>We lose memory each time we reset. With this new advanced technology, we can upload our brains into the web, and it'll never happen again.</i>"
     -costs 2.54321e33 money
     -unlocks at 20 resetTimes, 2 timesActuallyWon
     -multiplies efficiency of hitWall by 1% per wallsDestroyed
@@ -4092,6 +4092,32 @@ Upgrades :
     -multiplies efficiency of brickFactory by 1% per wallsDestroyed
     -multiplies efficiency of anotherbuilding by 1% per wallsDestroyed
     -named No Tears, Only Dreams
+    -picture : http://i.imgur.com/RvFPTiX.png
+    
+     *wallMultiplier3
+    -"Everything is <b>1.25%</b> more efficient for each wall you've destroyed.<br><i>The logic of time no longer matters.</i>"
+    -costs 2.54321e33 money
+    -unlocks at 20 resetTimes, 2 timesActuallyWon
+    -multiplies efficiency of hitWall by 1.25% per wallsDestroyed
+    -multiplies efficiency of puncher by 1.25% per wallsDestroyed
+    -multiplies efficiency of clubber by 1.25% per wallsDestroyed
+    -multiplies efficiency of swordsman by 1.25% per wallsDestroyed
+    -multiplies efficiency of gunner by 1.25% per wallsDestroyed
+    -multiplies efficiency of grenade by 1.25% per wallsDestroyed
+    -multiplies efficiency of wreckingBall by 1.25% per wallsDestroyed
+    -multiplies efficiency of bulldozer by 1.25% per wallsDestroyed
+    -multiplies efficiency of airstrike by 1.25% per wallsDestroyed
+    -multiplies efficiency of necromancer by 1.25% per wallsDestroyed
+    -multiplies efficiency of giant by 1.25% per wallsDestroyed
+    -multiplies efficiency of demon by 1.25% per wallsDestroyed
+    -multiplies efficiency of compromiser by 1.25% per wallsDestroyed
+    -multiplies efficiency of lastBuilding by 1.25% per wallsDestroyed
+    -multiplies efficiency of begginingBuilding by 1.25% per wallsDestroyed
+    -multiplies efficiency of edgeBeing by 1.25% per wallsDestroyed
+    -multiplies efficiency of makeBricks by 1.25% per wallsDestroyed
+    -multiplies efficiency of brickFactory by 1.25% per wallsDestroyed
+    -multiplies efficiency of anotherbuilding by 1.25% per wallsDestroyed
+    -named Time Portals
     -picture : http://i.imgur.com/RvFPTiX.png
  
     *productionMultiplier1
@@ -4447,7 +4473,7 @@ Upgrades :
     -named Lord Reaefsek's Guide To Destruction
     -picture : http://i.imgur.com/M4nj67A.png
     *productionMultiplierArmy
-    -"Everything is <b>35%</b> more efficient.<br><i>Found locked in Sauthir Castle's vault.<br>Author: "#3, as ordered by The King".<br>Dimensions: 10" by 12".<br>Pages: 873.<br>Age: ~35,000 years.<br>Language: Old World.<br>Binding: Scaly striped black and white hide, unknown creature of origin.<br>Reality code enhancement(s): Indestructability.<br>Usefulness: INTENSE EXTREME.<br> <br>"...Intense extreme?" ~Agent Brown<br>"You're intense extreme-LY STUPID. ABSOLUTELY DEVESTATED." ~Agent Johnson</i>"
+    -"Everything is <b>35%</b> more efficient.<br><i>Found locked in Sauthir Castle's vault.<br>Author: "#3, as ordered by The King".<br>Dimensions: 10" by 12".<br>Pages: 873.<br>Age: ~35,000 years.<br>Language: Old World.<br>Binding: Scaly striped black and white hide, unknown creature of origin.<br>Reality code enhancement(s): Indestructability.<br>Usefulness: INTENSE EXTREME.<br> <br>"...Intense extreme?" ~Agent Brown<br>"You're intense extreme-LY STUPID. ABSOLUTELY DEVASTATED." ~Agent Johnson</i>"
     -costs 3.7e37 money
     -unlocks at 2 timesActuallyWon, 1 winBricks
     -multiplies efficiency of brickFactory by 135%
@@ -5052,7 +5078,7 @@ Upgrades :
 	-picture : http://i.imgur.com/pFyHQUx.png
 
 	*handAndSingularityUpgrade
-	-"Hand punches do <b>0.25%</b> more damage per Singularity.<br><i>Your hands are now heavy as mass of the universe, but it doesnt collapse, thanks quantum fluctuations!</i>"
+	-"Hand punches do <b>0.25%</b> more damage per Singularity.<br><i>Your hands are now heavy as mass of the universe, but it doesn't collapse. Thanks quantum fluctuations!</i>"
 	-costs 1500000000000000000000000000 money, 100000 artSpaceBricks
 	-multiplies efficiency of hitWall by 0.25% per begginingBuilding
 	-unlocks at 50 begginingBuilding
@@ -5060,7 +5086,7 @@ Upgrades :
 	-picture : http://i.imgur.com/35Ekwfh.png
 
 	*handAndEdgeBeingUpgrade
-	-"Hand punches do <b>0.25%</b> more damage per Edge being.<br><i>Edgy like a 5-cell, tetrahedron, triangle and line at the same time</i>"
+	-"Hand punches do <b>0.25%</b> more damage per Edge being.<br><i>Edgy like a 5-cell, tetrahedron, triangle and line at the same time.</i>"
 	-costs 75000000000000000000000000000000 money, 10000 artTimeBricks
 	-multiplies efficiency of hitWall by 0.25% per edgeBeing
 	-unlocks at 50 edgeBeing
@@ -5068,7 +5094,7 @@ Upgrades :
 	-picture : http://i.imgur.com/YREu98L.png
 	
 	*handGlitchUpgrade
-	-"<b>Illegal Mesh Scroll:</b> Hand punches deal <b>0.19%</b> more damage per glitch.<br><i>Hopefully not the W.D. Gaster hands, whoever "he" is..</i>"
+	-"<b>Illegal Mesh Scroll:</b> Hand punches deal <b>0.19%</b> more damage per glitch.<br><i>Hopefully not the "man speaking in hands" hands...</i>"
 	-costs 2.62144e40 money, 131072 artSpaceBricks, 16384 artTimeBricks
 	-unlocks at 50 anotherbuilding
 	-multiplies efficiency of hitWall by 0.19% per anotherbuilding
@@ -7189,7 +7215,7 @@ Upgrades :
 	-named Pure Antimatter Robots
 	-picture : http://i.imgur.com/jvDmXhB.png
 	*lastBuildingUpgradeBlack
-	-"Black obliterators do <b>six times</b> as much damage.<br><i>"Black + Black = White. Now dont quenstion me." ~RUC CEO</i>"
+	-"Black obliterators do <b>six times</b> as much damage.<br><i>"Black + Black = White. Now don't question me." ~RUC CEO</i>"
 	-costs 208e+42 money, 1.3e+25 fourthwallmatter
 	-unlocks at 600 lastBuilding
 	-multiplies efficiency of lastBuilding by 600%
@@ -7439,7 +7465,7 @@ Upgrades :
 	-named Singularity Beings
 	-picture : http://i.imgur.com/80qb96W.png
 	*edgeBeingAndSingularityUpgrade2
-	-"Singularities do <b>0.8%</b> more damage per Edge Being.<br>Edge beings do <b>0.7%</b> more damage per Singularity.<br><i>Now singularities are shaped like klein bottle so it spits directly space bricks, and edge beings transform the bricks into higher dimension - time bricks</i>"
+	-"Singularities do <b>0.8%</b> more damage per Edge Being.<br>Edge beings do <b>0.7%</b> more damage per Singularity.<br><i>Now singularities are shaped like klein bottles so it spits directly space bricks, and edge beings transform the bricks into higher dimension - time bricks</i>"
 	-costs 472.1133e33 money, 4 winSpendable
 	-unlocks at 100 edgeBeing, 100 begginingBuilding
 	-multiplies efficiency of begginingBuilding by 0.8% per edgeBeing
@@ -7471,7 +7497,7 @@ Upgrades :
 	-named Sharing of The Secrets
 	-picture : http://i.imgur.com/YPQ4CLG.png
 	*glitchscroll
-	-"Glitches are <b>50%</b> more efficient.<br><i>It displays a rip-off version of those end scrolls, but it has some unused bytes. They should use them.</i>"
+	-"Glitches are <b>50%</b> more efficient.<br><i>It displays a rip-off version of those end scrolls. WHAT DO THEY THINK THEY'RE DOING?</i>"
 	-costs 5e31 money, 10000 prePrestige
 	-unlocks at 5 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 150%
@@ -7485,14 +7511,14 @@ Upgrades :
 	-named Glitch Scroll II
 	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll3
-	-"Glitches are <b>twice</b> as efficient.<br><i>THIS ISN'T ENOUGH</i>"
+	-"Glitches are <b>twice</b> as efficient.<br><i>uh.</i>"
 	-costs 7e33 money, 25000 prePrestige, 2000 spacebricks
 	-unlocks at 25 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 200%
 	-named Glitch Scroll III
 	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll4
-	-"Glitches are <b>twice</b> as efficient.<br><i>[B]</i>"
+	-"Glitches are <b>twice</b> as efficient.<br><i>When searching for this one, scientists found a warning next to this scroll: DON'T TOUCH THE NODES.</i>"
 	-costs 4.4444e34 money, 30000 prePrestige, 3500 spacebricks
 	-unlocks at 50 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 200%
@@ -7506,7 +7532,7 @@ Upgrades :
 	-named Glitch Scroll V
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll6
-	-"Glitches are <b>2.5 times</b> as efficient.<br><i>"insert [REDACTED] description here, although the [REDACTED] description is blocked by the government"</i>"
+	-"Glitches are <b>2.5 times</b> as efficient.<br><i>"[REDACTED]"</i>"
 	-costs 1.234567890e36 money, 66666 prePrestige, 6666 spacebricks
 	-unlocks at 100 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 250%
@@ -7531,17 +7557,17 @@ Upgrades :
 	-costs 2.432e38 money, 125000 prePrestige, 17500 spacebricks, 1000 timebricks
 	-unlocks at 250 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 300%
-	-named Danger!
+	-named Evil Stacking Ritual
         -picture : http://i.imgur.com/skLNAG0.png
 	*glitchscroll10
-	-"Glitches are <b>3 times</b> as efficient.<br><i>Who kept track of these numbers, anyway?</i>"
+	-"Glitches are <b>3 times</b> as efficient.<br><i>quick, say something cryptic</i>"
 	-costs 8.55555e38 money, 150000 prePrestige, 20000 spacebricks, 1000 timebricks
 	-unlocks at 300 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 300%
 	-named Glitch Scroll VIII
         -picture : http://i.imgur.com/skLNAG0.png
 	*glitchscroll11
-	-"Glitches are <b>4 times</b> as efficient.<br><i>That's a weird unlocking pattern, right there.</i>"
+	-"Glitches are <b>4 times</b> as efficient.<br><i>You sure you're okay? You're still not really ok.</i>"
 	-costs 1e40 money, 200000 prePrestige, 30000 spacebricks, 1337 timebricks
 	-unlocks at 333 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 400%
@@ -7573,7 +7599,7 @@ Upgrades :
 	-costs 9.090090009e43 money, 500000 prePrestige, 400000 artspacebricks, 100000 arttimebricks
 	-unlocks at 550 anotherbuilding
 	-multiplies efficiency of anotherbuilding by 480%
-	-named More Glitchiness (loopholes galore!)
+	-named Loophole
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*glitchscroll16
 	-"// WARNING // DON'T BUY THIS YET, IT'S STILL BUGGED // Glitches are <b>5 times</b> as efficient. Unlocks the glitchpocalypse. A uncalled for warning. <br><i>the gli̵̘̰͔̿̄͘t̵̟͚̓̌̕̚͝c̴̩̆͐ĥ̴̖̩͒̊p̵̞̳̟̽o̸̢̖͚̝͈͒͛ć̶̳̜͑alyps̴̤̝̣̍̈́̈́̽ĕ̴̱̦̟̫̳̰̉͑̐ is <b>COMING</b>...</i>"
@@ -7581,7 +7607,7 @@ Upgrades :
 	-unlocks at 600 anotherbuilding
 	-gives 1 glitchpocalypseprogress when bought
 	-multiplies efficiency of anotherbuilding by 500%
-	-named DARKEST NIGHT
+	-named NaN
 	-picture : https://i.imgur.com/onMV7rU.png
 	*GLITCHPOCALYPSE1
 	-"Glitches are <b>4 times</b> as efficient, at the cost of every other building only being 98% as efficient. Continues the glitchpocalypse. <br><i>I thought we knew everything, but based on some leaked information, I guess we don't have enough of it.</i>"
@@ -7607,12 +7633,12 @@ Upgrades :
     	-multiplies efficiency of brickFactory by 98%
 	-named Everything We Forgot About Them
 	*GLITCHPOCALYPSE2
-	-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching losing 4% efficiency. Continues the glitchpocalypse. <br><i>It's affecting almost everything at the moment, we've got to stop it! ~ No One Said Ever (except you)</i>"
+	-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching losing 10% efficiency. Continues the glitchpocalypse. <br><i>Your arm feels numb.</i>"
 	-costs 9e44 money, 36363 artspacebricks
 	-unlocks at 2 glitchpocalypseprogress
 	-gives 1 glitchpocalypseprogress when bought
 	-multiplies efficiency of anotherbuilding by 400%
-	-multiplies efficiency of hitWall by 96%
+	-multiplies efficiency of hitWall by 90%
 	-named Pwned
 	*brickFactoryUpgrade
 	-"Brick factories produce <b>50%</b> more bricks.<br><i>The dark magic tablets we're using can talk, so we need to learn more about them to use them better. They sound really creepy, and talk about really disturbing stuff.</i>"
@@ -8616,15 +8642,15 @@ Achievements :
 	-named Wall Overlord
 	-picture : http://i.imgur.com/a9KpqJU.png
 	*wallDestroyer8
-	-"Destroy the <b>Ten Walls of Space</b>."
+	-"Destroy the <b>Ten Walls of Space</b>.<br><i>Now nothing limits us in the space realm.</i>"
 	-named God of Walls
 	-picture : http://i.imgur.com/QHVw82O.png
 	*wallDestroyer9
-	-"Destroy the <b>Ten Walls of Time</b>."
+	-"Destroy the <b>Ten Walls of Time</b>.<br><i>Ew, timewalls.</i>"
 	-named Time & Space
 	-picture : http://i.imgur.com/jeeRSsT.png
 	*wallDestroyer10
-	-"Destroy the <b>Ten Walls of The End</b>."
+	-"Destroy the <b>Ten Walls of The End</b>.<br><i>Not the end of us.</i>"
 	-named Infinity & Eternity
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*wallDestroyer11
@@ -8641,7 +8667,7 @@ Achievements :
 	-unlocks at 1 meshBossPoint, 1 meshBricks
 	-picture : http://i.imgur.com/BdGmywz.png
 	*wallTellurium2
-	-"Destroy all the walls <b>5</b> times."
+	-"Destroy all the walls <b>5</b> times. <br><i>Going down the rabbit hole. This seems redundant, but breaking the walls 100 times is probably a bad idea.</i>"
 	-named Ultimate
 	-unlocks at 4 meshBossPoint, 1 meshBricks
 	-picture : http://i.imgur.com/pRgCwIf.png
@@ -8676,7 +8702,7 @@ Achievements :
 	-unlocks at 39 meshBossPoint, 1 meshBricks
 	-picture : http://i.imgur.com/jsCyq5a.png
 	*wallTellurium9
-	-"Destroy all the walls <b>50</b> times."
+	-"Destroy all the walls <b>50</b> times.<br><i>Some dumb password someone left a long time ago.</i>"
 	-named Forgotten_Password.rar
 	-unlocks at 49 meshBossPoint, 1 meshBricks
 	-picture : http://i.imgur.com/jsCyq5a.png
@@ -8686,7 +8712,7 @@ Achievements :
 	-unlocks at 59 meshBossPoint, 1 meshBricks
 	-picture : http://i.imgur.com/jsCyq5a.png
         *wallTellurium11
-	-"Destroy all the walls <b>70</b> times."
+	-"Destroy all the walls <b>70</b> times.<br><i>How you're still here is really astonishing.</i>"
 	-named Computer Death
 	-unlocks at 69 meshBossPoint, 1 meshBricks
 	-picture : http://i.imgur.com/jsCyq5a.png
@@ -8708,22 +8734,22 @@ Achievements :
 	-picture : https://i.imgur.com/aCU88Ro.png
 
 	*moneySpecific01
-	-"Have all money that exists on earth.<br><i>May the bad title games begin!</i>"
+	-"Have all money that exists on Earth as of when Weirdoverse made this achievement. ($5.2 trillion) <br><i>May the bad title games begin!</i>"
 	-named Moneyllionaire
 	-unlocks at 5.2e12 money
 	-picture : http://i.imgur.com/lZaWfwJ.png
 	*moneySpecific02
-	-"Have as much money as much as Earth is worth."
+	-"Have as much money as much as Earth is worth as of when Weirdoverse made this achievement. ($5 quadrillion)"
 	-named Earthillion
 	-unlocks at 5e15 money
 	-picture : http://i.imgur.com/lJ8A4Wn.png
 	*moneySpecific03
-	-"Have as much money as much as PSR J1719-1438 B is worth. <br><i>"PSR- what..?" ~ Normal Person</i>"
+	-"Have as much money as much as PSR J1719-1438 B is worth. ($26.9 nonillion)<br><i>"PSR- what..?" ~ Normal Person</i>"
 	-named Full Diamond Armor
-	-unlocks at 26.9e30 money
+	-unlocks at 2.69e31 money
 	-picture : http://i.imgur.com/ynoLa6v.png
 	*moneyAchieve01
-	-"Gain <b>1 Quadrillion</b> dollars from wall damaging."
+	-"Gain <b>1 Quadrillion</b> dollars from wall damaging. <br><i>No one wants to be a thousa-million-millionaire.</i>"
 	-named Thousa-Million-Millionaire
 	-unlocks at 1e15 money
 	-picture : http://i.imgur.com/lZaWfwJ.png
@@ -8778,7 +8804,7 @@ Achievements :
 	-unlocks at 1e45 money
 	-picture : http://i.imgur.com/lZaWfwJ.png
 	*moneyAchieve12
-	-"Gain <b>1 Quindecillion</b> dollars from wall damaging. Well, maybe not as priceless... as your life."
+	-"Gain <b>1 Quindecillion</b> dollars from wall damaging. <br><i>Well, maybe not as priceless... as your life.</i>"
 	-named Priceless
 	-unlocks at 1e48 money
 	-picture : http://i.imgur.com/ynoLa6v.png
@@ -9004,7 +9030,11 @@ Achievements :
 	-named Congratulations
 	-picture : http://i.imgur.com/ySJTkaS.png 
 	*thropyAchieve7
-	-"Earn "<b>every trophy</b>".<br><i>EDIT: You're never done. I'm looking at you 2 unoriginal trophies!</i>"
+	-"Achieve <b>0th</b> place.<br><i>Please tell me how this is possible.</i>"
+	-named Why?
+	-picture : http://i.imgur.com/ySJTkaS.png 
+	*thropyAchieve8
+	-"Earn <b>every trophy</b>, excluding 0th place and below.<br><i>EDIT: You're never done. I'm looking at you 2 unoriginal trophies!</i>"
 	-named You're Done
 	-picture : http://i.imgur.com/hfmclY6.png
 
@@ -9108,9 +9138,13 @@ Achievements :
 	-unlocks at 10000000000000000000000000000000000000000000 handDamage
 	-named Bleh
 	-picture : http://i.imgur.com/Gtg8P7F.png
-
+	*handDamage20
+	-"Deal <b>10 quattuordecillion</b> damage by hand.<br><i>I really need to do something creative with this.</i>"
+	-unlocks at 10000000000000000000000000000000000000000000000 handDamage
+	-named Break_punch.js
+	-picture : http://i.imgur.com/Gtg8P7F.png
         *HandBrickAchieve1
-        -"Make <b>100</b> bricks by hand. <br><i>Where did all the possibility of manipulation of bricks came from, anyway?</i>"
+        -"Make <b>100</b> bricks by hand. <br><i>Don't ask how.</i>"
         -unlocks at 100 handBricks
         -named Dark Magician
         -picture : http://i.imgur.com/LeHD80E.png
@@ -9130,7 +9164,7 @@ Achievements :
         -named Corruption
         -picture : http://i.imgur.com/WohZpox.png
         *HandBrickAchieve5
-        -"Make <b>10,000,000,000</b> bricks by hand. <br><i>BRICKS BRICKS BRICKS BRICKS, and more BRICKS...</i>"
+        -"Make <b>10,000,000,000</b> bricks by hand. <br><i>Your brain's a brick.</i>"
         -unlocks at 1e10 handBricks
         -named Brainwashing
         -picture : http://i.imgur.com/1n3yBA4.png
@@ -9140,7 +9174,7 @@ Achievements :
         -named Puppet of Darkness
         -picture : http://i.imgur.com/mLO2JCX.png
         *HandBrickAchieve7
-	-"Make <b>100,000,000,000,000</b> bricks by hand. <br><i>More like a Shadow of Bricks! ~ Dumb Person</i>"
+	-"Make <b>100,000,000,000,000</b> bricks by hand. <br><i>This is way too much black magic.</i>"
         -unlocks at 1e14 handBricks
         -named Shadow of the Night
         -picture : http://i.imgur.com/m5peORa.png
@@ -9265,7 +9299,7 @@ Achievements :
 	-unlocks at 1000000000000000000000000000 puncherDamage
 	-picture : http://i.imgur.com/5bqbpYi.png
 	*puncherDamageAchieve5
-	-"Deal <b>1 decillion</b> damage to the wall with your punchers. <br><i>I don't think this is a good idea.</i>"
+	-"Deal <b>1 decillion</b> damage to the wall with your punchers. <br><i>I don't think this is a good idea.</i><br><i>No u</i>"
 	-named Handjob
 	-unlocks at 1000000000000000000000000000000000 puncherDamage
 	-picture : http://i.imgur.com/hIw2jGW.png
@@ -9311,7 +9345,7 @@ Achievements :
 	-unlocks at 300 clubber
 	-picture : http://i.imgur.com/4wh5BY0.png
 	*clubberAchieve8
-	-"Hire <b>400</b> clubbers. <br><i>"BUT ISN'T INFINITY 1.8e308!?!?!?!?!" ~ Infinity Person"
+	-"Hire <b>400</b> clubbers. <br><i>"BUT ISN'T INFINITY 1.8e308!?!?!?!?!" ~ Infinity Person</i><br>We got this complaint already."
 	-named Club to Infinity
 	-unlocks at 400 clubber
 	-picture : http://i.imgur.com/JruQMzO.png
@@ -9447,7 +9481,7 @@ Achievements :
 	-unlocks at 900 swordsman
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*swordsmanAchieve14
-	-"Hire <b>1,000</b> swordsmen."
+	-"Hire <b>1,000</b> swordsmen.<br><i>[NO CLICKBAIT]</i>"
 	-named 1000 degree glowing sword
 	-unlocks at 1000 swordsman
 	-picture : http://i.imgur.com/kLc5SXU.png
@@ -9649,7 +9683,7 @@ Achievements :
 	-unlocks at 900 grenade
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*grenadeAchieve14
-	-"Hire <b>1,000</b> grenademen. [World War II Flashbacks]"
+	-"Hire <b>1,000</b> grenademen. <br><i>[World War II Flashbacks]</i>"
 	-named Forced Hiroshima
 	-unlocks at 1000 grenade
 	-picture : http://i.imgur.com/Gtg8P7F.png
@@ -9866,7 +9900,7 @@ Achievements :
 	-unlocks at 200000000000000000000000000000000000000 bulldozerDamage
 	-picture : http://i.imgur.com/sfXVHT6.png
 	*bulldozerDamageAchieve6
-	-"Deal <b>200 tredecillion</b> damage to the wall with your bulldozers."
+	-"Deal <b>200 tredecillion</b> damage to the wall with your bulldozers.<br><i>So wait, how'd these bulldozers get through space and time anyway?</i>"
 	-named Intergalactic Level
 	-unlocks at 200000000000000000000000000000000000000000000 bulldozerDamage
 	-picture : http://i.imgur.com/8XhF0a9.png
@@ -10302,33 +10336,33 @@ Achievements :
 	-unlocks at 600 compromiser
 	-picture : http://i.imgur.com/VeoBNKx.png
 	*compromiserDamageAchieve
-	-"Deal <b>1 quintillion</b> damage to the wall with your reality compromisors."
+	-"Deal <b>1 quintillion</b> damage to the wall with your reality compromisers."
 	-named Fourth Deletion
 	-unlocks at 1000000000000000000 compromiserDamage
 	-picture : http://i.imgur.com/gRgl3DR.png
 	*compromiserDamageAchieve2
-	-"Deal <b>1 septillion</b> damage to the wall with your reality compromisors."
+	-"Deal <b>1 septillion</b> damage to the wall with your reality compromisers."
 	-named Team Force Update
 	-unlocks at 1000000000000000000000000 compromiserDamage
 	-picture : http://i.imgur.com/3aOpWd3.png
 	*compromiserDamageAchieve3
-	-"Deal <b>1 octillion</b> damage to the wall with your reality compromisors."
+	-"Deal <b>1 octillion</b> damage to the wall with your reality compromisers."
 	-named The Universe Said 4
 	-unlocks at 1000000000000000000000000000 compromiserDamage
 	-picture : http://i.imgur.com/lBojsEA.png
 	*compromiserDamageAchieve4
-	-"Deal <b>1 undecillion</b> damage to the wall with your reality compromisors.<br><i>I will eat all your tofu and gas ~ThatDude</i>"
+	-"Deal <b>1 undecillion</b> damage to the wall with your reality compromisers.<br><i>I will eat all your tofu and gas ~ThatDude</i>"
 	-named Tofu_Saturn
 	-unlocks at 1000000000000000000000000000000000000 compromiserDamage
 	-picture : http://i.imgur.com/eEN1R6D.png
 	*compromiserDamageAchieve5
-	-"Deal <b>1 tredecillion</b> damage to the wall with your reality compromisors."
+	-"Deal <b>1 tredecillion</b> damage to the wall with your reality compromisors. <br><i>Um...</i>"
 	-named That Fourth Wall Thingy, Yes That One Over There, Now Don't Touch That, What Have You Done!?
 	-unlocks at 1000000000000000000000000000000000000000000 compromiserDamage
 	-picture : http://i.imgur.com/VeoBNKx.png
 
 	*lastBuildingAchieve
-	-"Build <b>1</b> black obliterator."
+	-"Build <b>1</b> black obliterator.<br><i>You've just unleashed a monster sent to destroy those walls. Not sure if any human casualties will occur though.</i>"
 	-named The Reaper
 	-unlocks at 1 lastBuilding
 	-picture : http://i.imgur.com/PqwDNQa.png
@@ -10383,7 +10417,7 @@ Achievements :
 	-unlocks at 1000000000000000000000000 lastDamage
 	-picture : http://i.imgur.com/PqwDNQa.png
 	*lastDamageAchieve2
-	-"Deal <b>1 octillion</b> damage to the wall with your obliterators."
+	-"Deal <b>1 octillion</b> damage to the wall with your obliterators.<br><i>Everything matters, but nothing matters</i>"
 	-named Everything
 	-unlocks at 1000000000000000000000000000 lastDamage
 	-picture : http://i.imgur.com/UDpQHgY.png
@@ -10449,7 +10483,7 @@ Achievements :
 	-unlocks at 500 begginingBuilding
 	-picture : http://i.imgur.com/UutBnId.png
 	*begginingBuildingAchieve10
-	-"Build <b>600</b> Singularities."
+	-"Build <b>600</b> Singularities. <br><i>If the rumors are true, this makes you infinitely smart.</i>"
 	-named The IQ of Exact Pi Without Dot
 	-unlocks at 600 begginingBuilding
 	-picture : http://i.imgur.com/JPZAMlk.png
@@ -10489,7 +10523,7 @@ Achievements :
 	-unlocks at 50 edgeBeing
 	-picture : http://i.imgur.com/Ew206fE.png
 	*edgeBeingAchieve4
-	-"Hire <b>100</b> Edge Beings."
+	-"Hire <b>100</b> Edge Beings.<br><i>Yes, we know.</i>"
 	-named Weirdoverse Is Awful At Making Up Names
 	-unlocks at 100 edgeBeing
 	-picture : http://i.imgur.com/UiYgx6i.png
@@ -10560,68 +10594,67 @@ Achievements :
 	-picture : http://i.imgur.com/Gtg8P7F.png
 
 	*buildingAchieve1
-	-"Have <b>100</b> buildings."
+	-"Have <b>100</b> buildings in total in one run."
 	-named The Menagerie
 	-picture : http://i.imgur.com/93tCmIj.png
 	-unlocks at 100 building
 	*buildingAchieve2
-	-"Have <b>500</b> buildings."
+	-"Have <b>500</b> buildings in total in one run."
 	-named The Aggregation
 	-picture : http://i.imgur.com/F4FwhJe.png
 	-unlocks at 500 building
 	*buildingAchieve3
-	-"Have <b>1,000</b> buildings."
+	-"Have <b>1,000</b> buildings in total in one run."
 	-named The Armada
 	-picture : http://i.imgur.com/tHUohS4.png
 	-unlocks at 1000 building
 	*buildingAchieve4
-	-"Have <b>2,000</b> buildings."
+	-"Have <b>2,000</b> buildings in total in one run."
 	-named Ruler of The World
 	-picture : http://i.imgur.com/CSzNF0J.png
 	-unlocks at 2000 building
 	*buildingAchieve5
-	-"Have <b>3,000</b> buildings."
+	-"Have <b>3,000</b> buildings in total in one run."
 	-named King of The Cosmos
 	-picture : http://i.imgur.com/piFqUdL.png
 	-unlocks at 3000 building
 	*buildingAchieve6
-	-"Have <b>5,000</b> buildings."
+	-"Have <b>5,000</b> buildings in total in one run."
 	-named Master of Reality
 	-picture : http://i.imgur.com/fGDPekC.png
 	-unlocks at 5000 building
 	*buildingAchieve7
-	-"Have <b>7,500</b> buildings."
+	-"Have <b>7,500</b> buildings in total in one run."
 	-named God
 	-picture : http://i.imgur.com/gszdkb6.png
 	-unlocks at 7500 building
 	*buildingAchieve8
-	-"Have <b>10,000</b> buildings."
+	-"Have <b>10,000</b> buildings in total in one run."
 	-named The Prince
 	-picture : http://i.imgur.com/lyIXkLq.png
 	-unlocks at 10000 building
 	*buildingAchieve9
-	-"Have <b>12,500</b> buildings."
+	-"Have <b>12,500</b> buildings in total in one run."
 	-named The King
 	-picture : http://i.imgur.com/xvVrdJg.png
 	-unlocks at 12500 building
 	*buildingAchieve10
-	-"Have <b>15,000</b> buildings."
+	-"Have <b>15,000</b> buildings in total in one run.<br><i>Can you really call it the end of the beginning when you've broken so many walls?</i>"
 	-named End Of The Beginning
 	-picture : http://i.imgur.com/AXc3JzP.png
 	-unlocks at 15000 building
-
 	*totalBuildingAchieve1
-	-"Sacrifice <b>10,000</b> buildings."
+	-"Sacrifice <b>10,000</b> buildings.<br><i>Rise again</i>"
 	-named Rebirth
 	-picture : http://i.imgur.com/U84N3WY.png
 	-unlocks at 10000 buildings
 	*totalBuildingAchieve2
-	-"Sacrifice <b>20,000</b> buildings."
+	-"Sacrifice <b>20,000</b> buildings.<br><i>Die again</i>"
 	-named Afterlife
 	-picture : http://i.imgur.com/CyLRNfy.png
 	-unlocks at 20000 buildings
 	*totalBuildingAchieve3
-	-"Sacrifice <b>30,000</b> buildings."
+	-"Sacrifice <b>30,000</b> buildings.<br><i>Drinking that beer now, eh?</i>"
 	-named High Life
 	-picture : http://i.imgur.com/zig46Wt.png
 	-unlocks at 30000 buildings
@@ -10646,7 +10679,7 @@ Achievements :
 	-picture : http://i.imgur.com/GGm1lhe.png
 	-unlocks at 150000 buildings
 	*totalBuildingAchieve8
-	-"Sacrifice <b>200,000</b> buildings."
+	-"Sacrifice <b>200,000</b> buildings. <br><i>Yet the sacrifice is still not enough.</i>"
 	-named A lot.
 	-picture : http://i.imgur.com/t0XSjtB.png
 	-unlocks at 200000 buildings
@@ -10657,7 +10690,7 @@ Achievements :
 	-unlocks at 100 totalWalls
 	-picture : http://i.imgur.com/aCU88Ro.png
 	*totalWallsAchieve2
-	-"Destroy <b>250</b> Total walls from previous sessions.<br><i>supposed to be "Wall Master" but it was taken, i suppose.</i>"
+	-"Destroy <b>250</b> Total walls from previous sessions.<br><i>Supposed to be "Wall Master", but it was taken, I suppose.</i>"
 	-named Wall Sparky
 	-unlocks at 250 totalWalls
 	-picture : http://i.imgur.com/6H6iLIw.png
@@ -10682,7 +10715,7 @@ Achievements :
 	-unlocks at 2000 totalWalls
 	-picture : http://i.imgur.com/ICOMz5t.png
 	*totalWallsAchieve7
-	-"Destroy <b>3,000</b> Total walls from previous sessions."
+	-"Destroy <b>3,000</b> Total walls from previous sessions.<br><i>It never has an ending.</i>"
 	-named There Is Always n+1
 	-unlocks at 3000 totalWalls
 	-picture : http://i.imgur.com/6HcIknB.png
@@ -10707,7 +10740,7 @@ Achievements :
 	-unlocks at 10000 totalWalls
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*totalWallsAchieve12
-	-"Destroy <b>12,500</b> Total walls from previous sessions. <br><i>I'm sure this is already outrageous.</i>"
+	-"Destroy <b>12,500</b> Total walls from previous sessions.<br><i>You're not okay.</i>"
 	-named Addiction Level = Infinity
 	-unlocks at 12500 totalWalls
 	-picture : http://i.imgur.com/Gtg8P7F.png
