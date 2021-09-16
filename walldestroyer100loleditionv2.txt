@@ -628,7 +628,7 @@ Buildings :
 	-unlocks productionMultiplier5
 	-unlocks finalWallUnlock
 	*destroyBonusWall
-	-"<i>You win, but you can keep going anyway.</i><br> <br>Destroy bonus wall #9 and move on to the next.<br>Gives <b>100,000,000</b> bricks and <b>100 quintillion</b> cash.<br>Worth <b>5</b> cosmic knowledge."
+	-"<i>You win, but you can keep going anyway. ...wait. THERE'S STILL MORE?! Looks like you have to destroy every wall in existence!</i><br> <br>Destroy bonus wall #9 and move on to the next.<br>Gives <b>100,000,000</b> bricks and <b>100 quintillion</b> cash.<br>Worth <b>5</b> cosmic knowledge."
 	-costs 200000000000000000000 totalMoney
 	-gives 100000000 bricks when bought
 	-gives 100000000 totalBricks when bought
@@ -1308,7 +1308,7 @@ Buildings :
 	-gives 1 wallRequirement when bought
 	-unlocks destroyBonusWall45
 	*destroyBonusWall45
-	-"Destroy the Boss Finality Wall, the original final boss, until someone else took it's place..<br>Gives <b>2 septillion</b> bricks and <b>1 undecillion</b> cash.<br>Gives <b>1</b> boss brick, <b>4</b> Finality Bricks, <b>40</b> End bricks, <b>500</b> time bricks, and <b>5,000</b> space bricks.<br>Worth <b>500,000</b> cosmic knowledge.<br>Unlocks any time upgrades that were not already unlocked."
+	-"Destroy the Boss Finality Wall, the original final boss, until something else took its place...<br>Gives <b>2 septillion</b> bricks and <b>1 undecillion</b> cash.<br>Gives <b>1</b> boss brick, <b>4</b> Finality Bricks, <b>40</b> End bricks, <b>500</b> time bricks, and <b>5,000</b> space bricks.<br>Worth <b>500,000</b> cosmic knowledge.<br>Unlocks any time upgrades that were not already unlocked."
 	-costs 5000000000000000000000000000000000000 totalMoney
 	-gives 2000000000000000000000000 bricks when bought
 	-gives 2000000000000000000000000 totalBricks when bought
@@ -1348,7 +1348,7 @@ Buildings :
 	-locks destroyBonusWall45
 	-unlocks destroyBonusWall46
 	*destroyBonusWall46
-	-"Destroy the King Finality Wall.<br>Gives <b>10 septillion</b> bricks and <b>10 undecillion</b> cash.<br>Gives <b>1</b> boss bricks, <b>8</b> Finality Bricks, <b>80</b> End bricks, <b>1,000</b> time bricks, and <b>10,000</b> space bricks.<br>Worth <b>500,000</b> cosmic knowledge."
+	-"Destroy the King Finality Wall. Since when did walls become kings?<br>Gives <b>10 septillion</b> bricks and <b>10 undecillion</b> cash.<br>Gives <b>1</b> boss bricks, <b>8</b> Finality Bricks, <b>80</b> End bricks, <b>1,000</b> time bricks, and <b>10,000</b> space bricks.<br>Worth <b>500,000</b> cosmic knowledge."
 	-costs 100000000000000000000000000000000000000 totalMoney
 	-gives 10000000000000000000000000 bricks when bought
 	-gives 10000000000000000000000000 totalBricks when bought
@@ -1364,7 +1364,7 @@ Buildings :
 	-locks destroyBonusWall46
 	-unlocks destroyBonusWall47
 	*destroyBonusWall47
-	-"Destroy the End Finality Wall. It's only the beginning of the end.<br>Gives <b>50 septillion</b> bricks and <b>60 undecillion</b> cash.<br>Gives <b>1</b> boss bricks, <b>24</b> Finality Bricks, <b>100</b> End bricks, <b>1,500</b> time bricks, and <b>17,500</b> space bricks.<br>Worth <b>500,000</b> cosmic knowledge."
+	-"Destroy the End Finality Wall. If you've learned anything from this, you can trust your gut that this isn't the end.<br>Gives <b>50 septillion</b> bricks and <b>60 undecillion</b> cash.<br>Gives <b>1</b> boss bricks, <b>24</b> Finality Bricks, <b>100</b> End bricks, <b>1,500</b> time bricks, and <b>17,500</b> space bricks.<br>Worth <b>500,000</b> cosmic knowledge."
 	-costs 1000000000000000000000000000000000000000 totalMoney
 	-gives 50000000000000000000000000 bricks when bought
 	-gives 50000000000000000000000000 totalBricks when bought
@@ -1380,7 +1380,7 @@ Buildings :
 	-locks destroyBonusWall47
 	-unlocks destroyBonusWall48
 	*destroyBonusWall48
-	-"Destroy your so called final rival - the Mesh Finality Wall.<br>Gives <b>1 octillion</b> bricks and <b>1 duodecillion</b> cash.<br>Gives <b>1</b> boss bricks, <b>128</b> Finality Bricks, <b>800</b> End bricks, <b>6,500</b> time bricks, and <b>97,500</b> space bricks.<br>Worth <b>500,000</b> cosmic knowledge."
+	-"Destroy the Mesh Finality Wall, marking the end of Finality. Wait, that's really redundant...<br>Gives <b>1 octillion</b> bricks and <b>1 duodecillion</b> cash.<br>Gives <b>1</b> boss bricks, <b>128</b> Finality Bricks, <b>800</b> End bricks, <b>6,500</b> time bricks, and <b>97,500</b> space bricks.<br>Worth <b>500,000</b> cosmic knowledge."
 	-costs 50000000000000000000000000000000000000000 totalMoney
 	-gives 1000000000000000000000000000 bricks when bought
 	-gives 1000000000000000000000000000 totalBricks when bought
@@ -1442,7 +1442,7 @@ Buildings :
 	-locks destroyFantasyWall05
 	-unlocks destroyFantasyWall06
 	*destroyFantasyWall06
-	-"Destroy the exactly same wall of a fantasy world (NOT) and move to a bigger one.<br>Gives <b>6</b> Alpha bricks and <b>1</b> Fifth Dimension brick<br>Worth <b>100,000</b> cosmic knowledge."
+	-"Destroy the exactly same wall of a fantasy world (yeah totally) and move to a bigger one.<br>Gives <b>6</b> Alpha bricks and <b>1</b> Fifth Dimension brick<br>Worth <b>100,000</b> cosmic knowledge."
 	-costs 9e44 tesseractDamage
 	-represents 6 alphaBricks, 1 fifthBricks, 100000 prePrestige
 	-represents 1 wallsDestroyed
@@ -1530,7 +1530,7 @@ Buildings :
     -locks destroyinfinitything04
     -unlocks destroyinfinitything05
     *destroyinfinitything05
-    -"HOI! (this is a placeholder) <br>Gives <b>80</b> Alpha bricks, <b>16</b> Fifth Dimension bricks, <b>320,000</b> artifical space bricks, <b>80,000</b> artifical time bricks and <b>10 duodecillion</b> bricks.<br>Worth <b>650,000</b> cosmic knowledge."
+    -"bruh. what are you still doing here <br>Gives <b>80</b> Alpha bricks, <b>16</b> Fifth Dimension bricks, <b>320,000</b> artifical space bricks, <b>80,000</b> artifical time bricks and <b>10 duodecillion</b> bricks.<br>Worth <b>650,000</b> cosmic knowledge."
     -costs 4.500e50 tesseractDamage, 7.68543e50 totalmoney
     -gives 1e40 bricks when bought
     -represents 80 alphaBricks, 16 fifthBricks, 650000 prePrestige
@@ -3539,7 +3539,7 @@ Upgrades :
     -Picture : http://i.imgur.com/bkEkr5p.png
     
     *timeBearWard1
-    -"Everything is <b>5%</b> more efficient.<br><i>The wizards report feeling the power of the Time Bear upon their magic, and tell us not to manipulate time further. They can create wards that may steer the Time Bear in a different direction, making our guys less scared, therefore raising their productivity.</i>"
+    -"Everything is <b>5%</b> more efficient.<br><i>The wizards report feeling the power of the Time Bear upon their magic, and tell us not to manipulate time further. However, they can create wards that may steer the Time Bear in a different direction, making our guys less scared, therefore raising their productivity.</i>"
     -costs 9876543 fourthWallMatter, 987654321 bricks
     -unlocks at 30 prestige
     -unlocks timeBearAchieve
@@ -3841,7 +3841,7 @@ Upgrades :
     -named Final Time Bear Ward
     -picture : http://i.imgur.com/pBrcGq5.png
     *timeBearWard13
-    -"Everything is <b>8%</b> more efficient.<br><i>There is one thing that does not fear the Time Bear: The Black. The most evil substance known to anyone may be our only hope.</i>"
+    -"Everything is <b>8%</b> more efficient.<br><i>It seems there is one thing that does not fear the Time Bear: The Black. The most evil substance known to anyone may be our only hope.</i>"
     -costs 987654321012345678900 fourthWallMatter, 98765432101234567890000 bricks
     -unlocks at 4000000 prestige, 12 resetTimes
     -multiplies efficiency of hitWall by 108%
@@ -3891,7 +3891,7 @@ Upgrades :
     -named Army Time Bear Ward
     -picture : http://i.imgur.com/zZ9wpYI.png
     *timeBearWard15
-    -"Everything is <b>12%</b> more efficient.<br><i>These are the tools made out of Time Bear's skin, will totally come in handy.</i>"
+    -"Everything is <b>12%</b> more efficient.<br><i>Through extreme, improbable methods, we have managed to create tools made out of the Time Bear's skin. These will totally come in handy.</i>"
     -costs 9876543210123456789000000 fourthWallMatter, 987654321012345678900000000 bricks
     -unlocks at 14000000 prestige, 14 resetTimes
     -multiplies efficiency of hitWall by 112%
@@ -3916,7 +3916,7 @@ Upgrades :
     -named End Time Bear Ward
     -picture : http://i.imgur.com/iUzNWak.png
     *timeBearWard16
-    -"Everything is <b>12%</b> more efficient.<br><i>We beat the time bear. We are unstoppable. We are one. We are many.</i>"
+    -"Everything is <b>12%</b> more efficient.<br><i>It seemed impossible to anyone. But... we beat the time bear. We may have to deal with restoring the balance that was disrupted when we destroyed it. Yet, we are unstoppable. We are one. We are many.</i>"
     -costs 987654321012345678900000000 fourthWallMatter, 98765432101234567890000000000 bricks
     -unlocks at 18000000 prestige, 15 resetTimes
     -multiplies efficiency of hitWall by 112%
@@ -4498,7 +4498,7 @@ Upgrades :
     -named The Guide To Furthering Progress
     -picture : http://i.imgur.com/WBts5e6.png
     *productionMultiplierEnd
-    -"Everything is <b>35%</b> more efficient.<br><i>The <b>Black</b> Time bear, last of its kind in the freedom, if we fuse it with Black Obliterators... Some matter of elderich combinations...</i>"
+    -"Everything is <b>35%</b> more efficient.<br><i>The <b>Black</b> Time bear, last of its kind in the freedom. If we fuse it with Black Obliterators... Some matter of eldritch combinations...</i>"
     -costs 2.2e38 money
     -unlocks at 2 timesActuallyWon, 1 winBricks, 1 meshBossPoint
     -multiplies efficiency of brickFactory by 135%
@@ -8497,7 +8497,7 @@ Upgrades :
     -named Finality-Tier Trophy
     -picture : http://i.imgur.com/ySJTkaS.png
     *trophy24
-    -"Damage and brick production multipliers <b>+40%</b><br><i>"God. What an egotist." ~Agent Johnson</i> <br>Other trophy: <b>20,000,000</b> capsules, <b>6</b> defeats of the <b>Boss Finality Wall</b>"
+    -"Damage and brick production multipliers <b>+40%</b><br><i>"God. What an egotist." ~Agent Johnson</i> <br>??? trophy: <b>20,000,000</b> capsules, <b>6</b> defeats of the <b>Boss Finality Wall</b>"
     -costs 7.777777777777777e38 money, 7.777777777777777e25 bricks, 7.777777777777777e23 fourthWallMatter
     -unlocks at 10000000 prestige, 5 timesActuallyWon
     -unlocks thropyAchieve7
@@ -8522,7 +8522,7 @@ Upgrades :
     -named Tellurium Trophy
     -picture : http://i.imgur.com/hfmclY6.png
 	*trophy25
-    -"Damage and brick production multipliers <b>+50%</b><br><i>What now?</i>"
+    -"Damage and brick production multipliers <b>+50%</b><br><i>This is so unoriginal and must be replaced later.</i>"
     -costs 7.77e38 money, 5.55e26 bricks, 1e25 fourthWallMatter
     -unlocks at 20000000 prestige, 6 timesActuallyWon
     -multiplies efficiency of brickFactory by 150%
@@ -8545,7 +8545,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 150%
     -named Textbox Trophy
     *trophy26
-    -"Damage and brick production multipliers <b>+55%</b><br><i>spam</i>"
+    -"Damage and brick production multipliers <b>+55%</b><br><i>This is stupid</i>"
     -costs 1.44e41 money, 2.147483647e27 bricks, 3e25 fourthWallMatter
     -unlocks at 33333333 prestige, 7 timesActuallyWon
     -multiplies efficiency of brickFactory by 155%
@@ -8654,7 +8654,7 @@ Achievements :
 	-named Infinity & Eternity
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*wallDestroyer11
-	-"Destroy <b>Finality Boss Wall</b>.<br><i>*sounds of beautiful majestic high-definition horns*</i>"
+	-"Destroy the <b>Finality Boss Wall</b>.<br><i>*sounds of beautiful majestic high-definition horns*</i>"
 	-named Actual Winner
 	-picture : http://i.imgur.com/V5T9rJ7.png
 	*wallDestroyer12
@@ -8812,15 +8812,15 @@ Achievements :
 	*fourthDamageAchieve00
 	-"Have <b>100 Quadrillion</b> Fourth dimensional damage.<br><i>Boom! It's gone.</i>"
 	-unlocks at 100e15 tesseractDamage
-	-named Its all gone.
+	-named It's all gone.
 	-picture : http://i.imgur.com/7zQX9bv.png
 	*fourthDamageAchieve01
-	-"Have <b>100 Quintillion</b> Fourth dimensional damage.<br><i>Where the fifth dimension at?</i>"
+	-"Have <b>100 Quintillion</b> Fourth dimensional damage.<br><i>Where the Fifth Dimension at?</i>"
 	-unlocks at 100e18 tesseractDamage
 	-named Dimensional Crisis
 	-picture : http://i.imgur.com/DYku895.png
 	*fourthDamageAchieve02
-	-"Have <b>100 Sextillion</b> Fourth dimensional damage.<br><i>Doesnt actually obliterate bricks.</i>"
+	-"Have <b>100 Sextillion</b> Fourth dimensional damage.<br><i>Doesn't actually obliterate bricks.</i>"
 	-unlocks at 100e21 tesseractDamage
 	-named Brick Obliterator
 	-picture : http://i.imgur.com/9ura7DM.png
@@ -8830,7 +8830,7 @@ Achievements :
 	-named Hurtt
 	-picture : http://i.imgur.com/jLrZJ3N.png
 	*fourthDamageAchieve04
-	-"Have <b>100 Octillion</b> Fourth dimensional damage.<br><i>We're talking about punchers. Those which cant even fourth dimension.</i>"
+	-"Have <b>100 Octillion</b> Fourth dimensional damage.<br><i>We're talking about punchers. Those which can't even fourth dimension.</i>"
 	-unlocks at 100e27 tesseractDamage
 	-named Underestimated
 	-picture : http://i.imgur.com/nm7ACjC.png
@@ -8987,7 +8987,7 @@ Achievements :
         -unlocks at 350400 timePlayed
         -picture : http://i.imgur.com/Xrr0euS.png
         *tellIsLameAchieve22
-        -"Play for <b>a year</b>. Congratulations, you won! Maybe now you should stop, you played a lot. You played so much, you probably sucked the fun out."
+        -"Play for <b>a year</b>. Go home..."
         -named Hours, Days and Nights
         -unlocks at 525600 timePlayed
         -picture : http://i.imgur.com/1Gh7frq.png
@@ -9001,7 +9001,7 @@ Achievements :
 	-named This Is Our End
 	-picture : http://i.imgur.com/J1ef1UX.png
 	*timeBearAchieve3
-	-"Secretly continue warding and kill the time bear.<br><i>"He is out of our naughty list." ~Chief Of Puns</i> The time bear will still "come", but he will not survive for a second."
+	-"Secretly continue warding and kill the time bear.<br><i>"He is out of our naughty list." ~Chief Of Puns</i> The time bear will still "come", but it will not survive for merely a second."
 	-named Flesh Repeller
 	-picture : http://i.imgur.com/9gTyt89.png
 
@@ -9199,7 +9199,7 @@ Achievements :
         -named Dark Tablet Phychiatry
         -picture : http://i.imgur.com/KCdcX5m.png
         *HandBrickAchieve12
-        -"Make <b>1 octillion</b> bricks by hand. <br><i>We have found some abnormalities on your hand, and it seems there are unidentified objects.</i>"
+        -"Make <b>1 octillion</b> bricks by hand. <br><i>We have found some abnormalities on your hand, and it seems there are very unusual objects.</i>"
         -unlocks at 1e27 handBricks
         -named Mesh Clicker
         -picture : http://i.imgur.com/NswH8VP.png
@@ -9274,8 +9274,8 @@ Achievements :
 	-unlocks at 1000 puncher
 	-picture : http://i.imgur.com/TRuR1pM.png
 	*puncherAchieve15
-	-"Hire <b>1,100</b> punchers."
-	-named Proffesor UNCH
+	-"Hire <b>1,100</b> punchers.<br><i>Punching 101: The Philosophy of Punching</i>"
+	-named Professor UNCH
 	-unlocks at 1100 puncher
 	-picture : http://i.imgur.com/ens3Bhe.png
 	*puncherDamageAchieve
@@ -9299,7 +9299,7 @@ Achievements :
 	-unlocks at 1000000000000000000000000000 puncherDamage
 	-picture : http://i.imgur.com/5bqbpYi.png
 	*puncherDamageAchieve5
-	-"Deal <b>1 decillion</b> damage to the wall with your punchers. <br><i>I don't think this is a good idea.</i><br><i>No u</i>"
+	-"Deal <b>1 decillion</b> damage to the wall with your punchers. <br><i>If you know what I... um, well, never mind.</i>"
 	-named Handjob
 	-unlocks at 1000000000000000000000000000000000 puncherDamage
 	-picture : http://i.imgur.com/hIw2jGW.png
@@ -9390,7 +9390,7 @@ Achievements :
 	-unlocks at 10000000000 clubberDamage
 	-picture : http://i.imgur.com/k6W8MW9.png
 	*clubberDamageAchieve2
-	-"Deal <b>10,000,000,000,000</b> damage to the wall with your clubbers."
+	-"Deal <b>10,000,000,000,000</b> damage to the wall with your clubbers.<i>Uh oh. Don't remind me of that level.</i>"
 	-named Silent Clubstep
 	-unlocks at 10000000000000 clubberDamage
 	-picture : http://i.imgur.com/JZbeJbZ.png
@@ -9481,8 +9481,8 @@ Achievements :
 	-unlocks at 900 swordsman
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*swordsmanAchieve14
-	-"Hire <b>1,000</b> swordsmen.<br><i>[NO CLICKBAIT]</i>"
-	-named 1000 degree glowing sword
+	-"Hire <b>1,000</b> swordsmen.<br><i>[NOT CLICKBAIT]</i>"
+	-named 1,000 Degree Glowing Sword
 	-unlocks at 1000 swordsman
 	-picture : http://i.imgur.com/kLc5SXU.png
 	*swordDamageAchieve
@@ -9512,7 +9512,7 @@ Achievements :
 	-picture : http://i.imgur.com/nYJudXF.png
 	*swordDamageAchieve6
 	-"Deal <b>100 duodecillion</b> damage to the wall with your swordsmen.<br><i>This is children game, I suppose. Don't actually do this. The fact that this is censored means you are also children. Shame on you.</i>"
-	-named [REDACTED] The Genji
+	-named Fr*ck The Genji
 	-unlocks at 100000000000000000000000000000000000000000 swordsmanDamage
 	-picture : http://i.imgur.com/ZiK08m9.png
 
@@ -9578,7 +9578,7 @@ Achievements :
 	-picture : http://i.imgur.com/zS1s1Fp.png
 	*gunnerAchieve13
 	-"Hire <b>900</b> gunshooters."
-	-named Bizzare
+	-named Bizarre
 	-unlocks at 900 gunner
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*gunnerAchieve14
@@ -9607,7 +9607,7 @@ Achievements :
 	-unlocks at 1000000000000000000000000000000 gunnerDamage
 	-picture : http://i.imgur.com/pTa1WAu.png
 	*gunnerDamageAchieve5
-	-"Deal <b>1 undecillion</b> damage to the wall with your gunshooters. Don't actually do this. Why would you."
+	-"Deal <b>1 undecillion</b> damage to the wall with your gunshooters. <b>Don't actually do this. Why would you.</b>"
 	-named FurryCon Shooter
 	-unlocks at 1000000000000000000000000000000000000 gunnerDamage
 	-picture : http://i.imgur.com/GQyW8ni.png
@@ -9673,7 +9673,7 @@ Achievements :
 	-unlocks at 700 grenade
 	-picture : http://i.imgur.com/8EFEm0M.png
 	*grenadeAchieve12
-	-"Hire <b>800</b> grenademen."
+	-"Hire <b>800</b> grenademen.<br><i>You're going to need a bigger grenade.</i>"
 	-named Tsar Bomb Out Of Grenades
 	-unlocks at 800 grenade
 	-picture : http://i.imgur.com/VcNgtva.png
@@ -9683,7 +9683,7 @@ Achievements :
 	-unlocks at 900 grenade
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*grenadeAchieve14
-	-"Hire <b>1,000</b> grenademen. <br><i>[World War II Flashbacks]</i>"
+	-"Hire <b>1,000</b> grenademen. <br><i>Now that's quite graphic...</i>"
 	-named Forced Hiroshima
 	-unlocks at 1000 grenade
 	-picture : http://i.imgur.com/Gtg8P7F.png
@@ -9774,12 +9774,12 @@ Achievements :
 	-unlocks at 700 wreckingBall
 	-picture : http://i.imgur.com/LmISELN.png
 	*wreckingBallAchieve12
-	-"Hire <b>800</b> wrecking balls."
+	-"Hire <b>800</b> wrecking balls. <br><i>"All I wanted was to break your walls, all you ever did was wreck me"</i>"
 	-named Miley Cyrus
 	-unlocks at 800 wreckingBall
 	-picture : http://i.imgur.com/uQo213H.png
 	*wreckingBallAchieve13
-	-"Hire <b>800</b> wrecking balls."
+	-"Hire <b>900</b> wrecking balls."
 	-named Smashlight
 	-unlocks at 900 wreckingBall
 	-picture : http://i.imgur.com/Gtg8P7F.png
@@ -9961,7 +9961,7 @@ Achievements :
 	-unlocks at 700 airstrike
 	-picture : http://i.imgur.com/pyvvTSj.png
 	*airstrikeAchieve12
-	-"Hire <b>800</b> airstrike callers."
+	-"Hire <b>800</b> airstrike callers.<br><i>Wall Warfare</i>"
 	-named Call Of Duty
 	-unlocks at 800 airstrike
 	-picture : http://i.imgur.com/XSae4F0.png
@@ -10189,23 +10189,23 @@ Achievements :
 	-unlocks at 400 brickFactory
 	-picture : http://i.imgur.com/v1FFhA9.png
 	*brickFactoryAchieve9
-	-"Build <b>500</b> brick fatories.<br><i>"Did we run out of fitting ones?" ~Agent Carter<br>"If you had a brick of sense in you, you wouldn't question my puns." ~Chief of Puns</i>"
+	-"Build <b>500</b> brick factories.<br><i>"Did we run out of fitting ones?" ~Agent Carter<br>"If you had a brick of sense in you, you wouldn't question my puns." ~Chief of Puns</i>"
 	-named A Brick of Sense
 	-unlocks at 500 brickFactory
 	-picture : http://i.imgur.com/CVVcmHj.png
 	*brickFactoryAchieve10
-	-"Build <b>600</b> brick fatories."
+	-"Build <b>600</b> brick factories."
 	-named Factories In Mexico
 	-unlocks at 600 brickFactory
 	-picture : http://i.imgur.com/ufqnZaV.png
 	*brickFactoryAchieve11
-	-"Build <b>700</b> brick fatories."
+	-"Build <b>700</b> brick factories.<br><i>Never gonna brick you up, never gonna brick you down, never gonna run around and brick you. Never gonna brick your house, never gonna brick "your mom", never gonna tell a brick and hurt you.</i>"
 	-named Never Gonna Brick Your House
 	-unlocks at 700 brickFactory
 	-picture : http://i.imgur.com/ufqnZaV.png
 
 	*DemonAchieve1
-	-"Hire <b>1</b> demon."
+	-"Hire <b>1</b> demon.<br><i>A new sitcom!</i>"
 	-named Raising Hell
 	-unlocks at 1 demon
 	-picture : http://i.imgur.com/klcGmts.png
@@ -10336,7 +10336,7 @@ Achievements :
 	-unlocks at 600 compromiser
 	-picture : http://i.imgur.com/VeoBNKx.png
 	*compromiserDamageAchieve
-	-"Deal <b>1 quintillion</b> damage to the wall with your reality compromisers."
+	-"Deal <b>1 quintillion</b> damage to the wall with your reality compromisers. <br><i>4th wall breaking is no longer in fashion.</i>"
 	-named Fourth Deletion
 	-unlocks at 1000000000000000000 compromiserDamage
 	-picture : http://i.imgur.com/gRgl3DR.png
@@ -10356,7 +10356,7 @@ Achievements :
 	-unlocks at 1000000000000000000000000000000000000 compromiserDamage
 	-picture : http://i.imgur.com/eEN1R6D.png
 	*compromiserDamageAchieve5
-	-"Deal <b>1 tredecillion</b> damage to the wall with your reality compromisors. <br><i>Um...</i>"
+	-"Deal <b>1 tredecillion</b> damage to the wall with your reality compromisors. <br><i>After all this time, is the fourth wall that dangerous? Is it true that we're still stuck in a silly game? Wait...</i>"
 	-named That Fourth Wall Thingy, Yes That One Over There, Now Don't Touch That, What Have You Done!?
 	-unlocks at 1000000000000000000000000000000000000000000 compromiserDamage
 	-picture : http://i.imgur.com/VeoBNKx.png
@@ -10397,7 +10397,7 @@ Achievements :
 	-unlocks at 300 lastBuilding
 	-picture : http://i.imgur.com/jFpYzHt.png
 	*lastBuildingAchieve8
-	-"Build <b>400</b> Black obliterators.<br><i>"400 is not equal to infinity." ~Agent Lawrence<br>"Wrong." ~Agent Johnson</i>"
+	-"Build <b>400</b> Black obliterators.<br><i>"400 is not equal to Infinity." ~Agent Lawrence<br>"Wrong." ~Agent Johnson</i>"
 	-named Infinity
 	-unlocks at 400 lastBuilding
 	-picture : http://i.imgur.com/9ICkBB1.png
@@ -10438,7 +10438,7 @@ Achievements :
 	-picture : http://i.imgur.com/pEpISIJ.png
 
 	*begginingBuildingAchieve1
-	-"Build <b>1</b> Singularity."
+	-"Build <b>1</b> Singularity. <br><i>So this is what it's like to reach the Singularity.</i>"
 	-named Helix
 	-unlocks at 1 begginingBuilding
 	-picture : http://i.imgur.com/c6wbTjb.png
@@ -10458,7 +10458,7 @@ Achievements :
 	-unlocks at 100 begginingBuilding
 	-picture : http://i.imgur.com/0eO1KAQ.png
 	*begginingBuildingAchieve5
-	-"Build <b>150</b> Singularities."
+	-"Build <b>150</b> Singularities. <br><i>Long live the RUC.</i>"
 	-named Year 2814
 	-unlocks at 150 begginingBuilding
 	-picture : http://i.imgur.com/hVTEcOK.png
@@ -10468,7 +10468,7 @@ Achievements :
 	-unlocks at 200 begginingBuilding
 	-picture : http://i.imgur.com/04ZQmQN.png
 	*begginingBuildingAchieve7
-	-"Build <b>300</b> Singularities."
+	-"Build <b>300</b> Singularities.<br><i>Makes a difference</i>"
 	-named Infinitesimal, But Dense
 	-unlocks at 300 begginingBuilding
 	-picture : http://i.imgur.com/U6HJjoT.png
