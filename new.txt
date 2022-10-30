@@ -596,7 +596,7 @@ Buildings :
 	-gives 250000 bricks when bought
 	-gives 250000 totalBricks when bought
 	-represents 1 wallsDestroyed
-	-represents 2 f
+	-represents 2 prePrestige
 	-named Destroy 4th wall
 	-locks destroyMassiveWall
 	-costs 1 wallRequirement
