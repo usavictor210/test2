@@ -123,7 +123,7 @@ Resources :
         -named Reality compromiser damage
         *lastDamage
         -named Black obliterator damage
-        *edgeBeingDamage
+        *singularityDamage
         -named Singularity damage
 		*edgeBeingDamage
 		-named Edge being damage
@@ -414,7 +414,7 @@ Clickables :
 	-converts demonDamage to nothing
 	-converts compromiserDamage to nothing
 	-converts lastDamage to nothing
-	-converts edgeBeingDamage to nothing
+	-converts singularityDamage to nothing
 	-converts edgeBeingDamage to nothing
 	-converts glitchDamage to nothing
 	-converts dreamMachineDamage to nothing
@@ -1738,8 +1738,8 @@ Buildings :
 	-costs 150e24 money
 	-gives 11e18 money
 	-gives 0.0000005787035 artSpaceBricks
-	-gives 11e18 totalMoney
-	-gives 11e18 edgeBeingDamage
+	-gives 1.1e19 totalMoney
+	-gives 1.1e19 singularityDamage
 	-named Singularity|Singularities
 	-represents 1 building
 
@@ -10501,25 +10501,25 @@ Achievements :
 	-named The IQ of Exact Pi Without Dot
 	-unlocks at 600 singularityBuilding
 	-picture : http://i.imgur.com/JPZAMlk.png
-	*edgeBeingDamageAchieve
+	*singDamageAchieve
 	-"Deal <b>100 octillion</b> damage to the wall with your Singularities."
 	-named Nothingness, Null Void
-	-unlocks at 1e29 edgeBeingDamage
+	-unlocks at 1e29 singularityDamage
 	-picture : http://i.imgur.com/c6wbTjb.png
-	*edgeBeingDamageAchieve2
+	*singDamageAchieve2
 	-"Deal <b>100 nonillion</b> damage to the wall with your Singularities."
 	-named Crash The Multiverse Web
-	-unlocks at 1e31 edgeBeingDamage
+	-unlocks at 1e31 singularityDamage
 	-picture : http://i.imgur.com/VIJqgVJ.png
-	*edgeBeingDamageAchieve3
+	*singDamageAchieve3
 	-"Deal <b>100 decillion</b> damage to the wall with your Singularities."
 	-named Quantum Suicide Debunked
-	-unlocks at 1e35 edgeBeingDamage
+	-unlocks at 1e35 singularityDamage
 	-picture : http://i.imgur.com/ezUitR5.png
-	*edgeBeingDamageAchieve4
+	*singDamageAchieve4
 	-"Deal <b>100 tredecillion</b> damage to the wall with your Singularities."
 	-named Pure Flatlands of Alpha
-	-unlocks at 1e44 edgeBeingDamage
+	-unlocks at 1e44 singularityDamage
 	-picture : http://i.imgur.com/mXRDfR5.png
 
 	*edgeBeingAchieve1
