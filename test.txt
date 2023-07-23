@@ -2,8 +2,8 @@ Let's make a game!
 	-Wall Destroyer
 	-by Tellurium
 	-created on 04/21/2014
-	-last updated on 10/15/2017
-	-version 2.4
+	-last updated on 07/23/2023
+	-version 2.5
 
 Settings :
 	-prices increase by 110%
@@ -43,41 +43,41 @@ Resources :
         -named fourth wall bricks
         -classed veryimportantresource
  
-		*artSpaceBricks
-		-named artificial space bricks
+	*artSpaceBricks
+	-named artificial space bricks
         -classed veryimportantresource
 
-		*artTimeBricks
-		-named artificial time bricks
+	*artTimeBricks
+	-named artificial time bricks
         -classed veryimportantresource
 
         *spaceBricks
-        -named space bricks
+        -named Space Bricks
         -classed importantresource
         *timeBricks
-        -named time bricks
+        -named Time Bricks
         -classed importantresource
         *endBricks
-        -named End bricks
+        -named End Bricks
         -classed importantresource
         *finalityBricks
         -named Finality Bricks
         -classed importantresource
-		*winSpendable
-		-named pure bricks
+	*winSpendable
+	-named Pure Bricks
         -classed importantresource
-		*meshSpendable
-		-named Mesh Bricks
+	*meshSpendable
+	-named Mesh Bricks
         -classed importantresource
-		*fifthBricks
-		-named fifth dimension bricks
-		-classed importantresource
-		*alphaBricks
-		-named alpha bricks
-		-classed importantresource
-		*dreamycoins
-		-named dreamy coins
-		-classed importantresource
+	*fifthBricks
+	-named Fifth Dimension Bricks
+	-classed importantresource
+	*alphaBricks
+	-named Alpha Bricks
+	-classed importantresource
+	*dreamycoins
+	-named Dreamy Coins
+	-classed importantresource
 
         *menuItem2
         -displayed as ─────────────Stats─────────────
@@ -125,12 +125,12 @@ Resources :
         -named Black obliterator damage
         *singularityDamage
         -named Singularity damage
-		*edgeBeingDamage
-		-named Edge being damage
-		*glitchDamage
-		-named Glitch damage
-		*dreamMachineDamage
-		-named Dream Machine damage
+	*edgeBeingDamage
+	-named Edge being damage
+	*glitchDamage
+	-named Glitch damage
+	*dreamMachineDamage
+	-named Dream Machine damage
  
         *damageDivider2
         -displayed as ────────────────────
@@ -148,9 +148,9 @@ Resources :
         -named random bonus magic point|random bonus magic points
         *timeUpgradeResource18
         -named random bonus brick point|random bonus brick points
-		*timeUpgradeResource21
+	*timeUpgradeResource21
         -named random bonus dream point|random bonus dream points
-		*timeUpgradeResource22
+	*timeUpgradeResource22
         -named random bonus purifier point|random bonus purifier points
  
         *divider3
@@ -180,8 +180,8 @@ Resources :
         -classed importantresource
         -visible
  
-		*prePrestige
-		-named cosmic knowledge
+	*prePrestige
+	-named cosmic knowledge
         *goldBricks
         -named boss brick|boss bricks
  
@@ -194,7 +194,7 @@ Resources :
         *timesWon
         -named boss point|boss points
         *timesActuallyWon
-		-abstract
+	-abstract
  
         *resetTimes
         -named times reset
@@ -366,7 +366,7 @@ Clickables :
 	-locks destroyFantasyWall08
 	-locks destroyFantasyWall09
 	-locks destroyFantasyWall10
-    -locks destroyInfWall01
+    	-locks destroyInfWall01
 	-locks destroyInfWall02
 	-locks destroyInfWall03
 	-locks destroyInfWall04
@@ -527,7 +527,7 @@ Clickables :
 	-converts timeUpgradeResource20 to nothing
 	-converts timeUpgradeResource21 to nothing
 	-converts timeUpgradeResource22 to nothing
-	-multiplies nothing 0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001%
+	-multiplies nothing 1e-300%
 	-named Rewind time (Removes all buildings & resources, converts cosmic knowledge into prestige, will soon turn building damage into coins)
 	-says Time Rewound: Your cosmic knowledge has been converted into future knowledge capsules. Damages that buildings have dealt have been exchanged for their respective type of coin, if there is any.
 	-says The Time Bear is coming.
@@ -772,7 +772,7 @@ Buildings :
 	-gives 1 wallRequirement when bought
 	-unlocks destroyBonusWall11
 	*destroyBonusWall11
-	-"<i>Turns out the bonus walls weren't the last thing we have to face, for the Ten Walls of Space lie beyond them.</i><br> <br>Destroy space wall #9 and move on to the next one.<br>Gives <b>200 billion</b> bricks and <b>100 sextillion</b> cash.<br>Gives <b>10</b> space bricks and unlocks <b>space research</b>.<br> <br>Note: space bricks cannot be kept through resets.<br>Worth <b>25</b> cosmic knowledge."
+	-"<i>Turns out the bonus walls weren't the last thing we have to face, for the Ten Walls of Space lie beyond them.</i><br> <br>Destroy space wall #9 and move on to the next one.<br>Gives <b>200 billion</b> bricks and <b>100 sextillion</b> cash.<br>Gives <b>10</b> space bricks and unlocks <b>space research</b>.<br> <br>Note: Space bricks cannot be kept through resets.<br>Worth <b>25</b> cosmic knowledge."
 	-costs 400000000000000000000000 totalMoney
 	-gives 200000000000 bricks when bought
 	-gives 200000000000 totalBricks when bought
@@ -929,7 +929,7 @@ Buildings :
 	-gives 1 wallRequirement when bought
 	-unlocks destroyBonusWall21
 	*destroyBonusWall21
-	-"<i>"What lunatic built all these walls, anyway?!" ~Agent Carter<br>We now face the Ten Walls of Time.<br>These better be the last ones.</i><br> <br>Destroy time wall #9 and move on to the next.<br>Gives <b>400 trillion</b> bricks and <b>200 septillion</b> cash.<br>Gives <b>5</b> time bricks and unlocks the <b>time upgrades</b>.<br>Worth <b>250</b> cosmic knowledge.<br> <br>Note: time bricks also cannot be kept through resets."
+	-"<i>"What lunatic built all these walls, anyway?!" ~Agent Carter<br>We now face the Ten Walls of Time.<br>These better be the last ones.</i><br> <br>Destroy time wall #9 and move on to the next.<br>Gives <b>400 trillion</b> bricks and <b>200 septillion</b> cash.<br>Gives <b>5</b> time bricks and unlocks the <b>time upgrades</b>.<br>Worth <b>250</b> cosmic knowledge.<br> <br>Note: Time bricks also cannot be kept through resets."
 	-costs 800000000000000000000000000 totalMoney
 	-gives 400000000000000 bricks when bought
 	-gives 400000000000000 totalBricks when bought
@@ -1395,7 +1395,7 @@ Buildings :
 	-locks destroyBonusWall48
 	-unlocks destroyFantasyWall01
 	*destroyFantasyWall01
-	-"<i>Now we can't tell what's different from reality and fantasy anymore. The lines have blurred... and only the <b>Tesseracted</b> can touch it.</i><br>Destroy a wall of a fantasy world and move to the next one.<br>Gives <b>1</b> Alpha brick and <b>1</b> Fifth Dimension brick.<br>Worth <b>200,000</b> cosmic knowledge."
+	-"<i>Now we can't tell what's different from reality and fantasy anymore. The lines have blurred... and only the <b>Tesseracted</b> can touch it.</i><br>Destroy a wall of a fantasy world and move to the next one.<br>Gives <b>1</b> Alpha brick and <b>1</b> Fifth Dimension brick.<br>Worth <b>200,000</b> cosmic knowledge.<br>Note: ...Ok, ok, maybe in fact you can keep your Alpha and Fifth Dimension bricks. Time reversal technology has improved quite vastly since we've first seen the Time Walls, so this shouldn't be a problem anymore."
 	-costs 1e42 tesseractDamage
 	-represents 1 alphaBricks, 1 fifthBricks, 200000 prePrestige
 	-represents 1 wallsDestroyed
