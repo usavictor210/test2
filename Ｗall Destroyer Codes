@@ -1,0 +1,409 @@
+/************************************
+
+Thanks to phazer on Discord for sending me this.
+
+Includes: (searchable names)
+-Number Formatting
+-Removal of unneeded income indicators
+-Multibuy/sell (with keypress)
+-Reset Safety Check
+-Import/Export Save
+-Hide/Show Upgrades
+-Tooltip Fix
+-Autoclick
+-Pop Number Toggle
+-Buyable Upgrades on Top
+
+=Copied/Linked=
+-IGM Achivement/Upgrade Counter
+-IGM Close Popups
+
+************************************/
+
+/***********************************
+Number Formatting
+***********************************/
+Game.suffixList = [' Thousand', ' Million',' Billion',' Trillion',' Quadrillion',' Quintillion',' Sextillion',' Septillion',' Octillion',' Nonillion',' Decillion',' Undecillion',' Duodecillion',' Tredecillion',' Quattuordecillion',' Quinquadecillion',' Sexdecillion',' Septendecillion',' Octodecillion',' Novemdecillion',' Vigintillion',' Unvigintillion',' Duovigintillion',' Trevigintillion',' Quattuorvigintillion',' Quinquavigintillion',' Sesvigintillion',' Septemvigintillion',' Octovigintillion',' Novemvigintillion',' Trigintillion',' Untrigintillion',' Duotrigintillion',' Tretrigintillion'];
+
+function Beautify(num,floats) {
+	if(!isFinite(num)) return 'Infinity';
+	if(num < 1e3) return Math.round(num);
+
+	var base = Math.floor(Math.log(Math.abs(num)) / Math.log(1000));
+	var digits = Math.round(num / Math.pow(1000, base-1)) / 1000;
+	if(digits >= 1000) {
+		digits /= 1000;
+		base += 1;
+	}
+	
+	var suffix = Game.suffixList[base - 1];
+	if(suffix) {
+		return digits.toFixed(3) + suffix;
+	}
+	//return digits.toFixed(3) + "e+" + base*3; //if you want to go by 3 places
+	return num.toPrecision(4);
+}
+
+/***********************************
+Removal of unneeded income indicators
+(rewrites IGM code adding an if/else)
+***********************************/
+Game.RefreshResources=function()
+        {
+                for (var i in Game.res)
+                {
+                        var me=Game.res[i];
+                        if (me.visible>0) RemoveClass(me.l,'hidden');
+                        else AddClass(me.l,'hidden');
+                        if (me.visible>0)
+                        {
+                                var str=me.displayString;
+                                str=replaceAll('%a','<span class="amount resourceAmount">'+me.GetAmount()+'</span>',str);
+                                str=replaceAll('%r','<span class="name resourceType">'+(me.amount==1?me.name:me.plural)+'</span>',str);
+                                str=replaceAll('%s',(me.amount==1?'':'s'),str);
+                                if (me.computedPS >= 0.1)
+                                {
+                                        me.l.children[0].innerHTML=str+' ('+Beautify(me.computedPS,1)+'/s)';
+                                } else {
+                                        me.l.children[0].innerHTML=str;
+                                }
+                                if (me.amount>0) AddClass(me.l,'moreThan0'); else RemoveClass(me.l,'moreThan0');
+                        }
+                }
+        }
+
+/***********************************
+Multibuy/sell (with keypress)
+Includes sell confirmation over 10
+***********************************/
+Game.buyAmount = 1;
+document.onkeydown = function(e) {
+	switch(e.key){ 
+		case 'Shift':
+			Game.buyAmount = 10;
+			break;
+		case 'Control':
+			Game.buyAmount = 25;
+			break;
+		case 'z':
+			Game.buyAmount = 100;
+			break;
+		case 'x':
+			Game.buyAmount = 10000;
+			break;
+		default:
+			Game.buyAmount = 1;
+			break;
+	}
+}
+
+document.onkeyup = function() {Game.buyAmount = 1;}
+
+document.onfocus = function() {Game.buyAmount = 1;}
+
+//replace buildings buy and sell functions with multibuy multisell
+for(i in Game.buildings) {
+	if(!Game.buildings[i].BuyBuilding) {
+		Game.buildings[i].BuyBuilding = Game.buildings[i].Buy;
+		Game.buildings[i].Buy = function()
+					{
+						for(j=0;j<Game.buyAmount;j++) {
+							if(this.visible && this.CanBuy()) this.BuyBuilding();
+							else break;
+						}
+					}
+	}
+	if(!Game.buildings[i].SellBuilding) {
+		Game.buildings[i].SellBuilding = Game.buildings[i].Sell;
+		Game.buildings[i].Sell = function()
+					{
+						//lock in buy amount, people will let go during confirmation and revert to 1
+						var count = Game.buyAmount;
+						if(count >= 10) {
+							if(!confirm('Are you sure you want to sell ' + count + ' ' + this.plural + '?')) return;
+						}
+						for(j=0;j<count;j++) {
+							if(this.visible && this.amount > 0) this.SellBuilding();
+							else break;
+						}
+					}
+	}
+}
+
+/***********************************
+Reset Safety Check
+This came from somewhere, but I don't know where
+***********************************/
+with(l('saveBox')){
+	if(innerHTML.indexOf("confirm('Are you sure you want to reset?')") == -1) {
+		innerHTML = innerHTML.replace("Game.Reset()","if(confirm('Are you sure you want to reset?')){Game.Reset()}");
+	}
+}
+
+/***********************************
+Import/Export Save
+From: various
+***********************************/
+eval('Export=' + Game.Save.toString().replace('localStorage[Game.src]=str;','l(\'savecode\').value=str'));
+eval('Import=' + Game.Load.toString().replace('function ()','function (str)').replace('var str=localStorage[Game.src];',''));
+if(!modloaded) {
+	l('saveBox').innerHTML +="<div class='button' onclick='Export();'>Export save</div><div class='button' onclick='Imports();'>Import save</div><textarea id='savecode' style = 'resize: none'></textarea>";
+	var modloaded = true;
+}
+Imports=function() {
+	var savecode = prompt("Enter Save Code:","");
+	if(savecode && savecode.length > 20) { Import(savecode); }
+}
+
+/***********************************
+Hide/Show Upgrades
+From: http://forum.dashnet.org/discussion/4625/igm-bookmarklets-scripts/p4
+***********************************/
+/*WIP
+Game.showHideUpgradeButton = document.createElement('div');
+Game.showHideUpgradeButton.class = 'button';
+Game.showHideUpgradeButton.id = 'hideupg';
+Game.showHideUpgradeButton.onclick = hideUpgrades();
+Game.showHideUpgradeButton.innerHTML = 'Hide bought upgrades';
+
+l('upgradeTitle').parentNode.insertBefore(l('hideupg'), l('upgradeTitle').nextSibling);
+*/
+l('saveBox').innerHTML += "<div class='button' id='hideupg' onclick='hideupgrades();'>Hide bought upgrades</div>";
+
+var style = document.createElement('style');
+style.type = 'text/css';
+style.innerHTML = '.mycss.bought { display: none; }';
+document.getElementsByTagName('head')[0].appendChild(style);
+
+function hideupgrades() {
+    switch (l('hideupg').innerHTML) {
+        case 'Hide bought upgrades':
+            upgsty('none');
+            l('hideupg').innerHTML = 'Show bought upgrades';
+            break;
+        case 'Show bought upgrades':
+            upgsty('');
+            l('hideupg').innerHTML = 'Hide bought upgrades';
+            break;
+        default:
+            upgsty('none');
+            l('hideupg').innerHTML = 'Show bought upgrades';
+    }
+}
+
+
+function upgsty(arg) {
+    if (arg == 'none') {
+        for (var i in Game.upgrades) {
+            AddClass(Game.upgrades[i].l, "mycss");
+        }
+    } else {
+        for (var i in Game.upgrades) {
+            RemoveClass(Game.upgrades[i].l, "mycss");
+        }
+    }
+}
+
+/***********************************
+Tooltip Fix
+Should keep the tooltip on screen, may not work with all modified stylesheets since I had to resort to hard numbers
+***********************************/
+Game.tooltip.update=function()
+	{
+		var tt=l('tooltip');
+		var tta=l('tooltipAnchor');
+		var ttStyle = getComputedStyle(tt) || tt.currentStyle;
+		var winH=window.innerHeight;
+		var ttH=tt.offsetHeight + 30;
+		var ttW=tt.offsetWidth + 30;
+
+		if(Game.mouseY + ttH + 10 >= winH) {
+			tta.style.top = (winH - ttH - 20) +'px';
+		}
+		else { 
+			tta.style.top=Game.mouseY+'px';
+		 }
+
+		if(Game.mouseX - ttW - 10 <= 0) {
+			tta.style.left= (Game.mouseX + ttW + 8) +'px';
+			//console.log("too wide");
+		}
+		else { 
+			tta.style.left=Game.mouseX+'px';
+		 }
+
+	}
+
+/***********************************
+Autoclick
+Only clicks 5 times per second
+***********************************/
+Game.refreshAutoClickList = function(selectList) {
+	var i;
+	for(i=selectList.options.length-1;i>=0;i--) {
+		selectList.remove(i);
+	}
+
+	for(i in Game.clickables) {
+		if(Game.clickables[i].visible && Game.clickables[i].real){
+			var option = document.createElement('option');
+			option.text = Game.clickables[i].name;
+			option.value = Game.clickables[i].key;
+			selectList.add(option);
+		}
+	}
+	selectList.style.width="200px";
+}
+
+Game.autoClickSelect = document.createElement('select');
+Game.autoClickSelect.name = "autoClickSelect";
+Game.autoClickSelect.id = "autoClickSelect";
+Game.refreshAutoClickList(Game.autoClickSelect);
+/*for(i in Game.clickables) {
+	if(Game.clickables[i].visible && Game.clickables[i].real){
+		var option = document.createElement('option');
+		option.text = Game.clickables[i].name;
+		option.value = Game.clickables[i].key;
+		Game.autoClickSelect.add(option);
+	}
+}*/
+l('saveBox').innerHTML += '<br></br>';
+l('saveBox').appendChild(Game.autoClickSelect);
+l('saveBox').innerHTML += "<div class='button' id='autoclickButton' onclick='Game.AutoclickToggle();'>Turn ON Autoclick</div>";
+
+Game.AutoclickToggle = function () {
+	Game.autoClickSelect = l('autoClickSelect'); //for some reason this has to be reset
+	Game.autoclickButton = l('autoclickButton');
+	clearInterval(Game.autoclicker);
+	switch (Game.autoclickButton.innerHTML) {
+		case 'Turn ON Autoclick':
+			var which = Game.clickables[Game.autoClickSelect.value];
+			Game.autoclicker=setInterval(function(){which.Click()}, 10);
+			Game.autoclickButton.innerHTML = 'Turn OFF Autoclick';
+			break;
+		default:
+			Game.autoclickButton.innerHTML = 'Turn ON Autoclick';
+	}
+	Game.refreshAutoClickList(Game.autoClickSelect);
+}
+
+/***********************************
+Pop Number Toggle
+***********************************/
+l('saveBox').innerHTML += "<div class='button' id='popButton' onclick='Game.PopToggle();'>Turn Pop OFF</div>";
+
+Game.PopOn = Game.PopNumber;
+
+Game.PopToggle = function () {
+	Game.popButton = l('popButton');
+	switch (Game.popButton.innerHTML) {
+		case 'Turn Pop OFF':
+			Game.PopNumber = function(el, text) {};
+			Game.popButton.innerHTML = 'Turn Pop ON';
+			break;
+		default:
+			Game.PopNumber = Game.PopOn;
+			Game.popButton.innerHTML = 'Turn Pop OFF';
+	}
+}
+
+/***********************************
+Below Content copied in entirety just in case, includes credit and original links
+***********************************/
+/*
+
+Achivement/Upgrade Counter
+ 
+*/
+
+var nrAch=0;
+var totAch=0;
+var nrUpg=0;
+var totUpg=0;
+for (var i in Game.achievements) {
+    var a = Game.achievements[i];
+    totAch++;
+    if (a.won==1) {
+        nrAch++;
+    }
+    a.Unlock = function() {
+        if (this.visible<=0 || !this.won)
+        {
+            if (Game.sayWons) Game.Say('You won : <b>'+this.name+'</b>.',this.pic);
+            this.visible=1;
+            this.won=1;
+            for (var i in this.unlocks) {this.unlocks[i].Unlock();}
+            Game.toRefresh=1;
+            nrAch++;
+        }            
+    };
+    a.Lock = function() {
+        if (this.visible>0 || this.won)
+        {
+            this.visible=0;
+            this.won=0;
+            nrAch--;
+            Game.toRefresh=1;
+        }
+    }
+}
+for (var i in Game.upgrades) {
+    var a = Game.upgrades[i];
+    totUpg++;
+    if (a.bought==1) {
+        nrUpg++;
+    }
+    a.Buy = function() {
+        if(this.CanBuy()){for(var i in this.costs){this.costs[i].X.amount-=this.costs[i].amount}this.bought=1;nrUpg++;for(var i in this.powers){this.powers[i]({building:1})}for(var i in this.represents){this.represents[i].X.amount+=this.represents[i].amount;this.represents[i].X.RefreshCosts()}for(var i in this.converts){if(this.converts[i].X.type=='clickable'||this.converts[i].Y.type=='clickable'){this.converts[i].X.Lock();this.converts[i].Y.Unlock();this.converts[i].Y.clicked+=this.converts[i].X.clicked;this.converts[i].X.clicked=0}else{this.converts[i].Y.amount+=this.converts[i].X.amount;this.converts[i].X.amount=0;this.converts[i].Y.amountTotal+=this.converts[i].X.amount;this.converts[i].X.amountTotal=0;this.converts[i].X.RefreshCosts();this.converts[i].Y.RefreshCosts();this.converts[i].X.visible=0;this.converts[i].Y.visible=1}}for(var i in this.augments){this.augments[i].X.multiplier*=this.augments[i].amount}for(var i in this.unlocks){this.unlocks[i].Unlock()}for(var i in this.locks){this.locks[i].Lock()}Game.toRefresh=1}return false;
+    };
+    a.Lock= function() {
+        if (this.visible>0) {
+            this.visible=-1;
+            this.bought=0;
+            nrUpg--;
+            for (var i in this.powers){this.powers[i]({selling:1});}
+            Game.toRefresh=1;
+        }
+    }        
+}
+Game.Logic = (function() {
+    var cached_function = Game.Logic;        
+    return function() {            
+        cached_function.apply(this, arguments);
+        if (Game.toRefresh) {
+            document.getElementById('achievementTitle').innerHTML="Achievements Unlocked: "+nrAch+"/"+totAch+" ("+Math.round(nrAch/totAch*100)+"%)";
+            document.getElementById('upgradeTitle').innerHTML="Upgrades Unlocked: "+nrUpg+"/"+totUpg+" ("+Math.round(nrUpg/totUpg*100)+"%)";
+        }    
+    };
+}());
+
+/*
+
+Close Popups
+
+*/
+ 
+Game.UpdatePopups = (function() {
+    var cached_UpdatePopups = Game.UpdatePopups;        
+    return function() {            
+        cached_UpdatePopups.apply(this, arguments);
+        if(Game.popups.length>1) {
+            Game.popupL.innerHTML+='<div style="position: absolute; right: -26px; bottom: -2px; border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; border-bottom-left-radius: 16px; background-color: rgb(0, 0, 0); padding: 3px 7px; margin: 4px; border-width: 3px; border-style: ridge; border-color: rgb(204, 204, 204) rgb(170, 170, 170) rgb(136, 136, 136); box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 2px, rgba(0, 0, 0, 0.247059) 0px 2px 4px, rgba(0, 0, 0, 0.498039) 0px 0px 6px 1px inset; color: rgb(204, 204, 204); cursor: pointer; font-family: Comic Sans MS; font-weight: bold; font-size: 16px; text-shadow: rgb(255, 255, 255) 0px 0px 2px; background-position: initial initial; background-repeat: initial initial;" onclick="ClosePopups();" onmouseover="this.style.color=\'#fff\';this.style.textShadow=\'0px 0px 2px #fff\';" onmouseout="this.style.color=\'#ccc\';this.style.textShadow=\'0px 0px 2px #000,0px 0px 1px #000;\'">x</div>';            
+        }
+    };
+}());
+ 
+ClosePopups=function()
+{
+        Game.popups=[];
+        Game.popupsById=[];
+    Game.UpdatePopups();
+}
+
+/*
+
+Buyable Upgrades on Top
+
+*/
+
+function s(a){document.styleSheets[0].insertRule(a)};s('#upgrades{display:flex;flex-wrap:wrap;justify-content:center}');s('.notbought{order:1;width:81%}');s('.bought{order:2}')
