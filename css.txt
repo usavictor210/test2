@@ -145,7 +145,7 @@ body
 #building-lastbuilding {background-image: url(http://i.imgur.com/mSWDezW.png);}
 #building-singularitybuilding {background-image: url(http://i.imgur.com/f617iwl.png);}
 #building-edgebeing {background-image: url(http://i.imgur.com/ziKtmX1.png);}
-#building-strangeglitch {background-image: url(https://github.com/usavictor210/test2/blob/wde-test/img/glitch.png);}
+#building-strangeglitch {background-image: url(https://raw.githubusercontent.com/usavictor210/test2/wde-test/img/glitch.png);}
 #building-blob {background-image: url(http://i.imgur.com/9zryZ2M.png);}
 #building-brickfactory {background-image: url(http://i.imgur.com/tjOxaGs.png);}
 #building-destroywall, #building-destroybigwall, #building-destroyhugewall
