@@ -157,6 +157,89 @@ Imports=function() {
 	if(savecode && savecode.length > 20) { Import(savecode); }
 }
 
+Import=function(str)
+	{
+		Game.Reset();
+		
+		
+		if (str)
+		{
+			str=b64_to_utf8(str);
+			str=str.split('|');
+			var res=[];
+			var clickables=[];
+			var buildings=[];
+			var upgrades=[];
+			var achievements=[];
+			for (var i in str)
+			{
+				if (i>0)
+				{
+					if (str[i-1]=='RESOURCES') res=str[i].split(';');
+					else if (str[i-1]=='CLICKABLES') clickables=str[i].split(';');
+					else if (str[i-1]=='BUILDINGS') buildings=str[i].split(';');
+					else if (str[i-1]=='UPGRADES') upgrades=str[i].split(';');
+					else if (str[i-1]=='ACHIEVEMENTS') achievements=str[i].split(';');
+				}
+			}
+			
+			for (var i in res)
+			{
+				res[i]=res[i].split(',');
+				var me=Game.res[res[i][0]];
+				if (me)
+				{
+					me.amount=parseFloat(res[i][1]);
+					me.visible=parseInt(res[i][2]);
+					me.amountTotal=parseFloat(res[i][3]);
+				}
+			}
+			for (var i in clickables)
+			{
+				clickables[i]=clickables[i].split(',');
+				var me=Game.clickables[clickables[i][0]];
+				if (me)
+				{
+					me.visible=parseInt(clickables[i][1]);
+					me.clicked=parseInt(clickables[i][2]);
+				}
+			}
+			for (var i in buildings)
+			{
+				buildings[i]=buildings[i].split(',');
+				var me=Game.buildings[buildings[i][0]];
+				if (me)
+				{
+					me.amount=parseFloat(buildings[i][1]);
+					me.visible=parseInt(buildings[i][2]);
+					me.amountTotal=parseFloat(buildings[i][3]);
+					me.RefreshCosts();
+				}
+			}
+			for (var i in upgrades)
+			{
+				upgrades[i]=upgrades[i].split(',');
+				var me=Game.upgrades[upgrades[i][0]];
+				if (me)
+				{
+					me.visible=parseInt(upgrades[i][1]);
+					me.bought=parseInt(upgrades[i][2]);
+					if (me.bought && me.visible>0) me.Passive();
+				}
+			}
+			for (var i in achievements)
+			{
+				achievements[i]=achievements[i].split(',');
+				var me=Game.achievements[achievements[i][0]];
+				if (me)
+				{
+					me.won=parseInt(achievements[i][1]);
+					me.visible=parseInt(achievements[i][2]);
+				}
+			}
+			Game.Log('Save loaded.');
+		}
+    }
 /***********************************
 Hide/Show Upgrades
 From: http://forum.dashnet.org/discussion/4625/igm-bookmarklets-scripts/p4
