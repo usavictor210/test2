@@ -1500,7 +1500,6 @@ Buildings :
 	-named Destroy a Infinity Wall
     -locks destroyInfWall01
     -unlocks destroyInfWall02
-	
     *destroyInfWall02
 	-"please excuse me for the lack of a description while I try to rebalance this era. ok thanks<br>Gives <b>25</b> Alpha bricks, <b>4</b> Fifth Dimension bricks, <b>16,000</b> artifical space bricks and <b>8 undecillion</b> bricks.<br>Worth <b>350,000</b> cosmic knowledge."
 	-costs 4.8484848e48 tesseractDamage, 1.547531e48 totalmoney
@@ -1511,7 +1510,6 @@ Buildings :
 	-named Destroy an Aleph-0 Infinity Wall
     -locks destroyInfWall02
     -unlocks destroyInfWall03
-
     *destroyInfWall03
 	-"please excuse me for the lack of a description while I try to rebalance this era. ok thanks<br>Gives <b>40</b> Alpha bricks, <b>7</b> Fifth Dimension bricks, <b>64,000</b> artifical space bricks, <b>25,400</b> artifical time bricks and <b>32 undecillion</b> bricks.<br>Worth <b>450,000</b> cosmic knowledge."
     -costs 1.243658e49 tesseractDamage, 4.6464646e49 totalmoney
@@ -1565,7 +1563,7 @@ Buildings :
     -represents 1 wallsDestroyed
     -classed bonuswallboss
     -named Destroy an Advanced Elite Infinity Wall
-    -locks destroyinfinitything07
+    -locks destroyInfWall07
 
     // multiversal walls soon
 	*omWall
@@ -4072,11 +4070,11 @@ Upgrades :
     -multiplies efficiency of destroyFantasyWall08 by 200%
     -multiplies efficiency of destroyFantasyWall09 by 200%
     -multiplies efficiency of destroyFantasyWall10 by 200%
-    -multiplies efficiency of destroyinfinitything01 by 200%
-    -multiplies efficiency of destroyinfinitything02 by 200%
-    -multiplies efficiency of destroyinfinitything03 by 200%
-    -multiplies efficiency of destroyinfinitything04 by 200%
-    -multiplies efficiency of destroyinfinitything05 by 200%
+    -multiplies efficiency of destroyInfWall01 by 200%
+    -multiplies efficiency of destroyInfWall02 by 200%
+    -multiplies efficiency of destroyInfWall03 by 200%
+    -multiplies efficiency of destroyInfWall04 by 200%
+    -multiplies efficiency of destroyInfWall05 by 200%
     -named Wall Transmutation
     -picture : http://i.imgur.com/PKwvYiL.png
     
@@ -7671,20 +7669,28 @@ Upgrades :
 	-named Everything We Forgot About Them
 	-picture : https://i.imgur.com/fK6RsL6.png
 	*suppressionII
-	-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching being only 96% as efficient. Continues the suppression. <br><i>"It's affecting almost everything at the moment, we've got to stop it!" ~ No One Said Ever (except you)</i>"
+	-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching being only 90% as efficient. Continues the suppression. <br><i>"It's affecting almost everything at the moment, we've got to stop it!" ~ No One Said Ever (except you)</i>"
 	-costs 9e44 money, 36363 artspacebricks
 	-unlocks suppressionIII
 	-multiplies efficiency of strangeGlitch by 400%
-	-multiplies efficiency of hitWall by 96%
+	-multiplies efficiency of hitWall by 90%
 	-named Pwned
 	-picture : https://i.imgur.com/fK6RsL6.png
 	*suppressionIII
-	-"Glitches are <b>5.2 times</b> as efficient, at the cost of manual punching being only 92% as efficient. Continues the suppression. <br><i>What is the cost? Why does it matter?</i>"
+	-"Glitches are <b>5.2 times</b> as efficient, at the cost of manual punching being only 80% as efficient. Continues the suppression. <br><i>What is the cost? Why does it matter?</i>"
 	-costs 2.550550555e45 money, 72000 artspacebricks
 	-multiplies efficiency of strangeGlitch by 520%
-	-multiplies efficiency of hitWall by 92%
+	-multiplies efficiency of hitWall by 80%
 	-named The Cost
 	-unlocks suppressionIV
+	-picture : https://i.imgur.com/fK6RsL6.png
+	*suppressionIV
+	-"Glitches are <b>5.5 times</b> as efficient, at the cost of manual punching being only 60% as efficient. Continues the suppression. <br><i>Why did we trust them? It affects us humans...</i>"
+	-costs 1e47 money, 144000 artspacebricks
+	-multiplies efficiency of strangeGlitch by 550%
+	-multiplies efficiency of hitWall by 60%
+	-named Devoured
+	-unlocks suppressionV
 	-picture : https://i.imgur.com/fK6RsL6.png
 	*brickFactoryUpgrade
 	-"Brick factories produce <b>50%</b> more bricks.<br><i>The dark magic tablets we're using can talk, so we need to learn more about them to use them better. They sound really creepy, and talk about really disturbing stuff.</i>"
