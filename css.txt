@@ -86,21 +86,21 @@ body
 	{display:none;}
 #building-destroywall .amount, #building-destroybigwall .amount, #building-destroyhugewall .amount, #building-destroymassivewall .amount, #building-destroyfinalwall .amount, .bonuswall .amount, .bonuswallboss .amount
 	{font-size: 0px;}
-#building-puncher .buildingType, #building-clubber .buildingType, #building-swordsman .buildingType, #building-gunner .buildingType, #building-grenade .buildingType, #building-wreckingball .buildingType, #building-bulldozer .buildingType, #building-airstrike .buildingType, #building-necromancer .buildingType, #building-giant .buildingType, #building-demon .buildingType, #building-lastbuilding .buildingType, #building-singularitybuilding .buildingType, #building-edgebeing .buildingType, #building-anotherbuilding .buildingType, #building-blob .buildingType,  #building-brickfactory .buildingType
+#building-puncher .buildingType, #building-clubber .buildingType, #building-swordsman .buildingType, #building-gunner .buildingType, #building-grenade .buildingType, #building-wreckingball .buildingType, #building-bulldozer .buildingType, #building-airstrike .buildingType, #building-necromancer .buildingType, #building-giant .buildingType, #building-demon .buildingType, #building-lastbuilding .buildingType, #building-singularitybuilding .buildingType, #building-edgebeing .buildingType, #building-strangeglitch .buildingType, #building-blob .buildingType,  #building-brickfactory .buildingType
 	{font-size: 18px;
 	font-weight: bold;}
 #building-compromiser .buildingType
 	{font-size: 16px; 
 	font-weight: bold;
 	padding-top: 2px;}
-#building-puncher .amount, #building-clubber .amount, #building-swordsman .amount, #building-gunner .amount, #building-grenade .amount, #building-wreckingball .amount, #building-bulldozer .amount, #building-airstrike .amount, #building-necromancer .amount, #building-giant .amount, #building-demon .amount, #building-compromiser .amount, #building-lastbuilding .amount, #building-singularitybuilding .amount, #building-edgebeing .amount, #building-anotherbuilding .amount, #building-blob .amount, #building-brickfactory .amount
+#building-puncher .amount, #building-clubber .amount, #building-swordsman .amount, #building-gunner .amount, #building-grenade .amount, #building-wreckingball .amount, #building-bulldozer .amount, #building-airstrike .amount, #building-necromancer .amount, #building-giant .amount, #building-demon .amount, #building-compromiser .amount, #building-lastbuilding .amount, #building-singularitybuilding .amount, #building-edgebeing .amount, #building-strangeglitch.amount, #building-blob .amount, #building-brickfactory .amount
 	{position: absolute;
 	float:right;
 	right: 5px;
 	top: 5px;
 	font-size: 18px;
 	font-weight: bold;}
-#building-destroywall .cost, #building-destroybigwall .cost, #building-destroyhugewall .cost, #building-destroymassivewall .cost, #building-destroyfinalwall .cost, .bonuswall .cost, .bonuswallboss .cost, #building-puncher .cost, #building-clubber .cost, #building-swordsman .cost, #building-gunner .cost, #building-grenade .cost, #building-wreckingball .cost, #building-bulldozer .cost, #building-airstrike .cost, #building-necromancer .cost, #building-giant .cost, #building-demon .cost, #building-compromiser .cost, #building-lastbuilding .cost, #building-singularitybuilding .cost, #building-edgebeing .cost, #building-anotherbuilding .cost, #building-blob .cost, #building-brickfactory .cost
+#building-destroywall .cost, #building-destroybigwall .cost, #building-destroyhugewall .cost, #building-destroymassivewall .cost, #building-destroyfinalwall .cost, .bonuswall .cost, .bonuswallboss .cost, #building-puncher .cost, #building-clubber .cost, #building-swordsman .cost, #building-gunner .cost, #building-grenade .cost, #building-wreckingball .cost, #building-bulldozer .cost, #building-airstrike .cost, #building-necromancer .cost, #building-giant .cost, #building-demon .cost, #building-compromiser .cost, #building-lastbuilding .cost, #building-singularitybuilding .cost, #building-edgebeing .cost, #building-strangeglitch .cost, #building-blob .cost, #building-brickfactory .cost
 	{font-size: 0px;}
 #building-destroywall .costs-wallrequirement, #building-destroybigwall .costs-wallrequirement, #building-destroyhugewall .costs-wallrequirement, #building-destroymassivewall .costs-wallrequirement, #building-destroyfinalwall .costs-wallrequirement, .bonuswall .costs-wallrequirement, .bonuswallboss .costs-wallrequirement
 	{display: none;}
@@ -110,7 +110,7 @@ body
 	font-size: 12px;
 	font-weight: normal;
 	padding-left: 4px;}
-#building-puncher .cost .amount, #building-clubber .cost .amount, #building-swordsman .cost .amount, #building-gunner .cost .amount, #building-grenade .cost .amount, #building-wreckingball .cost .amount, #building-bulldozer .cost .amount, #building-airstrike .cost .amount, #building-necromancer .cost .amount, #building-giant .cost .amount, #building-demon .cost .amount, #building-compromiser .cost .amount, #building-lastbuilding .cost .amount, #building-singularitybuilding .cost .amount, #building-edgebeing .cost .amount, #building-anotherbuilding .cost .amount, #building-blob .cost .amount, #building-brickfactory .cost .amount
+#building-puncher .cost .amount, #building-clubber .cost .amount, #building-swordsman .cost .amount, #building-gunner .cost .amount, #building-grenade .cost .amount, #building-wreckingball .cost .amount, #building-bulldozer .cost .amount, #building-airstrike .cost .amount, #building-necromancer .cost .amount, #building-giant .cost .amount, #building-demon .cost .amount, #building-compromiser .cost .amount, #building-lastbuilding .cost .amount, #building-singularitybuilding .cost .amount, #building-edgebeing .cost .amount, #building-strangeglitch .cost .amount, #building-blob .cost .amount, #building-brickfactory .cost .amount
 	{position: static;
 	float: left;
 	font-size: 12px;
@@ -124,7 +124,7 @@ body
 .sell
 	{position: absolute;
 	bottom: 5px;}
-#building-puncher, #building-clubber, #building-swordsman, #building-gunner, #building-grenade, #building-wreckingball, #building-bulldozer, #building-airstrike, #building-necromancer, #building-giant, #building-demon, #building-compromiser, #building-lastbuilding, #building-singularitybuilding, #building-edgebeing, #building-anotherbuilding, #building-blob, #building-brickfactory
+#building-puncher, #building-clubber, #building-swordsman, #building-gunner, #building-grenade, #building-wreckingball, #building-bulldozer, #building-airstrike, #building-necromancer, #building-giant, #building-demon, #building-compromiser, #building-lastbuilding, #building-singularitybuilding, #building-edgebeing, #building-strangeglitch, #building-blob, #building-brickfactory
 	{background-repeat: no-repeat;
 	background-position: 3px 3px;
 	padding-left: 70px;
