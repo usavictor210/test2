@@ -211,7 +211,7 @@ Resources :
  
         *versionNumber
         -visible
-        -displayed as Version 2.4.idkP2
+        -displayed as Version 2.5 (test ver)
  
 	//abstract stuff
 
