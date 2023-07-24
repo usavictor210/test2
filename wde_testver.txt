@@ -1787,6 +1787,8 @@ Buildings :
 Upgrades :
 	*win
 	-"The shattering of the omniversal wall leaves behind absolutely nothing.<br>"
+	-named The End
+
 	*damageConverterUnlock
 	-"Unlocks the ability to convert 4th Dimension / Tesseract damage to cosmic knowledge, at the rate of 1 duotrigintillion to 1.<br>Scientists say no man should ever touch this forbidden weapon of technology, lest you want to discover the end of everything so soon. To break the Omniversal Wall would normally take millennia; with a single touch full of condensed tesseracted power, everything will be annihilated. For you to use the ████████████ now will allow you to reach far enough through PRESTIGE_HACKING. If it's not worth ending the existence of the walls, you would've stopped a long time ago, but the decision lies before you now. <b>Proceed at your own peril.</b>"
 	-costs 1e100 money
@@ -5105,7 +5107,7 @@ Upgrades :
 	-picture : http://i.imgur.com/3tap4AJ.png
 
 	*handAndObliteratorUpgrade
-	-"Hand punches do <b>0.5%</b> more damage per Black obliterator.<br><i>Since you're invulnerable, you are the only person who can touch The Black without dying a horrible, painful death.</i>"
+	-"Hand punches do <b>0.5%</b> more damage per Black Obliterator.<br><i>Since you're invulnerable, you are the only person who can touch The Black without dying a horrible, painful death.</i>"
 	-costs 30000000000000000000000 money, 300000000 fourthWallMatter
 	-multiplies efficiency of hitWall by 0.5% per lastBuilding
 	-unlocks at 50 lastBuilding
@@ -5113,7 +5115,7 @@ Upgrades :
 	-picture : http://i.imgur.com/pFyHQUx.png
 
 	*handAndSingularityUpgrade
-	-"Hand punches do <b>0.25%</b> more damage per Singularity.<br><i>Your hands are now heavy as mass of the universe, but it doesnt collapse, thanks quantum fluctuations!</i>"
+	-"Hand punches do <b>0.25%</b> more damage per Singularity.<br><i>Your hands are now heavy as mass of the universe, but it doesn't collapse, thanks to quantum fluctuations!</i>"
 	-costs 1500000000000000000000000000 money, 100000 artSpaceBricks
 	-multiplies efficiency of hitWall by 0.25% per singularityBuilding
 	-unlocks at 50 singularityBuilding
@@ -5129,10 +5131,10 @@ Upgrades :
 	-picture : http://i.imgur.com/YREu98L.png
 	
 	*handGlitchUpgrade
-	-"<b>Illegal Mesh Scroll:</b> Hand punches deal <b>0.19%</b> more damage per glitch.<br><i>Hopefully not the W.D. Gaster hands, whoever "he" is..</i>"
+	-"<b>Illegal Mesh Scroll:</b> Hand punches deal <b>0.1875%</b> more damage per glitch.<br><i>This hopefully isn't resemblent of the hands of a strange little man...</i>"
 	-costs 2.62144e40 money, 131072 artSpaceBricks, 16384 artTimeBricks
 	-unlocks at 50 strangeGlitch
-	-multiplies efficiency of hitWall by 0.19% per strangeGlitch
+	-multiplies efficiency of hitWall by 0.1875% per strangeGlitch
 	-named Glitched Hands
 	-picture : https://i.imgur.com/TAJQNCr.png
 
@@ -5152,6 +5154,7 @@ Upgrades :
 	-unlocks makeBricks
 	-named Dark Magic Training
 	-picture : http://i.imgur.com/LeHD80E.png
+
 	*handBrickUpgrade
 	-"Manual brick creation creates <b>three times</b> as many bricks.<br><i>To find out why you and the dark magic tablets aren't getting along.</i>"
 	-costs 6777777777777777 money, 1000 bricks
