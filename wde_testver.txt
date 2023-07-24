@@ -14,7 +14,7 @@ Settings :
 	-upgrades are hidden by default
 	-achievements are hidden by default
 	-show log
-	-custom stylesheet : https://pastebin.com/raw/jMGmv0J5
+	-custom stylesheet : https://raw.githubusercontent.com/usavictor210/test2/wde-test/css.txt
 	-text color : black
 	-fonts : Kavoon
 	-boxes : main (resources, clickables); stats (achievements); store (upgrades, buildings)
