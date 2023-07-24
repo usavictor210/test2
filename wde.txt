@@ -79,6 +79,10 @@ Resources :
 	-named Dreamy Coins
 	-classed importantresource
 
+	*omniverseBricks
+	-named Omniverse Bricks
+	-classed veryimportantresource
+
         *menuItem2
         -displayed as ─────────────Stats─────────────
         -classed importantresource
@@ -1487,7 +1491,7 @@ Buildings :
 
 	// begin infinity walls
     *destroyInfWall01
-	-"<i>Reaching beyond the heavens. Nothing makes sense.</i><br>Destroy one of the walls of the infinite walls.<br>Gives <b>15</b> Alpha bricks, <b>2</b> Fifth Dimension bricks and <b>1 undecillion</b> bricks.<br>Worth <b>250,000</b> cosmic knowledge. A player: "We're finally getting bricks again?" "
+	-"<i>Reaching beyond the heavens. Nothing makes sense.</i><br>Destroy one of the walls of the infinite walls.<br>Gives <b>15</b> Alpha bricks, <b>2</b> Fifth Dimension bricks and <b>1 undecillion</b> bricks.<br>Worth <b>250,000</b> cosmic knowledge."
 	-costs 2.3465e47 tesseractDamage, 1e47 totalmoney
     -gives 1e36 bricks when bought
 	-represents 15 alphaBricks, 2 fifthBricks, 250000 prePrestige
@@ -1504,7 +1508,7 @@ Buildings :
 	-represents 25 alphaBricks, 4 fifthBricks, 350000 prePrestige, 16000 artspacebricks
 	-represents 1 wallsDestroyed
 	-classed bonuswallboss
-	-named Destroy a Greater Infinity Wall
+	-named Destroy an Aleph-0 Infinity Wall
     -locks destroyInfWall02
     -unlocks destroyInfWall03
 
@@ -1565,15 +1569,16 @@ Buildings :
 
     // multiversal walls soon
 	*omWall
-	-"The wall holding the omniverse together. How come it is indestructible?<br>When broken, leads you to the <b>true ending</b>."
+	-"The wall holding the omniverse together. How come it is indestructible?<br>When broken, leads you to the <b>true ending</b>, and gives <b>1 omniverse brick</b>."
 	-costs 1e300 tesseractDamage
-	-represents Infinity wallsDestroyed
+	-represents 1000000000 wallsDestroyed, 1 omniverseBrick
 	-classed finalBoss
 	-named The Omniversal Wall
 	-unlocks brokenWall
+	-unlocks win
 
 	*brokenWall
-	-"There is nothing left."
+	-"There is nothing left. It's time to go home."
 	-named Broken Wall
 
 	*timeUpgradeProducer
@@ -1782,287 +1787,289 @@ Buildings :
 	-represents 1 building
 
 Upgrades :
-    *damageConverterUnlock
-    -"Unlocks the ability to convert 4th Dimension / Tesseract damage to cosmic knowledge, at the rate of 1 duotrigintillion to 1.<br>Scientists say no man should ever touch this forbidden weapon of technology, lest you want to discover the end of everything so soon. To break the Omniversal Wall would normally take millennia; with a single touch full of condensed tesseracted power, everything will be annihilated. For you to use the ████████████ now will allow you to reach far enough through PRESTIGE_HACKING. If it's not worth ending the existence of the walls, you would've stopped a long time ago, but the decision lies before you now. <b>Proceed at your own peril.</b>"
-    -costs 1e100 money
-    -unlocks at 1 winBricks
-    -unlocks damageConverter
-    -named Prestige Hacker
-    -picture : http://i.imgur.com/bkEkr5p.png
-
-    *fantasyUnlock
-    -"Everything is <b>50%</b> more efficient. <br><i>Gives access to the fantasy zone.</i> "Nobody told you about this, eh?" "
-    -requires 1000 puncher, 950 clubber, 900 swordsman, 850 gunner, 800 grenade, 750 wreckingBall, 700 bulldozer, 700 airstrike, 700 necromancer, 650 giant, 650 demon, 650 compromiser, 500 lastBuilding, 350 singularityBuilding, 250 edgeBeing, 150 glitchBuilding, 650 brickFactory
-    -requires 1e+42 handDamage, 25000000 prestige
-    -costs 2400000 prePrestige, 2e45 money
-    -unlocks at 9 meshBossPoint, 1 meshBricks
-    -multiplies efficiency of brickFactory by 150%
-    -multiplies efficiency of makeBricks by 150%
-    -multiplies efficiency of hitWall by 150%
-    -multiplies efficiency of puncher by 150%
-    -multiplies efficiency of clubber by 150%
-    -multiplies efficiency of swordsman by 150%
-    -multiplies efficiency of gunner by 150%
-    -multiplies efficiency of grenade by 150%
-    -multiplies efficiency of wreckingBall by 150%
-    -multiplies efficiency of bulldozer by 150%
-    -multiplies efficiency of airstrike by 150%
-    -multiplies efficiency of necromancer by 150%
-    -multiplies efficiency of giant by 150%
-    -multiplies efficiency of demon by 150%
-    -multiplies efficiency of compromiser by 150%
-    -multiplies efficiency of lastBuilding by 150%
-    -multiplies efficiency of singularityBuilding by 150%
-    -multiplies efficiency of edgeBeing by 150%
-    -multiplies efficiency of glitchBuilding by 150%
-    -unlocks fantasyUpgrade1
-    -named The Fantasy Zone
-    -picture : http://i.imgur.com/nLIn2uJ.png
-    *fantasyUpgrade1
-    -"Everything is <b>10%</b> more efficient.<br><i>"Your mind is full of ideas. sharing them seems a good idea." ~Ancient Wall Destroyer</i>
-    -requires 11 meshBossPoint, 1 meshBricks
-    -costs 2400000 prePrestige, 4e45 money
-    -multiplies efficiency of hitWall by 110%
-    -multiplies efficiency of puncher by 110%
-    -multiplies efficiency of clubber by 110%
-    -multiplies efficiency of swordsman by 110%
-    -multiplies efficiency of gunner by 110%
-    -multiplies efficiency of grenade by 110%
-    -multiplies efficiency of wreckingBall by 110%
-    -multiplies efficiency of bulldozer by 110%
-    -multiplies efficiency of airstrike by 110%
-    -multiplies efficiency of necromancer by 110%
-    -multiplies efficiency of giant by 110%
-    -multiplies efficiency of demon by 110%
-    -multiplies efficiency of compromiser by 110%
-    -multiplies efficiency of lastBuilding by 110%
-    -multiplies efficiency of singularityBuilding by 110%
-    -multiplies efficiency of glitchBuilding by 110%
-    -multiplies efficiency of edgeBeing by 110%
-    -multiplies efficiency of brickFactory by 110%
-    -multiplies efficiency of makeBricks by 110%
-    -unlocks fantasyUpgrade2
-    -named Share
-    -picture : http://i.imgur.com/sTHIUtK.png
-    *fantasyUpgrade2
-    -"Everything is <b>0.1%</b> more efficient per Purifier building.<br><i>"Sometimes making the weakest makes others the strongest. The strongest makes weakest the strongest." ~Flying Thought</i>
-    -requires 13 meshBossPoint, 1 meshBricks
-    -costs 2400000 prePrestige, 6e45 money
-    -multiplies efficiency of hitWall by 0.1% per singularityBuilding
-    -multiplies efficiency of puncher by 0.1% per singularityBuilding
-    -multiplies efficiency of clubber by 0.1% per singularityBuilding
-    -multiplies efficiency of swordsman by 0.1% per singularityBuilding
-    -multiplies efficiency of gunner by 0.1% per singularityBuilding
-    -multiplies efficiency of grenade by 0.1% per singularityBuilding
-    -multiplies efficiency of wreckingBall by 0.1% per singularityBuilding
-    -multiplies efficiency of bulldozer by 0.1% per singularityBuilding
-    -multiplies efficiency of airstrike by 0.1% per singularityBuilding
-    -multiplies efficiency of necromancer by 0.1% per singularityBuilding
-    -multiplies efficiency of giant by 0.1% per singularityBuilding
-    -multiplies efficiency of demon by 0.1% per singularityBuilding
-    -multiplies efficiency of compromiser by 0.1% per singularityBuilding
-    -multiplies efficiency of lastBuilding by 0.1% per singularityBuilding
-    -multiplies efficiency of brickFactory by 0.1% per singularityBuilding
-    -multiplies efficiency of makeBricks by 0.1% per singularityBuilding
-    -multiplies efficiency of glitchBuilding by 0.1% per singularityBuilding
-    -multiplies efficiency of hitWall by 0.1% per edgeBeing
-    -multiplies efficiency of puncher by 0.1% per edgeBeing
-    -multiplies efficiency of clubber by 0.1% per edgeBeing
-    -multiplies efficiency of swordsman by 0.1% per edgeBeing
-    -multiplies efficiency of gunner by 0.1% per edgeBeing
-    -multiplies efficiency of grenade by 0.1% per edgeBeing
-    -multiplies efficiency of wreckingBall by 0.1% per edgeBeing
-    -multiplies efficiency of bulldozer by 0.1% per edgeBeing
-    -multiplies efficiency of airstrike by 0.1% per edgeBeing
-    -multiplies efficiency of necromancer by 0.1% per edgeBeing
-    -multiplies efficiency of giant by 0.1% per edgeBeing
-    -multiplies efficiency of demon by 0.1% per edgeBeing
-    -multiplies efficiency of compromiser by 0.1% per edgeBeing
-    -multiplies efficiency of lastBuilding by 0.1% per edgeBeing
-    -multiplies efficiency of brickFactory by 0.1% per edgeBeing
-    -multiplies efficiency of makeBricks by 0.1% per edgeBeing
-    -multiplies efficiency of glitchBuilding by 0.1% per edgeBeing
-    -unlocks fantasyUpgrade3
-    -named Think
-    -picture : http://i.imgur.com/sTHIUtK.png
-    *fantasyUpgrade3
-    -"Unlocks upgrades that buff buildings, each of the upgrade buffs everything by 5%, and specific buildings by 2 times. <br><i>"Sometimes parties are nothing compared to knowledge." ~Elder God</i>"
-    -requires 15 meshBossPoint, 1 meshBricks
-    -costs 2400000 prePrestige, 9e45 money
-    -unlocks fantasyMelee
-    -unlocks fantasyRanged
-    -unlocks fantasyHeavyDuty
-    -unlocks fantasyMagic
-    -unlocks fantasyDream
-    -unlocks fantasyPurifier
-    -named Anthive
-    -picture : http://i.imgur.com/sTHIUtK.png
-    *fantasyMelee
-    -"Melee buildings are <b>twice</b> as efficient, everything else is <b>5%</b> more efficient. <br><i>Now you don't need to worry about brick falling on your head when you damage the wall.</i>
-    -requires 1100 puncher, 1050 clubber, 1000 swordsman
-    -costs 2400000 prePrestige, 12e45 money
-    -multiplies efficiency of puncher by 200%
-    -multiplies efficiency of clubber by 200%
-    -multiplies efficiency of swordsman by 200%
-    -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of hitWall by 105%
-    -multiplies efficiency of puncher by 105%
-    -multiplies efficiency of clubber by 105%
-    -multiplies efficiency of swordsman by 105%
-    -multiplies efficiency of gunner by 105%
-    -multiplies efficiency of grenade by 105%
-    -multiplies efficiency of wreckingBall by 105%
-    -multiplies efficiency of bulldozer by 105%
-    -multiplies efficiency of airstrike by 105%
-    -multiplies efficiency of necromancer by 105%
-    -multiplies efficiency of giant by 105%
-    -multiplies efficiency of demon by 105%
-    -multiplies efficiency of compromiser by 105%
-    -multiplies efficiency of lastBuilding by 105%
-    -multiplies efficiency of singularityBuilding by 105%
-    -multiplies efficiency of edgeBeing by 105%
-    -multiplies efficiency of glitchBuilding by 105%
-    -named Upper Body of The Fantasy
-    -picture : http://i.imgur.com/sTHIUtK.png
-    *fantasyRanged
-    -"Ranged buildings are <b>twice</b> as efficient, everything else is <b>5%</b> more efficient. <br><i>Bullets and grenades pass multiple dimensions to pick up maximum (Faster Than Light (RUC™)) speed.</i>
-    -requires 950 gunner, 900 grenade
-    -costs 2400000 prePrestige, 17e45 money
-    -multiplies efficiency of gunner by 200%
-    -multiplies efficiency of grenade by 200%
-    -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of hitWall by 105%
-    -multiplies efficiency of puncher by 105%
-    -multiplies efficiency of clubber by 105%
-    -multiplies efficiency of swordsman by 105%
-    -multiplies efficiency of gunner by 105%
-    -multiplies efficiency of grenade by 105%
-    -multiplies efficiency of wreckingBall by 105%
-    -multiplies efficiency of bulldozer by 105%
-    -multiplies efficiency of airstrike by 105%
-    -multiplies efficiency of necromancer by 105%
-    -multiplies efficiency of giant by 105%
-    -multiplies efficiency of demon by 105%
-    -multiplies efficiency of compromiser by 105%
-    -multiplies efficiency of lastBuilding by 105%
-    -multiplies efficiency of singularityBuilding by 105%
-    -multiplies efficiency of edgeBeing by 105%
-    -multiplies efficiency of glitchBuilding by 105%
-    -named Lower Body of The Fantasy
-    -picture : http://i.imgur.com/sTHIUtK.png
-    *fantasyHeavyDuty
-    -"Heavy duty buildings are <b>twice</b> as efficient, everything else is <b>5%</b> more efficient. <br><i>"Obama would be proud." ~1337 n0sc0p3r #80</i>
-    -requires 900 wreckingBall, 850 bulldozer, 800 airstrike
-    -costs 2400000 prePrestige, 23e45 money
-    -multiplies efficiency of wreckingBall by 200%
-    -multiplies efficiency of bulldozer by 200%
-    -multiplies efficiency of airstrike by 200%
-    -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of hitWall by 105%
-    -multiplies efficiency of puncher by 105%
-    -multiplies efficiency of clubber by 105%
-    -multiplies efficiency of swordsman by 105%
-    -multiplies efficiency of gunner by 105%
-    -multiplies efficiency of grenade by 105%
-    -multiplies efficiency of wreckingBall by 105%
-    -multiplies efficiency of bulldozer by 105%
-    -multiplies efficiency of airstrike by 105%
-    -multiplies efficiency of necromancer by 105%
-    -multiplies efficiency of giant by 105%
-    -multiplies efficiency of demon by 105%
-    -multiplies efficiency of compromiser by 105%
-    -multiplies efficiency of lastBuilding by 105%
-    -multiplies efficiency of singularityBuilding by 105%
-    -multiplies efficiency of edgeBeing by 105%
-    -multiplies efficiency of glitchBuilding by 105%
-    -named Upper Tail of The Fantasy
-    -picture : http://i.imgur.com/sTHIUtK.png
-    *fantasyMagic
-    -"Magic and Special buildings are <b>twice</b> as efficient, everything else is <b>5%</b> more efficient. <br><i>"This magic is fantastic!" ~Chief of Puns</i>
-    -requires 750 necromancer, 700 giant, 700 demon, 750 brickFactory
-    -costs 2400000 prePrestige, 30e45 money
-    -multiplies efficiency of necromancer by 200%
-    -multiplies efficiency of giant by 200%
-    -multiplies efficiency of demon by 200%
-    -multiplies efficiency of brickFactory by 200%
-    -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of hitWall by 105%
-    -multiplies efficiency of puncher by 105%
-    -multiplies efficiency of clubber by 105%
-    -multiplies efficiency of swordsman by 105%
-    -multiplies efficiency of gunner by 105%
-    -multiplies efficiency of grenade by 105%
-    -multiplies efficiency of wreckingBall by 105%
-    -multiplies efficiency of bulldozer by 105%
-    -multiplies efficiency of airstrike by 105%
-    -multiplies efficiency of necromancer by 105%
-    -multiplies efficiency of giant by 105%
-    -multiplies efficiency of demon by 105%
-    -multiplies efficiency of compromiser by 105%
-    -multiplies efficiency of lastBuilding by 105%
-    -multiplies efficiency of singularityBuilding by 105%
-    -multiplies efficiency of edgeBeing by 105%
-    -multiplies efficiency of glitchBuilding by 105%
-    -named Lower Tail of The Fantasy
-    -picture : http://i.imgur.com/sTHIUtK.png
-    *fantasyDream
-    -"Dream buildings are <b>twice</b> as efficient, everything else is <b>5%</b> more efficient. <br><i>Sometimes, you just need to lucid dream.</i>"
-    -requires 700 compromiser, 650 lastBuilding
-    -costs 2400000 prePrestige, 60e45 money
-    -multiplies efficiency of compromiser by 200%
-    -multiplies efficiency of lastBuilding by 200%
-    -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of hitWall by 105%
-    -multiplies efficiency of puncher by 105%
-    -multiplies efficiency of clubber by 105%
-    -multiplies efficiency of swordsman by 105%
-    -multiplies efficiency of gunner by 105%
-    -multiplies efficiency of grenade by 105%
-    -multiplies efficiency of wreckingBall by 105%
-    -multiplies efficiency of bulldozer by 105%
-    -multiplies efficiency of airstrike by 105%
-    -multiplies efficiency of necromancer by 105%
-    -multiplies efficiency of giant by 105%
-    -multiplies efficiency of demon by 105%
-    -multiplies efficiency of compromiser by 105%
-    -multiplies efficiency of lastBuilding by 105%
-    -multiplies efficiency of singularityBuilding by 105%
-    -multiplies efficiency of edgeBeing by 105%
-    -multiplies efficiency of glitchBuilding by 105%
-    -named Head of The Fantasy
-    -picture : http://i.imgur.com/sTHIUtK.png
-    *fantasyPurifier
-    -"Purifier buildings are <b>twice</b> as efficient, everything else is <b>5%</b> more efficient. <br><i>They get ancient purifiers equipped.</i>"
-    -requires 600 singularityBuilding, 500 edgeBeing
-    -costs 2400000 prePrestige, 150e45 money
-    -multiplies efficiency of singularityBuilding by 200%
-    -multiplies efficiency of edgeBeing by 200%
-    -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of hitWall by 105%
-    -multiplies efficiency of puncher by 105%
-    -multiplies efficiency of clubber by 105%
-    -multiplies efficiency of swordsman by 105%
-    -multiplies efficiency of gunner by 105%
-    -multiplies efficiency of grenade by 105%
-    -multiplies efficiency of wreckingBall by 105%
-    -multiplies efficiency of bulldozer by 105%
-    -multiplies efficiency of airstrike by 105%
-    -multiplies efficiency of necromancer by 105%
-    -multiplies efficiency of giant by 105%
-    -multiplies efficiency of demon by 105%
-    -multiplies efficiency of compromiser by 105%
-    -multiplies efficiency of lastBuilding by 105%
-    -multiplies efficiency of singularityBuilding by 105%
-    -multiplies efficiency of edgeBeing by 105%
-    -multiplies efficiency of glitchBuilding by 105%
-    -named Face of The Fantasy
-    -picture : http://i.imgur.com/sTHIUtK.png
+	*win
+	-"The shattering of the omniversal wall leaves behind absolutely nothing.<br>"
+	*damageConverterUnlock
+	-"Unlocks the ability to convert 4th Dimension / Tesseract damage to cosmic knowledge, at the rate of 1 duotrigintillion to 1.<br>Scientists say no man should ever touch this forbidden weapon of technology, lest you want to discover the end of everything so soon. To break the Omniversal Wall would normally take millennia; with a single touch full of condensed tesseracted power, everything will be annihilated. For you to use the ████████████ now will allow you to reach far enough through PRESTIGE_HACKING. If it's not worth ending the existence of the walls, you would've stopped a long time ago, but the decision lies before you now. <b>Proceed at your own peril.</b>"
+	-costs 1e100 money
+	-unlocks at 1 winBricks
+	-unlocks damageConverter
+	-named Prestige Hacker
+	-picture : http://i.imgur.com/bkEkr5p.png
+	
+	*fantasyUnlock
+	-"Everything is <b>50%</b> more efficient. <br><i>Gives access to the fantasy zone.</i> "Nobody told you about this, eh?" "
+	-requires 1000 puncher, 950 clubber, 900 swordsman, 850 gunner, 800 grenade, 750 wreckingBall, 700 bulldozer, 700 airstrike, 700 necromancer, 650 giant, 650 demon, 650 compromiser, 500 lastBuilding, 350 singularityBuilding, 250 edgeBeing, 150 glitchBuilding, 650 brickFactory
+	    -requires 1e+42 handDamage, 25000000 prestige
+	    -costs 2400000 prePrestige, 2e45 money
+	    -unlocks at 9 meshBossPoint, 1 meshBricks
+	    -multiplies efficiency of brickFactory by 150%
+	    -multiplies efficiency of makeBricks by 150%
+	    -multiplies efficiency of hitWall by 150%
+	    -multiplies efficiency of puncher by 150%
+	    -multiplies efficiency of clubber by 150%
+	    -multiplies efficiency of swordsman by 150%
+	    -multiplies efficiency of gunner by 150%
+	    -multiplies efficiency of grenade by 150%
+	    -multiplies efficiency of wreckingBall by 150%
+	    -multiplies efficiency of bulldozer by 150%
+	    -multiplies efficiency of airstrike by 150%
+	    -multiplies efficiency of necromancer by 150%
+	    -multiplies efficiency of giant by 150%
+	    -multiplies efficiency of demon by 150%
+	    -multiplies efficiency of compromiser by 150%
+	    -multiplies efficiency of lastBuilding by 150%
+	    -multiplies efficiency of singularityBuilding by 150%
+	    -multiplies efficiency of edgeBeing by 150%
+	    -multiplies efficiency of glitchBuilding by 150%
+	    -unlocks fantasyUpgrade1
+	    -named The Fantasy Zone
+	    -picture : http://i.imgur.com/nLIn2uJ.png
+	    *fantasyUpgrade1
+	    -"Everything is <b>10%</b> more efficient.<br><i>"Your mind is full of ideas. Sharing them seems a good idea." ~Ancient Wall Destroyer</i>
+	    -requires 11 meshBossPoint, 1 meshBricks
+	    -costs 2400000 prePrestige, 4e45 money
+	    -multiplies efficiency of hitWall by 110%
+	    -multiplies efficiency of puncher by 110%
+	    -multiplies efficiency of clubber by 110%
+	    -multiplies efficiency of swordsman by 110%
+	    -multiplies efficiency of gunner by 110%
+	    -multiplies efficiency of grenade by 110%
+	    -multiplies efficiency of wreckingBall by 110%
+	    -multiplies efficiency of bulldozer by 110%
+	    -multiplies efficiency of airstrike by 110%
+	    -multiplies efficiency of necromancer by 110%
+	    -multiplies efficiency of giant by 110%
+	    -multiplies efficiency of demon by 110%
+	    -multiplies efficiency of compromiser by 110%
+	    -multiplies efficiency of lastBuilding by 110%
+	    -multiplies efficiency of singularityBuilding by 110%
+	    -multiplies efficiency of glitchBuilding by 110%
+	    -multiplies efficiency of edgeBeing by 110%
+	    -multiplies efficiency of brickFactory by 110%
+	    -multiplies efficiency of makeBricks by 110%
+	    -unlocks fantasyUpgrade2
+	    -named Share
+	    -picture : http://i.imgur.com/sTHIUtK.png
+	    *fantasyUpgrade2
+	    -"Everything is <b>0.1%</b> more efficient per Purifier building.<br><i>"Sometimes making the weakest makes others the strongest. The strongest makes weakest the strongest." ~Flying Thought</i>
+	    -requires 13 meshBossPoint, 1 meshBricks
+	    -costs 2400000 prePrestige, 6e45 money
+	    -multiplies efficiency of hitWall by 0.1% per singularityBuilding
+	    -multiplies efficiency of puncher by 0.1% per singularityBuilding
+	    -multiplies efficiency of clubber by 0.1% per singularityBuilding
+	    -multiplies efficiency of swordsman by 0.1% per singularityBuilding
+	    -multiplies efficiency of gunner by 0.1% per singularityBuilding
+	    -multiplies efficiency of grenade by 0.1% per singularityBuilding
+	    -multiplies efficiency of wreckingBall by 0.1% per singularityBuilding
+	    -multiplies efficiency of bulldozer by 0.1% per singularityBuilding
+	    -multiplies efficiency of airstrike by 0.1% per singularityBuilding
+	    -multiplies efficiency of necromancer by 0.1% per singularityBuilding
+	    -multiplies efficiency of giant by 0.1% per singularityBuilding
+	    -multiplies efficiency of demon by 0.1% per singularityBuilding
+	    -multiplies efficiency of compromiser by 0.1% per singularityBuilding
+	    -multiplies efficiency of lastBuilding by 0.1% per singularityBuilding
+	    -multiplies efficiency of brickFactory by 0.1% per singularityBuilding
+	    -multiplies efficiency of makeBricks by 0.1% per singularityBuilding
+	    -multiplies efficiency of glitchBuilding by 0.1% per singularityBuilding
+	    -multiplies efficiency of hitWall by 0.1% per edgeBeing
+	    -multiplies efficiency of puncher by 0.1% per edgeBeing
+	    -multiplies efficiency of clubber by 0.1% per edgeBeing
+	    -multiplies efficiency of swordsman by 0.1% per edgeBeing
+	    -multiplies efficiency of gunner by 0.1% per edgeBeing
+	    -multiplies efficiency of grenade by 0.1% per edgeBeing
+	    -multiplies efficiency of wreckingBall by 0.1% per edgeBeing
+	    -multiplies efficiency of bulldozer by 0.1% per edgeBeing
+	    -multiplies efficiency of airstrike by 0.1% per edgeBeing
+	    -multiplies efficiency of necromancer by 0.1% per edgeBeing
+	    -multiplies efficiency of giant by 0.1% per edgeBeing
+	    -multiplies efficiency of demon by 0.1% per edgeBeing
+	    -multiplies efficiency of compromiser by 0.1% per edgeBeing
+	    -multiplies efficiency of lastBuilding by 0.1% per edgeBeing
+	    -multiplies efficiency of brickFactory by 0.1% per edgeBeing
+	    -multiplies efficiency of makeBricks by 0.1% per edgeBeing
+	    -multiplies efficiency of glitchBuilding by 0.1% per edgeBeing
+	    -unlocks fantasyUpgrade3
+	    -named Think
+	    -picture : http://i.imgur.com/sTHIUtK.png
+	    *fantasyUpgrade3
+	    -"Unlocks upgrades that buff buildings; each upgrade buffs everything by 5%, and specific buildings by 2 times. <br><i>"Sometimes parties are nothing compared to knowledge." ~Elder God</i>"
+	    -requires 15 meshBossPoint, 1 meshBricks
+	    -costs 2400000 prePrestige, 9e45 money
+	    -unlocks fantasyMelee
+	    -unlocks fantasyRanged
+	    -unlocks fantasyHeavyDuty
+	    -unlocks fantasyMagic
+	    -unlocks fantasyDream
+	    -unlocks fantasyPurifier
+	    -named Anthive
+	    -picture : http://i.imgur.com/sTHIUtK.png
+	    *fantasyMelee
+	    -"Melee buildings are <b>twice</b> as efficient, everything else is <b>5%</b> more efficient. <br><i>Now you don't need to worry about bricks falling on your head when you damage the wall.</i>
+	    -requires 1100 puncher, 1050 clubber, 1000 swordsman
+	    -costs 2400000 prePrestige, 12e45 money
+	    -multiplies efficiency of puncher by 200%
+	    -multiplies efficiency of clubber by 200%
+	    -multiplies efficiency of swordsman by 200%
+	    -multiplies efficiency of brickFactory by 105%
+	    -multiplies efficiency of makeBricks by 105%
+	    -multiplies efficiency of hitWall by 105%
+	    -multiplies efficiency of puncher by 105%
+	    -multiplies efficiency of clubber by 105%
+	    -multiplies efficiency of swordsman by 105%
+	    -multiplies efficiency of gunner by 105%
+	    -multiplies efficiency of grenade by 105%
+	    -multiplies efficiency of wreckingBall by 105%
+	    -multiplies efficiency of bulldozer by 105%
+	    -multiplies efficiency of airstrike by 105%
+	    -multiplies efficiency of necromancer by 105%
+	    -multiplies efficiency of giant by 105%
+	    -multiplies efficiency of demon by 105%
+	    -multiplies efficiency of compromiser by 105%
+	    -multiplies efficiency of lastBuilding by 105%
+	    -multiplies efficiency of singularityBuilding by 105%
+	    -multiplies efficiency of edgeBeing by 105%
+	    -multiplies efficiency of glitchBuilding by 105%
+	    -named Upper Body of The Fantasy
+	    -picture : http://i.imgur.com/sTHIUtK.png
+	    *fantasyRanged
+	    -"Ranged buildings are <b>twice</b> as efficient, everything else is <b>5%</b> more efficient. <br><i>Bullets and grenades pass multiple dimensions to pick up maximum (Faster Than Light (RUC™)) speed.</i>
+	    -requires 950 gunner, 900 grenade
+	    -costs 2400000 prePrestige, 17e45 money
+	    -multiplies efficiency of gunner by 200%
+	    -multiplies efficiency of grenade by 200%
+	    -multiplies efficiency of brickFactory by 105%
+	    -multiplies efficiency of makeBricks by 105%
+	    -multiplies efficiency of hitWall by 105%
+	    -multiplies efficiency of puncher by 105%
+	    -multiplies efficiency of clubber by 105%
+	    -multiplies efficiency of swordsman by 105%
+	    -multiplies efficiency of gunner by 105%
+	    -multiplies efficiency of grenade by 105%
+	    -multiplies efficiency of wreckingBall by 105%
+	    -multiplies efficiency of bulldozer by 105%
+	    -multiplies efficiency of airstrike by 105%
+	    -multiplies efficiency of necromancer by 105%
+	    -multiplies efficiency of giant by 105%
+	    -multiplies efficiency of demon by 105%
+	    -multiplies efficiency of compromiser by 105%
+	    -multiplies efficiency of lastBuilding by 105%
+	    -multiplies efficiency of singularityBuilding by 105%
+	    -multiplies efficiency of edgeBeing by 105%
+	    -multiplies efficiency of glitchBuilding by 105%
+	    -named Lower Body of The Fantasy
+	    -picture : http://i.imgur.com/sTHIUtK.png
+	    *fantasyHeavyDuty
+	    -"Heavy duty buildings are <b>twice</b> as efficient, everything else is <b>5%</b> more efficient. <br><i>"Obama would be proud." ~1337 n0sc0p3r #80</i>
+	    -requires 900 wreckingBall, 850 bulldozer, 800 airstrike
+	    -costs 2400000 prePrestige, 23e45 money
+	    -multiplies efficiency of wreckingBall by 200%
+	    -multiplies efficiency of bulldozer by 200%
+	    -multiplies efficiency of airstrike by 200%
+	    -multiplies efficiency of brickFactory by 105%
+	    -multiplies efficiency of makeBricks by 105%
+	    -multiplies efficiency of hitWall by 105%
+	    -multiplies efficiency of puncher by 105%
+	    -multiplies efficiency of clubber by 105%
+	    -multiplies efficiency of swordsman by 105%
+	    -multiplies efficiency of gunner by 105%
+	    -multiplies efficiency of grenade by 105%
+	    -multiplies efficiency of wreckingBall by 105%
+	    -multiplies efficiency of bulldozer by 105%
+	    -multiplies efficiency of airstrike by 105%
+	    -multiplies efficiency of necromancer by 105%
+	    -multiplies efficiency of giant by 105%
+	    -multiplies efficiency of demon by 105%
+	    -multiplies efficiency of compromiser by 105%
+	    -multiplies efficiency of lastBuilding by 105%
+	    -multiplies efficiency of singularityBuilding by 105%
+	    -multiplies efficiency of edgeBeing by 105%
+	    -multiplies efficiency of glitchBuilding by 105%
+	    -named Upper Tail of The Fantasy
+	    -picture : http://i.imgur.com/sTHIUtK.png
+	    *fantasyMagic
+	    -"Magic and Special buildings are <b>twice</b> as efficient, everything else is <b>5%</b> more efficient. <br><i>"This magic is fantastic!" ~Chief of Puns</i>
+	    -requires 750 necromancer, 700 giant, 700 demon, 750 brickFactory
+	    -costs 2400000 prePrestige, 30e45 money
+	    -multiplies efficiency of necromancer by 200%
+	    -multiplies efficiency of giant by 200%
+	    -multiplies efficiency of demon by 200%
+	    -multiplies efficiency of brickFactory by 200%
+	    -multiplies efficiency of brickFactory by 105%
+	    -multiplies efficiency of makeBricks by 105%
+	    -multiplies efficiency of hitWall by 105%
+	    -multiplies efficiency of puncher by 105%
+	    -multiplies efficiency of clubber by 105%
+	    -multiplies efficiency of swordsman by 105%
+	    -multiplies efficiency of gunner by 105%
+	    -multiplies efficiency of grenade by 105%
+	    -multiplies efficiency of wreckingBall by 105%
+	    -multiplies efficiency of bulldozer by 105%
+	    -multiplies efficiency of airstrike by 105%
+	    -multiplies efficiency of necromancer by 105%
+	    -multiplies efficiency of giant by 105%
+	    -multiplies efficiency of demon by 105%
+	    -multiplies efficiency of compromiser by 105%
+	    -multiplies efficiency of lastBuilding by 105%
+	    -multiplies efficiency of singularityBuilding by 105%
+	    -multiplies efficiency of edgeBeing by 105%
+	    -multiplies efficiency of glitchBuilding by 105%
+	    -named Lower Tail of The Fantasy
+	    -picture : http://i.imgur.com/sTHIUtK.png
+	    *fantasyDream
+	    -"Dream buildings are <b>twice</b> as efficient, everything else is <b>5%</b> more efficient. <br><i>Sometimes, you just need to lucid dream.</i>"
+	    -requires 700 compromiser, 650 lastBuilding
+	    -costs 2400000 prePrestige, 60e45 money
+	    -multiplies efficiency of compromiser by 200%
+	    -multiplies efficiency of lastBuilding by 200%
+	    -multiplies efficiency of brickFactory by 105%
+	    -multiplies efficiency of makeBricks by 105%
+	    -multiplies efficiency of hitWall by 105%
+	    -multiplies efficiency of puncher by 105%
+	    -multiplies efficiency of clubber by 105%
+	    -multiplies efficiency of swordsman by 105%
+	    -multiplies efficiency of gunner by 105%
+	    -multiplies efficiency of grenade by 105%
+	    -multiplies efficiency of wreckingBall by 105%
+	    -multiplies efficiency of bulldozer by 105%
+	    -multiplies efficiency of airstrike by 105%
+	    -multiplies efficiency of necromancer by 105%
+	    -multiplies efficiency of giant by 105%
+	    -multiplies efficiency of demon by 105%
+	    -multiplies efficiency of compromiser by 105%
+	    -multiplies efficiency of lastBuilding by 105%
+	    -multiplies efficiency of singularityBuilding by 105%
+	    -multiplies efficiency of edgeBeing by 105%
+	    -multiplies efficiency of glitchBuilding by 105%
+	    -named Head of The Fantasy
+	    -picture : http://i.imgur.com/sTHIUtK.png
+	    *fantasyPurifier
+	    -"Purifier buildings are <b>twice</b> as efficient, everything else is <b>5%</b> more efficient. <br><i>They get ancient purifiers equipped.</i>"
+	    -requires 600 singularityBuilding, 500 edgeBeing
+	    -costs 2400000 prePrestige, 150e45 money
+	    -multiplies efficiency of singularityBuilding by 200%
+	    -multiplies efficiency of edgeBeing by 200%
+	    -multiplies efficiency of brickFactory by 105%
+	    -multiplies efficiency of makeBricks by 105%
+	    -multiplies efficiency of hitWall by 105%
+	    -multiplies efficiency of puncher by 105%
+	    -multiplies efficiency of clubber by 105%
+	    -multiplies efficiency of swordsman by 105%
+	    -multiplies efficiency of gunner by 105%
+	    -multiplies efficiency of grenade by 105%
+	    -multiplies efficiency of wreckingBall by 105%
+	    -multiplies efficiency of bulldozer by 105%
+	    -multiplies efficiency of airstrike by 105%
+	    -multiplies efficiency of necromancer by 105%
+	    -multiplies efficiency of giant by 105%
+	    -multiplies efficiency of demon by 105%
+	    -multiplies efficiency of compromiser by 105%
+	    -multiplies efficiency of lastBuilding by 105%
+	    -multiplies efficiency of singularityBuilding by 105%
+	    -multiplies efficiency of edgeBeing by 105%
+	    -multiplies efficiency of glitchBuilding by 105%
+	    -named Face of The Fantasy
+	    -picture : http://i.imgur.com/sTHIUtK.png
 	*shapeUnlock
 	-"Unlocks shapes. <br><i>Obviously enough, these are not the regular shapes.</i>"
 	-unlocks at 50 alphaBricks
@@ -2086,7 +2093,7 @@ Upgrades :
 	-multiplies efficiency of brickFactory by 250% per meshSpendable
 	-picture : http://i.imgur.com/ceKBGvj.png
 	*shape3
-	-"Everything is <b>20%</b> as efficient. For some reason this isn't significant as the others."
+	-"Everything is <b>20%</b> as efficient. While it doesn't appear to have much power, it is still profound in the fundamental assembly of the shape."
 	-costs 100 alphaBricks
 	-multiplies efficiency of brickFactory by 120%
 	-multiplies efficiency of makeBricks by 120%
@@ -2110,7 +2117,7 @@ Upgrades :
 	-named Z Axis Beam Polytope
 	-picture : http://i.imgur.com/qDqKLB9.png
 	*shape4
-	-"Make the big bang reoccur. Everything is <b>0.2%</b> more efficient per 100 minutes since reset. <br><i>Two expanding universes is better than one.</i>"
+	-"Make the big bang reoccur. Although it is far away from anything, you can feel the might of unraveling universes crawling and expanding. Everything is <b>0.2%</b> more efficient per 100 minutes since reset.<br><i>Two expanding universes is better than one.</i>"
 	-costs 150 alphaBricks
 	-multiplies efficiency of hitWall by 0.002% per timeSinceReset
 	-multiplies efficiency of puncher by 0.002% per timeSinceReset
@@ -2134,7 +2141,7 @@ Upgrades :
 	-named W Axis Beam Polytope
 	-picture : http://i.imgur.com/VJEVXH7.png
 	*timeTree
-	-"Allow to speed up, slow down, and do anything you want with the time. Everything is <b>0.3%</b> more efficient per 100 minutes since reset."
+	-"Allow to speed up, slow down, and do anything you want with the time. Everything is <b>0.3%</b> more efficient per 100 minutes since reset.<br><i>It is believed you need to spend an eternity for it to grow into its mature form. Oh, and I almost forgot: an ounce of sacred space sap.</i>"
 	-costs 250 alphabricks, 50 fifthBricks
 	-multiplies efficiency of hitWall by 0.003% per timeSinceReset
 	-multiplies efficiency of puncher by 0.003% per timeSinceReset
@@ -2450,7 +2457,7 @@ Upgrades :
     -picture : http://i.imgur.com/uFTByUI.png
  
     *timeUpgrade1
-    -"Everything is <b>10%</b> more efficient.<br><i>The other time upgrades unlock randomly over time. You'll just have to wait. Possibly a long time, if you are not a lucker.</i>"
+    -"Everything is <b>10%</b> more efficient.<br><i>The other time upgrades unlock randomly over time. You'll just have to wait. Possibly a long time, if you are not a lucker... However, arrangements have been made to make time eventually bow in your favor.</i>"
     -costs 5 timeBricks
     -named Chronological Improvements
     -multiplies efficiency of hitWall by 110%
@@ -2779,6 +2786,51 @@ Upgrades :
         -multiplies efficiency of makeBricks by 1% per finalityBricks
 	-multiplies efficiency of glitchBuilding by 1% per finalityBricks
         -named Extreme Extractors
+        -picture : http://i.imgur.com/5aqM5G5.png
+
+   *specialBrickBonus3
+        -"Everything is <b>1.25%</b> more efficient per <b>Alpha brick</b> and <b>2%</b> per <b>Fifth Dimension brick</b>.<br><i>Playing with the meta does you a favor. Lots of favors.</i>"
+        -costs 1e44 bricks, 1e42 money
+        -unlocks at 15 timesActuallyWon, 1 winBricks
+        -multiplies efficiency of hitWall by 1.25% per alphaBricks
+        -multiplies efficiency of puncher by 1.25% per alphaBricks
+        -multiplies efficiency of clubber by 1.25% per alphaBricks
+        -multiplies efficiency of swordsman by 1.25% per alphaBricks
+        -multiplies efficiency of gunner by 1.25% per alphaBricks
+        -multiplies efficiency of grenade by 1.25% per alphaBricks
+        -multiplies efficiency of wreckingBall by 1.25% per alphaBricks
+        -multiplies efficiency of bulldozer by 1.25% per alphaBricks
+        -multiplies efficiency of airstrike by 1.25% per alphaBricks
+        -multiplies efficiency of necromancer by 1.25% per alphaBricks
+        -multiplies efficiency of giant by 1.25% per alphaBricks
+        -multiplies efficiency of demon by 1.25% per alphaBricks
+        -multiplies efficiency of compromiser by 1.25% per alphaBricks
+        -multiplies efficiency of brickFactory by 1.25% per alphaBricks
+        -multiplies efficiency of lastBuilding by 1.25% per alphaBricks
+        -multiplies efficiency of singularityBuilding by 1.25% per alphaBricks
+        -multiplies efficiency of edgeBeing by 1.25% per alphaBricks
+        -multiplies efficiency of makeBricks by 1.25% per alphaBricks
+	-multiplies efficiency of glitchBuilding by 1.25% per alphaBricks
+        -multiplies efficiency of hitWall by 2% per fifthBricks
+        -multiplies efficiency of puncher by 2% per fifthBricks
+        -multiplies efficiency of clubber by 2% per fifthBricks
+        -multiplies efficiency of swordsman by 2% per fifthBricks
+        -multiplies efficiency of gunner by 2% per fifthBricks
+        -multiplies efficiency of grenade by 2% per fifthBricks
+        -multiplies efficiency of wreckingBall by 2% per fifthBricks
+        -multiplies efficiency of bulldozer by 2% per fifthBricks
+        -multiplies efficiency of airstrike by 2% per fifthBricks
+        -multiplies efficiency of necromancer by 2% per fifthBricks
+        -multiplies efficiency of giant by 2% per fifthBricks
+        -multiplies efficiency of demon by 2% per fifthBricks
+        -multiplies efficiency of compromiser by 2% per fifthBricks
+        -multiplies efficiency of brickFactory by 2% per fifthBricks
+        -multiplies efficiency of lastBuilding by 2% per fifthBricks
+        -multiplies efficiency of singularityBuilding by 2% per fifthBricks
+        -multiplies efficiency of edgeBeing by 2% per fifthBricks
+        -multiplies efficiency of makeBricks by 2% per fifthBricks
+	-multiplies efficiency of glitchBuilding by 2% per fifthBricks
+        -named Illusory Extractors
         -picture : http://i.imgur.com/5aqM5G5.png
 
     *endStory
@@ -3443,7 +3495,7 @@ Upgrades :
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
     *meshScroll5
-    -"Everything is <b>+10%</b> more efficient.<br><i>"The black hole is stretching our planet apart, few minutes remain till our last second. Thus nobody can save us."</i>"
+    -"Everything is <b>+10%</b> more efficient.<br><i>"The black hole is stretching our planet apart; only a few minutes remain till our last second. Then, nobody can save us."</i>"
     -costs 22.778e42 money, 2e15 artSpaceBricks, 1 meshSpendable, 8 winSpendable, 1053 endBricks
     -unlocks at 8 meshBossPoint, 1 meshBricks
     -multiplies efficiency of brickFactory by 110%
@@ -3469,7 +3521,7 @@ Upgrades :
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
     *meshScroll6
-    -"Everything is <b>+10%</b> more efficient.<br><i>"It's really hard to create a comfortable home in this near-perfect vacuum area. Our family is starving, yet all we have is Adamantium which is impossible to melt or eat. We are sending this message hoping that we will receive anything. Kindest regards - Humanity 151441 AD"</i>"
+    -"Everything is <b>+10%</b> more efficient.<br><i>"It's really hard to create a comfortable home in this near-perfect vacuum area. Our family is starving, yet all we have is Adamantium which is impossible to melt or eat. We are sending this message hoping that we will receive anything. Kindest regards. - Humanity, 151441 AD"</i>"
     -costs 35.010e42 money, 2.5e15 artSpaceBricks, 1 meshSpendable, 8 winSpendable, 1053 endBricks
     -unlocks at 8 meshBossPoint, 1 meshBricks
     -multiplies efficiency of brickFactory by 110%
@@ -3521,7 +3573,7 @@ Upgrades :
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
     *classificationUpgrade1
-    -"Dream buildings are <b>+0.1%</b> as efficient per Singularity.<br><i>Thanks to the knowledge we got from mesh bricks we finally are able to do some morale raising.</i>"
+    -"Dream buildings are <b>+0.1%</b> as efficient per Singularity.<br><i>Thanks to the knowledge we got from mesh bricks, we finally are able to do some morale raising.</i>"
     -costs 1e42 money, 20e12 artSpaceBricks, 1 meshSpendable, 8 winSpendable
     -unlocks at 4 timesActuallyWon, 1 winBricks, 2 meshBossPoint, 1 meshBricks
     -multiplies efficiency of compromiser by 0.1% per singularityBuilding
@@ -3852,7 +3904,7 @@ Upgrades :
     -named Final Time Bear Ward
     -picture : http://i.imgur.com/pBrcGq5.png
     *timeBearWard13
-    -"Everything is <b>8%</b> more efficient.<br><i>There is one thing that does not fear the Time Bear: The Black. The most evil substance known to anyone may be our only hope.</i>"
+    -"Everything is <b>8%</b> more efficient.<br><i>Despite the absolute annihilation our attempts at time rewinding can cause, we have kept going. There is one thing that does not fear the Time Bear: The Black. The most evil substance known to anyone may be our only hope.</i>"
     -costs 987654321012345678900 fourthWallMatter, 98765432101234567890000 bricks
     -unlocks at 4000000 prestige, 12 resetTimes
     -multiplies efficiency of hitWall by 108%
@@ -3902,7 +3954,7 @@ Upgrades :
     -named Army Time Bear Ward
     -picture : http://i.imgur.com/zZ9wpYI.png
     *timeBearWard15
-    -"Everything is <b>12%</b> more efficient.<br><i>These are the tools made out of the Time Bear's skin; will totally come in handy.</i>"
+    -"Everything is <b>12%</b> more efficient.<br><i>These are the tools made out of the Time Bear's skin; this will totally come in handy.</i>"
     -costs 9876543210123456789000000 fourthWallMatter, 987654321012345678900000000 bricks
     -unlocks at 14000000 prestige, 14 resetTimes
     -multiplies efficiency of hitWall by 112%
@@ -7093,7 +7145,7 @@ Upgrades :
 	-named ???
 	-picture : http://i.imgur.com/rCKPdfD.png
 	*compromiserUpgradeBlack
-	-"Reality compromisers do <b>six times</b> as much damage.<br><i>"I thought they said mixing the Black with reality editing was a terrible idea." ~Agent Carter<br>"Clearly you do not understand upgrade themes." ~Head of R&D</i>"
+	-"Reality compromisers do <b>six times</b> as much damage.<br><i>"I thought they said mixing The Black with reality editing was a terrible idea." ~Agent Carter<br>"Clearly, you do not understand upgrade themes." ~Head of R&D</i>"
 	-costs 5.005050550505550e39 money, 5.005050550505550e28 bricks, 500000000000000000000000000 fourthWallMatter
 	-unlocks at 600 compromiser
 	-multiplies efficiency of compromiser by 600%
