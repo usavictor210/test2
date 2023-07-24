@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wall Destroyer Extended</title>
+        <link rel="stylesheet" href="css/base.css">
+    </head>
+    <body>
+        <div id="resources">
+            <p><span id="moneyDisp"></span> money</p>
+            <p><span id="damageDisp"></span> damage</p>
+            <p><span id="brickDisp"></span> bricks</p>
+        </div>
+        <div id="clickables">
+            <button id="punchWall" onClick="Walls.punch()">Punch wall</button>
+            <button id="createBrick" onClick="Walls.createBricks()">Create bricks</button>
+            <br>
+            <button id="cosmicReset" onClick="cosmicKnowledge.reset()">Rewind time (Removes all buildings and resources, converts cosmic knowledge to prestige, and damage into coins)</button>
+            <button id="prestigeHackerButton" onClick="cosmicKnowledge.prestigeHacker()">Convert all 4th Dimension damage to cosmic knowledge</button>
+        </div>
+        <div id="buildings">
+            <div id="currentWall">
+                There is a wall. A text wall. (If you see this, the game probably broke, I was too lazy to put in the image, or you disabled JavaScript.)
+            </div>
+        </div>
+        <div id="upgrades"></div>
+        <div id="options"></div>
+    </body>
+    <script type="text/javascript" src="js/upgrades.js"></script>
+    <script type="text/javascript" src="js/building.js"></script>
+    <script type="text/javascript" src="js/wall.js"></script>
+    <script type="text/javascript" src="js/core.js"></script>
+    
+</html>
