@@ -79,7 +79,7 @@ Resources :
 	-named Dreamy Coins
 	-classed importantresource
 
-	*omniverseBricks
+	*omniverseBrick
 	-named Omniverse Bricks
 	-classed veryimportantresource
 
@@ -401,7 +401,7 @@ Clickables :
 	-converts lastBuilding to nothing
 	-converts singularityBuilding to nothing
 	-converts edgeBeing to nothing
-	-converts glitchBuilding to nothing
+	-converts strangeGlitch to nothing
 	-converts money to nothing
 	-converts totalMoney to tesseractDamage
 	-converts handDamage to nothing
@@ -536,7 +536,7 @@ Clickables :
 	-says Time Rewound: Your cosmic knowledge has been converted into future knowledge capsules. Damages that buildings have dealt have been exchanged for their respective type of coin, if there is any.
 	-says The Time Bear is coming.
 
-    *damageConverter 
+    *damageConverter
     -multiplies tesseractDamage 1e-98%
     -converts tesseractDamage to prePrestige
     -named Convert all 4th Dimension damage to Cosmic Knowledge
@@ -1512,7 +1512,7 @@ Buildings :
     -locks destroyInfWall02
     -unlocks destroyInfWall03
 
-    *destroyinfinitything03
+    *destroyInfWall03
 	-"please excuse me for the lack of a description while I try to rebalance this era. ok thanks<br>Gives <b>40</b> Alpha bricks, <b>7</b> Fifth Dimension bricks, <b>64,000</b> artifical space bricks, <b>25,400</b> artifical time bricks and <b>32 undecillion</b> bricks.<br>Worth <b>450,000</b> cosmic knowledge."
     -costs 1.243658e49 tesseractDamage, 4.6464646e49 totalmoney
     -gives 3.2e37 bricks when bought
@@ -1521,9 +1521,9 @@ Buildings :
     -represents 1 wallsDestroyed
     -classed bonuswallboss
     -named Destroy a High Rank Infinity Wall
-    -locks destroyinfinitything03
-    -unlocks destroyinfinitything04
-    *destroyinfinitything04
+    -locks destroyInfWall03
+    -unlocks destroyInfWall04
+    *destroyInfWall04
     -"please excuse me for the lack of a description while I try to rebalance this era. ok thanks<br>Gives <b>60</b> Alpha bricks, <b>12</b> Fifth Dimension bricks, <b>128,000</b> artifical space bricks, <b>35,000</b> artifical time bricks and <b>400 undecillion</b> bricks.<br>Worth <b>550,000</b> cosmic knowledge."
     -costs 1e50 tesseractDamage, 3.333e50 totalmoney
     -gives 4e38 bricks when bought
@@ -1532,9 +1532,9 @@ Buildings :
     -represents 1 wallsDestroyed
     -classed bonuswallboss
     -named Destroy a Elite Infinity Wall
-    -locks destroyinfinitything04
-    -unlocks destroyinfinitything05
-    *destroyinfinitything05
+    -locks destroyInfWall04
+    -unlocks destroyInfWall05
+    *destroyInfWall05
     -"please excuse me for the lack of a description while I try to rebalance this era. ok thanks<br>Gives <b>80</b> Alpha bricks, <b>16</b> Fifth Dimension bricks, <b>320,000</b> artifical space bricks, <b>80,000</b> artifical time bricks and <b>10 duodecillion</b> bricks.<br>Worth <b>650,000</b> cosmic knowledge."
     -costs 4.500e50 tesseractDamage, 7.68543e50 totalmoney
     -gives 1e40 bricks when bought
@@ -1543,9 +1543,9 @@ Buildings :
     -represents 1 wallsDestroyed
     -classed bonuswallboss
     -named Destroy a Temmie Infinity Wall
-    -locks destroyinfinitything05
-    -unlocks destroyinfinitything06
-    *destroyinfinitything06
+    -locks destroyInfWall05
+    -unlocks destroyInfWall06
+    *destroyInfWall06
     -"please excuse me for the lack of a description while I try to rebalance this era. ok thanks<br>Gives <b>125</b> Alpha bricks, <b>25</b> Fifth Dimension bricks, <b>640,000</b> artifical space bricks, <b>100,000</b> artifical time bricks and <b>60 duodecillion</b> bricks.<br>Worth <b>750,000</b> cosmic knowledge."
     -costs 1.87654321234567890e50 tesseractDamage, 3.12742156444444444444e51 totalmoney
     -gives 6e40 bricks when bought
@@ -1554,9 +1554,9 @@ Buildings :
     -represents 1 wallsDestroyed
     -classed bonuswallboss
     -named Destroy a Important Infinity Wall
-    -locks destroyinfinitything06
-    -unlocks destroyinfinitything07
-    *destroyinfinitything07
+    -locks destroyInfWall06
+    -unlocks destroyInfWall07
+    *destroyInfWall07
     -"please excuse me for the lack of a description while I try to rebalance this era. ok thanks<br>Gives <b>150</b> Alpha bricks, <b>35</b> Fifth Dimension bricks, <b>750,000</b> artifical space bricks, <b>80,000</b> artifical time bricks and <b>450 duodecillion</b> bricks.<br>Worth <b>1,000,000</b> cosmic knowledge."
     -costs 3.81174327890e51 tesseractDamage, 9.99999999999999e51 totalmoney
     -gives 4.5e41 bricks when bought
@@ -1799,7 +1799,7 @@ Upgrades :
 	
 	*fantasyUnlock
 	-"Everything is <b>50%</b> more efficient. <br><i>Gives access to the fantasy zone.</i> "Nobody told you about this, eh?" "
-	-requires 1000 puncher, 950 clubber, 900 swordsman, 850 gunner, 800 grenade, 750 wreckingBall, 700 bulldozer, 700 airstrike, 700 necromancer, 650 giant, 650 demon, 650 compromiser, 500 lastBuilding, 350 singularityBuilding, 250 edgeBeing, 150 glitchBuilding, 650 brickFactory
+	-requires 1000 puncher, 950 clubber, 900 swordsman, 850 gunner, 800 grenade, 750 wreckingBall, 700 bulldozer, 700 airstrike, 700 necromancer, 650 giant, 650 demon, 650 compromiser, 500 lastBuilding, 350 singularityBuilding, 250 edgeBeing, 150 strangeGlitch, 650 brickFactory
 	    -requires 1e+42 handDamage, 25000000 prestige
 	    -costs 2400000 prePrestige, 2e45 money
 	    -unlocks at 9 meshBossPoint, 1 meshBricks
@@ -1821,7 +1821,7 @@ Upgrades :
 	    -multiplies efficiency of lastBuilding by 150%
 	    -multiplies efficiency of singularityBuilding by 150%
 	    -multiplies efficiency of edgeBeing by 150%
-	    -multiplies efficiency of glitchBuilding by 150%
+	    -multiplies efficiency of strangeGlitch by 150%
 	    -unlocks fantasyUpgrade1
 	    -named The Fantasy Zone
 	    -picture : http://i.imgur.com/nLIn2uJ.png
@@ -1844,7 +1844,7 @@ Upgrades :
 	    -multiplies efficiency of compromiser by 110%
 	    -multiplies efficiency of lastBuilding by 110%
 	    -multiplies efficiency of singularityBuilding by 110%
-	    -multiplies efficiency of glitchBuilding by 110%
+	    -multiplies efficiency of strangeGlitch by 110%
 	    -multiplies efficiency of edgeBeing by 110%
 	    -multiplies efficiency of brickFactory by 110%
 	    -multiplies efficiency of makeBricks by 110%
@@ -1871,7 +1871,7 @@ Upgrades :
 	    -multiplies efficiency of lastBuilding by 0.1% per singularityBuilding
 	    -multiplies efficiency of brickFactory by 0.1% per singularityBuilding
 	    -multiplies efficiency of makeBricks by 0.1% per singularityBuilding
-	    -multiplies efficiency of glitchBuilding by 0.1% per singularityBuilding
+	    -multiplies efficiency of strangeGlitch by 0.1% per singularityBuilding
 	    -multiplies efficiency of hitWall by 0.1% per edgeBeing
 	    -multiplies efficiency of puncher by 0.1% per edgeBeing
 	    -multiplies efficiency of clubber by 0.1% per edgeBeing
@@ -1888,7 +1888,7 @@ Upgrades :
 	    -multiplies efficiency of lastBuilding by 0.1% per edgeBeing
 	    -multiplies efficiency of brickFactory by 0.1% per edgeBeing
 	    -multiplies efficiency of makeBricks by 0.1% per edgeBeing
-	    -multiplies efficiency of glitchBuilding by 0.1% per edgeBeing
+	    -multiplies efficiency of strangeGlitch by 0.1% per edgeBeing
 	    -unlocks fantasyUpgrade3
 	    -named Think
 	    -picture : http://i.imgur.com/sTHIUtK.png
@@ -1929,7 +1929,7 @@ Upgrades :
 	    -multiplies efficiency of lastBuilding by 105%
 	    -multiplies efficiency of singularityBuilding by 105%
 	    -multiplies efficiency of edgeBeing by 105%
-	    -multiplies efficiency of glitchBuilding by 105%
+	    -multiplies efficiency of strangeGlitch by 105%
 	    -named Upper Body of The Fantasy
 	    -picture : http://i.imgur.com/sTHIUtK.png
 	    *fantasyRanged
@@ -1956,7 +1956,7 @@ Upgrades :
 	    -multiplies efficiency of lastBuilding by 105%
 	    -multiplies efficiency of singularityBuilding by 105%
 	    -multiplies efficiency of edgeBeing by 105%
-	    -multiplies efficiency of glitchBuilding by 105%
+	    -multiplies efficiency of strangeGlitch by 105%
 	    -named Lower Body of The Fantasy
 	    -picture : http://i.imgur.com/sTHIUtK.png
 	    *fantasyHeavyDuty
@@ -1984,7 +1984,7 @@ Upgrades :
 	    -multiplies efficiency of lastBuilding by 105%
 	    -multiplies efficiency of singularityBuilding by 105%
 	    -multiplies efficiency of edgeBeing by 105%
-	    -multiplies efficiency of glitchBuilding by 105%
+	    -multiplies efficiency of strangeGlitch by 105%
 	    -named Upper Tail of The Fantasy
 	    -picture : http://i.imgur.com/sTHIUtK.png
 	    *fantasyMagic
@@ -2013,7 +2013,7 @@ Upgrades :
 	    -multiplies efficiency of lastBuilding by 105%
 	    -multiplies efficiency of singularityBuilding by 105%
 	    -multiplies efficiency of edgeBeing by 105%
-	    -multiplies efficiency of glitchBuilding by 105%
+	    -multiplies efficiency of strangeGlitch by 105%
 	    -named Lower Tail of The Fantasy
 	    -picture : http://i.imgur.com/sTHIUtK.png
 	    *fantasyDream
@@ -2040,7 +2040,7 @@ Upgrades :
 	    -multiplies efficiency of lastBuilding by 105%
 	    -multiplies efficiency of singularityBuilding by 105%
 	    -multiplies efficiency of edgeBeing by 105%
-	    -multiplies efficiency of glitchBuilding by 105%
+	    -multiplies efficiency of strangeGlitch by 105%
 	    -named Head of The Fantasy
 	    -picture : http://i.imgur.com/sTHIUtK.png
 	    *fantasyPurifier
@@ -2067,7 +2067,7 @@ Upgrades :
 	    -multiplies efficiency of lastBuilding by 105%
 	    -multiplies efficiency of singularityBuilding by 105%
 	    -multiplies efficiency of edgeBeing by 105%
-	    -multiplies efficiency of glitchBuilding by 105%
+	    -multiplies efficiency of strangeGlitch by 105%
 	    -named Face of The Fantasy
 	    -picture : http://i.imgur.com/sTHIUtK.png
 	*shapeUnlock
@@ -2113,7 +2113,7 @@ Upgrades :
 	-multiplies efficiency of lastBuilding by 120%
 	-multiplies efficiency of singularityBuilding by 120%
 	-multiplies efficiency of edgeBeing by 120%
-	-multiplies efficiency of glitchBuilding by 120%
+	-multiplies efficiency of strangeGlitch by 120%
 	-named Z Axis Beam Polytope
 	-picture : http://i.imgur.com/qDqKLB9.png
 	*shape4
@@ -2137,7 +2137,7 @@ Upgrades :
 	-multiplies efficiency of edgeBeing by 0.002% per timeSinceReset
 	-multiplies efficiency of brickFactory by 0.002% per timeSinceReset
 	-multiplies efficiency of makeBricks by 0.002% per timeSinceReset
-	-multiplies efficiency of glitchBuilding by 0.002% per timeSinceReset
+	-multiplies efficiency of strangeGlitch by 0.002% per timeSinceReset
 	-named W Axis Beam Polytope
 	-picture : http://i.imgur.com/VJEVXH7.png
 	*timeTree
@@ -2161,7 +2161,7 @@ Upgrades :
 	-multiplies efficiency of edgeBeing by 0.003% per timeSinceReset
 	-multiplies efficiency of brickFactory by 0.003% per timeSinceReset
 	-multiplies efficiency of makeBricks by 0.003% per timeSinceReset
-	-multiplies efficiency of glitchBuilding by 0.003% per timeSinceReset
+	-multiplies efficiency of strangeGlitch by 0.003% per timeSinceReset
 	-named Time Tree
 	-picture : http://i.imgur.com/jsCyq5a.png
 	*magicUnlock
@@ -2311,7 +2311,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 108%
     -multiplies efficiency of brickFactory by 108%
     -multiplies efficiency of makeBricks by 108%
-    -multiplies efficiency of glitchBuilding by 108%
+    -multiplies efficiency of strangeGlitch by 108%
     -named Spacial Improvements
     -picture : http://i.imgur.com/sLWYgGF.png
     *spaceUpgrade7
@@ -2356,7 +2356,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 0.005% per building
     -multiplies efficiency of brickFactory by 0.005% per building
     -multiplies efficiency of makeBricks by 0.005% per building
-    -multiplies efficiency of glitchBuilding by 0.005% per building
+    -multiplies efficiency of strangeGlitch by 0.005% per building
     -named Weight Relocation
     -picture : http://i.imgur.com/frFPqZn.png
  
@@ -2450,7 +2450,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 0.004% per building
     -multiplies efficiency of singularityBuilding by 0.004% per building
     -multiplies efficiency of edgeBeing by 0.004% per building
-    -multiplies efficiency of glitchBuilding by 0.004% per building
+    -multiplies efficiency of strangeGlitch by 0.004% per building
     -multiplies efficiency of brickFactory by 0.004% per building
     -multiplies efficiency of makeBricks by 0.004% per building
     -named Alternate Reality Forcestacking
@@ -2478,7 +2478,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of brickFactory by 110%
     -multiplies efficiency of makeBricks by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -picture : http://i.imgur.com/U84N3WY.png
     *timeUpgrade2
     -"Hand punches do <b>45%</b> more damage.<br>Punchers do <b>50%</b> more damage.<br><i>Punching, more than other things, takes well to ridiculous speeds.</i>"
@@ -2585,7 +2585,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 0.002% per timeSinceReset
     -multiplies efficiency of brickFactory by 0.002% per timeSinceReset
     -multiplies efficiency of makeBricks by 0.002% per timeSinceReset
-    -multiplies efficiency of glitchBuilding by 0.002% per timeSinceReset
+    -multiplies efficiency of strangeGlitch by 0.002% per timeSinceReset
     -named Ghosting
     -picture : http://i.imgur.com/M4T5Aol.png
  
@@ -2680,7 +2680,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 0.002% per timeSinceReset
     -multiplies efficiency of brickFactory by 0.002% per timeSinceReset
     -multiplies efficiency of makeBricks by 0.002% per timeSinceReset
-    -multiplies efficiency of glitchBuilding by 0.002% per timeSinceReset
+    -multiplies efficiency of strangeGlitch by 0.002% per timeSinceReset
     -named Density Timestacking
     -picture : http://i.imgur.com/Q6oG66i.png
     *timeUpgrade21
@@ -2722,7 +2722,7 @@ Upgrades :
         -multiplies efficiency of brickFactory by 0.001% per spaceBricks
         -multiplies efficiency of lastBuilding by 0.001% per spaceBricks
         -multiplies efficiency of makeBricks by 0.001% per spaceBricks
-	-multiplies efficiency of glitchBuilding by 0.001% per spaceBricks
+	-multiplies efficiency of strangeGlitch by 0.001% per spaceBricks
         -multiplies efficiency of hitWall by 0.007% per timeBricks
         -multiplies efficiency of puncher by 0.007% per timeBricks
         -multiplies efficiency of clubber by 0.007% per timeBricks
@@ -2739,7 +2739,7 @@ Upgrades :
         -multiplies efficiency of brickFactory by 0.007% per timeBricks
         -multiplies efficiency of lastBuilding by 0.007% per timeBricks
         -multiplies efficiency of makeBricks by 0.007% per timeBricks
-	-multiplies efficiency of glitchBuilding by 0.007% per timeBricks
+	-multiplies efficiency of strangeGlitch by 0.007% per timeBricks
         -named Spacetime Extractors
         -picture : http://i.imgur.com/6HcIknB.png
 
@@ -2765,7 +2765,7 @@ Upgrades :
         -multiplies efficiency of singularityBuilding by 0.1% per endBricks
         -multiplies efficiency of edgeBeing by 0.1% per endBricks
         -multiplies efficiency of makeBricks by 0.1% per endBricks
-	-multiplies efficiency of glitchBuilding by 0.1% per endBricks
+	-multiplies efficiency of strangeGlitch by 0.1% per endBricks
         -multiplies efficiency of hitWall by 1% per finalityBricks
         -multiplies efficiency of puncher by 1% per finalityBricks
         -multiplies efficiency of clubber by 1% per finalityBricks
@@ -2784,7 +2784,7 @@ Upgrades :
         -multiplies efficiency of singularityBuilding by 1% per finalityBricks
         -multiplies efficiency of edgeBeing by 1% per finalityBricks
         -multiplies efficiency of makeBricks by 1% per finalityBricks
-	-multiplies efficiency of glitchBuilding by 1% per finalityBricks
+	-multiplies efficiency of strangeGlitch by 1% per finalityBricks
         -named Extreme Extractors
         -picture : http://i.imgur.com/5aqM5G5.png
 
@@ -2810,7 +2810,7 @@ Upgrades :
         -multiplies efficiency of singularityBuilding by 1.25% per alphaBricks
         -multiplies efficiency of edgeBeing by 1.25% per alphaBricks
         -multiplies efficiency of makeBricks by 1.25% per alphaBricks
-	-multiplies efficiency of glitchBuilding by 1.25% per alphaBricks
+	-multiplies efficiency of strangeGlitch by 1.25% per alphaBricks
         -multiplies efficiency of hitWall by 2% per fifthBricks
         -multiplies efficiency of puncher by 2% per fifthBricks
         -multiplies efficiency of clubber by 2% per fifthBricks
@@ -2829,7 +2829,7 @@ Upgrades :
         -multiplies efficiency of singularityBuilding by 2% per fifthBricks
         -multiplies efficiency of edgeBeing by 2% per fifthBricks
         -multiplies efficiency of makeBricks by 2% per fifthBricks
-	-multiplies efficiency of glitchBuilding by 2% per fifthBricks
+	-multiplies efficiency of strangeGlitch by 2% per fifthBricks
         -named Illusory Extractors
         -picture : http://i.imgur.com/5aqM5G5.png
 
@@ -2854,7 +2854,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks endStory2
     -named Scrolls of The End
     -picture : http://i.imgur.com/oH8QPgZ.png
@@ -2880,7 +2880,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks endStory3
     -named Scroll B-8
     -picture : http://i.imgur.com/q3LakAy.png
@@ -2906,7 +2906,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks endStory4
     -named Scroll B-9
     -picture : http://i.imgur.com/q3LakAy.png
@@ -2932,7 +2932,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks endStory5
     -named Scroll A-3
     -picture : http://i.imgur.com/q3LakAy.png
@@ -2958,7 +2958,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks endStory6
     -named Scroll A-4
     -picture : http://i.imgur.com/q3LakAy.png
@@ -2984,7 +2984,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks endStory7
     -named Scroll A-8
     -picture : http://i.imgur.com/q3LakAy.png
@@ -3010,7 +3010,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks endStory8
     -named Scroll C-4
     -picture : http://i.imgur.com/q3LakAy.png
@@ -3036,7 +3036,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -named Scroll C-8
     -unlocks endStory9
     -picture : http://i.imgur.com/q3LakAy.png
@@ -3062,7 +3062,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks endStory10
     -named Scroll C-37
     -picture : http://i.imgur.com/q3LakAy.png
@@ -3088,7 +3088,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks endStory11
     -named Scroll B-20
     -picture : http://i.imgur.com/q3LakAy.png
@@ -3114,7 +3114,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -named Scroll A-2
     -picture : http://i.imgur.com/q3LakAy.png
     *finalityUnlock
@@ -3138,7 +3138,7 @@ Upgrades :
     -multiplies efficiency of singularityBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of makeBricks by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -unlocks endStory12
     -named Scrolls of The Finality
     -picture : http://i.imgur.com/ZDjMvWn.png
@@ -3164,7 +3164,7 @@ Upgrades :
     -multiplies efficiency of singularityBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of makeBricks by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -unlocks endStory13
     -named Scroll A-10
     -picture : http://i.imgur.com/OG0I0gs.png
@@ -3190,7 +3190,7 @@ Upgrades :
     -multiplies efficiency of singularityBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of makeBricks by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -unlocks endStory14
     -named Scroll A-11
     -picture : http://i.imgur.com/OG0I0gs.png
@@ -3216,7 +3216,7 @@ Upgrades :
     -multiplies efficiency of singularityBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of makeBricks by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -unlocks endStory15
     -named Scroll A-1
     -picture : http://i.imgur.com/OG0I0gs.png
@@ -3242,7 +3242,7 @@ Upgrades :
     -multiplies efficiency of singularityBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of makeBricks by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -unlocks endStory16
     -named Scroll A-50
     -picture : http://i.imgur.com/OG0I0gs.png
@@ -3267,7 +3267,7 @@ Upgrades :
     -multiplies efficiency of singularityBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
     -multiplies efficiency of makeBricks by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -named Scroll C-32
     -picture : http://i.imgur.com/OG0I0gs.png
     *endStory17
@@ -3292,7 +3292,7 @@ Upgrades :
     -multiplies efficiency of singularityBuilding by 116%
     -multiplies efficiency of edgeBeing by 116%
     -multiplies efficiency of makeBricks by 116%
-    -multiplies efficiency of glitchBuilding by 116%
+    -multiplies efficiency of strangeGlitch by 116%
     -named Scroll D-10
     -picture : http://i.imgur.com/skLNAG0.png
     *endStory18
@@ -3317,7 +3317,7 @@ Upgrades :
     -multiplies efficiency of singularityBuilding by 116%
     -multiplies efficiency of edgeBeing by 116%
     -multiplies efficiency of makeBricks by 116%
-    -multiplies efficiency of glitchBuilding by 116%
+    -multiplies efficiency of strangeGlitch by 116%
     -named Scroll A-33
     -picture : http://i.imgur.com/skLNAG0.png
     *endStory19
@@ -3342,7 +3342,7 @@ Upgrades :
     -multiplies efficiency of singularityBuilding by 116%
     -multiplies efficiency of edgeBeing by 116%
     -multiplies efficiency of makeBricks by 116%
-    -multiplies efficiency of glitchBuilding by 116%
+    -multiplies efficiency of strangeGlitch by 116%
     -named Scroll D-4
     -picture : http://i.imgur.com/skLNAG0.png
     *endStory20
@@ -3367,7 +3367,7 @@ Upgrades :
     -multiplies efficiency of singularityBuilding by 116%
     -multiplies efficiency of edgeBeing by 116%
     -multiplies efficiency of makeBricks by 116%
-    -multiplies efficiency of glitchBuilding by 116%
+    -multiplies efficiency of strangeGlitch by 116%
     -named Scroll C-2
     -picture : http://i.imgur.com/skLNAG0.png
    
@@ -3393,7 +3393,7 @@ Upgrades :
     -multiplies efficiency of singularityBuilding by 5% per winSpendable
     -multiplies efficiency of edgeBeing by 5% per winSpendable
     -multiplies efficiency of makeBricks by 5% per winSpendable
-    -multiplies efficiency of glitchBuilding by 5% per winSpendable
+    -multiplies efficiency of strangeGlitch by 5% per winSpendable
     -multiplies efficiency of hitWall by 5% per winBricks
     -multiplies efficiency of puncher by 5% per winBricks
     -multiplies efficiency of clubber by 5% per winBricks
@@ -3412,7 +3412,7 @@ Upgrades :
     -multiplies efficiency of singularityBuilding by 5% per winBricks
     -multiplies efficiency of edgeBeing by 5% per winBricks
     -multiplies efficiency of makeBricks by 5% per winBricks
-    -multiplies efficiency of glitchBuilding by 5% per winBricks
+    -multiplies efficiency of strangeGlitch by 5% per winBricks
     -named NG-Z11 Artifact Scroll
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
@@ -3438,7 +3438,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of singularityBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -named IC 1101 Artifact Scroll
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
@@ -3464,7 +3464,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of singularityBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -named M31 Central Supermassive Black Hole Artifact Scroll
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
@@ -3490,7 +3490,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of singularityBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -named 1SWASP J1407B Ring System Artifact Scroll
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
@@ -3516,7 +3516,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of singularityBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -named Large Quasar Group Gravity Scroll
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
@@ -3542,7 +3542,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of singularityBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -named Eridanus Supervoid Artifact Scroll
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
@@ -3568,7 +3568,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of singularityBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -named 55 Cancri e Artifact Scroll
     -picture : http://i.imgur.com/ZmJ8hqf.png
  
@@ -3624,7 +3624,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -named Bronze Time Bear Ward
     -picture : http://i.imgur.com/DSMRgWX.png
     *timeBearWard2
@@ -3649,7 +3649,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -named Silver Time Bear Ward
     -picture : http://i.imgur.com/J1ef1UX.png
     *timeBearWard3
@@ -3674,7 +3674,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -named Gold Time Bear Ward
     -picture : http://i.imgur.com/9gTyt89.png
     *timeBearWard4
@@ -3699,7 +3699,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -named Platinum Time Bear Ward
     -picture : http://i.imgur.com/jmVBmsm.png
     *timeBearWard5
@@ -3724,7 +3724,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of brickFactory by 105%
     -multiplies efficiency of makeBricks by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -named Ruby Time Bear Ward
     -picture : http://i.imgur.com/GArKzmU.png
     *timeBearWard6
@@ -3749,7 +3749,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 106%
     -multiplies efficiency of brickFactory by 106%
     -multiplies efficiency of makeBricks by 106%
-    -multiplies efficiency of glitchBuilding by 106%
+    -multiplies efficiency of strangeGlitch by 106%
     -named Emerald Time Bear Ward
     -picture : http://i.imgur.com/wY0iwY4.png
     *timeBearWard7
@@ -3774,7 +3774,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 106%
     -multiplies efficiency of brickFactory by 106%
     -multiplies efficiency of makeBricks by 106%
-    -multiplies efficiency of glitchBuilding by 106%
+    -multiplies efficiency of strangeGlitch by 106%
     -named Sapphire Time Bear Ward
     -picture : http://i.imgur.com/k4IRYqQ.png
     *timeBearWard8
@@ -3799,7 +3799,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 106%
     -multiplies efficiency of brickFactory by 106%
     -multiplies efficiency of makeBricks by 106%
-    -multiplies efficiency of glitchBuilding by 106%
+    -multiplies efficiency of strangeGlitch by 106%
     -named Unobtainium Time Bear Ward
     -picture : http://i.imgur.com/81XatRf.png
     *timeBearWard9
@@ -3824,7 +3824,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 106%
     -multiplies efficiency of brickFactory by 106%
     -multiplies efficiency of makeBricks by 106%
-    -multiplies efficiency of glitchBuilding by 106%
+    -multiplies efficiency of strangeGlitch by 106%
     -named Dark Matter Time Bear Ward
     -picture : http://i.imgur.com/DyspkwM.png
     *timeBearWard10
@@ -3849,7 +3849,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 106%
     -multiplies efficiency of brickFactory by 106%
     -multiplies efficiency of makeBricks by 106%
-    -multiplies efficiency of glitchBuilding by 106%
+    -multiplies efficiency of strangeGlitch by 106%
     -named Antimatter Time Bear Ward
     -picture : http://i.imgur.com/VjKnTjf.png
     *timeBearWard11
@@ -3874,7 +3874,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 106%
     -multiplies efficiency of brickFactory by 106%
     -multiplies efficiency of makeBricks by 106%
-    -multiplies efficiency of glitchBuilding by 106%
+    -multiplies efficiency of strangeGlitch by 106%
     -named Rainbow Time Bear Ward
     -picture : http://i.imgur.com/yZXIZw9.png
     *timeBearWard12
@@ -3900,7 +3900,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 107%
     -multiplies efficiency of brickFactory by 107%
     -multiplies efficiency of makeBricks by 107%
-    -multiplies efficiency of glitchBuilding by 107%
+    -multiplies efficiency of strangeGlitch by 107%
     -named Final Time Bear Ward
     -picture : http://i.imgur.com/pBrcGq5.png
     *timeBearWard13
@@ -3925,7 +3925,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 108%
     -multiplies efficiency of brickFactory by 108%
     -multiplies efficiency of makeBricks by 108%
-    -multiplies efficiency of glitchBuilding by 108%
+    -multiplies efficiency of strangeGlitch by 108%
     -named Black Time Bear Ward
     -picture : http://i.imgur.com/NXncdYY.png
     *timeBearWard14
@@ -3950,7 +3950,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 111%
     -multiplies efficiency of brickFactory by 111%
     -multiplies efficiency of makeBricks by 111%
-    -multiplies efficiency of glitchBuilding by 111%
+    -multiplies efficiency of strangeGlitch by 111%
     -named Army Time Bear Ward
     -picture : http://i.imgur.com/zZ9wpYI.png
     *timeBearWard15
@@ -3975,7 +3975,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 112%
     -multiplies efficiency of brickFactory by 112%
     -multiplies efficiency of makeBricks by 112%
-    -multiplies efficiency of glitchBuilding by 112%
+    -multiplies efficiency of strangeGlitch by 112%
     -named End Time Bear Ward
     -picture : http://i.imgur.com/iUzNWak.png
     *timeBearWard16
@@ -4001,14 +4001,14 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 112.5%
     -multiplies efficiency of brickFactory by 112.5%
     -multiplies efficiency of makeBricks by 112.5%
-    -multiplies efficiency of glitchBuilding by 112.5%
+    -multiplies efficiency of strangeGlitch by 112.5%
     -named Finality Time Bear Ward
     -picture : http://i.imgur.com/eayVgaW.png
     
     *victoryPointUpgrade1
     -"Almost every single wall gives <b>twice</b> as many rewards when destroyed. Walls that aren't affected: Boss Finality Wall<br><i>To turn the wall into pure gold so we get more money when we break it.</i><br>"
     -costs 1e36 money, 1e33 fourthwallmatter, 1e7 artspacebricks, 1e6 arttimebricks
-    -requires 300 singularityBuilding, 300 edgeBeing, 250 glitchBuilding
+    -requires 300 singularityBuilding, 300 edgeBeing, 250 strangeGlitch
     -unlocks at 1 timesActuallyWon
     -multiplies efficiency of destroyWall by 200%
     -multiplies efficiency of destroyBigWall by 200%
@@ -4102,7 +4102,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 150%
     -multiplies efficiency of singularityBuilding by 150%
     -multiplies efficiency of edgeBeing by 150%
-    -multiplies efficiency of glitchBuilding by 150%
+    -multiplies efficiency of strangeGlitch by 150%
     -unlocks dreammachine
     -named "Dreamy" Heaven
     
@@ -4127,7 +4127,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 5% per wallsDestroyed
     -multiplies efficiency of makeBricks by 5% per wallsDestroyed
     -multiplies efficiency of brickFactory by 5% per wallsDestroyed
-    -multiplies efficiency of glitchBuilding by 5% per wallsDestroyed
+    -multiplies efficiency of strangeGlitch by 5% per wallsDestroyed
     -named The Chronicle
     -picture : http://i.imgur.com/zqNeRti.png
    
@@ -4153,7 +4153,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 1% per wallsDestroyed
     -multiplies efficiency of makeBricks by 1% per wallsDestroyed
     -multiplies efficiency of brickFactory by 1% per wallsDestroyed
-    -multiplies efficiency of glitchBuilding by 1% per wallsDestroyed
+    -multiplies efficiency of strangeGlitch by 1% per wallsDestroyed
     -named No Tears, Only Dreams
     -picture : http://i.imgur.com/RvFPTiX.png
  
@@ -4176,7 +4176,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 105%
     -multiplies efficiency of singularityBuilding by 105%
     -multiplies efficiency of edgeBeing by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -named Training
     -picture : http://i.imgur.com/93tCmIj.png
     *productionMultiplier2
@@ -4219,7 +4219,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of singularityBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -named Intense Training
     -picture : http://i.imgur.com/tHUohS4.png
     *productionMultiplier4
@@ -4241,7 +4241,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 110%
     -multiplies efficiency of singularityBuilding by 110%
     -multiplies efficiency of edgeBeing by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -named Plot Armor
     -picture : http://i.imgur.com/CSzNF0J.png
     *productionMultiplier5
@@ -4266,7 +4266,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 125%
     -multiplies efficiency of singularityBuilding by 125%
     -multiplies efficiency of edgeBeing by 125%
-    -multiplies efficiency of glitchBuilding by 125%
+    -multiplies efficiency of strangeGlitch by 125%
     -named Victory Dance
     -picture : http://i.imgur.com/piFqUdL.png
     *productionMultiplierMagic
@@ -4290,7 +4290,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 120%
     -multiplies efficiency of singularityBuilding by 120%
     -multiplies efficiency of edgeBeing by 120%
-    -multiplies efficiency of glitchBuilding by 120%
+    -multiplies efficiency of strangeGlitch by 120%
     -named Magically Enhanced Everything
     -picture : http://i.imgur.com/aaFiNNp.png
     *productionMultiplierMagic2
@@ -4314,7 +4314,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 120%
     -multiplies efficiency of singularityBuilding by 120%
     -multiplies efficiency of edgeBeing by 120%
-    -multiplies efficiency of glitchBuilding by 120%
+    -multiplies efficiency of strangeGlitch by 120%
     -named Utility Spells
     -picture : http://i.imgur.com/xGhYI9W.png
     *productionMultiplierMagic3
@@ -4338,7 +4338,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 120%
     -multiplies efficiency of singularityBuilding by 120%
     -multiplies efficiency of edgeBeing by 120%
-    -multiplies efficiency of glitchBuilding by 120%
+    -multiplies efficiency of strangeGlitch by 120%
     -named Access to The Great Wizard Library
     -picture : http://i.imgur.com/WL4ZfF1.png
     *productionMultiplier6
@@ -4362,7 +4362,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 125%
     -multiplies efficiency of singularityBuilding by 125%
     -multiplies efficiency of edgeBeing by 125%
-    -multiplies efficiency of glitchBuilding by 125%
+    -multiplies efficiency of strangeGlitch by 125%
     -named World Domination
     -picture : http://i.imgur.com/fGDPekC.png
     *productionMultiplierHell
@@ -4386,7 +4386,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 120%
     -multiplies efficiency of singularityBuilding by 120%
     -multiplies efficiency of edgeBeing by 120%
-    -multiplies efficiency of glitchBuilding by 120%
+    -multiplies efficiency of strangeGlitch by 120%
     -named Demon Advice
     -picture : http://i.imgur.com/2Dd5II9.png
     *productionMultiplierHell2
@@ -4410,7 +4410,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 120%
     -multiplies efficiency of singularityBuilding by 120%
     -multiplies efficiency of edgeBeing by 120%
-    -multiplies efficiency of glitchBuilding by 120%
+    -multiplies efficiency of strangeGlitch by 120%
     -named Library of Hell Membership
     -picture : http://i.imgur.com/iSfb0Ls.png
     *productionMultiplierHell3
@@ -4434,7 +4434,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 120%
     -multiplies efficiency of singularityBuilding by 120%
     -multiplies efficiency of edgeBeing by 120%
-    -multiplies efficiency of glitchBuilding by 120%
+    -multiplies efficiency of strangeGlitch by 120%
     -named Deal With The Devil
     -picture : http://i.imgur.com/a6zYL1I.png
     *productionMultiplier7
@@ -4458,7 +4458,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 125%
     -multiplies efficiency of singularityBuilding by 125%
     -multiplies efficiency of edgeBeing by 125%
-    -multiplies efficiency of glitchBuilding by 125%
+    -multiplies efficiency of strangeGlitch by 125%
     -named Optuqui's Scrolls of Knowledge
     -picture : http://i.imgur.com/gszdkb6.png
     *productionMultiplierBlack
@@ -4506,7 +4506,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 130%
     -multiplies efficiency of singularityBuilding by 130%
     -multiplies efficiency of edgeBeing by 130%
-    -multiplies efficiency of glitchBuilding by 130%
+    -multiplies efficiency of strangeGlitch by 130%
     -named Lord Reaefsek's Guide To Destruction
     -picture : http://i.imgur.com/M4nj67A.png
     *productionMultiplierArmy
@@ -4531,7 +4531,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 135%
     -multiplies efficiency of singularityBuilding by 135%
     -multiplies efficiency of edgeBeing by 135%
-    -multiplies efficiency of glitchBuilding by 135%
+    -multiplies efficiency of strangeGlitch by 135%
     -named The Guide To Furthering Progress
     -picture : http://i.imgur.com/WBts5e6.png
     *productionMultiplierEnd
@@ -4556,7 +4556,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 135%
     -multiplies efficiency of singularityBuilding by 135%
     -multiplies efficiency of edgeBeing by 135%
-    -multiplies efficiency of glitchBuilding by 135%
+    -multiplies efficiency of strangeGlitch by 135%
     -named Last Of Its Kind
     -picture : http://i.imgur.com/lyIXkLq.png
     *productionMultiplier9
@@ -4581,7 +4581,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 140%
     -multiplies efficiency of singularityBuilding by 140%
     -multiplies efficiency of edgeBeing by 140%
-    -multiplies efficiency of glitchBuilding by 140%
+    -multiplies efficiency of strangeGlitch by 140%
     -named Finality Tree Extract
     -picture : http://i.imgur.com/xvVrdJg.png
     *productionMultiplier10
@@ -4606,7 +4606,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 150%
     -multiplies efficiency of singularityBuilding by 150%
     -multiplies efficiency of edgeBeing by 150%
-    -multiplies efficiency of glitchBuilding by 150%
+    -multiplies efficiency of strangeGlitch by 150%
     -named God's Blessing
     -picture : http://i.imgur.com/AXc3JzP.png
     *productionMultiplier11
@@ -4631,7 +4631,7 @@ Upgrades :
     -multiplies efficiency of lastBuilding by 150%
     -multiplies efficiency of singularityBuilding by 150%
     -multiplies efficiency of edgeBeing by 150%
-    -multiplies efficiency of glitchBuilding by 150%
+    -multiplies efficiency of strangeGlitch by 150%
     -named The King's Army
     -picture : http://i.imgur.com/AXc3JzP.png
  
@@ -4658,7 +4658,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks fourthWallLegend2
     -picture : http://i.imgur.com/04PTUqi.png
     *fourthWallLegend2
@@ -4683,7 +4683,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks fourthWallLegend3
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend3
@@ -4708,7 +4708,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks fourthWallLegend4
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend4
@@ -4733,7 +4733,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks fourthWallLegend5
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend5
@@ -4758,7 +4758,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks fourthWallLegend6
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend6
@@ -4783,7 +4783,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks fourthWallLegend7
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend7
@@ -4808,7 +4808,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks fourthWallLegend8
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend8
@@ -4833,7 +4833,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks fourthWallLegend9
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend9
@@ -4858,7 +4858,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks fourthWallLegend10
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend10
@@ -4883,7 +4883,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks fourthWallLegend11
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend11
@@ -4908,7 +4908,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks fourthWallLegend12
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend12
@@ -4933,7 +4933,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 105%
     -multiplies efficiency of brickFactory by 105%
-    -multiplies efficiency of glitchBuilding by 105%
+    -multiplies efficiency of strangeGlitch by 105%
     -unlocks fourthWallLegend13
     -picture : http://i.imgur.com/B6IdD2m.png
     *fourthWallLegend13
@@ -4958,7 +4958,7 @@ Upgrades :
     -multiplies efficiency of edgeBeing by 105%
     -multiplies efficiency of makeBricks by 110%
     -multiplies efficiency of brickFactory by 110%
-    -multiplies efficiency of glitchBuilding by 110%
+    -multiplies efficiency of strangeGlitch by 110%
     -unlocks bookworm
     -picture : http://i.imgur.com/5NmG1EU.png
 
@@ -5133,8 +5133,8 @@ Upgrades :
 	*handGlitchUpgrade
 	-"<b>Illegal Mesh Scroll:</b> Hand punches deal <b>0.19%</b> more damage per glitch.<br><i>Hopefully not the W.D. Gaster hands, whoever "he" is..</i>"
 	-costs 2.62144e40 money, 131072 artSpaceBricks, 16384 artTimeBricks
-	-unlocks at 50 glitchBuilding
-	-multiplies efficiency of hitWall by 0.19% per glitchBuilding
+	-unlocks at 50 strangeGlitch
+	-multiplies efficiency of hitWall by 0.19% per strangeGlitch
 	-named Glitched Hands
 	-picture : https://i.imgur.com/TAJQNCr.png
 
@@ -7537,121 +7537,121 @@ Upgrades :
 	*glitchscroll
 	-"Glitches are <b>50%</b> more efficient.<br><i>We took an End Scroll, but realized something was messed up with it. With new engineering, now there's no reason not to use them.</i>"
 	-costs 5e31 money, 10000 prePrestige
-	-unlocks at 5 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 150%
+	-unlocks at 5 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 150%
 	-named Glitch Scroll I
 	-picture : http://i.imgur.com/oH8QPgZ.png
 	*glitchscroll2
 	-"Glitches are <b>50%</b> more efficient.<br><i>Another scroll. That's great, isn't it?</i>"
 	-costs 6.6e32 money, 20000 prePrestige, 1000 spacebricks
-	-unlocks at 10 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 150%
+	-unlocks at 10 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 150%
 	-named Glitch Scroll II
 	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll3
 	-"Glitches are <b>twice</b> as efficient.<br><i>THIS ISN'T ENOUGH</i>"
 	-costs 7e33 money, 25000 prePrestige, 2000 spacebricks
-	-unlocks at 25 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 200%
+	-unlocks at 25 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 200%
 	-named Glitch Scroll III
 	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll4
 	-"Glitches are <b>twice</b> as efficient.<br><i>[B]</i>"
 	-costs 4.4444e34 money, 30000 prePrestige, 3500 spacebricks
-	-unlocks at 50 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 200%
+	-unlocks at 50 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 200%
 	-named Glitch Scroll IV
 	-picture : http://i.imgur.com/q3LakAy.png
 	*glitchscroll5
 	-"Glitches are <b>twice</b> as efficient.<br><i>Oh boy! I can't wait to abuse more glitches!</i>"
 	-costs 2.7878787e35 money, 40000 prePrestige, 5000 spacebricks
-	-unlocks at 75 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 200%
+	-unlocks at 75 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 200%
 	-named Glitch Scroll V
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll6
 	-"Glitches are <b>2.5 times</b> as efficient.<br><i>"insert [REDACTED] description here, although the [REDACTED] description is blocked by the government"</i>"
 	-costs 1.234567890e36 money, 66666 prePrestige, 6666 spacebricks
-	-unlocks at 100 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 250%
+	-unlocks at 100 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 250%
 	-named [REDACTED] Scroll VI
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll7
 	-"Glitches are <b>2.5 times</b> as efficient.<br><i>Infused with malicious lines of binary.</i>"
 	-costs 9.87654545e36 money, 77777 prePrestige, 8000 spacebricks
-	-unlocks at 150 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 250%
+	-unlocks at 150 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 250%
 	-named Glitch Scroll VII
         -picture : http://i.imgur.com/OG0I0gs.png
 	*glitchscroll8
 	-"Glitches are <b>2.5 times</b> as efficient.<br><i>Serving the world's computers, since 1981</i>"
 	-costs 1e38 money, 100000 prePrestige, 10000 spacebricks, 500 timebricks
-	-unlocks at 200 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 250%
+	-unlocks at 200 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 250%
 	-named MS-DOS
         -picture : http://i.imgur.com/Gtg8P7F.png
 	*glitchscroll9
 	-"Glitches are <b>3 times</b> as efficient.<br><i>These scrolls contain only 1 ounce of evil power. When stacked, it does... something awkward. (EDIT: They're still dangerous)</i>"
 	-costs 2.432e38 money, 125000 prePrestige, 17500 spacebricks, 1000 timebricks
-	-unlocks at 250 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 300%
+	-unlocks at 250 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 300%
 	-named Danger!
         -picture : http://i.imgur.com/skLNAG0.png
 	*glitchscroll10
 	-"Glitches are <b>3 times</b> as efficient.<br><i>Who kept track of these numbers, anyway?</i>"
 	-costs 8.55555e38 money, 150000 prePrestige, 20000 spacebricks, 1000 timebricks
-	-unlocks at 300 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 300%
+	-unlocks at 300 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 300%
 	-named Glitch Scroll VIII
         -picture : http://i.imgur.com/skLNAG0.png
 	*glitchscroll11
 	-"Glitches are <b>4 times</b> as efficient.<br><i>That's a weird unlocking pattern, right there.</i>"
 	-costs 1e40 money, 200000 prePrestige, 30000 spacebricks, 1337 timebricks
-	-unlocks at 333 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 400%
+	-unlocks at 333 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 400%
 	-named Glitch Scroll IX
         -picture : http://i.imgur.com/skLNAG0.png
 	*glitchscroll12
 	-"Glitches are <b>4 times</b> as efficient.<br><i>These don't consume the other space bricks and time bricks, we found out we'll just use the artifically made ones instead, since they have the same power, when eventually stacked together.</i>"
 	-costs 3.14159265e41 money, 250000 prePrestige, 50000 artspacebricks, 30000 arttimebricks
-	-unlocks at 400 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 400%
+	-unlocks at 400 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 400%
 	-named Glitch Node I
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*glitchscroll13
 	-"Glitches are <b>4 times</b> as efficient. (Glitch Node II)<br><i>New destruction power was made!</i>"
 	-costs 9e42 money, 300000 prePrestige, 200000 artspacebricks, 50000 arttimebricks
-	-unlocks at 450 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 400%
+	-unlocks at 450 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 400%
 	-named Astonishing Variables
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*glitchscroll14
 	-"Glitches are <b>4.5 times</b> as efficient. (Glitch Node III)<br><i>It's kind of breaking physics.</i>"
 	-costs 2.5732135e43 money, 400000 prePrestige, 300000 artspacebricks, 70000 arttimebricks
-	-unlocks at 500 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 450%
+	-unlocks at 500 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 450%
 	-named Misplace 
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*glitchscroll15
 	-"Glitches are <b>4.8 times</b> as efficient. (Glitch Node IV)<br><i>Zero day loopholes in walls are now being used to our advantage... if we controlled them. Don't ask why walls have zero day bugs, it sounds weird.</i>"
 	-costs 9.090090009e43 money, 500000 prePrestige, 400000 artspacebricks, 100000 arttimebricks
-	-unlocks at 550 glitchBuilding
-	-multiplies efficiency of glitchBuilding by 480%
+	-unlocks at 550 strangeGlitch
+	-multiplies efficiency of strangeGlitch by 480%
 	-named Present Abuse
 	-picture : http://i.imgur.com/nLIn2uJ.png
 	*glitchscroll16
 	-"// WARNING // DON'T BUY THIS YET, IT'S STILL BUGGED // Glitches are <b>5 times</b> as efficient. Begins a whole new hell."
 	-costs 1.66766566e44 money, 10 edgeBeing, 30 singularityBuilding, 50 lastBuilding
-	-unlocks at 600 glitchBuilding
+	-unlocks at 600 strangeGlitch
 	-unlocks suppressionI
-	-multiplies efficiency of glitchBuilding by 500%
+	-multiplies efficiency of strangeGlitch by 500%
 	-named DARKEST NIGHT
 	-picture : https://i.imgur.com/fK6RsL6.png
 	*suppressionI
 	-"Glitches are <b>4 times</b> as efficient, at the cost of every other building only being 98% as efficient. Continues the suppression. <br><i>I thought we knew everything, but based on some leaked information, I guess we don't have enough of it.</i>"
 	-costs 5e44 money, 25000 artspacebricks
 	-unlocks suppressionII
-	-multiplies efficiency of glitchBuilding by 400%
+	-multiplies efficiency of strangeGlitch by 400%
 	-multiplies efficiency of puncher by 98%
     -multiplies efficiency of clubber by 98%
     -multiplies efficiency of swordsman by 98%
@@ -7674,14 +7674,14 @@ Upgrades :
 	-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching being only 96% as efficient. Continues the suppression. <br><i>"It's affecting almost everything at the moment, we've got to stop it!" ~ No One Said Ever (except you)</i>"
 	-costs 9e44 money, 36363 artspacebricks
 	-unlocks suppressionIII
-	-multiplies efficiency of glitchBuilding by 400%
+	-multiplies efficiency of strangeGlitch by 400%
 	-multiplies efficiency of hitWall by 96%
 	-named Pwned
 	-picture : https://i.imgur.com/fK6RsL6.png
 	*suppressionIII
 	-"Glitches are <b>5.2 times</b> as efficient, at the cost of manual punching being only 92% as efficient. Continues the suppression. <br><i>What is the cost? Why does it matter?</i>"
 	-costs 2.550550555e45 money, 72000 artspacebricks
-	-multiplies efficiency of glitchBuilding by 520%
+	-multiplies efficiency of strangeGlitch by 520%
 	-multiplies efficiency of hitWall by 92%
 	-named The Cost
 	-unlocks suppressionIV
@@ -8715,23 +8715,23 @@ Achievements :
 	-"Destroy the <b>Ten Walls of Infinity</b>.<br><i>If Infinity is not enough, what will satisfy you?</i>"
 	-named Infinite is Finite
 	-picture : http://i.imgur.com/O6Pmv2A.png
-	*wallDestroyer14
+	*wallDestroyer15
 	-"Destroy the <b>Ten Multiversal Walls</b>.<br><i>It's a long road from here to the end of the omniverse!</i>"
 	-named 1,000 Light Centuries
 	-picture : http://i.imgur.com/O6Pmv2A.png
-	*wallDestroyer15
+	*wallDestroyer16
 	-"Destroy <b>The Great Seal</b>.<br><i>You didn't have to kill it.</i>"
 	-named Seal Breaker
 	-picture : http://i.imgur.com/O6Pmv2A.png
-	*wallDestroyer16
+	*wallDestroyer17
 	-"Destroy the <b>Twelve Walls of the Anti-Realm</b>.<br><i>Even in negation, you don't forget your objective.</i>"
 	-named Microscopic Domain
 	-picture : http://i.imgur.com/O6Pmv2A.png
-	*wallDestroyer17
+	*wallDestroyer18
 	-"Destroy the <b>scattered objects throughout the omniverse</b>.<br><i>Do things seem clear now?</i>"
 	-named Scope to Nothing
 	-picture : http://i.imgur.com/O6Pmv2A.png
-	*wallDestroyer18
+	*wallDestroyer19
 	-"Destroy the <b>Omniversal Wall</b>.<br><i>So it is done.</i>"
 	-named Closure
 	-picture : http://i.imgur.com/O6Pmv2A.png
@@ -10641,22 +10641,22 @@ Achievements :
 	*glitchAchieve1
 	-"Hire <b>1</b> glitch. ... wait, hold up, that sounds wrong. How'd <i>you</i> hire a glitch!? Where'd it come from?"
 	-named The Illogical
-	-unlocks at 1 glitchBuilding
+	-unlocks at 1 strangeGlitch
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*glitchAchieve2
 	-"Hire <b>10</b> glitches.<br><i>Curse the developer for this.</i>"
 	-named Kind of Defective
-	-unlocks at 10 glitchBuilding
+	-unlocks at 10 strangeGlitch
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*glitchAchieve3
 	-"Hire <b>25</b> glitches."
 	-named ________________
-	-unlocks at 25 glitchBuilding
+	-unlocks at 25 strangeGlitch
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*glitchAchieve4
 	-"Hire <b>50</b> glitches."
 	-named You Take Reality and Crush It
-	-unlocks at 50 glitchBuilding
+	-unlocks at 50 strangeGlitch
 	-picture : http://i.imgur.com/Gtg8P7F.png
 	*glitchEnd
 	-"Correct the Anti-Realm and patch the glitches from the Normal World, ending The Suppression.<br><i>Can't duplicate Master Balls anymore. Sad day.</i>"
