@@ -7591,14 +7591,14 @@ Upgrades :
 	-"// WARNING // DON'T BUY THIS YET, IT'S STILL BUGGED // Glitches are <b>5 times</b> as efficient. Begins a whole new hell."
 	-costs 1.66766566e44 money, 10 edgeBeing, 30 singularityBuilding, 50 lastBuilding
 	-unlocks at 600 glitchBuilding
-	-unlocks GLITCHPOCALYPSE1
+	-unlocks suppressionI
 	-multiplies efficiency of glitchBuilding by 500%
 	-named DARKEST NIGHT
 	-picture : https://i.imgur.com/fK6RsL6.png
-	*GLITCHPOCALYPSE1
+	*suppressionI
 	-"Glitches are <b>4 times</b> as efficient, at the cost of every other building only being 98% as efficient. Continues the suppression. <br><i>I thought we knew everything, but based on some leaked information, I guess we don't have enough of it.</i>"
 	-costs 5e44 money, 25000 artspacebricks
-	-unlocks GLITCHPOCALYPSE2
+	-unlocks suppressionII
 	-multiplies efficiency of glitchBuilding by 400%
 	-multiplies efficiency of puncher by 98%
     -multiplies efficiency of clubber by 98%
@@ -7618,21 +7618,21 @@ Upgrades :
     -multiplies efficiency of brickFactory by 98%
 	-named Everything We Forgot About Them
 	-picture : https://i.imgur.com/fK6RsL6.png
-	*GLITCHPOCALYPSE2
+	*suppressionII
 	-"Glitches are <b>4 times</b> as efficient, at the cost of manual punching being only 96% as efficient. Continues the suppression. <br><i>"It's affecting almost everything at the moment, we've got to stop it!" ~ No One Said Ever (except you)</i>"
 	-costs 9e44 money, 36363 artspacebricks
-	-unlocks GLITCHPOCALYPSE3
+	-unlocks suppressionIII
 	-multiplies efficiency of glitchBuilding by 400%
 	-multiplies efficiency of hitWall by 96%
 	-named Pwned
 	-picture : https://i.imgur.com/fK6RsL6.png
-	*GLITCHPOCALYPSE3
+	*suppressionIII
 	-"Glitches are <b>5.2 times</b> as efficient, at the cost of manual punching being only 92% as efficient. Continues the suppression. <br><i>What is the cost? Why does it matter?</i>"
 	-costs 2.550550555e45 money, 72000 artspacebricks
 	-multiplies efficiency of glitchBuilding by 520%
 	-multiplies efficiency of hitWall by 92%
 	-named The Cost
-	-unlocks GLITCHPOCALYPSE4
+	-unlocks suppressionIV
 	-picture : https://i.imgur.com/fK6RsL6.png
 	*brickFactoryUpgrade
 	-"Brick factories produce <b>50%</b> more bricks.<br><i>The dark magic tablets we're using can talk, so we need to learn more about them to use them better. They sound really creepy, and talk about really disturbing stuff.</i>"
@@ -8753,7 +8753,6 @@ Achievements :
 	-"Destroy all the walls <b>100</b> times. <br>Congratulations! I don't know what to tell you.</br>"
 	-named Centennial
 	-unlocks at 99 meshBossPoint, 1 meshBricks
-	-unlocks iamcheese
 	-picture : https://i.imgur.com/aCU88Ro.png
 
 	*moneySpecific01
