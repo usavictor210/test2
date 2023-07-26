@@ -24,6 +24,8 @@ Broken Wall (There is nothing left.)
 Fantasy Scrolls
 Scroll F-14: The Finality was constructed from the powers of the Infinity & Eternity. Yet, we cannot help but think there was something bigger in the picture.
 
+Phoreolic Walls? + Gods
+
 Dense Infinity Scrolls
 
 Multiversal Fragments
@@ -38,3 +40,5 @@ Omniversal Wall
 
 Broken Wall
 Reset from the very beginning with boost but nothing more after.
+
+Rename "Actual Winner" to "Looming Shadow of a Tree Long Gone"
