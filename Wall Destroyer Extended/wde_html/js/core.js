@@ -33,5 +33,8 @@ function display() {
     document.getElementById("moneyDisp").textContent = player.resources.money.amount;
     document.getElementById("damageDisp").textContent = player.resources.damage.amount;
     document.getElementById("brickDisp").textContent = player.resources.bricks.normal.amount;
+
+    // will change to when you get time rewinders later
+    document.getElementById("prestigeClickables").style.display = (player.resources.cosmicKnowledge.amount < 1) ? "none" : "block"
 }
 

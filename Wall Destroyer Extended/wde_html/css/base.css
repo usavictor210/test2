@@ -1,0 +1,18 @@
+body {
+    background: #58c4b1;
+    color: #304846;
+}
+
+button {
+    background: #a2cfc4;
+    width: 200px;
+    height: 100px;
+}
+
+.wallButton {
+    width: 285px;
+    height: 105px;
+    background-image: url("../assets/wall.png");
+    margin-top: 5px;
+    text-align: start;
+}

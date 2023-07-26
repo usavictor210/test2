@@ -14,12 +14,14 @@
             <button id="punchWall" onClick="Walls.punch()">Punch wall</button>
             <button id="createBrick" onClick="Walls.createBricks()">Create bricks</button>
             <br>
-            <button id="cosmicReset" onClick="cosmicKnowledge.reset()">Rewind time (Removes all buildings and resources, converts cosmic knowledge to prestige, and damage into coins)</button>
+        <div id="prestigeClickables" style="display: none;">
+            <button id="cosmicReset" style="font-size: 9px;" onClick="cosmicKnowledge.reset()">Rewind time (Removes all buildings and resources, converts cosmic knowledge to prestige and damage into coins)</button>
             <button id="prestigeHackerButton" onClick="cosmicKnowledge.prestigeHacker()">Convert all 4th Dimension damage to cosmic knowledge</button>
+        </div>
         </div>
         <div id="buildings">
             <div id="currentWall">
-                There is a wall. A text wall. (If you see this, the game probably broke, I was too lazy to put in the image, or you disabled JavaScript.)
+                <button class="wallButton" id="wallBreak">Destroy wall</button>
             </div>
         </div>
         <div id="upgrades"></div>
